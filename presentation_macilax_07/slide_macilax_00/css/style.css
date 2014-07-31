@@ -1,0 +1,44 @@
+/* Slide Styles */
+
+svg {
+
+}
+
+#slide_container h2 {
+	top:495px;
+	left:72px;
+	width:805px;
+	color:#FFF;
+	line-height: 25px;
+	opacity: 0;
+}
+
+h2 sup {
+	font-size:10px;
+}
+
+#slide_container h2:nth-child(2) {
+    top:545px;
+}
+
+
+
+#notes {
+	color:#FFF;
+	top:623px;
+	left:72px;
+}
+
+#notes p {
+	opacity: 0;
+	color:#FFF;
+}
+
+.side_note {
+	-webkit-transform:rotate(270deg);
+	position: absolute;
+	top:265px;
+	color:#FFF;
+	left:860px;
+	width:300px;
+}
