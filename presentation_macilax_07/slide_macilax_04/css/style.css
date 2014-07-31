@@ -15,18 +15,19 @@ h1 sup {
 font-size: 13px;	
 }
 
+
 #slide_container h2 {
-	top:160px;
+	top:240px;
 	left:104px;
 	width:805px;
 	line-height: 26px;
 	opacity: 0;
-	font-size:18px;
+	font-size:22px;
 	color:rgb(136, 136, 136);
 }
 
 #slide_container h2:nth-child(3) {
-	top: 177px;
+	top: 405px;
 }
 
 #slide_container p img {
