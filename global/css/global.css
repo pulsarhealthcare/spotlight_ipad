@@ -1,0 +1,320 @@
+
+
+/* Global Styles */
+
+body {
+	font-family:sans-serif;
+	width:1024px;
+	height:768px;
+	overflow: hidden;
+}
+
+#main_container {
+	width:1024px;
+	height:656px;
+	position: absolute;
+	overflow: hidden;
+	margin-top:42px;
+}
+
+header {
+	position: absolute;
+	height:42px;
+	background: #E7E7E7;
+	width:1024px;
+	left:0px;
+	top:0px;
+	z-index: 1;
+}
+
+header button {
+	position: absolute;
+    background:none;
+    border:none;
+    color:rgb(52, 128, 72);
+    outline: none;
+    font-size:17px;
+    top:2px;
+}
+
+header h4 {
+	text-align: center;
+	color:#6e767e;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top:10px;
+	letter-spacing: 1px;
+}
+
+#header_button_home {
+    margin-top:8px;
+    margin-left:64px;
+}
+
+#header_button_index {
+	
+    left:142px;
+	top:-6px;
+}
+
+#header_button_calculator {
+	right:260px;
+	top:-6px;
+}
+
+#header_button_references {
+	right:215px;
+	top:-6px;
+}
+
+#header_button_smpc {
+    right:158px;
+    top:8px;
+}
+
+#header_button_api {
+	right:108px;
+	top:8px;
+}
+
+#header_button_summary {
+	right:17px;
+	top:8px;
+}
+
+footer {
+	height:70px;
+	position: absolute;
+	background: #E7E7E7;
+	top:698px;
+	width:1024px;
+}
+
+footer img {
+	margin:auto;
+	margin-top:10px;
+	display: block;
+	margin-top:20px;
+}
+
+.dropdown {
+    width:320px;
+    background:rgba(255, 255, 255, 0.99);
+    border-radius: 10px;
+    position: absolute;
+	top:50px;
+	display: none;
+    height:432px;
+}
+
+.dropdown_arrow {
+position: absolute;
+top:-13px;
+}
+.dropdown h1 {
+    padding:0px 0px;
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+    font-size: 15px;
+	color:#5E5E5E;
+	font-weight: bold;
+	background:#FFF;
+	height:30px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top:14px;
+}
+
+.dropdown_menu_container {
+	width:100%;
+	overflow: hidden;
+}
+.dropdown_container {
+	width:200%;
+}
+.dropdown_menu {
+	width:50%;
+	float:left;
+	position: relative;
+}
+.ul_container {
+	height:385px;
+	overflow: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+.dropdown li {
+	height:43px;
+    -webkit-user-select: none;
+}
+.dropdown li h2 {
+font-weight: bold;
+	font-size: 15px;
+	color:#5E5E5E;
+	float:left;
+	margin-top:11px;
+	margin-left:9px;
+}
+
+
+.dropdown li img {
+	float:right;
+	display: block;
+	height:13px;
+	margin-top:14px;
+	margin-right:15px;
+}
+.dropdown li h3 {
+	margin-left:11px;
+	padding-top:13px;
+	padding-bottom:13px;
+	border-bottom: 1px solid #CCC;
+}
+.dropdown li:after {
+	height:1px;
+	background:#CCC;
+	width:95%;
+	content:"";
+	margin-left:5%;
+	margin-top:42px;
+}
+
+.dropdown li:last-child:after {
+	border-bottom: none;
+	display: none;
+}
+
+
+#index_dropdown {
+	left:15px;
+	
+}
+
+.dropdown_menu h3 {
+	float:left;
+	margin-top:12px;
+	margin-left:10px;
+}
+.back_button {
+width:100px;
+display: block;
+top:1px;
+position: absolute;
+}
+.back_button img {
+	height:21px;
+	margin-top:12px;
+	-webkit-transform: rotate(178deg);
+    float:left;
+    margin-left:8px;
+}
+#index_dropdown .dropdown_arrow {
+	left:147px;
+}
+
+#ref_dropdown {
+	left:623px;
+	display:none;
+}
+
+#ref_dropdown li {
+	height:auto;
+
+}
+
+#ref_dropdown li:after {
+	display: none;
+}
+
+#smpc_dropdown {
+	display: none;
+	left:617px;
+}
+#smpc_dropdown h2 {
+	font-size: 18px;
+	margin-top: 10px;
+	
+}
+
+
+#api_dropdown h2 {
+	font-size: 18px;
+	margin-top: 10px;
+	
+}
+#api_dropdown {
+	display: none;
+	left:695px;
+}
+#pdf_layer {
+	position: absolute;
+	top:0px;
+	z-index: 10;
+	width:1024px;
+	background:#D1D1D1;
+    top:768px;
+    height:768px;
+    -webkit-transform:translateZ(0);
+    -webkit-transition:top 0.4s;
+}
+#pdf_header {
+	height:30px;
+	background: #E7E7E7;
+    margin-bottom: 6px;
+}
+#pdf_container img {
+	width:99%;
+	margin: auto;
+	display: block;
+	box-shadow: 0px 0px 10px 0px #333333;
+	margin-bottom: 6px;
+	
+}
+
+
+#pdf_header button {
+	float: right;
+	background: none;
+	outline: none;
+	border:none;
+	text-align: center;
+	color:rgb(157, 160, 170);
+	font-weight: bold;
+	font-size: 15px;
+	margin-top:-19px;
+}
+#pdf_header h1 {
+    text-align: center;
+	color:rgb(157, 160, 170);
+	font-weight: bold;
+	font-size: 15px;
+	margin-top:2px;
+	padding-top:4px;
+}
+
+#slide_container {
+	height:656px;
+	margin-top:42px;
+
+}
+
+#slide_container h1 {
+	position: absolute;
+   
+}
+
+#slide_container h2 {
+	position: absolute;
+   font-size:18px;
+}
+
+#slide_container #notes {
+	position: absolute;
+}
+
+#slide_container p {
+    font-size: 9px;
+    margin-bottom:2px;
+}
+
+
