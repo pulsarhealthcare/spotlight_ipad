@@ -23,4 +23,4 @@
                <p class="side_note">Date of preparation: June 2014 UK/SPL/14/0017e</p>
 </section>
         
-<?php require $root.'/global/html/footer.html';?>
+<?php require $root.'/global/html/footer.html';;?>
