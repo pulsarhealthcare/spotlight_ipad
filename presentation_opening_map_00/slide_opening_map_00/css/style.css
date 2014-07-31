@@ -40,3 +40,9 @@ h2 sup {
 	left:857px;
 	width:300px;
 }
+
+#main {
+	margin:auto;
+	display: block;
+	margin-top:107px;
+}

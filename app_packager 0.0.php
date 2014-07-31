@@ -101,7 +101,7 @@ $itts = 0;
 
 foreach ($slides as $slide) {
 	if($slide != '.' && $slide != '..')  {
-		if($itts == 0) {
+		
 			$index = file_get_contents($tempDir.'/'.$slide.'/index.php');
 		   
 		    $index = str_replace($patterns, $replacements,$index);
@@ -112,11 +112,9 @@ foreach ($slides as $slide) {
 		    $index = str_replace('$root.',"",$index);
 		    $index = str_replace("","",$index);
 
-		    file_put_contents($tempDir.'/'.$slide.'/index.html', $index);
-            unlink($tempDir.'/'.$slide.'/index.php');
-		    $itts = 1;
-
-		}
+		    file_put_contents($tempDir.'/'.$slide.'/'.$slide.'.html', $index);
+        unlink($tempDir.'/'.$slide.'/index.php');
+	
 		
 	}
 }
