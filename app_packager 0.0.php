@@ -178,8 +178,7 @@ foreach ($slides as $slide) {
            }
 
            $zip->close();
-
-	    }
+      }
     
 }
 
