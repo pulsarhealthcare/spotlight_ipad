@@ -8,6 +8,12 @@
  ***/
 
 /*
+Globals
+*/
+
+$presentation = $_GET['presentation'];
+
+/*
 Step One: Parse html to reference local assets 
 */
 
@@ -53,7 +59,7 @@ for($x=2; $x < count($globalFolders); $x ++) {
 Step Three: Create tempory copy of app for parsing
 */
 
-$slidesFolder = $_SERVER["DOCUMENT_ROOT"].'/presentation_filnarine_06';
+$slidesFolder = $_SERVER["DOCUMENT_ROOT"].'/'.$presentation;
 
 $tempDir = $_SERVER["DOCUMENT_ROOT"].'/tempory';
 
@@ -79,7 +85,7 @@ foreach ($slides as $slide) {
 		if($slide != '.' && $slide != '..')  {
         recurse_copy($_SERVER["DOCUMENT_ROOT"].'/global/'.$folder,$tempDir.'/'.$slide.'/'.$folder);
     }
-   }
+  }
 }
 
 
@@ -123,7 +129,7 @@ foreach ($slides as $slide) {
 Step Six: ZIP folders
 */
 
-$app_folder = 'packaged_app_'.date('Hisdmy');
+$app_folder = 'packaged_'.$presentation.'_'.date('Hisdmy');
 
 mkdir($app_folder);
 
