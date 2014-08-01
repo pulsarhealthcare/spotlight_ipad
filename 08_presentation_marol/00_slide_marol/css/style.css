@@ -5,13 +5,12 @@ svg {
 }
 
 #slide_container h2 {
-	top:483px;
+	top:490px;
 	left:72px;
-	width:805px;
+	width:570px;
 	color:#FFF;
-	line-height: 27px;
+	line-height: 23px;
 	opacity: 0;
-	font-weight: 100;
 }
 
 h2 sup {
@@ -19,14 +18,17 @@ h2 sup {
 }
 
 #slide_container h2:nth-child(2) {
-    top:537px;
+    top:557px;
 }
 
+#slide_container h2:nth-child(3) {
+    top:580px;
+}
 
 
 #notes {
 	color:#FFF;
-	top:614px;
+	top:638px;
 	left:72px;
 }
 
