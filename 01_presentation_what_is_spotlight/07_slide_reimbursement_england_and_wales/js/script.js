@@ -2,9 +2,10 @@
 //Index navigation arrays [name,filename]
 
 //Fade text
+var duration = 800;
 
-$('h2').delay(600).animate({opacity:1},600);
+$('#slide_container img').eq(0).delay((duration - 100) * 1).animate({opacity:1}, duration);
+$('#slide_container img').eq(2).delay((duration - 100) * 2).animate({opacity:1}, duration);
+$('#slide_container img').eq(1).delay((duration - 100) * 3).animate({opacity:1}, duration);
 
-$('p').eq(0).delay(1100).animate({opacity:1},600);
-$('p').eq(1).delay(1500).animate({opacity:1},600);
-$('p').eq(2).delay(1900).animate({opacity:1},600);
+$('#notes p').delay((duration - 100) * 4).animate({opacity:1}, duration);

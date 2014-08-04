@@ -21,6 +21,7 @@ svg {
 	font-size:24px;
 	line-height: 23px;
 	font-weight: normal;
+	width:834px;
 
 }
 
@@ -43,6 +44,7 @@ svg {
 }
 #slide_container li {
 	margin-bottom: 10px;
+	opacity: 0;
 }
 #slide_container li:before {
     width:4px;
@@ -91,6 +93,5 @@ h2 sup {
     color:#666;
     left:860px;
     width:300px;
-    
 }
 

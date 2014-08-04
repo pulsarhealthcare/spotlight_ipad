@@ -3,8 +3,8 @@
 
 //Fade text
 
-$('h2').delay(600).animate({opacity:1},600);
+var duration = 800;
 
-$('p').eq(0).delay(1100).animate({opacity:1},600);
-$('p').eq(1).delay(1500).animate({opacity:1},600);
-$('p').eq(2).delay(1900).animate({opacity:1},600);
+$('#slide_container h2').eq(0).delay((duration - 100) * 1).animate({opacity:1}, duration);
+$('#slide_container h2').eq(1).delay((duration - 100) * 2).animate({opacity:1}, duration);
+$('#main').eq(0).delay((duration - 100) * 3).animate({opacity:1}, duration);

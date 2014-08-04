@@ -41,6 +41,7 @@ svg {
 	font-size: 22px;
 	line-height: 18px;
 	margin-bottom:6px;
+	opacity: 0;
 }
 #slide_container li {
 	margin-bottom: 17px;
@@ -49,6 +50,7 @@ svg {
 #slide_container h4 {
 	color:rgb(111, 110, 118);
 	line-height: 19px;
+	opacity: 0;
 }
 #slide_container h4:nth-child(5) {
 	top:432px;

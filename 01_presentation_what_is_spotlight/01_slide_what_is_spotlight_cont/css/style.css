@@ -9,6 +9,7 @@ svg {
 	position: absolute;
 	font-size:27px;
 	top:97px;
+
 }
 #slide_container h2 {
 	top:372px;
@@ -20,6 +21,7 @@ svg {
 	color:rgb(109, 110, 113);
 	font-size:18px;
 	line-height: 23px;
+	opacity: 0;
 }
 
 #slide_container h3 {
@@ -30,6 +32,7 @@ svg {
 	color:rgb(61, 152, 189);
 	position: absolute;
 	line-height: 26px;
+	opacity: 0;
 }
 #slide_container h4 {
 	left:532px;
@@ -37,6 +40,7 @@ svg {
 	font-size: 20px;
 	color:rgb(61, 152, 189);
 	position: absolute;
+	opacity: 0;
 }
 #slide_container h4:nth-child(5) {
 	top:432px;

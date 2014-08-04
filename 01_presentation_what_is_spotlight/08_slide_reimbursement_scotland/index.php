@@ -7,6 +7,10 @@
       <img id="main" width="508" src="img/main_0.png" />
       <img id="main_1" width="250" src="img/main_1.png" />
       <img id="main_2" width="250" src="img/main_2.png" />
+      <div id="notes">
+          <p>*Assumed pharmacy purchase price is NHS list price minus 10%<sup>1</sup></p>
+          <p>**Published pharmacy purchase prices, additional discounts may be offered to pharmacists by Teva(correct as of June 2014)</p>
+      </div>
 </section>
 
         

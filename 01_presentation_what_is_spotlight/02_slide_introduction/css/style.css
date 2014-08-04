@@ -44,6 +44,7 @@ h2 sup {
 	position: absolute;
 	left:104px;
 	top:329px;
+	opacity:0;
 
 }
 #notes p {

@@ -21,10 +21,10 @@
       with:</h3>
 
       <ul>
-          <li><h3>Reassurance for the patient</h3></li>
-          <li><h3>Compliance benefits</h3></li>
-          <li><h3> Lesslikelihood of dispensing errors going unnoticed as patient<br>is familiar with appearance
-                            </h3></li>
+          <li><h4>Reassurance for the patient</h4></li>
+          <li><h4>Compliance benefits</h4></li>
+          <li><h4> Lesslikelihood of dispensing errors going unnoticed as patient<br>is familiar with appearance
+                            </h4></li>
       </ul>
 
       <div id="notes">

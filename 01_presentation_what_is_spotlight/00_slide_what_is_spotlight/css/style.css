@@ -9,6 +9,8 @@ svg {
 	position: absolute;
 	font-size:63px;
 	top:125px;
+	opacity: 0;
+
 }
 #slide_container h2 {
 	top:217px;
@@ -20,6 +22,7 @@ svg {
 	color:rgb(109, 110, 113);
 	font-size:23px;
 	line-height: 30px;
+	opacity: 0;
 }
 
 h2 sup {

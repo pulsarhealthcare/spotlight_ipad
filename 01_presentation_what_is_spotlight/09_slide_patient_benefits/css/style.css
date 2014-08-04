@@ -27,33 +27,38 @@ svg {
 #slide_container ul {
 	width:365px;
     position: absolute;
-    top:246px;
-    left:104px;
+    top:465px;
+    left:136px;
 }
 
-#slide_container ul:nth-child(4) {
-	
-    left:526px;
-}
 
 #slide_container h3 {
-	color:#FFF;
-	font-size: 21px;
-	line-height: 28px;
-	margin-bottom:6px;
-	font-weight: bold;
+color:rgb(111, 110, 118);
+	line-height: 19px;
+	top:361px;
+	left:124px;
+	font-size:13px;
 	position: absolute;
-	top:266px;
-	left:569px;
-	width: 400px;
+	opacity: 0;
 }
 #slide_container li {
-	margin-bottom: 14px;
+	margin-bottom: 11px;
+	opacity: 0;
 }
-
+#slide_container li:before {
+	background:rgb(61, 152, 189);
+	width:4px;
+	height: 4px;
+	border-radius: 100%;
+	content: "";
+	position: absolute;
+	margin-left:-10px;
+	margin-top:7px;
+}
 #slide_container h4 {
 	color:rgb(111, 110, 118);
 	line-height: 19px;
+	font-size:13px;
 }
 #slide_container h4:nth-child(5) {
 	top:432px;
@@ -68,10 +73,9 @@ h2 sup {
 
 #notes {
 	color:#FFF;
-	top:534px;
-	left:104px;
-
-
+	top:610px;
+	left:116px;
+	width:766px;
 }
 #main {
 	position: absolute;
@@ -91,6 +95,5 @@ h2 sup {
     color:#666;
     left:860px;
     width:300px;
-    
 }
 
