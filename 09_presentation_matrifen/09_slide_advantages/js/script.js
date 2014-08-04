@@ -3,8 +3,8 @@
 
 //Fade text
 
-$('h2').delay(600).animate({opacity:1},500);
-$('h3').eq(3).delay(900).animate({opacity:1},400);
-$('p').eq(0).delay(1200).animate({opacity:1},400);
-$('h3').eq(4).delay(1500).animate({opacity:1},400);
-$('p').eq(1).delay(1800).animate({opacity:1},400);
+
+$('#slide_container h2').eq(0).delay(900).animate({opacity:1},400);
+$('#slide_container h2').eq(1).delay(1400).animate({opacity:1},400);
+$('#slide_container h2').eq(2).delay(1900).animate({opacity:1},400);
+$('#slide_container img').delay(2400).animate({opacity:1},400);
