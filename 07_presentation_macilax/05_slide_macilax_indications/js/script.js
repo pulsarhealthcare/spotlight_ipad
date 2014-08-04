@@ -1,8 +1,5 @@
-
-//Index navigation arrays [name,filename]
-
-//Fade text
-
-$('h2').delay(600).animate({opacity:1},500);
-$('h3').delay(1100).animate({opacity:1},400);
-$('p.bullet').delay(1400).animate({opacity:1},400);
+var duration = 800;
+ 
+$('#slide_container h2').delay((duration - 100) * 1).animate({opacity:1}, duration);
+$('#slide_container h3').delay((duration - 100) * 2).animate({opacity:1}, duration);
+$('p.bullet').delay((duration - 100) * 3).animate({opacity:1}, duration);
