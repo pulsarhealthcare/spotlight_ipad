@@ -3,32 +3,20 @@
 <?php require $root.'/global/html/menu.html';?>
 
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
-    <h1>Marol<sup>®</sup> indications</h1>             
 
+<h1>Designed with patients in mind</h1>             
 
-<h2>Marol has similar indications to
-Zydol<sup>®1,2</sup></h2>
+<h2>Small patch available for each strength of fentanyl</h2>
 
-<h3>
-Marol indications:
-</h3>
-                            
-<p>
-Treatment of moderate to severe pain
-</p>
-                            
-<h3>
-Zydol<sup>®</sup>
-indications:
-</h3>
-                            
-<p>
-Management (treatment and prevention) of moderate to
-severe pain
-</p>                             
+<h2>Delivery of pain relief over 72 hours</h2>
+
+<h2>Translucent patches that are discreet and easy to use</h2>
+
+<h2>Pack and patches in 5 colour-coded strengths</h2>
+
+<img src="img/designed.png" alt ="" class="fullscreen" />                        
     
-
-<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017g</p>
+<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017h</p>
 
 </section>
 

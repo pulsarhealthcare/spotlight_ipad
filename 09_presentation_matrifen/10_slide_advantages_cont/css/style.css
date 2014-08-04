@@ -7,10 +7,11 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:68px;
+	top:58px;
 	font-size:24px;
 	width: 800px;
 	font-weight: 100;
+	line-height: 28px;
 }
 
 h1 sup {
@@ -24,7 +25,7 @@ font-size: 12px;
 #slide_container h2 {
 	top:180px;
 	left:104px;
-	width:765px;
+	width:785px;
 	line-height: 27px;
 	opacity: 0;
 	font-size:18px;
@@ -47,48 +48,10 @@ font-size: 12px;
 }
 
 #slide_container img {
-width: 805px;
+width: 640px;
 position: absolute;
-left: 104px;
-top: 270px;	
-opacity: 0;
+left: 160px;
+top: 160px;	
+
 }
 
-h3:nth-child(3) {
-position: absolute;
-top: 235px;
-left: 104px;
-color: #f8374b;
-opacity: 0;
-}
-
-h3:nth-child(5) {
-position: absolute;
-top: 295px;
-left: 104px;
-color: #f8374b;
-opacity: 0;
-}
-
-#slide_container p {
-font-size: 14px;
-color: rgb(136, 136, 136);
-}
-
-#slide_container p.side_note {
-font-size: 9px;	
-}
-
-#slide_container p:nth-child(4) {
-position: absolute;
-top: 256px;
-left: 104px;
-opacity: 0;	
-}
-
-#slide_container p:nth-child(6) {
-position: absolute;
-top: 320px;
-left: 104px;
-opacity: 0;	
-}

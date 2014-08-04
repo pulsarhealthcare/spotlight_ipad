@@ -1,7 +1,6 @@
 
-//Index navigation arrays [name,filename]
+var duration = 800;
 
-//Fade text
+$('#slide_container img').delay((duration - 100) * 1).animate({opacity:1}, duration);
 
-$('#slide_container img').delay(600).animate({opacity:1},500);
 

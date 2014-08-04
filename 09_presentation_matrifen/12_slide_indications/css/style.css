@@ -56,16 +56,18 @@ h3:nth-child(3) {
 position: absolute;
 top: 235px;
 left: 104px;
-color: #f8374b;
+color: #006166;
 opacity: 0;
+font-weight: bold;
 }
 
-h3:nth-child(5) {
+h3:nth-child(6) {
 position: absolute;
-top: 295px;
+top: 315px;
 left: 104px;
-color: #f8374b;
+color: #006166;
 opacity: 0;
+font-weight: bold;
 }
 
 #slide_container p {
@@ -79,14 +81,21 @@ font-size: 9px;
 
 #slide_container p:nth-child(4) {
 position: absolute;
-top: 256px;
+top: 261px;
 left: 104px;
 opacity: 0;	
 }
 
-#slide_container p:nth-child(6) {
+#slide_container p:nth-child(5) {
 position: absolute;
-top: 320px;
+top: 280px;
+left: 104px;
+opacity: 0;	
+}
+
+#slide_container p:nth-child(7) {
+position: absolute;
+top: 340px;
 left: 104px;
 opacity: 0;	
 }

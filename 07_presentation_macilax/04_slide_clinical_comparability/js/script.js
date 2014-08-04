@@ -1,9 +1,4 @@
-
-//Index navigation arrays [name,filename]
-
-//Fade text
-
-$('h2').delay(600).animate({opacity:1},500);
-$('p img').delay(1400).animate({opacity:1},400);
-$('p').eq(0).delay(1100).animate({opacity:1},400);
-$('p').eq(1).delay(2200).animate({opacity:1},400);
+var duration = 800;
+ 
+$('#slide_container h2').eq(0).delay((duration - 100) * 1).animate({opacity:1}, duration);
+$('#slide_container h2').eq(1).delay((duration - 100) * 2).animate({opacity:1}, duration);

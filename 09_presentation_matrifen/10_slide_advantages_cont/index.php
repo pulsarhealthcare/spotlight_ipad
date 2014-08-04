@@ -11,8 +11,9 @@ DTrans<sup>®</sup>(fentanyl)<sup>1,2</sup>
 
 </h1>
 
+<img src="img/lower.gif" class="fullscreen" alt="" />
 
-<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017g</p>
+<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017h</p>
 
 </section>
 
