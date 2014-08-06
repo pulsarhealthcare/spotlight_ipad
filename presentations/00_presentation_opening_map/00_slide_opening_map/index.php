@@ -5,7 +5,6 @@
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
 
     <img id="main" width="653" src="img/map.png"/>
-
 </section>
         
-<?php require $root.'/global/html/footer.html';;?>
+<?php require $root.'/global/html/footer.html';?>

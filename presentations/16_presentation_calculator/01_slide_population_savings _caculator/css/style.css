@@ -7,30 +7,56 @@ svg {
 	color:rgb(39, 127, 163);
 	left:104px;
 	position: absolute;
-	font-size:63px;
-	top:125px;
-	opacity: 0;
+	font-size:27px;
+	top:97px;
 
+}
+#slide_container li {
+	position: absolute;
+
+}
+
+#slide_container li:nth-child(1) {
+	left:104px;
+	top:180px;
+
+}
+#slide_container li:nth-child(2) {
+	left:543px;
+	top:180px;
+}
+#slide_container li:nth-child(3) {
+	left:543px;
+    top:370px;
 }
 #slide_container h2 {
-	top:217px;
-	left:104px;
-	width:805px;
-	color:#FFF;
-	line-height: 25px;
-	opacity: 0;
-	color:rgb(109, 110, 113);
-	font-size:23px;
-	line-height: 30px;
-	opacity: 0;
+position: relative;
+float:left;
+font-size:64px;
+color:rgb(39, 127, 163);
+font-weight: bold;
+opacity: 0;
 }
+#slide_container .right {
+	   opacity: 0;
+	float: left;
+}
+#slide_container h3 {
 
+	color:rgb(109, 110, 113);
+    font-size: 17px;
+    margin-top:12px;
+    margin-left:8px;
+ 
+}
+#slide_container h3:last-of-type {
+	margin-top:-5px;
+}
+#slide_container li:nth-child(1) h3 {
+	margin-left: 0px;
+}
 h2 sup {
 	font-size:10px;
-}
-
-#slide_container h2:nth-child(3) {
-    top:303px;
 }
 
 #notes {
@@ -47,7 +73,8 @@ h2 sup {
 }
 #notes p {
 	opacity: 0;
-	color:#FFF;
+	color:rgb(109, 110, 113);
+	width:550px;
 }
 
 .side_note {
