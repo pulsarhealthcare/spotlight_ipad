@@ -7,14 +7,23 @@
     <h1>Peptac<sup>®</sup> indications</h1>
 
  
-    <h2>Peptac indication:</h2>
+    <h2>Peptac indications:</h2>
  
  <h2>for the treatment of heartburn, including heartburn
                                 during pregnancy,* dyspepsia associated with gastric
                                 reflux, hiatus hernia, reflux oesophagitis,
                                 regurgitation and all causes of epigastric and
-                                retrosternal distress, where the underlying cause is
-                                gastric reflux<sup>1,2</sup></h2>          
+                                retrosternal distress, where the</h2><h2>underlying cause is
+                                gastric reflux<sup>1,2</sup></h2>        
+
+
+<div id="notes">
+
+<p>*Caution should be exercised when prescribing to
+                                pregnant women</p>
+
+                            </div>
+
 
        <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017k</p>
 
