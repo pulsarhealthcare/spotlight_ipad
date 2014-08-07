@@ -5,20 +5,21 @@ svg {
 }
 
 #slide_container h2 {
-	top:490px;
+	top:525px;
 	left:72px;
-	width:640px;
+	width:740px;
 	color:#FFF;
 	line-height: 23px;
 	opacity: 0;
 }
+
 
 h2 sup {
 	font-size:10px;
 }
 
 #slide_container h2:nth-child(2) {
-    top:559px;
+    top:571px;
 }
 
 #slide_container h2:nth-child(3) {

@@ -7,7 +7,7 @@
 
 
 <h2>The table below highlights Prescribed Product NHS list price/reimbursement cost and the</h2>
-<h2>respective savings if Matrifen<sup>®</sup> is prescribed by brand<sup>1</sup></h2>
+<h2>respective savings if Monomil<sup>®</sup> is prescribed by brand<sup>1</sup></h2>
 
  <img class="fullscreen" src="img/competitor_comparisons.png" alt="" />                               
     

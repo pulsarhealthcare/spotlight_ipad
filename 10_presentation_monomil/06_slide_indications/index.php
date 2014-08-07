@@ -3,15 +3,15 @@
 <?php require $root.'/global/html/menu.html';?>
 
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
-    <h1>Competitor comparisons continued...</h1>             
-
-
-
- <img class="fullscreen" src="img/competitor_comparisons.png" alt="" />                               
     
+    <h1>Monomil<sup>®</sup> indications</h1>
 
+    <h2>Monomil has identical indications to Imdur<sup>®1,2</sup></h2>
+    <h2>Monomil indication:</h2>
+    <h2>Prophylactic treatment of angina pectoris</h2>           
 
        <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017h</p>
+
 </section>
 
 

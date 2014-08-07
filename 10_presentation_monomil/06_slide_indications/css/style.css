@@ -20,7 +20,7 @@ font-size: 12px;
 }
 
 #slide_container h2 {
-	top:180px;
+	top:200px;
 	left:104px;
 	width:765px;
 	line-height: 27px;
@@ -30,9 +30,15 @@ font-size: 12px;
 }
 
 #slide_container h2:nth-child(3) {
-	top: 200px;
+	top: 300px;
+	font-weight: bold;
+	color: #f2b033;
 }
 
+#slide_container h2:nth-child(4) {
+	top: 330px;
+	font-size: 15px;
+}
 
 .side_note {
 	-webkit-transform:rotate(270deg);
