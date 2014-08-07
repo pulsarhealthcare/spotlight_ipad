@@ -1,0 +1,265 @@
+/* Slide Styles */
+
+svg {
+
+}
+#slide_container h1 {
+	color:rgb(61, 152, 189);
+	left:104px;
+	position: absolute;
+	font-size:23px;
+	top:215px;
+	opacity:0;
+
+}
+#slide_container h2 {
+	top:382px;
+	left:124px;
+	width:805px;
+	color:#FFF;
+	line-height: 23px;
+	opacity: 0;
+	color:rgb(109, 110, 113);
+	font-size:13px;
+	line-height: 16px;
+	opacity: 0;
+}
+
+#slide_container h3 {
+	left:112px;
+	top:474px;
+	font-size: 16px;
+	font-weight: bold;
+	color:#FFF;
+	position: absolute;
+	line-height: 26px;
+	padding:4px 70px 4px 13px;
+}
+#slide_container h4 {
+	left:532px;
+	top:270px;
+	font-size: 20px;
+	color:rgb(61, 152, 189);
+	position: absolute;
+	opacity: 0;
+}
+#slide_container h4:nth-child(5) {
+	top:432px;
+}
+h2 sup {
+	font-size:10px;
+}
+
+#slide_container h2:nth-child(3) {
+    top:303px;
+}
+
+#notes {
+	color:#FFF;
+	top:623px;
+	left:72px;
+
+}
+#main {
+	position: absolute;
+	left:104px;
+	top:364px;
+
+}
+#notes p {
+	opacity: 0;
+	color:#FFF;
+}
+
+.side_note {
+    -webkit-transform:rotate(270deg);
+    position: absolute;
+    top:265px;
+    color:#666;
+    left:860px;
+    width:300px;
+    
+}
+
+
+.side_note {
+    -webkit-transform:rotate(270deg);
+    position: absolute;
+    top:265px;
+    color:#666;
+    left:860px;
+    width:300px;
+    
+}
+
+#calculator {
+	width:540px;
+	height:620px;
+	background:#f1f1f1;
+	position: absolute;
+	top:768px;
+	left:242px;
+	overflow: hidden;
+	-webkit-transition:0.4s top;
+	-webkit-transform:translateZ(0);
+	z-index: 20;
+}
+
+#calculator h1 {
+    text-align: center;
+    font-weight: bold;
+    padding:10px 0px;
+    border-bottom:1px solid #CCC;
+    background:#f7f7f7;
+
+}
+#calculator h2 {
+	color:#3690fe;
+	margin-top:-42px;
+}
+#calculator_close {
+	position: absolute;
+	right:-1px;
+	
+ color:#3690fe;
+ padding:11px 20px;
+}
+
+
+#container {
+	width:1080px;
+	-webkit-transition:0.3s margin-left;
+	-webkit-transform: translateZ(0);
+}
+
+#container div {
+	width:50%;
+	float: left;
+}
+#form {
+	margin-left:0%;
+}
+#form table {
+	width:100%;
+}
+#form tr {
+
+}
+#form td {
+  width:50%;
+    padding:10px 0px;
+}
+
+#form td h3 {
+    text-align: right;
+    margin-right:40px;
+    font-weight: bold;
+
+}
+
+#population {
+	text-align: left;
+    font-weight: bold;
+}
+#form h4 {
+    color:#3690fe;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    background: #FFF;
+    padding:12px 0px;
+}
+#form td select {
+	width:80%;
+	padding:6px 3px; 
+	border:1px solid #333;
+	border-radius: 6px;
+    background:-webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.16) 100%);
+    outline: none;
+    font-weight: bold;
+}
+
+#form td input {
+	width:80%;
+	padding:6px 3px; 
+	border:1px solid #333;
+	border-radius: 6px;
+	 font-weight: bold;
+	  outline: none;
+}
+
+#form table:last-of-type {
+	border-bottom:60px #FFF solid ;
+}
+
+#form input[type="button"] {
+	width:80%;
+	margin-left:10%;
+	padding:12px 0px;
+	background: #fff;
+	border:1px solid #333;
+	font-size: 26px;
+	color:#3690fe;
+	border-radius: 14px;
+	font-weight: bold;
+	outline: none;
+	margin-top:20px;
+}
+#calculator_back {
+	position: absolute;
+	margin-left:47px;
+	opacity: 0;
+}
+#calculator_back h2 {
+	margin-top:-31px;
+}
+#calculator_back svg {
+	height:21px;
+	margin-top:-32px;
+	-webkit-transform: rotate(178deg);
+    float:left;
+    margin-left:-32px;
+}
+#calculator_back svg polygon {
+	fill:#3690fe;
+}
+#calculator_back h2 {
+	position: relative;
+	right:15px;
+}
+#results table {
+width:520px;
+margin-left:10px;
+ border-spacing: 4px;
+    border-collapse: separate;
+    margin-top:12px;
+}
+
+#results tr:first-child td {
+     font-weight: bold;
+     background:#76b6dd;
+     color:#fff;
+}
+
+#results td {
+	padding:12px 12px;
+	background:#ccc;
+margin-right:10px;
+font-size: 12px;
+}
+
+#results td:first-child {
+   width:363px;
+
+}
+
+#results td:last-child {
+   width:136px;
+   font-weight: bold;
+}
+
+#results tr:last-child td {
+     font-weight: bold;
+     background:#000;
+     color:#fff;
+}

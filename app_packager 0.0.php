@@ -3,13 +3,15 @@
 /***
  *
  * Veeva/ Irep Apllication Packer
- * Copywright 2014 Pulsar Health Care
+ * Copyright 2014 Pulsar Health Care
  *
  ***/
 
 /*
 Globals
 */
+
+if(isset($_GET['type'])) {
 
 $presentation = $_GET['presentation'];
 
@@ -23,18 +25,17 @@ $files = scandir($globalFolder.'/html/');
 
 $parsedHtml = array();
 
-	for ($x=2;$x < count($files); $x ++) {
+for ($x=2;$x < count($files); $x ++) {
 
 	$contents = file_get_contents($globalFolder.'/html/'.$files[$x]);
 
 	$parsedContents = str_replace('/global/', '', $contents);
-    $parsedFileName = str_replace('.php','.html',$files[$x]);
+  $parsedFileName = str_replace('.php','.html',$files[$x]);
 
-    $fileArray = array($parsedFileName,$parsedContents);
+  $fileArray = array($parsedFileName,$parsedContents);
 
 	array_push( $parsedHtml, $fileArray);
-
-	}
+}
 
 /*
 Step Two: Create references for all global files
@@ -59,7 +60,7 @@ for($x=2; $x < count($globalFolders); $x ++) {
 Step Three: Create tempory copy of app for parsing
 */
 
-$slidesFolder = $_SERVER["DOCUMENT_ROOT"].'/'.$presentation;
+$slidesFolder = $_SERVER["DOCUMENT_ROOT"].'/presentations/'.$presentation;
 
 $tempDir = $_SERVER["DOCUMENT_ROOT"].'/tempory';
 
@@ -108,28 +109,26 @@ $itts = 0;
 foreach ($slides as $slide) {
 	if($slide != '.' && $slide != '..')  {
 		
-			$index = file_get_contents($tempDir.'/'.$slide.'/index.php');
-		   
-		    $index = str_replace($patterns, $replacements,$index);
-			$index = str_replace("<?php require","",$index);
-		    $index = str_replace(";?>","",$index);
-		    $index = str_replace("<?php","",$index);
-            $index = str_replace('$root = $_SERVER["DOCUMENT_ROOT"]',"",$index);
-		    $index = str_replace('$root.',"",$index);
-		    $index = str_replace("","",$index);
+	  $index = file_get_contents($tempDir.'/'.$slide.'/index.php');
+   
+    $index = str_replace($patterns, $replacements,$index);
+	  $index = str_replace("<?php require","",$index);
+    $index = str_replace(";?>","",$index);
+    $index = str_replace("<?php","",$index);
+    $index = str_replace('$root = $_SERVER["DOCUMENT_ROOT"]',"",$index);
+    $index = str_replace('$root.',"",$index);
+    $index = str_replace("","",$index);
 
-		    file_put_contents($tempDir.'/'.$slide.'/'.$slide.'.html', $index);
-        unlink($tempDir.'/'.$slide.'/index.php');
-	
-		
+    file_put_contents($tempDir.'/'.$slide.'/'.$slide.'.html', $index);
+    unlink($tempDir.'/'.$slide.'/index.php');
 	}
-}
+} 
 
 /*
 Step Six: ZIP folders
 */
 
-$app_folder = 'packaged_'.$presentation.'_'.date('Hisdmy');
+$app_folder = 'packaged/'.$presentation.'_'.date('Hisdmy');
 
 mkdir($app_folder);
 
@@ -192,7 +191,9 @@ unlinkRecursive($tempDir,true);
 echo '<h1>Packaging Successfull</h1>';
 echo '<a href="/'.$app_folder.'">'.$app_folder.'</a>';
 
-
+} else {
+  echo '<h1>No presentation selected</h1>';
+}
 /*
 Helper functions
 */
