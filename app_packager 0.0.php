@@ -120,6 +120,7 @@ foreach ($slides as $slide) {
     $index = str_replace("","",$index);
 
     file_put_contents($tempDir.'/'.$slide.'/'.$slide.'.html', $index);
+    file_put_contents($tempDir.'/'.$slide.'/'.$slide.'.html', '<p id="presentation_name" style="display:none">'.$presentation.'</p>', FILE_APPEND);
     unlink($tempDir.'/'.$slide.'/index.php');
 	}
 } 

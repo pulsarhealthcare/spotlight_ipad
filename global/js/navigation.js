@@ -1,6 +1,7 @@
 var navigation = [];
 navigation[0] = {
     presentation: '01_presentation_what_is_spotlight',
+    presentationName: 'What is Spotlight',
     links: [
         ['Page 1. What is spotlight?', '00_slide_what_is_spotlight/'],
         ['Page 2. What is spotlight? cont.', '01_slide_what_is_spotlight_cont'],
@@ -16,21 +17,23 @@ navigation[0] = {
 }
 navigation[1] = {
     presentation: '02_presentation_potential_savings',
+    presentationName: 'Potential savings',
     links: [
         ['Page 1. Potential savings', '00_slide_potential_savings'],
         ['Page 2. NHS Savings', '01_slide_nhs_savings'],
         ['Page 3. Cost savings per prescription', '02_slide_cost_savings_per_prescription'],
     ]
 }
-//Need to add an execption for single page presentations
 navigation[2] = {
     presentation: '03_presentation_',
+    presentationName: 'The Spotlight brands',
     links: [
         ['', '00_slide_'],
     ]
 }
 navigation[3] = {
     presentation: '04_presentation_capsorin',
+    presentationName: 'Capsorin',
     links: [
         ['Page 1. Capsorin', ''],
         ['Page 2. Introduction', ''],
@@ -43,7 +46,8 @@ navigation[3] = {
     ]
 }
 navigation[4] = {
-    presentation: '05_presentation_',
+    presentation: '05_presentation_evacal_d3',
+    presentationName: 'Evacal-D3',
     links: [
         ['Page 1. Evacal-D3', ''],
         ['Page 2. Introduction', ''],
@@ -55,6 +59,7 @@ navigation[4] = {
 }
 navigation[5] = {
     presentation: '06_presentation_filnarine',
+    presentationName: 'Finarine',
     links: [
         ['Page 1. Filnarine', '00_slide_filnarine'],
         ['Page 2. Introduction', '01_slide_introduction'],
@@ -68,6 +73,7 @@ navigation[5] = {
 }
 navigation[6] = {
     presentation: '07_presentation_macilax',
+    presentationName: 'Macilax',
     links: [
         ['Page 1. Macilax', '00_slide_macilax'],
         ['Page 2. Introduction', '01_slide_introduction'],
@@ -79,6 +85,7 @@ navigation[6] = {
 }
 navigation[7] = {
     presentation: '08_presentation_marol',
+    presentationName: 'Marol',
     links: [
         ['Page 1. Marol', '00_slide_marol'],
         ['Page 2. Introduction', '01_slide_introduction'],
@@ -92,6 +99,7 @@ navigation[7] = {
 }
 navigation[8] = {
     presentation: '09_presentation_matrifen',
+    presentationName: 'Matrifen',
     links: [
         ['Page 1. Matrifen', '00_slide_matrifen'],
         ['Page 2. Introduction', '01_slide_introduction'],
@@ -110,6 +118,7 @@ navigation[8] = {
 }
 navigation[9] = {
     presentation: '10_presentation_monomil',
+    presentationName: 'Monomil',
     links: [
         ['Page 1. Monomil', '00_slide_monomil'],
         ['Page 2. Introduction', '01_slide_introduction'],
@@ -122,6 +131,7 @@ navigation[9] = {
 }
 navigation[10] = {
     presentation: '11_presentation_nasofan',
+    presentationName: 'Nasofen',
     links: [
         ['Page 1. Nasofen', '00_slide_nasofan'],
         ['Page 2. Introduction', '01_slide_introduction'],
@@ -133,6 +143,7 @@ navigation[10] = {
 }
 navigation[11] = {
     presentation: '12_presentation_prestylon',
+    presentationName: 'Peptac',
     links: [
         ['Page 1. Peptac ', '00_slide_peptac'],
         ['Page 2. Introduction', '01_slide_introduction'],
@@ -144,7 +155,8 @@ navigation[11] = {
     ]
 }
 navigation[12] = {
-    presentation: '13_presentation_prestylon',
+    presentation: '13_presentation_peptac',
+    presentationName: 'Prestylon',
     links: [
         ['Page 1. Prestylon', '00_slide_peptac'],
         ['Page 2. Introduction', ''],
@@ -156,6 +168,7 @@ navigation[12] = {
 }
 navigation[13] = {
     presentation: '14_presentation_price_promise',
+    presentationName: 'Price Promise',
     links: [
         ['Page 1. Price Promise', '00_slide_price_promise'],
         ['Page 2. Price Promise', '01_slide_price_promise_cont']
@@ -163,6 +176,7 @@ navigation[13] = {
 }
 navigation[14] = {
     presentation: '15_presentation_summary',
+    presentationName: 'Summary',
     links: [
         ['Page 1. ', '00_slide_summary'],
     ]
