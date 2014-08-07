@@ -4,27 +4,38 @@ svg {
 
 }
 #slide_container h1 {
-	color:rgb(61, 152, 189);
-	left:104px;
+	color:rgb(112, 110, 122);
+	left:71px;
 	position: absolute;
-	font-size:27px;
-	top:97px;
-
+	font-size:20px;
+	top:148px;
+	text-align: center;
 }
 #slide_container h2 {
-	top:274px;
-	left:104px;
-	width:805px;
+	top:241px;
+	left:171px;
 	color:#FFF;
 	line-height: 25px;
 	opacity: 0;
-	color:rgb(109, 110, 113);
-	font-size:16px;
+	color:#FFF;
+	font-size:17px;
 	line-height: 23px;
 	opacity: 0;
+	color:#FFF;
+	font-weight: bold;
+
 }
 #slide_container h2:nth-child(3) {
-    top:357px;
+	left:148px;
+    top:359px;
+}
+#slide_container h2:nth-child(4) {
+    top:482px;
+    left:174px;
+}
+#slide_container h2:nth-child(5) {
+    top:482px;
+    left:578px;
 }
 
 #slide_container h3 {
@@ -60,7 +71,7 @@ h2 sup {
 }
 #notes p {
 	opacity: 0;
-	color:#FFF;
+	color:rgb(109, 110, 113);
 }
 
 .side_note {
@@ -70,5 +81,6 @@ h2 sup {
     color:#666;
     left:860px;
     width:300px;
+    
 }
 

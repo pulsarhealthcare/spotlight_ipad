@@ -3,26 +3,14 @@ $(document).ready(function() {
     window.scrollTo(0, 1);
 });
 
-var navigation = [];
-
-navigation[5] = {
-    presentation : 'presentation_filnarine_06',
-    links : [
-        ['Link 0', 'slide_filnarine_00'],
-        ['Link 1', 'slide_filnarine_01']
-    ]
-}
-
-
-
 function headerButtons() {
 
     $('header button').on(input.down, function() {
-        $(this).css('opacity', 0.4)
+        $(this).css('opacity', 0.4);
     });
 
     $('header button').on(input.up, function() {
-        $(this).css('opacity', 1)
+        $(this).css('opacity', 1);
     });
 
     $('.dropdown li').on(input.down, function() {
@@ -53,19 +41,24 @@ function headerButtons() {
     });
     
     $('#index_dropdown .top_level').on(input.tap, function() {
-        
-        $('.dropdown_menu ul').eq(1).empty();
+        var thisNav = navigation[$(this).index()].links;
+        if(thisNav.length === 1) {
+            irep.navigateTo(thisNav[0][1],navigation[$(this).index()].presentation);
+        } else {
+            $('.dropdown_menu ul').eq(1).empty();
+       
+            for (var i = 0; i < navigation[$(this).index()].links.length; i++) {
+                
+                $('.dropdown_menu ul').eq(1).append('<li class="sub_menu" data-presentation="'+ navigation[$(this).index()].presentation +'" data-link="' + thisNav[i][1] + '"><h2>' + thisNav[i][0] + '</h2><img src="/global/img/arrow.svg"/></li>');
+                $('.dropdown_menu h1').eq(1).html($(this).find('h2').html().substr(2));
+            }
 
-        for (var i = 0; i < navigation[$(this).index()].links.length; i++) {
-            var thisNav = navigation[$(this).index()].links;
-            $('.dropdown_menu ul').eq(1).append('<li class="sub_menu" data-presentation="'+ navigation[$(this).index()].presentation +'" data-link="' + thisNav[i][1] + '"><h2>' + thisNav[i][0] + '</h2><img src="/global/img/arrow.svg"/></li>');
-            $('.dropdown_menu h1').eq(1).html($(this).find('h2').html().substr(2));
+            $('.dropdown_menu').eq(0).animate({
+                marginLeft: '-50%',
+                opacity: 0
+            }, 200); 
         }
-
-        $('.dropdown_menu').eq(0).animate({
-            marginLeft: '-50%',
-            opacity: 0
-        }, 200);
+        
 
     });
     

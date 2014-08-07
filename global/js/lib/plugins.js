@@ -29,7 +29,7 @@ irep.navigateTo = function(slide , presentation) {
 	var loc, vloc;
 	slide = slide;
 
-	loc = '/'+presentation + '/' + slide;
+	loc = '/presentations/'+presentation + '/' + slide;
     vloc = 'veeva:gotoSlide(' + slide + '.zip'+presentation+')';
 	
 	window.location = (this.veeva()) ? vloc : loc;
