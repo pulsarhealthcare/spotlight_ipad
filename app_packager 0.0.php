@@ -72,6 +72,7 @@ mkdir($_SERVER["DOCUMENT_ROOT"].'/tempory');
 
 $slides = scandir($slidesFolder);
 $x=0;
+
 foreach ($slides as $slide) {
 	if($slide != '.' && $slide != '..')  {
       $x++;

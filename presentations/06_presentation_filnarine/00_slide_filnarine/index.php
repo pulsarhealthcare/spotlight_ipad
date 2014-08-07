@@ -1,7 +1,6 @@
 <?php $root = $_SERVER["DOCUMENT_ROOT"];?>
 <?php require $root.'/global/html/header.html';?>
 <?php require $root.'/global/html/menu.html';?>
-
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
                             
             <h2>Prescribing Filnarine<sup>®</sup> SR by brand name is the
@@ -22,5 +21,4 @@
             </div>
                <p class="side_note">Date of preparation: June 2014 UK/SPL/14/0017e</p>
 </section>
-        
 <?php require $root.'/global/html/footer.html';?>

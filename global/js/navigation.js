@@ -25,10 +25,10 @@ navigation[1] = {
     ]
 }
 navigation[2] = {
-    presentation: '03_presentation_',
+    presentation: '03_presentation_the_spotlight_brands',
     presentationName: 'The Spotlight brands',
     links: [
-        ['', '00_slide_'],
+        ['', '00_slide_the_spotlight_brands'],
     ]
 }
 navigation[3] = {
