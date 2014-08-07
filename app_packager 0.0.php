@@ -1,11 +1,11 @@
 <?php
 
-/***
+/************************************
  *
- * Veeva/ Irep Apllication Packer
- * Copyright 2014 Pulsar Health Care
+ *  Veeva Apllication Packer
+ *  Copyright 2014 Pulsar Health Care
  *
- ***/
+ ***********************************/
 
 /*
 Globals

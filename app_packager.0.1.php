@@ -3,16 +3,14 @@
 $root = $_SERVER["DOCUMENT_ROOT"];
 $temporaryDirectory = $root . '/tempory';
 $globalAssets = setUpGlobalFiles($root,$temporaryDirectory);
-
-
+init($root,$temporaryDirectory);
+var_dump($globalAssets);
 packageSlide('01_presentation_what_is_spotlight','00_slide_what_is_spotlight',$globalAssets,$temporaryDirectory,$root);
 
-var_dump($globalAssets);
+
 function init($root, $temporaryDirectory) {
-    
-    
     if (is_dir($temporaryDirectory)) {
-        unlinkRecursive($temporaryDirectory, true);
+       unlinkRecursive($temporaryDirectory, true);
     }
     mkdir($temporaryDirectory);
 }
@@ -52,23 +50,45 @@ function packageSlide($presentation, $slide, $globalAssets, $temporaryDirectory,
 	
 	//Create temporary copy of slide
     $slideFolder = $root.'/presentations/'.$presentation.'/'.$slide;
+
+    if (!is_dir($temporaryDirectory.'/'.$presentation)) {
+         mkdir($temporaryDirectory.'/'.$presentation);
+    }
     recurse_copy($slideFolder, $temporaryDirectory.'/'.$presentation.'/'.$slide);
 
     //Copy global files into slide directory
-    /*
+
     foreach ($globalAssets[0] as $folder) {
-        recurse_copy($root.'/global/'.$folder , $temporaryDirectory.$presentation.'/'.$slide.'/'.$folder);
+        recurse_copy($root.'/global/'.$folder , $temporaryDirectory.'/'.$presentation.'/'.$slide.'/'.$folder);
     }
     
-    $index = file_get_contents($temporaryDirectory.$presentation.'/'.$slide.'/index.php');
-    $index = preg_replace('/(<\?php\s*\s*.*(.*)\s*;*\s*\?>)/',$globalAssets[1][0], $index);
+    //Parse html files, add html 
+    $index = file_get_contents($temporaryDirectory.'/'.$presentation.'/'.$slide.'/index.php');
     
-    file_put_contents($temporaryDirectory.$presentation.'/'.$slide.'/'.$slide.'.html', $index);
+    $index = str_replace("<?php require","",$index);
+    $index = str_replace(";?>","",$index);
+    $index = str_replace("<?php","",$index);
+    $index = str_replace('$root = $_SERVER["DOCUMENT_ROOT"]',"",$index);
+    $index = str_replace('$root.',"",$index);
+    $index = str_replace("","",$index);
 
-   unlink($temporaryDirectory.$presentation.'/'.$slide.'/'.'/index.php');
-   file_put_contents($tempDir.'/'.$slide.'/'.$slide.'.html', '<p id="presentation_name" style="display:none">'.$presentation.'</p>', FILE_APPEND);
-   */
+    $index = str_replace('/global/html/header.html' ,$globalAssets[1][1][1], $index);
+    $index = str_replace( '/global/html/menu.html' ,$globalAssets[1][2][1], $index);
+    $index = str_replace( '/global/html/footer.html' ,$globalAssets[1][0][1], $index);
+    
+    file_put_contents($temporaryDirectory.'/'.$presentation.'/'.$slide.'/'.$slide.'.html', $index);
+
+    //Zip slide
+
+    unlink($temporaryDirectory.'/'.$presentation.'/'.$slide.'/'.'/index.php');
+
+    file_put_contents($temporaryDirectory.'/'.$presentation.'/'.$slide.'/'.$slide.'.html', '<p id="presentation_name" style="display:none">'.$presentation.'</p>', FILE_APPEND);
+    
+    var_dump($index);
+    unlinkRecursive($temporaryDirectory,true);
 }
+
+
 
 function recurse_copy($src,$dst) { 
     $dir = opendir($src); 
@@ -85,5 +105,38 @@ function recurse_copy($src,$dst) {
     } 
     closedir($dir); 
 } 
+
+function unlinkRecursive($dir, $deleteRootToo)
+{
+    if(!$dh = @opendir($dir))
+    {
+        return;
+    }
+    while (false !== ($obj = readdir($dh)))
+    {
+        if($obj == '.' || $obj == '..')
+        {
+            continue;
+        }
+
+        if (!@unlink($dir . '/' . $obj))
+        {
+            unlinkRecursive($dir.'/'.$obj, true);
+        }
+    }
+
+    closedir($dh);
+
+    if ($deleteRootToo)
+    {
+        @rmdir($dir);
+    }
+
+    return;
+}
+
+function zipSlide() {
+
+}
 
 ?>
