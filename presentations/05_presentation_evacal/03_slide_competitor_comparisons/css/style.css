@@ -54,7 +54,7 @@ top: -5px;
 width: 806px;
 position: absolute;
 left: 104px;
-top: 230px;	
+top: 225px;	
 opacity: 0;
 }
 
@@ -69,5 +69,5 @@ opacity: 0;
 	width:800px;
 	font-size:9px;
 	color:#707070;
-	margin-bottom: 5px;
+	margin-bottom: 4px;
 }
