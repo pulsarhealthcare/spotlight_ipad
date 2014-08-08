@@ -79,6 +79,21 @@ class AppPackager
         return array($folderPaths, $parsedHtml);
     }
     
+    
+
+    public function packageApp() {
+    	$presentations = scandir($this->root.'/presentations');
+
+    	foreach ($presentations as $presentation) {
+    		if($presentation != '.' && $presentation != '..' && $presentation != '.DS_Store') {
+
+    			$this->packagePresentation($presentation);
+    		}
+    		
+           
+    	}
+    }
+    
     public function packagePresentation($presentation) {
         
         $slides = scandir($this->root.'/presentations/'.$presentation);
@@ -87,22 +102,10 @@ class AppPackager
         mkdir($packagedFolder);
 
         foreach ($slides as $slide) {
-        	if($slide != '.' && $slide != '..'){
-        		$this->packageSlide($presentation,$slide,$packagedFolder);
-        	}
+            if($slide != '.' && $slide != '..' && $slide != '.DS_Store'){
+                $this->packageSlide($presentation,$slide,$packagedFolder);
+            }
         }
-    }
-
-    public function packageApp() {
-    	$presentations = scandir($this->root.'/presentations');
-
-    	foreach ($presentations as $presentation) {
-    		if($presentation != '.' && $presentation != '..' && $presentation != '.DS_Store') {
-    			$this->packagePresentation($presentation);
-    		}
-    		
-           
-    	}
     }
 
     public function packageSlide($presentation, $slide, $packagedFolder) {
