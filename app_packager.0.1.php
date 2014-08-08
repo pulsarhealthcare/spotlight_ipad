@@ -69,7 +69,7 @@ class AppPackager
         
         for ($x = 2; $x < count($globalFolders); $x++) {
             
-            if ($globalFolders[$x] != 'html' || $globalFolders[$x] != '.DS_Store' ) {
+            if ($globalFolders[$x] != 'html'  && $globalFolders[$x] != '.DS_Store' ) {
                 
                 $thisFolder = scandir($this->globalFolder .'/'. $globalFolders[$x]);
                 array_push($folderPaths, $globalFolders[$x]);
