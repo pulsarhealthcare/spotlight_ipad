@@ -12,7 +12,7 @@ svg {
 }
 
 #slide_container h2 {
-	top:178px;
+	top:148px;
 	left:104px;
 	width:801px;
 	line-height: 26px;
@@ -22,7 +22,13 @@ svg {
 }
 
 #slide_container h2:nth-child(3) {
-	top:254px;
+	top:265px;
+}
+
+
+#slide_container h2:nth-child(3) span {
+position: relative;
+top: -5px;	
 }
 
 #slide_container img {
@@ -41,13 +47,13 @@ font-size: 12px;
 #main {
 	left:104px;
 	position: absolute;
-	top:328px;
+	top:330px;
 	opacity: 0;
 }
 
 #notes {
 	color:#000;
-	top:520px;
+	top:550px;
 	left:104px;
 }
 
@@ -56,7 +62,7 @@ font-size: 12px;
 	width:800px;
 	font-size:8px;
 	color:#707070;
-	margin-bottom: 15px;
+	margin-bottom: 6px;
 }
 
 .side_note {

@@ -21,12 +21,17 @@ svg {
 	color:rgb(136, 136, 136);
 }
 
-#slide_container h2:nth-child(3) {
-	top:254px;
+#slide_container h2 span {
+	top:-6px;
+	position: relative;
 }
 
 #slide_container img {
 width: 805px;
+left:104px;
+position: absolute;
+top:320px;
+opacity: 0;
 }
 
 h1 sup {
@@ -38,16 +43,9 @@ font-size: 12px;
 }
 
 
-#main {
-	left:104px;
-	position: absolute;
-	top:328px;
-	opacity: 0;
-}
-
 #notes {
 	color:#000;
-	top:520px;
+	top:560px;
 	left:104px;
 }
 

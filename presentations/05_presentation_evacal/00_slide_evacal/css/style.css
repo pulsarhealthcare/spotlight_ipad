@@ -7,7 +7,7 @@ svg {
 #slide_container h2 {
 	top:500px;
 	left:72px;
-	width:650px;
+	width:730px;
 	color:#FFF;
 	line-height: 23px;
 	opacity: 0;
@@ -19,8 +19,9 @@ h2 sup {
 }
 
 
-#slide_container h2:nth-child(2) {
-    top:546px;
+h2 span {
+position: relative;
+top:-5px;
 }
 
 
@@ -34,7 +35,7 @@ h2 sup {
 	opacity: 0;
 	color:#FFF;
 	width:  900px;
-	margin-bottom: 6px;
+	margin-bottom: 4px;
 }
 
 .side_note {
