@@ -1,0 +1,68 @@
+/* Slide Styles */
+
+svg {
+
+}
+
+#slide_container h1 {
+	color:#FFF;
+	left:104px;
+	top:86px;
+	font-size:24px;
+}
+
+#slide_container h2 {
+	top:178px;
+	left:104px;
+	width:801px;
+	line-height: 26px;
+	opacity: 0;
+	font-size:19px;
+	color:rgb(136, 136, 136);
+}
+
+#slide_container h2 span {
+	top:-6px;
+	position: relative;
+}
+
+#slide_container img {
+width: 805px;
+left:104px;
+position: absolute;
+top:320px;
+opacity: 0;
+}
+
+h1 sup {
+font-size: 13px;	
+}
+
+h2 sup {
+font-size: 12px;	
+}
+
+
+#notes {
+	color:#000;
+	top:560px;
+	left:104px;
+}
+
+#notes p {
+	opacity: 0;
+	width:800px;
+	font-size:8px;
+	color:#707070;
+	margin-bottom: 15px;
+}
+
+.side_note {
+    -webkit-transform:rotate(270deg);
+    position: absolute;
+    top:265px;
+    color:#707070;
+    left:860px;
+    width:300px;
+    opacity: 0;
+}
