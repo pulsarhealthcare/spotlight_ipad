@@ -20,7 +20,7 @@
         distribution centre.</h2>
         <img id="main" width="701" src="img/main.png"/>
 
-
+<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017</p>
 </section>
         
 <?php require $root.'/global/html/footer.html';?>

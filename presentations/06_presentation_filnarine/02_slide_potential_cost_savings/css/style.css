@@ -11,10 +11,18 @@ svg {
 	font-size:24px;
 }
 
+h1 sup {
+font-size: 13px;
+}
+
+h2 sup {
+font-size: 12px;	
+}
+
 #slide_container h2 {
 	top:178px;
 	left:104px;
-	width:781px;
+	width:816px;
 	line-height: 26px;
 	opacity: 0;
 	font-size:19px;
@@ -29,6 +37,7 @@ svg {
 	left:104px;
 	position: absolute;
 	top:328px;
+	opacity: 0;
 }
 
 #notes {
@@ -48,7 +57,7 @@ svg {
     -webkit-transform:rotate(270deg);
     position: absolute;
     top:265px;
-    color:#FFF;
+    color:rgb(136, 136, 136);
     left:860px;
     width:300px;
 }

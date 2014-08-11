@@ -1,5 +1,4 @@
+var duration = 800;
 
-//Index navigation arrays [name,filename]
-
-$('h2').delay(600).animate({opacity:1},500);
-$('#main').eq(0).delay(600).animate({opacity:1},400);
+$('#main').delay((duration - 100) * 1).animate({opacity:1}, duration);
+$('.side_note').delay((duration - 100) * 2).animate({opacity:1}, duration);

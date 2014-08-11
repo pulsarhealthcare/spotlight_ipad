@@ -25,6 +25,11 @@ h2 sup {
 font-size: 12px;	
 }
 
+h2 span {
+position: relative;
+top: -5px;	
+}
+
 #slide_container h2:nth-child(3) {
 	top: 410px;
 }

@@ -29,6 +29,11 @@ font-size: 12px;
 	color:rgb(136, 136, 136);
 }
 
+h2 span {
+position: relative;
+top: -6px;	
+}
+
 #slide_container h2:nth-child(3) {
 	top: 294px;
 }

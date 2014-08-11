@@ -28,7 +28,7 @@ svg {
 #main {
 	left:104px;
 	position: absolute;
-	top:187px;
+	top:220px;
 	opacity: 0;
 }
 
@@ -48,7 +48,7 @@ svg {
     -webkit-transform:rotate(270deg);
     position: absolute;
     top:265px;
-    color:#FFF;
+    color:rgb(136, 136, 136);
     left:860px;
     width:300px;
 }

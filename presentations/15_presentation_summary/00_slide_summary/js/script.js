@@ -13,3 +13,5 @@ $('#slide_container h2').eq(3).delay((duration - 100) * 5).animate({opacity:1}, 
 
 $('#notes p').delay((duration - 100) * 6).animate({opacity:1}, duration);
 
+
+$('.side_note').delay((duration - 100) * 7).animate({opacity:1}, duration);

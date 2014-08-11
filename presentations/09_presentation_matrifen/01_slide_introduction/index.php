@@ -17,14 +17,14 @@ per prescription. Furthermore, Matrifen costs 40% less
 (England and Wales) than prescribing fentanyl 12
 mcg/hr, 25 mcg/hr, 50 mcg/hr, 75 mcg/hr and 100 mcg/hr
 generically.* At a Primary Care Organisation (PCO)
-level, this translates into a potential average annual
-saving of over £66,196<sup>1</sup>
+level, this translates into a <span>potential average annual
+saving of over £66,196<sup>1</sup></span>
 
 <h2>NICE recommends that transdermal opioid patches
 with the lowest acquisition cost should be
 considered for patients with stable analgesic
-requirements for when oral opioids are not
-suitable<sup>2</sup></h2>
+requirements for when oral <span>opioids are not
+suitable<sup>2</sup></span></h2>
 
     
     <div id="notes">

@@ -5,11 +5,13 @@ svg {
 }
 #slide_container h1 {
 	color:rgb(112, 110, 122);
-	left:71px;
+	left:115px;
 	position: absolute;
-	font-size:20px;
+	font-size:19px;
 	top:148px;
+	width: 800px;
 	text-align: center;
+	opacity: 0;
 }
 #slide_container h2 {
 	top:241px;

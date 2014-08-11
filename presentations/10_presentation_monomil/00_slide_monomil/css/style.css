@@ -19,13 +19,8 @@ h2 sup {
 }
 
 #slide_container h2:nth-child(2) {
-    top:571px;
+    top:570px;
 }
-
-#slide_container h2:nth-child(3) {
-    top:582px;
-}
-
 
 #notes {
 	color:#FFF;

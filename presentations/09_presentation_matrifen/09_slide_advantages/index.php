@@ -11,8 +11,7 @@
 <h2>Matrifen delivers the same amount of fentanyl but with a 20% smaller patch size and a lower initial drug load</h2>  
     
 <h2>“The smaller size and enhanced adherence profile of the matrix formulation, compared to the reservoir
-formulation, may be factors that will have an impact on
-treatment compliance”<sup>1</sup></h2>
+formulation, may be factors that will have <span>an impact on treatment compliance”<sup>1</sup></span></h2>
 
 <h2>Matrifen has a lower residual fentanyl content (up to 76%) in the used patch</h2>
 

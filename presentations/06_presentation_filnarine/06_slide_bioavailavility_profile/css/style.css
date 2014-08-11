@@ -47,8 +47,12 @@ svg {
 .side_note {
     -webkit-transform:rotate(270deg);
     position: absolute;
-    top:265px;
-    color:#FFF;
+    top:252px;
+    color:rgb(136, 136, 136);
     left:860px;
     width:300px;
+}
+
+h1 sup {
+font-size: 16px;	
 }

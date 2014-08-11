@@ -129,6 +129,9 @@ top:-13px;
 	width:100%;
 	overflow: hidden;
 }
+
+
+
 .dropdown_container {
 	width:200%;
 }
@@ -317,6 +320,10 @@ position: absolute;
 #slide_container p {
     font-size: 9px;
     margin-bottom:2px;
+}
+
+.side_note {
+opacity: 0;	
 }
 
 

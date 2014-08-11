@@ -14,15 +14,15 @@
                                 reference to appropriate scientific literature, as the
                                 active substances of the medicinal product have been in
                                 well established medicinal use within the European
-                                Community for at least ten years, with recognised
+                                Community for at least ten years, with <span>recognised
                                 efficacy and an acceptable level of safety.
                                 Evacal-D3<sup>®</sup>
-                                is a comparable strength to
-                                Adcal-D3<sup>®</sup></h2>
+                                is a comparable</span> <span>strength to
+                                Adcal-D3<sup>®</sup></span></h2>
 
                          
     
-<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017c</p>
+<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017d</p>
 
 </section>
 

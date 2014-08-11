@@ -14,7 +14,7 @@ svg {
 #slide_container  h2 {
 	top:156px;
 	left:104px;
-	width:805px;
+	width:825px;
 	color:#FFF;
 	line-height: 25px;
 	opacity: 0;
@@ -74,7 +74,7 @@ h2 sup {
 }
 #notes p {
     width:760px;
-    margin-bottom:3px;
+    margin-bottom:5px;
     opacity:0;
     color:rgb(109, 110, 113);
 }

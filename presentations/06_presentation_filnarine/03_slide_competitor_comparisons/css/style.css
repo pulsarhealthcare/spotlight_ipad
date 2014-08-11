@@ -14,11 +14,15 @@ svg {
 #slide_container h2 {
 	top:182px;
 	left:104px;
-	width:805px;
+	width:816px;
 	line-height: 26px;
 	opacity: 0;
 	font-size:19px;
 	color:rgb(136, 136, 136);
+}
+
+h2 sup {
+font-size: 12px;	
 }
 
 #slide_container h2:nth-child(3) {
@@ -28,7 +32,7 @@ svg {
 #main {
 	left:104px;
 	position: absolute;
-	top:243px;
+	top:260px;
 	opacity: 0;
 }
 
@@ -47,8 +51,8 @@ svg {
 .side_note {
         -webkit-transform:rotate(270deg);
         position: absolute;
-        top:265px;
-        color:#FFF;
+        top:252px;
+    color:rgb(136, 136, 136);
         left:860px;
         width:300px;
 }
