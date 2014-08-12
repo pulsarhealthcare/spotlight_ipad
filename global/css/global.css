@@ -295,6 +295,46 @@ position: absolute;
 	padding-top:4px;
 }
 
+/* Image styles */
+
+#img_layer {
+	position: absolute;
+	top:0px;
+	z-index: 10;
+	width:1024px;
+	background:#D1D1D1;
+    top:768px;
+    height:768px;
+    -webkit-transform:translateZ(0);
+    -webkit-transition:top 0.4s;
+}
+#img_header {
+	height:30px;
+	background: #E7E7E7;
+    margin-bottom: 6px;
+}
+#img_container img {
+	width: 1000px;
+	margin: 230px auto 0 auto;
+	display: block;
+
+}
+
+
+#img_header button {
+	float: right;
+	background: none;
+	outline: none;
+	border:none;
+	text-align: center;
+	color:rgb(157, 160, 170);
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+/* End of image styles */
+
 #slide_container {
 	height:656px;
 	margin-top:42px;

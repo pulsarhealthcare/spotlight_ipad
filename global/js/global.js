@@ -95,7 +95,7 @@ function headerButtons() {
 
 function pdfViewer() {
 
-    $('.pdf').on('click', function() {
+    $('.pdf').on('input.tap', function() {
         loadPDF($(this).data('pdf'))
         $('#pdf_layer').css('top', '0px')
     });
@@ -113,3 +113,27 @@ function pdfViewer() {
         }
     }
 }
+
+
+        
+    $('.fullscreen, #main').on(input.tap, function() {
+               
+               $('#img_layer').css('top', '0px')
+
+               // get src on the image using val()
+
+               var src = $('img.fullscreen, img#main').attr('src');
+               
+               // console.log(src);
+
+               // show it
+
+               $('#img_container').append('<img src="'+ src +'"/>');
+    });
+
+    $('#img_header button').on(input.tap, function() {
+        $('#img_layer').css('top', '768')
+    });
+
+  
+
