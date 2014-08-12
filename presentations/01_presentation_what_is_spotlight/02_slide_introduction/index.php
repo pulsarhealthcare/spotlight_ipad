@@ -18,7 +18,7 @@
         wholesalers. Furthermore, we aim to<br>hold 6 months
         safety stock of all Spotlight brands in our
         distribution centre.</h2>
-        <img id="main" width="701" src="img/main.png"/>
+        <img class="fullscreen" id="main" width="701" src="img/main.png"/>
 
 <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017</p>
 </section>

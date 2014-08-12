@@ -6,7 +6,7 @@
     <h1>NHS savings</h1>
 
     <h2>Prescribing Spotlight-branded products could potentially save your practice over £7,645 per year <sup>†‡1</sup></h2>
-    <img id="main" width="805" src="img/main.png">  
+    <img class="fullscreen" id="main" width="805" src="img/main.png">  
     
     <div id="notes">
         <p>†Note: due to strict guidance that transplant patients

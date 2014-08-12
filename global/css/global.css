@@ -315,8 +315,10 @@ position: absolute;
 }
 #img_container img {
 	width: 1000px;
-	margin: 230px auto 0 auto;
 	display: block;
+	position: absolute;
+	top: 50%;
+	left: 15px;
 
 }
 

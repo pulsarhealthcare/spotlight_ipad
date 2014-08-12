@@ -116,19 +116,25 @@ function pdfViewer() {
 
 
         
-    $('.fullscreen, #main').on(input.tap, function() {
+    $('.fullscreen').on(input.tap, function() {
                
                $('#img_layer').css('top', '0px')
 
+
                // get src on the image using val()
 
-               var src = $('img.fullscreen, img#main').attr('src');
+               var src = $('img.fullscreen').attr('src');
                
                // console.log(src);
 
                // show it
 
-               $('#img_container').append('<img src="'+ src +'"/>');
+               $('#img_container').append('<img class="showing" src="'+ src +'"/>');
+
+                    var img = $('.showing');
+                    var h = img.height();
+                    img.css('margin-top', + h / -2 + "px"); 
+
     });
 
     $('#img_header button').on(input.tap, function() {
