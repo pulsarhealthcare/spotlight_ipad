@@ -328,9 +328,9 @@ position: absolute;
 	background: none;
 	outline: none;
 	border:none;
+	margin-top: 5px;
 	text-align: center;
-	color:rgb(157, 160, 170);
-	font-weight: bold;
+	color: #2e9bdb;
 	font-size: 15px;
 }
 
