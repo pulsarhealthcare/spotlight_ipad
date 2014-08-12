@@ -35,26 +35,26 @@ navigation[3] = {
     presentation: '04_presentation_capsorin',
     presentationName: 'Capsorin',
     links: [
-        ['Page 1. Capsorin', ''],
-        ['Page 2. Introduction', ''],
-        ['Page 3. Potential Spotlight cost sav...', ''],
-        ['Page 4. Competitor comparisons', ''],
-        ['Page 5. Competitor comparisons cont...', ''],
-        ['Page 6. Bioavailability profile', ''],
-        ['Page 7. Indications', ''],
-        ['Page 8. indications cont.', ''],
+        ['Page 1. Capsorin', '00_slide_capsorin'],
+        ['Page 2. Introduction', '01_slide_introduction'],
+        ['Page 3. Potential Spotlight cost sav...', '02_slide_potential_cost_savings'],
+        ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
+        ['Page 5. Competitor comparisons cont...', '04_slide_competitor_comparisons_continued'],
+        ['Page 6. Bioavailability profile', '05_slide_bioavailability_profile'],
+        ['Page 7. Indications', '06_slide_indications'],
+        ['Page 8. indications cont.', '07_slide_indications_continued'],
     ]
 }
 navigation[4] = {
-    presentation: '05_presentation_evacal_d3',
+    presentation: '05_presentation_evacal',
     presentationName: 'Evacal-D3',
     links: [
-        ['Page 1. Evacal-D3', ''],
-        ['Page 2. Introduction', ''],
-        ['Page 3. Potential Spotlight cost savi...', ''],
-        ['Page 4. Competitor comparisons', ''],
-        ['Page 5. Clinical comparability', ''],
-        ['Page 6. Indications', ''],
+        ['Page 1. Evacal-D3', '00_slide_evacal'],
+        ['Page 2. Introduction', '01_slide_introduction'],
+        ['Page 3. Potential Spotlight cost savi...', '02_slide_potential_cost_savings'],
+        ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
+        ['Page 5. Clinical comparability', '04_slide_clinical_comparability'],
+        ['Page 6. Indications', '05_slide_indications'],
     ]
 }
 navigation[5] = {
