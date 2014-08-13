@@ -7,22 +7,26 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
 #slide_container h2 {
-	top:191px;
+	top:205px;
 	left:104px;
 	width:805px;
 	line-height: 26px;
 	opacity: 0;
 	font-size:22px;
-	color:rgb(136, 136, 136);
+	color:#6e6e6e;
 }
 
-#slide_container h2:nth-child(3) {
-	top:270px;
+#slide_container h2 span {
+position: relative;
+top: -5px;
+}
+
+h2 sup {
+font-size: 13px;
 }
 
 #notes {

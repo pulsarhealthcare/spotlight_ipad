@@ -30,6 +30,7 @@ h2 sup {
 #notes p {
 	opacity: 0;
 	color:#FFF;
+	margin-bottom: 6px;
 }
 
 .side_note {

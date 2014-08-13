@@ -46,3 +46,5 @@ h2 sup {
 	width:300px;
 	opacity: 0;
 }
+
+#slide_container p { font-weight: 100; }

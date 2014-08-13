@@ -20,13 +20,13 @@ font-size: 10px;
 }
 
 #slide_container h2 {
-	top:170px;
+	top:165px;
 	left:104px;
-	width:705px;
-	line-height: 20px;
+	width:745px;
+	line-height: 24px;
 	opacity: 0;
-	font-size:16px;
-	color:rgb(136, 136, 136);
+	font-size:18px;
+	color: #6e6e6e;
 }
 
 #slide_container h2 span {

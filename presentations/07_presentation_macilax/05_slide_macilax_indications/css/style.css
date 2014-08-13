@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
@@ -21,8 +20,8 @@ font-size: 13px;
 	width:805px;
 	line-height: 26px;
 	opacity: 0;
-	font-size:22px;
-	color:rgb(136, 136, 136);
+	font-size:20px;
+	color:#6e6e6e;
 }
 
 h2 sup {
@@ -39,13 +38,14 @@ opacity: 0;
 }
 
 #slide_container p.bullet {
-width: 360px;
+width: 400px;
 position: absolute;
 top: 260px;
 left: 104px;
-font-size: 13px;
-color:  rgb(136, 136, 136);
+font-size: 14px;
+color:  #6e6e6e;
 opacity: 0;
+font-weight: 100;
 }
 
 #slide_container p.bullet .dot {

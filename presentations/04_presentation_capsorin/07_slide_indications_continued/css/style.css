@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
@@ -50,68 +49,69 @@ position: relative;
 left: 104px;
 width: 320px;
 opacity: 0;
+font-weight: 100;
 }
 
 .one {
 top: 175px;	
-font-size: 16px;
+font-size: 17px;
 font-weight: bold;
-color: #aa8f5d;
+color: #bfa566;
 }
 
 .two {
 top: 180px;
-font-size: 14px;
+font-size: 15px;
 font-weight: bold;
-color: #aa8f5d;
+color: #bfa566;
 }
 
 .three {
 top: 190px;
-font-size: 13px;
-color: #aa8f5d;
+font-size: 14px;
+color: #bfa566;
 }
 
 #slide_container p.four {
 top: 193px;	
-font-size: 12px;
+font-size: 13px;
 color: rgb(136, 136, 136);
 }
 
 #slide_container p.five {
 top: 200px;
-font-size: 12px;
+font-size: 13px;
 color: rgb(136, 136, 136);
 }
 
 .six {
 top: 213px;
-font-size: 13px;
-color: #aa8f5d;	
+font-size: 14px;
+color: #bfa566;	
 }
 
 #slide_container p.seven {
 top: 216px;	
-font-size: 12px;
+font-size: 13px;
 color: rgb(136, 136, 136);
 }
 
 .eight {
 top: 231px;	
-font-size: 14px;
+font-size: 15px;
 font-weight: bold;
-color: #aa8f5d;
+color: #bfa566;
 }
 
 .nine {
 top: 236px;
-font-size: 13px;
-color: #aa8f5d;	
+font-size: 14px;
+color: #bfa566;	
 }
 
 #slide_container p.ten {
 top: 240px;	
-font-size: 12px;
+font-size: 13px;
 color: rgb(136, 136, 136);
 }
 
@@ -120,47 +120,48 @@ position: relative;
 left: 504px;	
 width:  400px;
 opacity: 0;
+font-weight: 100;
 }
 
 .eleven {
 top: -45px;
-font-size: 14px;
+font-size: 15px;
 font-weight: bold;
-color: #aa8f5d;	
+color: #bfa566;	
 }
 
 .twelve {
 top: -38px;	
-font-size: 13px;
-color: #aa8f5d;	
+font-size: 14px;
+color: #bfa566;	
 }
 
 #slide_container p.thirteen {
 top: -34px;	
-font-size: 12px;
+font-size: 13px;
 color: rgb(136, 136, 136);
 }
 
 .fourteen {
 top: -20px;	
-font-size: 13px;
-color: #aa8f5d;	
+font-size: 14px;
+color: #bfa566;	
 }
 
 #slide_container p.fifteen {
 top: -16px;	
-font-size: 12px;
+font-size: 13px;
 color: rgb(136, 136, 136);
 }
 
 .sixteen {
 top: -2px;
-font-size: 13px;
-color: #aa8f5d;	
+font-size: 14px;
+color: #bfa566;	
 }
 
 #slide_container p.seventeen {
 top: 2px;	
-font-size: 12px;
+font-size: 13px;
 color: rgb(136, 136, 136);
 }

@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
@@ -25,8 +24,8 @@ font-size: 10px;
 	width:705px;
 	line-height: 20px;
 	opacity: 0;
-	font-size:16px;
-	color:rgb(136, 136, 136);
+	font-size:19px;
+	color: #6e6e6e;
 }
 
 #slide_container h2:nth-child(3) {
@@ -43,20 +42,21 @@ opacity: 0;
 }
 
 #slide_container ul li {
-font-size: 13px;
+font-size: 14px;
 width: 350px;
 line-height: 17px;	
-color: rgb(136, 136, 136);
+color: #6e6e6e;
 list-style-type: none;
 text-indent: -.6em;
 margin-left: 0;
 margin-bottom: 10px;
 opacity: 0;
+font-weight: 100;
 }
 
 #slide_container ul li:before {
 content: "• ";
-font-size: 12px;
+font-size: 10px;
 position: relative;
 left: -5px;
 }

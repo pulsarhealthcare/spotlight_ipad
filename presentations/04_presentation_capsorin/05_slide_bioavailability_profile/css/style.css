@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
@@ -20,13 +19,14 @@ font-size: 10px;
 }
 
 #slide_container h2 {
-	top:210px;
-	left:104px;
-	width:205px;
-	line-height: 20px;
-	opacity: 0;
-	font-size:16px;
-	color:rgb(136, 136, 136);
+top: 220px;
+left: 104px;
+width: 245px;
+line-height: 20px;
+opacity: 0;
+font-size: 17px;
+color: rgb(136, 136, 136);
+font-weight: 100;
 }
 
 #slide_container h2:nth-child(3) {
@@ -46,10 +46,10 @@ font-size: 10px;
 }
 
 #slide_container img {
-width: 611px;
+width: 540px;
 position: absolute;
-left: 350px;
-top: 160px;	
+left: 370px;
+top: 175px;	
 opacity: 0;
 }
 

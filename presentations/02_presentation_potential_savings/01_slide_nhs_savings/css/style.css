@@ -12,7 +12,7 @@ svg {
 
 }
 #slide_container  h2 {
-	top:156px;
+	top:166px;
 	left:104px;
 	width:815px;
 	color:#FFF;
@@ -64,7 +64,7 @@ h2 sup {
 #main {
 	position: absolute;
 	left:104px;
-	top:205px;
+	top:220px;
     opacity:0;
 }
 #notes {

@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-		top:81px;
 	font-size:24px;
 }
 
@@ -25,7 +24,8 @@ font-size: 12px;
 	width:805px;
 	line-height: 26px;
 	opacity: 0;
-	font-size:21px;
+	font-size:19px;
+	font-weight: 100;
 	color:rgb(136, 136, 136);
 }
 
@@ -38,9 +38,9 @@ font-size: 12px;
 #slide_container h3 {
    color:#5a61ac;
    font-size:16px;
-   font-weight: bold;
    margin-bottom:2px;
    opacity: 0;
+   font-weight: 100;
 
 }
 
@@ -50,6 +50,7 @@ font-size: 12px;
    color:rgb(136, 136, 136);
    opacity: 0;
    line-height: 17px;
+   font-weight: 100;
 }
 
 #slide_container h2:nth-child(3) {

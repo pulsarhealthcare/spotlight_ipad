@@ -7,10 +7,11 @@ svg {
 #slide_container h2 {
 	top:495px;
 	left:72px;
-	width:570px;
+	width:580px;
 	color:#FFF;
 	line-height: 23px;
 	opacity: 0;
+	font-size: 18px;
 }
 
 h2 sup {
@@ -18,11 +19,11 @@ h2 sup {
 }
 
 #slide_container h2:nth-child(2) {
-    top:562px;
+    top:563px;
 }
 
 #slide_container h2:nth-child(3) {
-    top:584px;
+    top:587px;
 }
 
 
@@ -35,6 +36,7 @@ h2 sup {
 #notes p {
 	opacity: 0;
 	color:#FFF;
+	margin-bottom: 4px;
 }
 
 .side_note {

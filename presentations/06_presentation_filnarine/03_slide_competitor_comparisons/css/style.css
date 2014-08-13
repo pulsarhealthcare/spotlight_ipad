@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
@@ -18,15 +17,16 @@ svg {
 	line-height: 26px;
 	opacity: 0;
 	font-size:19px;
-	color:rgb(136, 136, 136);
+		color:#6e6e6e;
 }
 
 h2 sup {
 font-size: 12px;	
 }
 
-#slide_container h2:nth-child(3) {
-	top:199px;
+#slide_container h2 span {
+	position: relative;
+	top:-5px;
 }
 
 #main {

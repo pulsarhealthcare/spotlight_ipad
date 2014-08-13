@@ -13,7 +13,7 @@
                             
             <h3 class="green">Macilax Indications:</h2>
                             
-<p class="bullet"><span class="dot" style="color:#616363;">•</span> For the treatment of chronic constipation and
+<p class="bullet"><span class="dot" style="color:#616363; font-size: 10px;">•</span> For the treatment of chronic constipation and
 for the treatment of faecal impaction, defined as refractory constipation with faecal loading of the rectum and/or colon.</p>
                             
 

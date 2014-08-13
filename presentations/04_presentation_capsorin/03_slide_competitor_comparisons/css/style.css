@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
@@ -17,7 +16,7 @@ svg {
 	width:801px;
 	line-height: 26px;
 	opacity: 0;
-	font-size:19px;
+	font-size:18px;
 	color:rgb(136, 136, 136);
 }
 
@@ -52,7 +51,7 @@ font-size: 12px;
 #notes p {
 	opacity: 0;
 	width:800px;
-	font-size:8px;
+	font-size:9px;
 	color:#707070;
 	margin-bottom: 15px;
 }

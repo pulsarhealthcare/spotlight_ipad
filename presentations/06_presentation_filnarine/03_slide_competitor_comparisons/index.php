@@ -6,11 +6,11 @@
 
     <h1>Competitor comparisons</h1>             
     <h2>The table below highlights the prescribed products NHS
-                        list price/reimbursement cost and the</h2> <h2>respective
+                        list price/reimbursement cost and the <span>respective
                         savings if Filnarine<sup>®</sup> SR is prescribed by
-                        brand<sup>1</sup></h2>
+                        brand<sup>1</sup></span></h2>
 
-    <img id="main" width="805" src="img/main.png"/>
+    <img class="fullscreen" id="main" width="805" src="img/main.png"/>
     <div id="notes">
         <p> </p>
     </div>

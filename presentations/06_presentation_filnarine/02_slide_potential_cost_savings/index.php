@@ -12,7 +12,7 @@
                         of up to £37.75 (200 mg, 60 pack size) per
                         prescription. At a Primary Care Organisation (PCO)
                         level, this translates into a potential average annual
-                        saving</h2><h2> of over £25,225<sup>1</sup></h2>
+                        saving of over <span>£25,225<sup>1</sup></span></h2>
 
     <img id="main" width="805" src="img/main.png"/>
     <div id="notes">

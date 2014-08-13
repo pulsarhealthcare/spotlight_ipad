@@ -10,8 +10,8 @@
         (morphine<br>sulphate), which could deliver cost savings
         of up to £37.75 (200 mg, 60 pack size)<br>per
         prescription. At a Primary Care Organisation (PCO)
-        level, this translates into a</h2><h2>potential annual saving
-        of over £25,225<sup>1</sup></h2>
+        level, this translates into a <span>potential annual saving
+        of over £25,225<sup>1</sup></span></h2>
     
     <div id="notes">
         <p><sub>1</sub>An average PCO represents a population of approximately

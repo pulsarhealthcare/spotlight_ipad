@@ -5,12 +5,13 @@ svg {
 }
 
 #slide_container h2 {
-	top:500px;
-	left:72px;
-	width:730px;
-	color:#FFF;
-	line-height: 23px;
-	opacity: 0;
+top: 515px;
+left: 72px;
+width: 770px;
+color: #FFF;
+line-height: 23px;
+opacity: 0;
+font-size: 18px;
 }
 
 
@@ -27,7 +28,7 @@ top:-5px;
 
 #notes {
 	color:#FFF;
-	top:608px;
+	top:618px;
 	left:72px;
 }
 

@@ -7,12 +7,11 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
 h1 sup {
-font-size: 13px;	
+font-size: 17px;	
 }
 
 h2 sup {
@@ -26,7 +25,7 @@ font-size: 12px;
 	line-height: 27px;
 	opacity: 0;
 	font-size:18px;
-	color:rgb(136, 136, 136);
+	color:#6e6e6e;
 }
 
 #slide_container h2:nth-child(3) {
@@ -62,7 +61,7 @@ opacity: 0;
 
 h3:nth-child(5) {
 position: absolute;
-top: 295px;
+top: 285px;
 left: 104px;
 color: #f8374b;
 opacity: 0;
@@ -71,6 +70,7 @@ opacity: 0;
 #slide_container p {
 font-size: 14px;
 color: rgb(136, 136, 136);
+font-weight: 100;
 }
 
 #slide_container p.side_note {
@@ -86,7 +86,7 @@ opacity: 0;
 
 #slide_container p:nth-child(6) {
 position: absolute;
-top: 320px;
+top: 310px;
 left: 104px;
 opacity: 0;	
 }

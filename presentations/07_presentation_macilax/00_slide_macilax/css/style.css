@@ -5,13 +5,14 @@ svg {
 }
 
 #slide_container h2 {
-	top:500px;
+	top:510px;
 	left:72px;
 	width:805px;
 	color:#FFF;
 	line-height: 24px;
 	opacity: 0;
 	font-weight: 100;
+	font-size: 18px;
 }
 
 h2 sup {
@@ -19,7 +20,7 @@ h2 sup {
 }
 
 #slide_container h2:nth-child(2) {
-    top:548px;
+    top:557px;
 }
 
 

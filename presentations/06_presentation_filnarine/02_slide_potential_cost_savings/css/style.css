@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
@@ -22,15 +21,16 @@ font-size: 12px;
 #slide_container h2 {
 	top:178px;
 	left:104px;
-	width:816px;
+	width:800px;
 	line-height: 26px;
 	opacity: 0;
-	font-size:19px;
-	color:rgb(136, 136, 136);
+	font-size:18px;
+	color:#6e6e6e;
 }
 
-#slide_container h2:nth-child(3) {
-	top:254px;
+#slide_container span {
+	top:-5px;
+	position:  relative;
 }
 
 #main {

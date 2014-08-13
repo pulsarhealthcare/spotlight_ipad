@@ -6,16 +6,15 @@ $root = $_SERVER["DOCUMENT_ROOT"]; ?>
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
 <h1>The Spotlight brands</h1>
 
-<h2>This section gives more in-depth <br>
- information about the individual Spotlight<br>
- brands, outlining potential savings across <br>
- the NHS and providing cost comparisons<br>
- with competitor products. Bioavailability <br>
- data comparing each Spotlight brand with<br>
- the originator brand are also summarised<br> 
- in the form of a graph howing plasma <br>
- levels over time (a table illustrating active<br>
- constituents in the case of Peptac)</h2>
+<h2>This section gives more in-depth information about the
+                                individual Spotlight brands, outlining potential
+                                savings across the NHS and providing cost comparisons
+                                with competitor products. Bioavailability data
+                                comparing each Spotlight brand with the originator
+                                brand are also summarised in the form of a graph
+                                showing plasma levels over time (a table illustrating
+                                active <span>constituents in the case of
+                                Peptac<sup>®</sup>)</span></h2>
     
             <p class="side_note">Date of preparation: July 2014 UK/SPL/14/0017</p>
 </section>

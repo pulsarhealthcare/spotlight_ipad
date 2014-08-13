@@ -4,6 +4,10 @@ svg {
 
 }
 
+#play {
+display: none;	
+}
+
 #slide_container h2 {
 	top:485px;
 	left:72px;

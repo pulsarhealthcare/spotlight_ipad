@@ -21,6 +21,8 @@ Neoral<sup>®1</sup></h1>
 
 </ul>
 
+<img src="img/graph.gif" class="fullscreen" />
+
                           
     
 <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017c</p>

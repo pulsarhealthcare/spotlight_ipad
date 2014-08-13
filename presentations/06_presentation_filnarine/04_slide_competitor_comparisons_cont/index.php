@@ -7,7 +7,7 @@
     <h1>Competitor comparisons continued...</h1>             
     <h2></h2>
 
-    <img id="main" width="805" src="img/main.png"/>
+    <img class="fullscreen" id="main" width="805" src="img/main.png"/>
     <div id="notes">
         <p> </p>
     </div>

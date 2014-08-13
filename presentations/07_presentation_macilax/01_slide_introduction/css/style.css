@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
@@ -17,8 +16,9 @@ svg {
 	width:815px;
 	line-height: 27px;
 	opacity: 0;
-	font-size:22px;
-	color:rgb(136, 136, 136);
+	font-size:21px;
+	color:#6e6e6e;
+	font-weight: 100;
 }
 
 h2 sup {
@@ -26,19 +26,20 @@ font-size: 12px;
 }
 
 #slide_container h2:nth-child(3) {
-	top: 381px;
+	top: 382px;
 }
 
 #notes {
 	color:#000;
-	top:558px;
+	top:550px;
 	left:104px;
 }
 
 #notes p {
 	opacity: 0;
 	width:800px;
-	color:#9d9fa3;
+	color:#707070;
+	margin-bottom: 4px;
 }
 
 .side_note {

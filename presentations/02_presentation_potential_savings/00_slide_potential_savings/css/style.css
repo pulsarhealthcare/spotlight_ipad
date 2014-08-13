@@ -11,7 +11,7 @@ svg {
 	top:125px;
 	opacity: 0;
 }
-#slide_container  h2 {
+#slide_container h2 {
 	top:203px;
 	left:104px;
 	width:805px;
@@ -19,7 +19,7 @@ svg {
 	line-height: 25px;
 	opacity: 0;
 	color:rgb(39, 127, 163);
-	font-size:23px;
+	font-size:22px;
 	line-height: 30px;
 	opacity: 0;
 }
@@ -90,5 +90,6 @@ h2 sup {
     color:#666;
     left:860px;
     width:300px;
+    font-size: 9px;
 }
 
