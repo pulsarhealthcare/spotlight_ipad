@@ -15,14 +15,18 @@ svg {
 	left:104px;
 	width:auto;
 	color:#FFF;
-	line-height: 25px;
+	line-height: 27px;
 	opacity: 0;
 	color:rgb(39, 127, 163);
-	font-size:24px;
+	font-size:22px;
 	line-height: 23px;
-	font-weight: normal;
 	width:834px;
 
+}
+
+#slide_container h2 span {
+position: relative;
+top: 0;	
 }
 
 #slide_container ul {
@@ -41,6 +45,7 @@ svg {
 	color:rgb(118, 110, 124);
 	font-size: 15px;
 	line-height: 18px;
+	font-weight: 100;
 }
 #slide_container li {
 	margin-bottom: 10px;
@@ -62,7 +67,7 @@ svg {
 	top:432px;
 }
 h2 sup {
-	font-size:10px;
+	font-size:13px;
 }
 
 #slide_container h2:nth-child(3) {

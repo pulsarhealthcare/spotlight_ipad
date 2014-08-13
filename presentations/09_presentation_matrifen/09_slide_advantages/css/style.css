@@ -11,13 +11,16 @@ svg {
 	font-size:24px;
 }
 
+
 h1 sup {
 font-size: 13px;	
 }
 
+
 h2 sup {
 font-size: 12px;	
 }
+
 
 #slide_container h2 {
 	top:180px;
@@ -29,13 +32,20 @@ font-size: 12px;
 	color:rgb(136, 136, 136);
 }
 
+
 #slide_container h2:nth-child(3) {
 	top: 260px;
 }
 
 
+#slide_container h2:nth-child(3) span {
+position: relative;	
+top: -5px;
+}
+
+
 #slide_container h2:nth-child(4) {
-	top: 390px;
+	top: 380px;
 }
 
 
@@ -48,6 +58,7 @@ font-size: 12px;
 	width:300px;
 	color:rgb(136, 136, 136);
 }
+
 
 #slide_container img {
 width: 510px;

@@ -11,6 +11,14 @@ svg {
 	font-size:24px;
 }
 
+h1 sup {
+font-size: 16px;	
+}
+
+h2 sup {
+font-size: 12px;
+}
+
 #slide_container h2 {
 	top:179px;
 	left:104px;
@@ -23,23 +31,25 @@ svg {
 
 #points {
 	left:104px;
-	top:222px;
+	top:240px;
 	position: absolute;
 }
 
 #slide_container h3 {
    color:#5a61ac;
-   font-size:17px;
+   font-size:16px;
    font-weight: bold;
-   margin-bottom:1px;
+   margin-bottom:2px;
    opacity: 0;
+
 }
 
 #slide_container h4 {
-   font-size:16px;
-   margin-bottom: 11px;
+   font-size:14px;
+   margin-bottom: 15px;
    color:rgb(136, 136, 136);
    opacity: 0;
+   line-height: 17px;
 }
 
 #slide_container h2:nth-child(3) {
@@ -67,8 +77,8 @@ svg {
 .side_note {
     -webkit-transform:rotate(270deg);
     position: absolute;
-    top:265px;
-    color:#FFF;
+    top:252px;
+    color:rgb(136, 136, 136);
     left:860px;
     width:300px;
 }

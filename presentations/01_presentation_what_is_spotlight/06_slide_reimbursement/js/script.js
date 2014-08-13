@@ -9,3 +9,5 @@ $('#slide_container h3').eq(0).delay((duration - 100) * 3).animate({opacity:1}, 
 
 $('#notes p').eq(0).delay((duration - 100) * 4).animate({opacity:1}, duration);
 $('#notes p').eq(1).delay((duration - 100) * 5).animate({opacity:1}, duration);
+
+$('.side_note').delay((duration - 100) * 6).animate({opacity:1}, duration);

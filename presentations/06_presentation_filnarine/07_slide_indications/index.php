@@ -14,13 +14,11 @@
     post-operative pain</h4>
     <h3>MST Continus indication:</h3>
     <h4>Prolonged relief of severe and intractable pain, and
-    for the relief of post-<br>operative pain</h4>
+    for the relief of post-operative pain</h4>
     </div>
    
-    <div id="notes">
-        <p> </p>
-    </div>
-       <p class="side_note">Date of preparation: June 2014 UK/SPL/14/0017e</p>
+        <p class="side_note">Date of preparation: June 2014 UK/SPL/14/0017e</p>
+
 </section>
         
 <?php require $root.'/global/html/footer.html';?>

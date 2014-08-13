@@ -1,8 +1,5 @@
+var duration = 800;
 
-//Index navigation arrays [name,filename]
-
-//Fade text
-
-$('h2').delay(600).animate({opacity:1},600);
-
-$('#main').eq(0).delay(1100).animate({opacity:1},700);
+$('#slide_container h2').delay((duration - 100) * 1).animate({opacity:1}, duration);
+$('#main').delay((duration - 100) * 2).animate({opacity:1}, duration);
+$('.side_note').delay((duration - 100) * 3).animate({opacity:1}, duration);

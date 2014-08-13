@@ -13,7 +13,7 @@ less (England and Wales) than prescribing
 isosorbide mononitrate XL 60 mg tablets
 generically.*† At a Primary Care Organisation (PCO)
 level, this translates into a potential average
-annual saving of over £46,984<sup>1</sup></h2>
+<span>annual saving of over £46,984<sup>1</sup></span></h2>
 
 
 

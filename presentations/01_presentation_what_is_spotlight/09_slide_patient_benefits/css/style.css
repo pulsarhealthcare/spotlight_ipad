@@ -4,23 +4,22 @@ svg {
 
 }
 #slide_container h1 {
-	color:rgb(27, 129, 170);
+	color:#2d84b3;
 	left:104px;
 	position: absolute;
 	font-size:55px;
 	top:117px;
 }
 #slide_container h2 {
-	top:197px;
+	top:202px;
 	left:104px;
 	width:auto;
 	color:#FFF;
-	line-height: 25px;
 	opacity: 0;
-	color:rgb(61, 152, 189);
-	font-size:22px;
+	color:#2d84b3;
+	font-size:20px;
 	line-height: 28px;
-	font-weight: normal;
+	font-weight: 100;
 
 }
 

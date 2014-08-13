@@ -1,11 +1,8 @@
+var duration = 800;
 
-//Index navigation arrays [name,filename]
-
-//Fade text
-
-$('#slide_container h2').delay(600).animate({opacity:1},600);
-$('#slide_container h3').eq(0).delay(1100).animate({opacity:1},600);
-$('#slide_container h4').eq(0).delay(1600).animate({opacity:1},600);
-$('#slide_container h3').eq(1).delay(2100).animate({opacity:1},600);
-$('#slide_container h4').eq(1).delay(2600).animate({opacity:1},600);
-
+$('#slide_container h2').delay((duration - 100) * 1).animate({opacity:1}, duration);
+$('#slide_container h3').eq(0).delay((duration - 100) * 2).animate({opacity:1}, duration);
+$('#slide_container h4').eq(0).delay((duration - 100) * 3).animate({opacity:1}, duration);
+$('#slide_container h3').eq(1).delay((duration - 100) * 4).animate({opacity:1}, duration);
+$('#slide_container h4').eq(1).delay((duration - 100) * 5).animate({opacity:1}, duration);
+$('.side_note').delay((duration - 100) * 6).animate({opacity:1}, duration);

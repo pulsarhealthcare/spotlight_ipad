@@ -4,11 +4,11 @@ svg {
 
 }
 #slide_container h1 {
-	color:rgb(61, 152, 189);
+	color:#2d84b3;
 	left:104px;
 	position: absolute;
-	font-size:55px;
-	top:155px;
+	font-size:53px;
+	top:158px;
 	opacity: 0;
 }
 #slide_container h2 {
@@ -19,9 +19,9 @@ svg {
 	line-height: 25px;
 	opacity: 0;
 	color:rgb(109, 110, 113);
-	font-size:24px;
+	font-size:20px;
 	line-height: 28px;
-	font-weight: normal;
+	font-weight: 100;
 
 }
 

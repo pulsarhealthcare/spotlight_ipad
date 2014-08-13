@@ -17,3 +17,5 @@ $('#slide_container h4').eq(2).delay((duration - 100) * 7).animate({opacity:1}, 
 
 $('#slide_container h3').eq(3).delay((duration - 100) * 8).animate({opacity:1}, duration);
 $('#slide_container h4').eq(3).delay((duration - 100) * 9).animate({opacity:1}, duration);
+
+$('.side_note').delay((duration - 100) * 10).animate({opacity:1}, duration);

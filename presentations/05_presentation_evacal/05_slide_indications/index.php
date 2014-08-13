@@ -4,54 +4,48 @@
 
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
 
-<h1>Capsorin<sup>®</sup> indications</h1>       
+<h1>Evacal-D3<sup>®</sup> indications</h1>       
 
-<h2>Capsorin has similar indicaitons to Neoral<sup>®1,2</sup></h2>
+<h2>Evacal-D3 has similar indications to Adcal-D3<sup>®1,2</sup></h2>
 
-<h3 class="one">Capsorin indications:</h3>
+<div id="one">
 
-<h4 class="two">Transplant indications:</h4>
-<h5 class="three">Organ transplantation</h5>
+<h3>Evacal-D3 indications:</h3>
 
-<p class="four">Prevention of graft rejection following kidney, liver,
-                                heart, combined heart- lung, lung or pancreas
-                                transplants.</p>
+<ul>
 
-<p class="five">Treatment of transplant rejection in patients
-                                previously receiving other immunosuppressive agents</p>
+<li>for the prevention and treatment of vitamin D and calcium
+deficiency in the elderly</li>
 
-<h5 class="six">Bone marrow transplantation</h5>
-<p class="seven">Prevention of graft rejection following bone marrow
-                                transplantation. Prevention or treatment of
-                                graft-versus host disease (GVHD)
-</p>
+<li>as vitamin D and calcium supplement as an adjunct to
+specific osteoporosis treatment of patients who are at
+risk of vitamin D and calcium deficiency</li>
 
-<h4 class="eight">Non-transplant indications:</h4>
-<h5 class="nine">Psoriasis</h5>
-<p class="ten">Treatment of severe forms of psoriasis in patients in
-                                whom conventional therapy is inappropriate or
-                                ineffective</p>
+</ul>
 
-<h4 class="eleven">Non-transplant indications continued:</h4>
-<h5 class="twelve">Atopic dermatitis</h5>
-<p class="thirteen">Capsorin is indicated in patients with severe atopic
-                                dermatitis in whom conventional therapy is ineffective</p>
+</div>
 
-<h5 class="fourteen">Rheumatoid arthritis</h5>
-<p class="fifteen">Indicated for the treatment of severe, active
-                                rheumatoid arthritis in patients in whom classical,
-                                disease modifying anti-rheumatic drugs (DMARD’s) are
-                                inappropriate or ineffective</p>
 
-<h5 class="sixteen">Nephrotic syndrome</h5>
-<p class="seventeen">Adults and children with steroid dependent or steroid
-                                resistant nephrotic syndrome due to glomerular
-                                disorders such as glomerular minimum changes, focal
-                                segmental glomerulosclerosis or membranous
-                                glomerulonephritis. It can also be used to maintain
-                                steroid-induced remission, allowing to suspend steroids</p>                            
+<div id="two">
+
+<h3>Adcal-D3 indications:</h3>
+
+<ul>
+
+<li>for the prevention and treatment of calcium
+deficiency/vitamin D deficiency especially in the
+housebound and institutionalised and elderly subjects</li>
+
+<li>as an adjunct to specific therapy for osteoporosis and in
+situations requiring therapeutic supplementation of
+malnutrition</li>
+
+</ul>
+
+</div>
+                  
     
-<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017c</p>
+<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017d</p>
 
 </section>
 

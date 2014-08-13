@@ -4,24 +4,25 @@ svg {
 }
 
 #slide_container h1 {
-	color:rgb(39, 127, 163);
+	color:rgb(61, 152, 189);
 	left:104px;
 	position: absolute;
-	font-size:63px;
-	top:125px;
-	opacity: 0;
+	font-size:27px;
+	top:97px;
+
 }
 #slide_container  h2 {
-	top:203px;
+	top:156px;
 	left:104px;
-	width:805px;
+	width:815px;
 	color:#FFF;
 	line-height: 25px;
 	opacity: 0;
 	color:rgb(39, 127, 163);
-	font-size:23px;
+	font-size:18px;
 	line-height: 30px;
 	opacity: 0;
+	opacity:0;
 }
 
 #slide_container h3 {
@@ -59,20 +60,23 @@ h2 sup {
     top:303px;
 }
 
-#notes {
-	color:#FFF;
-	top:623px;
-	left:72px;
-}
+
 #main {
 	position: absolute;
 	left:104px;
-	top:364px;
+	top:205px;
+    opacity:0;
+}
+#notes {
 
+	top:612px;
+	left:104px;
 }
 #notes p {
-	opacity: 0;
-	color:#FFF;
+    width:760px;
+    margin-bottom:3px;
+    opacity:0;
+    color:rgb(109, 110, 113);
 }
 
 .side_note {

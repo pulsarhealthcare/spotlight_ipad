@@ -20,13 +20,22 @@ font-size: 10px;
 }
 
 #slide_container h2 {
-	top:170px;
+	top:250px;
 	left:104px;
-	width:705px;
-	line-height: 20px;
+	width:740px;
+	line-height: 27px;
 	opacity: 0;
-	font-size:16px;
+	font-size:20px;
 	color:rgb(136, 136, 136);
+}
+
+#slide_container h2 span {
+position: relative;
+top: -5px;	
+}
+
+#slide_container h2 span:nth-child(2) {
+top: -10px;	
 }
 
 #slide_container h2:nth-child(3) {
