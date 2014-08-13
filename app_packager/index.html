@@ -1,0 +1,149 @@
+<head>
+<title>Pulsar Irep Application Packager</title>
+
+<style>
+h1,h2,h3,h4,h5,input,div,img,body,li,ul,button {
+	margin:0;
+	padding:0;
+	font-weight: normal;
+	list-style: none;
+	font-family: sans-serif;
+	color:#FFF;
+}
+
+header {
+    background:#4f8bb3;
+    padding:10px 20px;
+}
+header h1 {
+	font-size: 18px;
+	letter-spacing: 1px;
+    margin-top:2px;
+
+}
+section {
+	padding-left:20px;
+}
+h2 {
+	  margin-top:20px;
+	  color:#585858;
+}
+
+button {
+	margin-top:20px;
+	background:rgb(160, 154, 228);
+	border:none;
+	outline: none;
+	width:160px;
+	padding:20px 20px;
+	font-size:18px;
+	display: block;
+	float:left;
+	letter-spacing: 1px;
+}
+
+button:nth-child(2) {
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	border-right:1px #FFF dotted;
+}
+button:nth-child(4) {
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+	border-left:1px #FFF dotted;
+}
+#folder_selecter {
+	position: absolute;
+	background:#CCC;
+	padding:30px;
+	border-radius: 40px;
+	display:block;
+	margin-top: 138px;
+    margin-left:20px;
+}
+#folder_selecter div {
+    float:left;
+    width:200px;
+
+}
+#folder_selecter select {
+	width:180px;
+	height:40px;
+	padding-left:10px;
+}
+#folder_selecter h5 {
+	font-size:18px;
+	margin-bottom:10px;
+}
+#folder_selecter button {
+	clear:both;
+	margin-top:10px;
+	width:160px;
+	font-size: 14px;
+	padding:10px 0px;
+	margin-right:20px;
+	text-align: left;
+	padding-left:10px;
+	letter-spacing: 0;
+}
+</style>
+
+<script src="../global/js/lib/jquery.min.js"></script>
+</head>
+<body>
+<header>
+<img src="img/logo.png"/>
+	<h1>I-Rep Application Packager</h1>
+</header>
+
+<div id="folder_selecter">
+    <div>
+    <h5>Select presentation:</h5>
+    <select id="presentations">
+         
+    </select>
+    </div>
+    <div>
+    <h5>Select slide:</h5>
+    <select id="slides">
+    </select>
+    </div>
+    <button id="compile">Package Slide</button>
+</div>
+<section>
+<h2>Select type of folder to package:</h2>
+<button>Application</button>
+<button>Presentation</button>
+<button>Slide</button>
+</section>
+
+<script type="text/javascript">
+var presentationsJSON;
+$.ajax({
+	url:'app_packager.0.3.php?type=getPresentations',
+	success : function(data) {
+        presentationsJSON = JSON.parse(data);
+        for(x=0; x<presentationsJSON.length; x++) {
+        	$('#presentations').append('<option>'+presentationsJSON[x][0]+'</option>');
+        }
+
+        for(x=0; x<presentationsJSON[0][1].length; x++) {
+        	$('#slides').append('<option>'+presentationsJSON[0][1][0]+'</option>');
+        }
+    }
+})
+
+$('#presentations').on('change', function() {
+	
+	$('#slides').empty();
+
+   for(x=0; x<presentationsJSON[$(this).find('option:selected').index()][1].length; x++) {
+        	$('#slides').append('<option>'+presentationsJSON[$(this).find('option:selected').index()][1][x]+'</option>');
+   }
+   
+});
+
+</script>
+
+</body>
+
