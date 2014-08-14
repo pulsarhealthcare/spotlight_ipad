@@ -206,7 +206,7 @@ $('#package').on('click', function() {
     	isLoading = true;
     	ajaxSpinner();
         $.ajax({
-			url:'app_packager.0.3.php?type=presentation&presentation='+
+			url:'app_packager.0.3.php?type=slide&presentation='+
 			$('#presentations option:selected').val()+'&slide='+$('#slides option:selected').val(),
 			success : function(data) {
              isLoading = false;

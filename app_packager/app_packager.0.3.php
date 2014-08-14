@@ -34,6 +34,7 @@ class AppPackager
     public $globalAssets;
     public $slidesPackaged;
     public $winRARPath;
+    public $scanIgnore;
     
     public function __construct() {
         //Set application globals
@@ -42,6 +43,7 @@ class AppPackager
         $this->globalFolder = $this->root . '/global';
         $this->packagedDirectory = $this->root . '/packaged/' . basename(__DIR__) . '_' . date('hisdmy');
         $this->slidesPackaged = array();
+        $this->scanIgnore = array('.','..','.DS_Store'); 
     }
     
     public function init() {
@@ -101,7 +103,7 @@ class AppPackager
 
         foreach ($presentations as $presentation) {
                
-            if($presentation != '.' && $presentation != '..') {
+            if(!in_array($presentation, $this->scanIgnore)) {
                  $thisPresentation = array($presentation);
                 $slides = scandir('../presentations/'.$presentation);
                 $theseSlides = array();
@@ -122,7 +124,7 @@ class AppPackager
         $presentations = scandir($this->root . '/presentations');
         
         foreach ($presentations as $presentation) {
-            if ($presentation != '.' && $presentation != '..' && $presentation != '.DS_Store') {
+            if (!in_array($presentation, $this->scanIgnore)) {
                 
                 $this->packagePresentation($presentation);
             }
@@ -134,7 +136,7 @@ class AppPackager
         $slides = scandir($this->root . '/presentations/' . $presentation);
         
         foreach ($slides as $slide) {
-            if ($slide != '.' && $slide != '..' && $slide != '.DS_Store') {
+            if (!in_array($presentation, $this->scanIgnore)) {
                 $this->packageSlide($presentation, $slide);
             }
         }
