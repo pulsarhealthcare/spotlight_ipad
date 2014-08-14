@@ -6,16 +6,11 @@
 
 <section id="slide_container">
 
-<a id="play" href="#">play</a>
+<div id="play"></div>
 
  
- <div id="teva_load">
-
-
-<video id="teva_vid" src="img/video.mp4" autoplay width="1024">
-
-
-</video>
+<div id="teva_load">
+<video id="teva_vid" src="img/video.mp4" autoplay width="1024"></video>
 
 	<p class="version">Version 2.1</p>
 

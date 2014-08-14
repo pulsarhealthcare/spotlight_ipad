@@ -5,16 +5,16 @@
 	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
 <g>
 	<g>
-		<rect x="18.524" y="18.993" fill="#377F48" width="16.99" height="2.02"/>
-		<rect x="14.485" y="18.993" fill="#377F48" width="2.02" height="2.02"/>
+		<rect x="18.524" y="18.993" fill="#007AFF" width="16.99" height="2.02"/>
+		<rect x="14.485" y="18.993" fill="#007AFF" width="2.02" height="2.02"/>
 	</g>
 	<g>
-		<rect x="18.524" y="23.99" fill="#377F48" width="16.99" height="2.02"/>
-		<rect x="14.485" y="23.99" fill="#377F48" width="2.02" height="2.02"/>
+		<rect x="18.524" y="23.99" fill="#007AFF" width="16.99" height="2.02"/>
+		<rect x="14.485" y="23.99" fill="#007AFF" width="2.02" height="2.02"/>
 	</g>
 	<g>
-		<rect x="18.524" y="28.987" fill="#377F48" width="16.99" height="2.02"/>
-		<rect x="14.485" y="28.987" fill="#377F48" width="2.02" height="2.02"/>
+		<rect x="18.524" y="28.987" fill="#007AFF" width="16.99" height="2.02"/>
+		<rect x="14.485" y="28.987" fill="#007AFF" width="2.02" height="2.02"/>
 	</g>
 </g>
 </svg>
