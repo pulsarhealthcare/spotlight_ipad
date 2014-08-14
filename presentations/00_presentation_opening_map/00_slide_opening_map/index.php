@@ -11,7 +11,7 @@
 
 <video id="teva_vid" autoplay width="1024">
 
-<source src="img/video.m4v" type="video/mp4" />
+<source src="img/video_1.m4v" type="video/mp4" />
 
 </video>
 
