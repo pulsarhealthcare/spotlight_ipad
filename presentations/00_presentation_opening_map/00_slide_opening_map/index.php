@@ -15,7 +15,7 @@
 
 </video>-->
 
-
+<img src="img/animate.gif" width="1024" alt="" />
 
 
 <div id="cover"></div>
