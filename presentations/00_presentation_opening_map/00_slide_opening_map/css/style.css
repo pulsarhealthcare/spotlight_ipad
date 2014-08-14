@@ -15,7 +15,10 @@ header button {
 	z-index: 10;
 	display:block;
 }
-
+#teva_vid {
+	background:#FFF;
+	height:656px;
+}
 #cover {
 width: 70px;
 height: 50px;	
