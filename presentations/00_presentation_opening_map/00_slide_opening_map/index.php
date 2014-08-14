@@ -9,7 +9,7 @@
  
 <div id="teva_load">
 
-<video id="teva_vid" autoplay width="1024">
+<video id="teva_vid" autoplay >
 
 <source src="img/video_1.m4v" type="video/mp4" />
 
@@ -23,7 +23,6 @@
 	<p class="version">Version 2.1</p>
 
 	<p class="address">
-
 		Teva UK Limited<br />
 		Ridings Point<br />
 		Whistler Drive<br />
@@ -35,6 +34,6 @@
 
 </div>	
 
-   <img id="main" width="653" src="img/map.png"/>
+<img id="main" width="653" src="img/map.png"/>
 </section>
 <?php require $root.'/global/html/footer.html';?>

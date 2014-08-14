@@ -36,7 +36,7 @@ background-color: #FFF;
 	color:#FFF;
 	line-height: 25px;
 	opacity: 0;
-	position:  relative;
+	position: relative;
 }
 
 .greyscale {
@@ -84,7 +84,6 @@ h2 sup {
 	z-index: 20;
 	top:42px;
 }
-
 
 #slide_container .version {
 color: #a9a9a9;

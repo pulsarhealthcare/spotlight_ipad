@@ -85,6 +85,10 @@ function headerButtons() {
         irep.navigateTo('00_slide_cauculator', '16_presentation_calculator');
     });
 
+    $('#header_button_summary').on(input.tap, function() {
+        irep.navigateTo('00_slide_summary', '15_presentation_summary' );
+    });
+
     $(document).on(input.tap, '.sub_menu', function() {
         irep.navigateTo($(this).data('link'), $(this).data('presentation'));
     });
