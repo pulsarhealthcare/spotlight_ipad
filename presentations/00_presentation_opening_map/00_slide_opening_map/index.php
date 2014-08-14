@@ -4,40 +4,25 @@
 
 <section id="slide_container">
 
-
-
- 
 <div id="teva_load">
 
 <video id="teva_vid" autoplay width="1024">
-
-
-<source src="img/video.m4v" type="video/mp4" />
-<source src="img/video.webm" type="video/webm" />
-
-
+	<source src="img/video.m4v" type="video/mp4" />
+	<source src="img/video.webm" type="video/webm" />
 </video>
 
 
 
 <div id="cover"></div>
-
-
-	<p class="version">Version 2.1</p>
-
+<p class="version">Version 2.1</p>
 	<p class="address">
-
-		Teva UK Limited<br />
-		Ridings Point<br />
-		Whistler Drive<br />
-		Castleford<br />
-		West Yorkshire<br />
-		WF10 5HX
-    </p>
-
-
+	Teva UK Limited<br>
+	Ridings Point<br>
+	Whistler Drive<br>
+	Castleford<br>
+	West Yorkshire<br>
+	WF10 5HX</p>
 </div>	
-
-   <img id="main" width="653" src="img/map.png"/>
+<img id="main" width="653" src="img/map.png"/>
 </section>
 <?php require $root.'/global/html/footer.html';?>

@@ -41,7 +41,7 @@ class AppPackager
         $this->root = $_SERVER["DOCUMENT_ROOT"];
         $this->temporaryDirectory = $this->root . '/temporary';
         $this->globalFolder = $this->root . '/global';
-        $this->packagedDirectory = $this->root . '/packaged/' . basename(__DIR__) . '_' . date('hisdmy');
+        $this->packagedDirectory = $this->root . '/packaged/' . basename(__DIR__) . '_' . date('ymdsih');
         $this->slidesPackaged = array();
         $this->scanIgnore = array('.','..','.DS_Store'); 
     }
@@ -113,7 +113,7 @@ class AppPackager
                     }
                 }
               array_push($thisPresentation,$theseSlides);
-               array_push($presentationArray, $thisPresentation);
+              array_push($presentationArray, $thisPresentation);
             }
         }
 
@@ -125,7 +125,6 @@ class AppPackager
         
         foreach ($presentations as $presentation) {
             if (!in_array($presentation, $this->scanIgnore)) {
-                
                 $this->packagePresentation($presentation);
             }
         }
