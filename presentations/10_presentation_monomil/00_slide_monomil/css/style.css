@@ -11,6 +11,7 @@ svg {
 	color:#FFF;
 	line-height: 23px;
 	opacity: 0;
+	font-size: 18px;
 }
 
 
@@ -19,7 +20,7 @@ h2 sup {
 }
 
 #slide_container h2:nth-child(2) {
-    top:570px;
+    top:571px;
 }
 
 #notes {
@@ -32,6 +33,7 @@ h2 sup {
 	opacity: 0;
 	color:#FFF;
 	width:  900px;
+	margin-bottom: 6px;
 }
 
 .side_note {

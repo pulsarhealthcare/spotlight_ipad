@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
@@ -23,41 +22,41 @@ font-size: 12px;
 	top:200px;
 	left:104px;
 	width:765px;
-	line-height: 27px;
+	line-height: 28px;
 	opacity: 0;
-	font-size:18px;
-	color:rgb(136, 136, 136);
+	font-size:20px;
+	color:#6e6e6e;
 }
 
 #slide_container h2:nth-child(3) {
-	top: 224px;
+	top: 228px;
 }
 
 #slide_container h2:nth-child(4) {
-	top: 300px;
-	font-size: 15px;
+	top: 302px;
+	font-size: 22px;
 	width: 600px;
 	font-weight: bold;
-	color: #f2b033;
+	color: #f36f30;
 }
 
 #slide_container h2:nth-child(5) {
-	top: 325px;
-	font-size: 14px;
+	top: 330px;
+	font-size: 17px;
 	width: 600px;
 }
 
 
 #slide_container h2:nth-child(6) {
-	top: 346px;
-	font-size: 14px;
+	top: 353px;
+	font-size: 17px;
 	width: 600px;
 }
 
 
 #slide_container h2:nth-child(7) {
-	top: 366px;
-	font-size: 14px;
+	top: 374px;
+	font-size: 17px;
 	width: 600px;
 }
 

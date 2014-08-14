@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
@@ -23,19 +22,19 @@ font-size: 12px;
 	top:160px;
 	left:104px;
 	width:790px;
-	line-height: 27px;
+	line-height: 24px;
 	opacity: 0;
 	font-size:18px;
-	color:rgb(136, 136, 136);
+	color:#6e6e6e;
 }
 
 #slide_container h2:nth-child(3) {
-	top: 292px;
+	top: 278px;
 }
 
 #notes {
 	color:#000;
-	top:535px;
+	top:525px;
 	left:104px;
 }
 
@@ -60,6 +59,6 @@ font-size: 12px;
 width: 805px;
 position: absolute;
 left: 104px;
-top: 345px;	
+top: 330px;	
 opacity: 0;
 }
