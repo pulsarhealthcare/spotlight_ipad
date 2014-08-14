@@ -12,8 +12,8 @@ Omacor<sup>®</sup>
 could deliver cost savings of up to £12.71 (1 g, 100
 pack size) per prescription. At a Primary Care
 Organisation (PCO) level, this translates into a
-potential</h2><h2>average annual saving of over
-£14,996<sup>1</sup></h2>
+potential average annual saving of over
+<span>£14,996<sup>1</sup></span></h2>
 
 
 

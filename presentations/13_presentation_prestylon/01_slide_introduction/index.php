@@ -14,9 +14,9 @@ Prestylon<sup>®</sup>
                                 (eicosapentaenoic acid/docasahexaenoic acid),* which
                                 could deliver cost savings of up to £12.71 (1 g, 100
                                 pack size) per prescription. At a Primary Care
-                                Organisation (PCO) level, this translates into a
+                                Organisation (PCO) level, this <span>translates into a
                                 potential average annual saving of over
-                                £14,996<sup>1</sup>
+                                £14,996<sup>1</sup></span>
 
 </h2>
 

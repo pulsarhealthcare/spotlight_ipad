@@ -7,12 +7,11 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
 h1 sup {
-font-size: 13px;	
+font-size: 16px;	
 }
 
 h2 sup {
@@ -20,24 +19,23 @@ font-size: 10px;
 }
 
 #slide_container h2 {
-	top:180px;
+	top:200px;
 	left:104px;
 	width:205px;
 	line-height: 18px;
 	opacity: 0;
-	font-size:16px;
-	color:rgb(136, 136, 136);
+	color:#6e6e6e;
 }
 
 #slide_container h2:nth-child(3) {
-	top: 229px;
+	top: 249px;
 }
 
 
 .side_note {
 	-webkit-transform:rotate(270deg);
 	position: absolute;
-	top:252px;
+	top:272px;
 	color:#FFF;
 	left:860px;
 	width:300px;
@@ -67,9 +65,9 @@ left: 104px;
 }
 
 #slide_container ul {
-	top:120px;
+	top:140px;
 	left:104px;
-	width:755px;
+	width:825px;
 	position: relative;
 	padding-left: 0;
 	margin-left: 0;
@@ -78,8 +76,8 @@ left: 104px;
 #slide_container ul li {
 	line-height: 26px;
 	opacity: 0;
-	font-size:17px;
-	color:rgb(136, 136, 136);	
+	font-size:19px;
+	color: #6e6e6e;	
 	list-style-type: none;
 	padding-left: 0;
 	margin-left: 0;
@@ -90,8 +88,10 @@ left: 104px;
 
 #slide_container ul li:before {
     content: "• ";
-    color: #93ad7bs; 
-    font-size: 12px;
+    color: #b4cb97; 
+    font-size: 10px;
+    position:  relative;
+    top: -4px;
 }
 
 
