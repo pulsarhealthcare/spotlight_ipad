@@ -1,65 +1,31 @@
 <?php
-// /$appPackager = new AppPackager;
-//$appPackager->setWinRARPath('C:\Program Files\WinRAR');
+$appPackager = new AppPackager;
+$appPackager->setWinRARPath('C:\Program Files\WinRAR');
 
 if (isset($_GET['type'])) {
     switch ($_GET['type']) {
         case 'slide':
-            if ($_GET['slide'] && $_GET['presentation']) {
-                $appPackager->packageSlide($_GET['presentation'], $_GET['slide']);
-            } else {
-                echo 'No slide/ presentation given.';
-            }
+            $appPackager->init();
+            $appPackager->packageSlide($_GET['presentation'], $_GET['slide']);
             break;
-
         case 'presentation':
-            if ($_GET['presentation']) {
-                $appPackager->packagePresentation($_GET['presentation']);
-            } else {
-                echo 'No presentation given.';
-            }
+            $appPackager->init();
+            $appPackager->packagePresentation($_GET['presentation']);
             break;
-
         case 'application':
+            $appPackager->init();
             $appPackager->packageApp();
             break;
-
         case 'getPresentations':
-
-            $presentations = scandir('../presentations');
-
-            $presentationArray = array();
-
-            foreach ($presentations as $presentation) {
-               
-                if($presentation != '.' && $presentation != '..') {
-                     $thisPresentation = array($presentation);
-                    $slides = scandir('../presentations/'.$presentation);
-                    $theseSlides = array();
-                    foreach ($slides as $slide) {
-                        if($slide != '.' && $slide != '..') {
-                            array_push($theseSlides, $slide);
-                        }
-                    }
-                  array_push($thisPresentation,$theseSlides);
-                   array_push($presentationArray, $thisPresentation);
-                }
-                
-               
-            }
-
-            echo json_encode($presentationArray);
+            echo $appPackager->returnPresentationsJSON();
             break;
     }
-} else {
-    //Generate JSONS
-    
 }
 
 unset($appPackager);
+
 class AppPackager
 {
-    
     //Application globals
     public $root;
     public $temporaryDirectory;
@@ -70,33 +36,28 @@ class AppPackager
     public $winRARPath;
     
     public function __construct() {
-        
         //Set application globals
-        
         $this->root = $_SERVER["DOCUMENT_ROOT"];
         $this->temporaryDirectory = $this->root . '/temporary';
         $this->globalFolder = $this->root . '/global';
         $this->packagedDirectory = $this->root . '/packaged/' . basename(__DIR__) . '_' . date('hisdmy');
-        $this->globalAssets = $this->prepareGlobalAssets();
         $this->slidesPackaged = array();
-        
+    }
+    
+    public function init() {
         //Create temporaary directory
-        
         if (is_dir($this->temporaryDirectory)) {
             unlinkRecursive($this->temporaryDirectory, true);
         }
-        
         mkdir($this->temporaryDirectory);
-        echo 'Temporary directory created.<br>';
-        
         //Create folder for packaged app
-        
         if (!is_dir($this->root . '/packaged')) {
             mkdir($this->root . '/packaged');
         }
         mkdir($this->packagedDirectory);
+        $this->globalAssets = $this->prepareGlobalAssets();
     }
-    
+
     public function setWinRARPath($path) {
         $this->winRARPath = $path;
     }
@@ -108,6 +69,7 @@ class AppPackager
     public function prepareGlobalAssets() {
         
         $files = scandir($this->globalFolder . '/html/');
+        
         $parsedHtml = array();
         
         for ($x = 2; $x < count($files); $x++) {
@@ -129,8 +91,31 @@ class AppPackager
                 array_push($folderPaths, $globalFolders[$x]);
             }
         }
-        echo 'Global assets prepared.<br>';
         return array($folderPaths, $parsedHtml);
+    }
+
+    public function returnPresentationsJSON() {
+        $presentations = scandir('../presentations');
+
+        $presentationArray = array();
+
+        foreach ($presentations as $presentation) {
+               
+            if($presentation != '.' && $presentation != '..') {
+                 $thisPresentation = array($presentation);
+                $slides = scandir('../presentations/'.$presentation);
+                $theseSlides = array();
+                foreach ($slides as $slide) {
+                    if($slide != '.' && $slide != '..') {
+                        array_push($theseSlides, $slide);
+                    }
+                }
+              array_push($thisPresentation,$theseSlides);
+               array_push($presentationArray, $thisPresentation);
+            }
+        }
+
+        return json_encode($presentationArray);
     }
     
     public function packageApp() {
@@ -161,7 +146,6 @@ class AppPackager
         $presentationFolder = $this->packagedDirectory . '/' . $presentation;
         if (!is_dir($presentationFolder)) {
             mkdir($presentationFolder);
-            echo $presentationFolder . '<br>';
         }
         
         //Create temporary copy of slide
@@ -191,7 +175,7 @@ class AppPackager
         //Zip folder
         
         if ($this->zipFolder($temporarySlideFolder, $slide, $presentationFolder)) {
-            echo '/' . $slide . '.zip<br>';
+         
         }
     }
     

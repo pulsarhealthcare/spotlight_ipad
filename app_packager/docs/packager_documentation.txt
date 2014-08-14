@@ -1,0 +1,8 @@
+Application packager
+
+Folder structure:
+
+root
+-global
+-app_packager
+-presentations

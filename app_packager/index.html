@@ -35,13 +35,16 @@ button {
 	border:none;
 	outline: none;
 	width:160px;
-	padding:20px 20px;
+	padding:16px 20px;
 	font-size:18px;
 	display: block;
 	float:left;
 	letter-spacing: 1px;
+		cursor: pointer;
 }
-
+button.active {
+	background:#9768D3;
+}
 button:nth-child(2) {
 	border-top-left-radius:10px;
 	border-bottom-left-radius:10px;
@@ -54,37 +57,40 @@ button:nth-child(4) {
 }
 #folder_selecter {
 	position: absolute;
-	background:#CCC;
-	padding:30px;
 	border-radius: 40px;
 	display:block;
 	margin-top: 138px;
     margin-left:20px;
+    width:400px;
+
 }
 #folder_selecter div {
     float:left;
     width:200px;
-
+    display:none;
 }
 #folder_selecter select {
 	width:180px;
-	height:40px;
+	height:32px;
 	padding-left:10px;
 }
 #folder_selecter h5 {
 	font-size:18px;
 	margin-bottom:10px;
+	color:#616060;
 }
 #folder_selecter button {
 	clear:both;
 	margin-top:10px;
-	width:160px;
+	width:170px;
 	font-size: 14px;
 	padding:10px 0px;
 	margin-right:20px;
 	text-align: left;
 	padding-left:10px;
 	letter-spacing: 0;
+	background:#9768D3;
+
 }
 </style>
 
@@ -108,13 +114,13 @@ button:nth-child(4) {
     <select id="slides">
     </select>
     </div>
-    <button id="compile">Package Slide</button>
+    <button id="package">Package Application</button>
 </div>
 <section>
 <h2>Select type of folder to package:</h2>
-<button>Application</button>
-<button>Presentation</button>
-<button>Slide</button>
+<button class="folder_type active">Application</button>
+<button class="folder_type">Presentation</button>
+<button class="folder_type">Slide</button>
 </section>
 
 <script type="text/javascript">
@@ -142,6 +148,91 @@ $('#presentations').on('change', function() {
    }
    
 });
+var folderType = 0;
+$('.folder_type').on('click', function() {
+	if(!isLoading) {
+	$('.active').removeClass('active');
+	$(this).addClass('active');
+	switch ($(this).index()) {
+		case 1 : 
+			$('#folder_selecter div').css('display','none');
+	        $('#package').html('Package Application');
+	        folderType = 0;
+	        break;
+	    case 2: 
+            $('#folder_selecter div').eq(0).css('display','block');
+		    $('#folder_selecter div').eq(1).css('display','none');
+		    $('#folder_selecter').css('display','block');
+		    $('#package').html('Package Presentation');
+		    folderType = 1;
+		    break;
+	    case 3:
+	        $('#folder_selecter div').css('display','block');
+	        $('#folder_selecter').css('display','block');
+	        $('#package').html('Package Slide');
+	        folderType = 2;
+		    break;
+	}	
+}
+	
+})
+var itts = 0;
+var isLoading = false;
+$('#package').on('click', function() {
+    if(!isLoading){
+    if(folderType === 0) {
+    	isLoading = true;
+    	ajaxSpinner();
+
+	    $.ajax({
+			url:'app_packager.0.3.php?type=application',
+			success : function(data) {
+               isLoading = false;
+		    }
+	    })
+    }else if(folderType === 1) {
+    	
+    	isLoading = true;
+    	ajaxSpinner();
+
+	    $.ajax({
+			url:'app_packager.0.3.php?type=presentation&presentation='+
+			$('#presentations option:selected').val(),
+			success : function(data) {
+               isLoading = false;
+		    }
+	    })
+    } else {
+    	isLoading = true;
+    	ajaxSpinner();
+        $.ajax({
+			url:'app_packager.0.3.php?type=presentation&presentation='+
+			$('#presentations option:selected').val()+'&slide='+$('#slides option:selected').val(),
+			success : function(data) {
+             isLoading = false;
+		    }
+	    })
+    }
+    }
+    
+})
+loadingArray = ['.','..','...','....','.....'];
+function ajaxSpinner() {
+	setTimeout(function() {
+	        if(itts < loadingArray.length) {
+	        	$('#package').html('Packaging'+loadingArray[itts]);
+			    itts ++;
+	        } else {
+	        	itts = 0;
+	        }
+		if(isLoading) {
+           ajaxSpinner();
+		} else {
+		   $('#package').html('Complete')
+		}
+		
+	},500)
+}
 
 </script>
 
