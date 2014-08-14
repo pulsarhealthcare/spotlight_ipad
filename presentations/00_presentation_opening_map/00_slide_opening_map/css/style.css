@@ -5,7 +5,7 @@ svg {
 }
 
 #play {
-display: none;	
+display: block;	
 }
 
 #slide_container h2 {
