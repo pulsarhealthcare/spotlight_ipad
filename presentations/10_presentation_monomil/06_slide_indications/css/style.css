@@ -7,7 +7,6 @@ svg {
 #slide_container h1 {
 	color:#FFF;
 	left:104px;
-	top:86px;
 	font-size:24px;
 }
 
@@ -25,8 +24,8 @@ font-size: 12px;
 	width:765px;
 	line-height: 27px;
 	opacity: 0;
-	font-size:18px;
-	color:rgb(136, 136, 136);
+	font-size:22px;
+	color:#6e6e6e;
 }
 
 #slide_container h2:nth-child(3) {
@@ -37,7 +36,7 @@ font-size: 12px;
 
 #slide_container h2:nth-child(4) {
 	top: 330px;
-	font-size: 15px;
+	font-size: 19px;
 }
 
 .side_note {
