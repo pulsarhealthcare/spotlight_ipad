@@ -145,7 +145,7 @@ navigation[11] = {
     presentation: '12_presentation_peptac',
     presentationName: 'Prestylon',
     links: [
-        ['Page 1. Prestylon', '00_slide_peptac'],
+        ['Page 1. Peptac', '00_slide_peptac'],
         ['Page 2. Introduction', '01_slide_introduction'],
         ['Page 3. Potential Spotlight cost savings', '02_slide_potential_cost_savings'],
         ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
@@ -160,7 +160,7 @@ navigation[12] = {
     presentation: '13_presentation_prestylon',
     presentationName: 'Peptac',
     links: [
-        ['Page 1. Peptac ', '00_slide_prestylon'],
+        ['Page 1. Prestylon ', '00_slide_prestylon'],
         ['Page 2. Introduction', '01_slide_introduction'],
         ['Page 3. Potential Spotlight cost savings', '02_slide_potential_spotlight_cost_savings'],
         ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
