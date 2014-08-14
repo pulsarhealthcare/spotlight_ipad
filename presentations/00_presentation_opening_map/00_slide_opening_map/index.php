@@ -8,9 +8,11 @@
 
  
 <div id="teva_load">
- 
-<video id="teva_vid" autoplay width="1024" height="656">
+
+<video id="teva_vid" autoplay width="1024">
+
 <source src="img/video.m4v" type="video/mp4" />
+
 </video>
 
 
