@@ -8,7 +8,13 @@ body {
 	height:768px;
 	overflow: hidden;
 }
-
+#main_slide {
+	margin-top:42px;
+	position: relative;
+	height:100px;
+	overflow: hidden;
+	height:656px;
+}
 #main_container {
 	width:1024px;
 	height:656px;
@@ -16,7 +22,9 @@ body {
 	overflow: hidden;
 	margin-top:42px;
 }
-
+#play {
+	display:none;
+}
 header {
 	position: absolute;
 	height:42px;
@@ -343,7 +351,7 @@ font-weight: 100;
 
 #slide_container {
 	height:656px;
-	margin-top:42px;
+
 
 }
 

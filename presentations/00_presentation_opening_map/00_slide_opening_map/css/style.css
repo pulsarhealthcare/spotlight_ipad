@@ -4,17 +4,16 @@ header button {
 }
 
 #play {
-
-	width: 0;
+    width: 0;
 	height: 0;
-	border-top: 10px solid transparent;
-	border-left: 15px solid #007AFF;
-	border-bottom: 10px solid transparent;
+	border-top: 8px solid transparent;
+	border-left: 10px solid #007AFF;
+	border-bottom: 8px solid transparent;
 	top:12px;
-	left:41px;
+	left:80px;
 	position: absolute;
 	z-index: 10;
-
+	display:block;
 }
 
 #slide_container h2 {
@@ -62,9 +61,16 @@ h2 sup {
 #main {
 	margin:auto;
 	display: block;
-	margin-top:107px;
+	margin-top:45px;
 }
 
+#teva_load {
+	position: absolute;
+	height:656px;
+	background:#FFF;
+	z-index: 20;
+	top:42px;
+}
 
 
 #slide_container .version {

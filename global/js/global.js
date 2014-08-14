@@ -22,8 +22,9 @@ function headerButtons() {
         $(this).css('opacity', 0.4);
     });
 
-    $('header button').on(input.up, function() {
-        $(this).css('opacity', 1);
+    $(document).on(input.up, function() {
+        $('header button').css('opacity', 1);
+         $('.dropdown li').attr('style', '');
     });
 
     $('.dropdown li').on(input.down, function() {
@@ -31,10 +32,6 @@ function headerButtons() {
             'background': '#CCC',
             'color': '#FFF'
         });
-    });
-
-    $('.dropdown li').on(input.up, function() {
-        $(this).attr('style', '');
     });
 
     $('header button').on(input.tap, function() {

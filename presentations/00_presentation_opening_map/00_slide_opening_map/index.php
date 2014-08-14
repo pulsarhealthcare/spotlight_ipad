@@ -4,7 +4,7 @@
 
 <section id="slide_container">
 
-<div id="play"></div>
+
 
  
 <div id="teva_load">
@@ -20,13 +20,11 @@
 		Castleford<br />
 		West Yorkshire<br />
 		WF10 5HX
-
-	</p>
+    </p>
 
 
 </div>	
 
    <img id="main" width="653" src="img/map.png"/>
 </section>
-        
 <?php require $root.'/global/html/footer.html';?>
