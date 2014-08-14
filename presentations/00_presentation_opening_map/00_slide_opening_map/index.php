@@ -8,7 +8,20 @@
 
  
 <div id="teva_load">
-<video id="teva_vid" src="img/video.mp4" autoplay width="1024"></video>
+
+<video id="teva_vid" autoplay width="1024">
+
+
+<source src="img/video.m4v" type="video/mp4" />
+<source src="img/video.webm" type="video/webm" />
+
+
+</video>
+
+
+
+<div id="cover"></div>
+
 
 	<p class="version">Version 2.1</p>
 
