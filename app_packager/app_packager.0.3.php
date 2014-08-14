@@ -169,7 +169,7 @@ class AppPackager
         $index = file_get_contents($temporarySlideFolder . '/index.php');
         
         $index = $this->parseHTML($index);
-        
+        $index = str_replace('</body>', '<p id="presentation_name">'.$presentation.'</p></body>', $index);
         file_put_contents($temporarySlideFolder . '/' . $slide . '.html', $index);
         
         unlink($temporarySlideFolder . '/index.php');
@@ -196,7 +196,7 @@ class AppPackager
     
     public function zipFolder($folder, $slide, $packagedFolder) {
         $filename = $packagedFolder . '/' . $slide . '.zip';
-        if (exec('cd ' . $this->winRARPath . ' && rar a -ep1 ' . $filename . ' ' . $folder)) {
+        if (exec('cd ' . $this->winRARPath . ' && winrar a -afzip -ep1 ' . $filename . ' ' . $folder)) {
             return true;
         }
     }

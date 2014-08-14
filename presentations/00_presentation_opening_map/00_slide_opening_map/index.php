@@ -2,8 +2,6 @@
 <?php require $root.'/global/html/header.html';?>
 <?php require $root.'/global/html/menu.html';?>
 
-
-
 <section id="slide_container">
 
 <div id="play"></div>
