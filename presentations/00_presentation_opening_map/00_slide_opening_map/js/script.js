@@ -1,5 +1,5 @@
 //Fade text
-$("#teva_load").delay(3500).fadeOut(1000, 'linear');
+$("#teva_load").delay(3500).fadeOut(100, 'linear');
 
 $('#main').delay(600).animate({
     opacity: 1
@@ -10,23 +10,28 @@ $("#play").on(input.down, function() {
 $(document).on(input.up, function() {
     $('#play').css('opacity', 1);
 })
+
+
+
 $("#play").on(input.tap, function() {
-    if ($("#teva_vid")[0].paused) {
+    
+
         $('#main').addClass('greyscale').fadeOut(1000, 'linear');
 
-        $('#teva_load').delay(1000).fadeIn(1000, 'linear');
+        // frank to code here 
 
-        $("#teva_vid")[0].play();
-        $("#teva_vid")[0].onended = function() {
-            $('#main').show();
-        }
-        $("#teva_load").delay(3500).fadeOut(1000, 'linear', function() {
-            $('#main').removeClass('greyscale').animate({
+        $("#teva_load").show().delay(2800).fadeOut(100, 'linear', function() {
+             
+
+             $('#main').show().removeClass('greyscale').animate({
                 opacity: 1
             }, 600);
+       
         });
-    }
+
 });
+
+
 
 $('#main').on(input.tap, function() {
     $(this).addClass('greyscale');

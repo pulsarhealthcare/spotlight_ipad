@@ -9,11 +9,12 @@
  
 <div id="teva_load">
 
-<video id="teva_vid" autoplay width="1024">
+<!--<video id="teva_vid" autoplay width="1024">
 
 <source src="img/video_1.m4v" type="video/mp4" />
 
-</video>
+</video>-->
+
 
 
 
