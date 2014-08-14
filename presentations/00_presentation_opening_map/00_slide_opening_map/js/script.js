@@ -7,28 +7,19 @@ $('#main').delay(600).animate({opacity:1},600);
 
 $("#play").on(input.tap, function() {
 
-// need to show greyscale class momentarily
+	$('#main').addClass('greyscale').fadeOut(1000, 'linear', function() {
+		$(this).show();
+	});
+    
+    $('#teva_load').delay(1000).fadeIn(1000, 'linear');
 
-$('#main').addClass('greyscale');
+	$("#teva_vid")[0].play();
 
-$('#main').fadeOut(1000, 'linear');
+	$( "#teva_load" ).delay(3500).fadeOut( 1000, 'linear', function() {
+		$('#main').removeClass('greyscale').animate({opacity:1},600);
+	});
 
-$('#teva_load').delay(1000).fadeIn(1000, 'linear');
-
-
-// play video again
-
-$("#teva_vid")[0].play();
-
-// show video div and text
-
-$( "#teva_load" ).delay(3500).fadeOut( 1000, 'linear', function() {
-	$('#main').removeClass('greyscale').animate({opacity:1},600);
-});
-
-// make sure it isn't still greyscale
-
-$('#main').fadeIn()
+	
 
 });
 
