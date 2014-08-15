@@ -15,7 +15,7 @@
               commitment to our Price Promise.</h2>
 
             
-            <img width="540" id="main" src="img/main.png" />
+            <img class="fullscreen" width="540" id="main" src="img/main.png" />
             <p class="side_note">Date of preparation: July 2014 UK/SPL/14/0017</p>
 
 </section>

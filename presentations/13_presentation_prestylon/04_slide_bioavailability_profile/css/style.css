@@ -65,7 +65,7 @@ left: 104px;
 }
 
 #slide_container ul {
-	top:140px;
+	top:135px;
 	left:104px;
 	width:825px;
 	position: relative;
@@ -76,12 +76,12 @@ left: 104px;
 #slide_container ul li {
 	line-height: 26px;
 	opacity: 0;
-	font-size:19px;
+	font-size:18px;
 	color: #6e6e6e;	
 	list-style-type: none;
 	padding-left: 0;
 	margin-left: 0;
-	line-height: 20px;
+	line-height: 22px;
 	font-weight: 100;
 	text-indent: -.4em;
 }
