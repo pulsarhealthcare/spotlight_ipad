@@ -20,6 +20,10 @@ header button {
 	height:656px;
 }
 
+video {
+-webkit-transform: none;
+}
+
 #image_holder img {
     float:left;
 }

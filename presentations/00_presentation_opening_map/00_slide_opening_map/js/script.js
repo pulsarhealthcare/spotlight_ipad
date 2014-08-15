@@ -11,6 +11,12 @@ $(document).on(input.up, function() {
     $('#play').css('opacity', 1);
 })
 
+
+
+$('#teva_load').delay(3500).fadeOut(1000);
+
+
+
 $('#main').on(input.tap, function() {
     $(this).addClass('greyscale');
     setTimeout(function() {
