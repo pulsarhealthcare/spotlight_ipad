@@ -45,11 +45,15 @@ svg {
 	font-weight:100;
 }
 #slide_container h4:nth-child(5) {
-	top:424px;
+	top:433px;
 }
 h2 sup {
 	font-size:10px;
 }
+
+h4 sup {
+font-size: 12px;
+	}
 
 #slide_container h2:nth-child(3) {
     top:303px;

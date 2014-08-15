@@ -118,25 +118,41 @@ function pdfViewer() {
 
         
     $('.fullscreen').on(input.tap, function() {
+
+        $('#img_layer').css('top', '0px');
+
+        // get height of img
+
+        
+        // get src on the image using val()
+
+        var src = $('img.fullscreen').attr('src');
                
-               $('#img_layer').css('top', '0px')
+        // console.log(src);
 
+        // show it
 
-               // get src on the image using val()
+        $('#img_container').append('<img class="showing" src="'+ src +'"/>');
 
-               var src = $('img.fullscreen').attr('src');
-               
-               // console.log(src);
+        var img = $('.showing');
+        var h = img.height();
 
-               // show it
+        
+        if(h > 400) {
+        // resize img here
+        img.css('margin-top', + h / -2 + "px");
+        img.addClass('img_large');
+        } else {
+        img.css('margin-top', + h / -2 + "px");
+        }
 
-               $('#img_container').append('<img class="showing" src="'+ src +'"/>');
+         // Want frank to show me how to sort the image moving on 2nd click
 
-                    var img = $('.showing');
-                    var h = img.height();
-                    img.css('margin-top', + h / -2 + "px"); 
+         // stop the constant production of images onclick
+
 
     });
+
 
     $('#img_header button').on(input.tap, function() {
         $('#img_layer').css('top', '768')
