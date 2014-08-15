@@ -3,11 +3,11 @@
 <?php require $root.'/global/html/menu.html';?>
 
 <section id="slide_container">
-
+\
 <div id="teva_load">
 
 <div id="image_holder">
-
+<canvas width="1024" height="636" id="teva_vid"></canvas>
 </div>
 <p class="version">Version 2.1</p>
 
