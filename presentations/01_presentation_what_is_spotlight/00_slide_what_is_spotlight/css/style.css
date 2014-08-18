@@ -68,6 +68,33 @@ opacity: 0;
     width:300px;
 }
 
-canvas {
+#chart_container {
+	width:350px;
+	height:250px;
 	background:#FFF;
+}
+
+#chart_container p {
+	position: absolute;
+}
+
+.x-axis-line {
+	left:20px;
+	height:1px;
+	background:#CCC;
+	position: absolute;
+}
+
+.y-axis-line {
+	width:1px;
+	background:#CCC;
+	position: absolute;
+	left:24px;
+	top:52px;
+}
+
+.bar {
+	position: absolute;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }

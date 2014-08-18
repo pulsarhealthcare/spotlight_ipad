@@ -15,8 +15,7 @@
             
             
          
-            <canvas id="chart">
-            </canvas>
+            <div id="chart_container"></div>
 </section>
         
 <?php require $root.'/global/html/footer.html';?>
