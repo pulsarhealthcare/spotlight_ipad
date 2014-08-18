@@ -334,7 +334,11 @@ position: absolute;
 }
 
 #img_container img.img_large {
-	width: 700px;
+	width: 800px;
+	margin: 120px 0 0 112px;
+	top: 0;
+	left: 0;
+	position: relative;
 } 
 
 

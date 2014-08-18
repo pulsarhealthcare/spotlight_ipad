@@ -121,9 +121,7 @@ function pdfViewer() {
 
         $('#img_layer').css('top', '0px');
 
-        // get height of img
-
-        
+       
         // get src on the image using val()
 
         var src = $('img.fullscreen').attr('src');
@@ -140,16 +138,10 @@ function pdfViewer() {
         
         if(h > 400) {
         // resize img here
-        img.css('margin-top', + h / -2 + "px");
         img.addClass('img_large');
         } else {
         img.css('margin-top', + h / -2 + "px");
         }
-
-         // Want frank to show me how to sort the image moving on 2nd click
-
-         // stop the constant production of images onclick
-
 
     });
 
