@@ -10,7 +10,7 @@
 <h2>
 Capsorin<sup>®</sup>
 costs approximately 33% less than
-Neoral<sup>>®</sup>
+Neoral<sup>®</sup>
 (ciclosporin 100 mg), which could deliver cost savings
 of up to £23.68 (100 mg, 30 pack size) per
 prescription. At a Primary Care Organisation (PCO)

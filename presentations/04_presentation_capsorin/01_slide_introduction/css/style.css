@@ -17,16 +17,19 @@ svg {
 	line-height: 27px;
 	opacity: 0;
 	font-size:20px;
-	color:rgb(136, 136, 136);
+	color:#6e6e6e;
 }
 
 h2 sup {
 font-size: 11px;	
+position: relative;
+top: -4px;
+left: 1px
 }
 
 h2 span {
 position: relative;
-top: -5px;	
+top: -4px;	
 }
 
 #slide_container h2:nth-child(3) {
@@ -41,19 +44,26 @@ top: -5px;
 	line-height: 18px;
 	opacity: 0;
 	font-size:14px;
-	color:rgb(136, 136, 136);
+	color: #6e6e6e;
 	position: relative;
-	font-weight: 100;
+	font-weight: 200;
+}
+
+#slide_container h3 sup {
+font-size: 10px;
+position: relative;
+left: 2px;
+top: -2px;	
 }
 
 #slide_container h3:nth-child(3) {
-top: 270px;
-width: 374px;
+top: 271px;
+width: 354px;
 }
 
 #slide_container h3:nth-child(4) {
 top: 290px;
-width: 380px;
+width: 359px;
 }
 
 #slide_container h3:nth-child(5) {
@@ -64,7 +74,7 @@ width: 374px;
 
 h3 span {
 position: relative;
-top: -5px;	
+top: -4px;	
 }
 
 #notes {

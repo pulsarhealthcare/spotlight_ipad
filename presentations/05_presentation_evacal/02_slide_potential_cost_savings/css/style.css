@@ -21,7 +21,8 @@ svg {
 }
 
 #slide_container h2:nth-child(3) {
-	top:269px;
+	top:250px;
+	width: 750px;
 }
 
 
@@ -39,14 +40,17 @@ font-size: 13px;
 }
 
 h2 sup {
-font-size: 12px;	
+font-size: 10px;	
+position: relative;
+top: -4px;
+left: 2px;
 }
 
 
 #main {
 	left:104px;
 	position: absolute;
-	top:330px;
+	top:320px;
 	opacity: 0;
 }
 

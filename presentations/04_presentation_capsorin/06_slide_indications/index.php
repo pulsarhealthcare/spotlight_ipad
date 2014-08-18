@@ -6,7 +6,7 @@
 
 <h1>Capsorin<sup>®</sup> indications</h1>       
 
-<h2>Capsorin has similar indicaitons to Neoral<sup>®1,2</sup></h2>
+<h2>Capsorin has similar indicaitons to Neoral<sup> ®1,2</sup></h2>
 
 <h3 class="one">Neoral indications:</h3>
 

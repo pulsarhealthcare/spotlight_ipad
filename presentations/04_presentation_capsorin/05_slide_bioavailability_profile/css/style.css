@@ -11,7 +11,10 @@ svg {
 }
 
 h1 sup {
-font-size: 13px;	
+font-size: 16px;	
+position:  relative;
+top: -4px;
+left: 1px;
 }
 
 h2 sup {
@@ -25,8 +28,7 @@ width: 245px;
 line-height: 20px;
 opacity: 0;
 font-size: 17px;
-color: rgb(136, 136, 136);
-font-weight: 100;
+color: #6e6e6e;
 }
 
 #slide_container h2:nth-child(3) {
@@ -65,12 +67,12 @@ opacity: 0;
 	line-height: 26px;
 	opacity: 0;
 	font-size:13px;
-	color:rgb(136, 136, 136);	
+	color: #6e6e6e;	
 	list-style-type: none;
 	padding-left: 0;
 	margin-left: 0;
 	line-height: 16px;
-	font-weight: 100;
+	font-weight: 200;
 	text-indent: -.7em;
 	width: 240px;
 }

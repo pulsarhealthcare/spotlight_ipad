@@ -11,7 +11,7 @@ svg {
 }
 
 #slide_container h2 {
-	top:270px;
+	top:250px;
 	left:104px;
 	width:735px;
 	line-height: 27px;
@@ -31,41 +31,9 @@ top: -5px;
 }
 
 #slide_container h2:nth-child(3) {
-	top: 412px;
+	top: 392px;
 }
 
-
-#slide_container h3 {
-	top:170px;
-	left:104px;
-	width:815px;
-	line-height: 18px;
-	opacity: 0;
-	font-size:14px;
-	color: #6e6e6e;
-	position: relative;
-}
-
-#slide_container h3:nth-child(3) {
-top: 270px;
-width: 374px;
-}
-
-#slide_container h3:nth-child(4) {
-top: 290px;
-width: 374px;
-}
-
-#slide_container h3:nth-child(5) {
-top: 80px;
-left: 544px;
-width: 374px;
-}
-
-h3 span {
-position: relative;
-top: -5px;	
-}
 
 #notes {
 	color:#000;

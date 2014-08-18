@@ -4,10 +4,10 @@ svg {
 }
 
 #slide_container h1 {
-	color:rgb(39, 127, 163);
+	color:#277fa3;
 	left:104px;
 	position: absolute;
-	font-size:63px;
+	font-size:57px;
 	top:125px;
 	opacity: 0;
 }
@@ -38,18 +38,19 @@ svg {
 }
 
 #slide_container h3:nth-child(3) {
-	top:358px;
-	left:367px;
+	top:343px;
+	left:344px;
 }
 #slide_container h3:nth-child(4) {
-	top:308px;
-	left:509px;
+	top:300px;
+	left:503px;
 	text-align: right;
 }
 #slide_container h3:nth-child(5) {
-	top:530px;
-	left:291px;
-	text-align: right;
+	top:490px;
+	left:330px;
+	text-align: left;
+	width: 200px;
 }
 h2 sup {
 	font-size:10px;
@@ -57,6 +58,13 @@ h2 sup {
 
 #slide_container h2:nth-child(3) {
     top:303px;
+}
+
+#slide_container h3 span {
+display: block;
+position: relative;
+top: 3px;
+text-align: left;
 }
 
 
@@ -71,7 +79,7 @@ h2 sup {
 #notes {
 	color:#000;
 	position: absolute;
-	top:600px;
+	top:590px;
 	left:104px;
 	width: 600px;
 }

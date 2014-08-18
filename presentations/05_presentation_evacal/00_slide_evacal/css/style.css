@@ -16,7 +16,10 @@ font-size: 18px;
 
 
 h2 sup {
-	font-size:10px;
+	font-size:11px;
+	position: relative;
+	top: -4px;
+	left: 1px;
 }
 
 
@@ -36,7 +39,12 @@ top:-5px;
 	opacity: 0;
 	color:#FFF;
 	width:  900px;
-	margin-bottom: 4px;
+	margin-bottom: 2px;
+}
+
+#notes p:nth-child(2) {
+position: relative;
+top: -1px;	
 }
 
 .side_note {

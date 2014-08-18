@@ -11,11 +11,15 @@ svg {
 	color:#FFF;
 	line-height: 23px;
 	opacity: 0;
+	font-size: 18px;
 }
 
 
 h2 sup {
-	font-size:10px;
+	font-size:11px;
+	position: relative;
+	top: -4px;
+	left: 1px;
 }
 
 

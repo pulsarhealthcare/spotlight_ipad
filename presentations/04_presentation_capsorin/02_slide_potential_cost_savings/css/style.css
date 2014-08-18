@@ -17,7 +17,7 @@ svg {
 	line-height: 26px;
 	opacity: 0;
 	font-size:19px;
-	color:rgb(136, 136, 136);
+	color: #6e6e6e;
 }
 
 #slide_container h2:nth-child(3) {
@@ -30,10 +30,16 @@ width: 805px;
 
 h1 sup {
 font-size: 13px;	
+position: relative;
+top: -2px;
+left: 2px;
 }
 
 h2 sup {
-font-size: 12px;	
+font-size: 11px;
+position: relative;
+left: 1px;
+top:-4px;	
 }
 
 

@@ -15,7 +15,7 @@ Neoral<sup>®</sup>
 of up to £23.68 (100 mg, 30 pack size) per
 prescription. At a Primary Care Organisation (PCO)
 level, this translates into a potential average annual
-saving of <span>over £13,564<sup>1</sup></span>
+saving of over <span>£13,564<sup>1</sup></span>
 
 </h2>
 

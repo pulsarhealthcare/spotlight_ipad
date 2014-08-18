@@ -9,7 +9,7 @@
 least expensive way of prescribing ciclosporin 25 mg,
 50 mg and 100 mg capsules, and can offer savings of up
 to</h2><h2>£23.68 per prescription compared to prescribing
-Neoral<sup>®</sup>(ciclosporin)<sup>*†‡1</sup></h2>
+Neoral<sup>®</sup> (ciclosporin)<sup>*†‡1</sup></h2>
 
 <div id="notes">
              

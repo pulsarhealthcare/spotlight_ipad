@@ -4,7 +4,7 @@ svg {
 }
 
 #slide_container h1 {
-	color:rgb(61, 152, 189);
+	color:#277fa3;
 	left:104px;
 	position: absolute;
 	font-size:27px;
@@ -69,13 +69,14 @@ h2 sup {
 }
 #notes {
 
-	top:612px;
+	top:605px;
 	left:104px;
 }
 #notes p {
     width:760px;
     margin-bottom:3px;
     opacity:0;
+    font-size: 10px;
     color:rgb(109, 110, 113);
 }
 
