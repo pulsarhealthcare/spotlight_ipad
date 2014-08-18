@@ -12,13 +12,14 @@ svg {
 
 }
 #slide_container h2 {
-	top:372px;
+	top:382px;
 	left:104px;
 	width:805px;
 	color:#FFF;
 	line-height: 25px;
 	opacity: 0;
-	color:rgb(109, 110, 113);
+	color:#6e6e6e;
+	font-weight: 100;
 	font-size:18px;
 	line-height: 23px;
 	opacity: 0;
