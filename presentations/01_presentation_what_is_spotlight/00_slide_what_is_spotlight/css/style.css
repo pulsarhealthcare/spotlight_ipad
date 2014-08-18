@@ -66,6 +66,8 @@ opacity: 0;
     color:#666;
     left:860px;
     width:300px;
-    
 }
 
+canvas {
+	background:#FFF;
+}
