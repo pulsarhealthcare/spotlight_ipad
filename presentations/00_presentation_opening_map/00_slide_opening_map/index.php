@@ -3,12 +3,14 @@
 <?php require $root.'/global/html/menu.html';?>
 
 <section id="slide_container">
-\
+
 <div id="teva_load">
 
-<div id="image_holder">
-<canvas width="1024" height="636" id="teva_vid"></canvas>
-</div>
+<!--<div id="image_holder">-->
+
+
+<video id="teva_vid" src="img/backup_video.mp4" autoplay widt></video>
+
 <p class="version">Version 2.1</p>
 
 <p class="address">
@@ -20,8 +22,9 @@
 	WF10 5HX
 </p>
 
+</div>
 
-</div>	
+
   <img id="main" width="653" src="img/map.png"/>
 </section>
 <?php require $root.'/global/html/footer.html';?>
