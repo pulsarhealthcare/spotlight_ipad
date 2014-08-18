@@ -15,11 +15,38 @@ header button {
 	z-index: 10;
 	display:block;
 }
-#teva_vid {
-	background:#FFF;
+
+#teva_load {
+	position: absolute;
 	height:656px;
+    overflow: hidden;
+	z-index: 20;
+	top:42px;
 }
 
+#teva_vid {
+opacity:0;
+}
+.vid_cover {
+	width:1024px;
+	height:1000px;
+	top:0px;
+	z-index:10;
+	background:#FFF;
+}
+.vid_overlay_cover {
+	background:#FFF;
+	width:20px;
+    height:567px;
+    left:0px;
+    position: absolute;
+    top:0px;
+    z-index:20;
+}
+
+.vid_overlay_cover:nth-child(4) {
+	left:1004px;
+}
 video {
 -webkit-transform: none;
 }
@@ -85,13 +112,6 @@ h2 sup {
 	margin-top:87px;
 }
 
-#teva_load {
-	position: absolute;
-	height:656px;
-	background:#FFF;
-	z-index: 20;
-	top:42px;
-}
 
 #slide_container .version {
 color: #a9a9a9;
