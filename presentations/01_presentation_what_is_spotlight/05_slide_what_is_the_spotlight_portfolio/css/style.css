@@ -4,7 +4,7 @@ svg {
 
 }
 #slide_container h1 {
-	color:rgb(61, 152, 189);
+	color:#277fa3;
 	left:104px;
 	position: absolute;
 	font-size:27px;
@@ -42,7 +42,7 @@ svg {
 	line-height: 18px;
 	margin-bottom:6px;
 	opacity: 0;
-	font-weight: 100;
+	font-weight: 200;
 }
 #slide_container li {
 	margin-bottom: 17px;
@@ -52,7 +52,7 @@ svg {
 	color:rgb(111, 110, 118);
 	line-height: 19px;
 	opacity: 0;
-	font-weight: 100;
+	font-weight: 200;
 	font-size: 16px;
 }
 #slide_container h4:nth-child(5) {

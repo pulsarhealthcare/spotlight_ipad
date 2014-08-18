@@ -4,11 +4,11 @@ svg {
 
 }
 #slide_container h1 {
-	color:rgb(61, 152, 189);
+	color:#277fa3;
 	left:119px;
 	position: absolute;
-	font-size:61px;
-	top:143px;
+	font-size:55px;
+	top:135px;
 	opacity: 0;
 }
 #slide_container h2 {
@@ -18,7 +18,7 @@ svg {
 	color:rgb(39, 127, 163);
 	line-height: 25px;
 	opacity: 0;
-	font-size:24px;
+	font-size:22px;
 	line-height: 23px;
 	font-weight: bold;
 	opacity: 0;
@@ -30,13 +30,14 @@ svg {
 	position: absolute;
 	color:rgb(39, 127, 163);
 	opacity: 0;
+	font-weight: 200;
 }
 
 #slide_container h4 {
 	top:332px;
 	left:124px;
 	position: absolute;
-	color:#707070;
+	color:#6e6e6e;
 	font-size:13px;
 	opacity: 0;
 }

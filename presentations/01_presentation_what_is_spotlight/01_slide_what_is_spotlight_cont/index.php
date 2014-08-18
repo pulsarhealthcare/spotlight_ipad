@@ -21,7 +21,7 @@
             evidence of equal or greater efficacy.<br>
             This may release cash within the system<br>
             that can be invested in additional and</h4>
-            <h4>different care for patients<sup>2<sup>”</h4>           
+            <h4>different care for patients<sup>2</sup> ”</h4>           
             
             <p class="side_note">Date of preparation: July 2014 UK/SPL/14/0017</p>
 

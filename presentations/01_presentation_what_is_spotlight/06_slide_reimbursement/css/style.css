@@ -4,7 +4,7 @@ svg {
 
 }
 #slide_container h1 {
-	color:#2d84b3;
+	color:#277fa3;
 	left:104px;
 	position: absolute;
 	font-size:53px;
@@ -21,7 +21,7 @@ svg {
 	color:rgb(109, 110, 113);
 	font-size:20px;
 	line-height: 28px;
-	font-weight: 100;
+	font-weight: 200;
 
 }
 
@@ -84,7 +84,9 @@ h2 sup {
 }
 #notes p {
 	opacity: 0;
-	color:#383838;
+	color:#737373;
+	font-weight: bold;
+	margin-bottom: 0;
 }
 
 .side_note {
