@@ -67,11 +67,13 @@
 
 </div>
 
-      <div id="notes">
-         <p>*Published pharmacy purchased prices, additional discounts may be offered to pharmacists by Teva(correct as of June 2014)</p>
+  <div id="notes">
+          <p>*Assumed pharmacy purchase price is NHS list price minus 10%<sup>1</sup></p>
+          <p>**Published pharmacy purchase prices, additional discounts may be offered to pharmacists by Teva(correct as of June 2014)</p>
       </div>
+      
 </section>
 
 <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017</p>
-        
+
 <?php require $root.'/global/html/footer.html';?>
