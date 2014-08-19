@@ -20,7 +20,9 @@ Neoral<sup>®1</sup></h1>
 	<li>100mg dose of each product following a 200 mg dose</li>
 
 </ul>
+<div id="chart_container">
 
+</div>
 <img src="img/graph.gif" class="fullscreen" />
 
                           
