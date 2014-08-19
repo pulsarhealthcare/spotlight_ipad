@@ -11,12 +11,14 @@ svg {
 	color:#FFF;
 	line-height: 24px;
 	opacity: 0;
-	font-weight: 100;
 	font-size: 18px;
 }
 
 h2 sup {
 	font-size:10px;
+	position: relative;
+	left: 2px;
+	top: -3px;
 }
 
 #slide_container h2:nth-child(2) {

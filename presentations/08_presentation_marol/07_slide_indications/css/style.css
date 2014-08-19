@@ -11,11 +11,17 @@ svg {
 }
 
 h1 sup {
-font-size: 17px;	
+font-size: 18px;
+position: relative;
+top: -4px;
+left: 3px;	
 }
 
 h2 sup {
 font-size: 12px;	
+position: relative;
+top: -4px;
+left: 2px;	
 }
 
 #slide_container h2 {
@@ -69,12 +75,11 @@ opacity: 0;
 
 #slide_container p {
 font-size: 14px;
-color: rgb(136, 136, 136);
-font-weight: 100;
+color: #6e6e6e;
 }
 
 #slide_container p.side_note {
-font-size: 9px;	
+font-size: 8px;	
 }
 
 #slide_container p:nth-child(4) {

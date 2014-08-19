@@ -11,11 +11,17 @@ svg {
 }
 
 h1 sup {
-font-size: 13px;	
+font-size: 13px;
+position: relative;
+left: 2px;
+top: -4px;		
 }
 
 h2 sup {
 font-size: 10px;	
+position: relative;
+left: 2px;
+top: -4px;	
 }
 
 #slide_container h2 {
@@ -51,7 +57,6 @@ text-indent: -.6em;
 margin-left: 0;
 margin-bottom: 10px;
 opacity: 0;
-font-weight: 100;
 }
 
 #slide_container ul li:before {

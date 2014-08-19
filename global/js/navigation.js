@@ -149,7 +149,7 @@ navigation[11] = {
         ['Page 2. Introduction', '01_slide_introduction'],
         ['Page 3. Potential Spotlight cost savings', '02_slide_potential_cost_savings'],
         ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
-        ['Page 5. Bioavailability profile', '04_slide_active_constituents'],
+        ['Page 5. Active constituents', '04_slide_active_constituents'],
         ['Page 6. Peptax raft strength and raft thickness', '05_slide_peptax_raft_strength_and_raft_thickness'],
         ['Page 7. Indications', '06_slide_indications']
         
@@ -164,9 +164,8 @@ navigation[12] = {
         ['Page 2. Introduction', '01_slide_introduction'],
         ['Page 3. Potential Spotlight cost savings', '02_slide_potential_spotlight_cost_savings'],
         ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
-        ['Page 5. Active constituents', '04_slide_bioavailability_profile'],
-        ['Page 6. Peptax raft strenth and raf...', '05_slide_peptax_raft_strength_and_raft_thickness'],
-        ['Page 7. Indications', '06_slide_indications'],
+        ['Page 5. Bioavailability profile', '04_slide_bioavailability_profile'],
+        ['Page 6. Indications', '05_slide_indications'],
     ]
 }
 

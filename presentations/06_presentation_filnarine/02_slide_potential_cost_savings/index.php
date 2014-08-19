@@ -14,7 +14,7 @@
                         level, this translates into a potential average annual
                         saving of over <span>£25,225<sup>1</sup></span></h2>
 
-    <img id="main" width="805" src="img/main.png"/>
+    <img class="fullscreen" id="main" width="805" src="img/main.png"/>
     <div id="notes">
         <p> An average PCO represents a population of approximately
                         272,000 people. Please note: The term Primary Care

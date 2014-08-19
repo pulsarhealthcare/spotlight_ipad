@@ -15,7 +15,10 @@ font-size: 13px;
 }
 
 h2 sup {
-font-size: 12px;	
+font-size: 11px;	
+position: relative;
+top: -3px;
+left: 1px;	
 }
 
 #slide_container h2 {

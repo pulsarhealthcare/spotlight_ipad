@@ -5,7 +5,7 @@
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
                             
 <h2>Prescribing Macilax<sup>®</sup> by brand name is the least expensive way of prescribing macrogol<br />13.8 g single-dose sachets and can offer savings of up to £3.12 per prescription dispensed,<br /></h2>
-<h2>compared to prescribing Movicol<sup>®</sup> or prescribing generically<sup>*†1</sup></h2>
+<h2>compared to prescribing Movicol<sup> ®</sup> or prescribing generically<sup>*†1</sup></h2>
             
 
 

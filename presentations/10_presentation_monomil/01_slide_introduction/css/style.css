@@ -13,20 +13,23 @@ svg {
 #slide_container h2 {
 	top:245px;
 	left:104px;
-	width:815px;
+	width:780px;
 	line-height: 27px;
 	opacity: 0;
-	font-size:22px;
+	font-size:21px;
 	color:#6e6e6e;
 }
 
 h2 sup {
-font-size: 12px;	
+font-size: 11px;
+position: relative;
+left: 2px;
+top: -2px;	
 }
 
 h2 span {
 position: relative;
-top: -3px;
+top: -4px;
 }
 
 #notes {

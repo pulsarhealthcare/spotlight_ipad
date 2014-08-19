@@ -11,11 +11,17 @@ svg {
 }
 
 h1 sup {
-font-size: 16px;	
+font-size: 16px;
+position: relative;
+left: 2px;
+top: -4px;	
 }
 
 h2 sup {
 font-size: 12px;
+position: relative;
+left: 2px;
+top: -4px;	
 }
 
 #slide_container h2 {
@@ -25,8 +31,7 @@ font-size: 12px;
 	line-height: 26px;
 	opacity: 0;
 	font-size:19px;
-	font-weight: 100;
-	color:rgb(136, 136, 136);
+	color:#6e6e6e;
 }
 
 #points {
@@ -40,17 +45,15 @@ font-size: 12px;
    font-size:16px;
    margin-bottom:2px;
    opacity: 0;
-   font-weight: 100;
 
 }
 
 #slide_container h4 {
    font-size:14px;
    margin-bottom: 15px;
-   color:rgb(136, 136, 136);
+   color:#6e6e6e;
    opacity: 0;
    line-height: 17px;
-   font-weight: 100;
 }
 
 #slide_container h2:nth-child(3) {

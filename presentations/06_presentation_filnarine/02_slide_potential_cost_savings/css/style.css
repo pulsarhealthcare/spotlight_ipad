@@ -12,17 +12,23 @@ svg {
 
 h1 sup {
 font-size: 13px;
+position: relative;
+left: 2px;
+top: -4px;
 }
 
 h2 sup {
-font-size: 12px;	
+font-size: 11px;
+position: relative;
+left: 2px;
+top: -4px;	
 }
 
 #slide_container h2 {
 	top:178px;
 	left:104px;
-	width:800px;
-	line-height: 26px;
+	width:750px;
+	line-height: 23px;
 	opacity: 0;
 	font-size:18px;
 	color:#6e6e6e;
@@ -49,7 +55,6 @@ font-size: 12px;
 #notes p {
 	opacity: 0;
 	width:800px;
-	font-size:8px;
 	color:#707070;
 }
 

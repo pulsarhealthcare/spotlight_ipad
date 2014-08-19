@@ -7,7 +7,7 @@ svg {
 #slide_container h2 {
 	top:510px;
 	left:72px;
-	width:620px;
+	width:580px;
 	color:#FFF;
 	line-height: 23px;
 	opacity: 0;
@@ -16,6 +16,9 @@ svg {
 
 h2 sup {
 	font-size:10px;
+	position: relative;
+	left: 1px;
+	top: -2px;
 }
 
 

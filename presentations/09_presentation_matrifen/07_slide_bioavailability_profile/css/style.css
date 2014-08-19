@@ -15,7 +15,10 @@ svg {
 }
 
 h1 sup {
-font-size: 17px;	
+font-size: 17px;
+position: relative;
+top: -4px;
+left: 2px;		
 }
 
 h2 sup {
@@ -26,7 +29,7 @@ font-size: 12px;
 	top:190px;
 	left:104px;
 	line-height: 18px;
-	font-size:13px;
+	font-size:14px;
 	color:#6e6e6e;
 	width: 240px;
 	opacity: 0;

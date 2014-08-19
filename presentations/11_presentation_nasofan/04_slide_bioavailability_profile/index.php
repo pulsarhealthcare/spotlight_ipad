@@ -13,7 +13,7 @@ healthy volunteers, there were no clinically relevant
 or statistically significant differences between
 Flixonase and Nasofan, with respect to maximum
 recommmended concentration (C<sub>max</sub>) and time
-to maximum concentration (T<sub>max</sub>)</h2>
+to maximum <span>concentration (T<sub>max</sub>)</span></h2>
 
 <img class="fullscreen" src="img/graph.gif" alt="" />                               
     

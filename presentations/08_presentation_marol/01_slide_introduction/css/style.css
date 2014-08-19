@@ -22,6 +22,9 @@ svg {
 
 h2 sup {
 font-size: 12px;	
+position: relative;
+left: 1px;
+top: -4px;
 }
 
 #slide_container h2:nth-child(3) {

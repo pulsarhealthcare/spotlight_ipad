@@ -53,5 +53,8 @@ svg {
 }
 
 h1 sup {
-font-size: 16px;	
+font-size: 16px;
+position: relative;
+top: -4px;
+left: 2px;	
 }

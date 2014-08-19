@@ -11,7 +11,7 @@ least expensive way of prescribing fentanyl 12 mcg/hr,
 transdermal patches and can offer savings of up to
 £23.27 per prescription compared to 
 </h2>
-<h2>prescribing Durogesic<sup>®</sup>DTrans<sup>®</sup>(fentanyl transdermal patch) or prescribing</h2>
+<h2>prescribing Durogesic<sup>®</sup> DTrans<sup>®</sup> (fentanyl transdermal patch) or prescribing</h2>
 <h2>generically in England and Wales<sup>*†1</sup></h2>
 
 

@@ -11,7 +11,10 @@ svg {
 }
 
 h1 sup {
-font-size: 13px;	
+font-size: 15px;
+position: relative;
+left: 2px;
+top: -4px;	
 }
 
 h2 sup {

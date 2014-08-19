@@ -14,9 +14,9 @@ svg {
 	top:205px;
 	left:104px;
 	width:805px;
-	line-height: 26px;
+	line-height: 27px;
 	opacity: 0;
-	font-size:22px;
+	font-size:21px;
 	color:#6e6e6e;
 }
 
@@ -26,7 +26,10 @@ top: -5px;
 }
 
 h2 sup {
-font-size: 13px;
+font-size: 12px;
+position: relative;
+left: 2px;
+top: -4px;
 }
 
 #notes {
