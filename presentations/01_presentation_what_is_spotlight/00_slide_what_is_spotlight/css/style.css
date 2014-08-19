@@ -101,10 +101,11 @@ opacity: 1;
 #chart_container h4 {
 	position: absolute;
 	font-size:9px;
-	-webkit-transform: rotate(-90deg) scale(0);
+	-webkit-transform: rotate(-90deg);
     top:116px;
     left:-13px;
     font-size:7px;
+    opacity:0;
 
 }
 

@@ -14,7 +14,7 @@
             <p class="side_note">Date of preparation: July 2014 UK/SPL/14/0017</p>
             <div id="chart_container">
             <h3>Annual volume (to August 2013) of packs supplied to the NHS<sup>1,2</sup></h3>
-            <h4 style="-webkit-transform: translate(0px, 0px) rotate(-1.5708rad) skewX(0rad) scale(0,0);">VAT Volume (masjdjdh)</h4>
+            <h4 >VAT Volume (masjdjdh)</h4>
             <div id="chart"></div>
             </div>
 </section>

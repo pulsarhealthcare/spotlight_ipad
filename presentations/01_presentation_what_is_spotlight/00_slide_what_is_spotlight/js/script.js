@@ -51,7 +51,7 @@ chart.find('p').eq(chartData.yValues.length-(x+1)).delay(120*x).animate({transfo
 
     setTimeout(function() {
 
-    	$('#chart_container h4').animate({transform:'scale(1) rotate(-1.5708rad)'},200)
+    	$('#chart_container h4').animate({opacity:1},200)
 		for (var x=0; x < chartData.xValues.length; x++){
 		
 		var percentage = chartData.xValues[x][1]/350;
@@ -67,8 +67,6 @@ chart.find('p').eq(chartData.yValues.length-(x+1)).delay(120*x).animate({transfo
 	        chart.find('.bar_title').eq(x).delay((280+x)*x).animate({transform:'scale(1)'},740+(10 * x))
 	    }
     },800)
-	
-
 }
 
 var chartData = {
