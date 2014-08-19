@@ -9,8 +9,9 @@
 
 <div id="main" style="background: url('img/main_0.png') top left no-repeat; background-size: 510px 68px;">
 
-<p>A patient is dispensed a pack of Filnarine<sup>R</sup> SR 200 mg tablets (morphine sulphate SR 200 mb) 60s pack</p>
+<p>A patient is dispensed a pack of Filnarine<sup>®</sup> SR 200 mg tablets (morphine sulphate SR 200 mg) 60s pack</p>
 <p><span>(how the prescription is written can have a big effect on costs)</span></p>
+
 
 </div>
 
@@ -30,8 +31,10 @@
 
 		<p>Pharmacist dispenses Filnarine SR <span class="lineup">200 mg at a cost to them of £25.75<sup>*</sup></span></p>
 
-		<p>The pharmacist is reimbursed and the practice is attributed the cost against the Cat C price, which is based on the 
-			<span class="dark lineup">originator price; MST Continus<sup>®</sup></span><span class="dark double lineup">(morphine sulphate S R 200 mg): £81.34</span></p>
+		<p>The pharmacist is reimbursed and the practice is attributed the cost against 
+the Cat C price, which is based on the 
+			<span class="dark lineup">originator price; MST Continus<sup>®</sup></span>
+			<span class="dark double lineup">(morphine sulphate SR 200 mg): £81.34</span></p>
 
 	</div>
 
@@ -55,8 +58,8 @@
 
 		<p>Pharmacist must dispense Filnarine SR 200 mg at a cost to <span class="lineup">them of £25.75<sup>*</sup></span></p>
 
-		<p>The pharmacist is reimbursed and the practice is attributed the cost against the <span class="dark">list price of Filnarine 
-		SR 200 mg: £43.59</span></p>
+		<p>The pharmacist is reimbursed and the practice is attributed the cost against the <span class="dark">list price of Filnarine SR 200 mg: 
+£43.59</span></p>
 
 	</div>
 

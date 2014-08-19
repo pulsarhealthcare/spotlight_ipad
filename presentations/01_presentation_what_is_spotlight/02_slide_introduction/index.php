@@ -44,8 +44,8 @@
           <tr>
 
             <td class="evacal">Evacal-D3<sup>®</sup></td>
-            <td>xx</td>
-            <td>xx</td>
+            <td>Calcium carbonate/colecalciferol</td>
+            <td>Nutrition and blood</td>
 
           </tr>
 
@@ -54,8 +54,8 @@
           <tr>
 
             <td class="filnarine">Filnarine<sup>®</sup></td>
-            <td>xx</td>
-            <td>xx</td>
+            <td>Morphine sulphate</td>
+            <td>Central nervous system</td>
 
           </tr>
 
@@ -64,8 +64,8 @@
           <tr>
 
             <td class="macilax">Macilax<sup>®</sup></td>
-            <td>xx</td>
-            <td>xx</td>
+            <td>Macrogol compound</td>
+            <td>Gastro-intestinal system</td>
 
           </tr>
 
@@ -73,8 +73,8 @@
           <tr>
 
             <td class="marol">Marol<sup>®</sup></td>
-            <td>xx</td>
-            <td>xx</td>
+            <td>Tramadol</td>
+            <td>Central nervous system</td>
 
           </tr>
 
@@ -82,8 +82,8 @@
           <tr>
 
             <td class="matrifen">Matrifen<sup>®</sup></td>
-            <td>xx</td>
-            <td>xx</td>
+            <td>Fentanyl transdermal patch</td>
+            <td>Central nervous system</td>
 
           </tr>
 
@@ -91,8 +91,8 @@
           <tr>
 
             <td class="monomil">Monomil<sup>®</sup></td>
-            <td>xx</td>
-            <td>xx</td>
+            <td>Isosorbide mononitrate</td>
+            <td>Cardiovascular system</td>
 
           </tr>
 
@@ -100,8 +100,8 @@
           <tr>
 
             <td class="nasofan">Nasofan<sup>®</sup></td>
-            <td>xx</td>
-            <td>xx</td>
+            <td>Fluticasone aqueous nasal spray</td>
+            <td>Ear, nose, and oropharynx</td>
 
           </tr>
 
@@ -109,8 +109,8 @@
           <tr>
 
             <td class="peptac">Peptac<sup>®</sup></td>
-            <td>xx</td>
-            <td>xx</td>
+            <td>Compound alginate oral suspension</td>
+            <td>Gastro-intestinal system</td>
 
           </tr>
 
@@ -118,8 +118,8 @@
           <tr class="last">
 
             <td class="prestylon">Prestylon<sup>®</sup></td>
-            <td>xx</td>
-            <td>xx</td>
+            <td>Eicosapentaenoic acid/docasahexaenoic acid</td>
+            <td>Cardiovascular system</td>
 
           </tr>
 

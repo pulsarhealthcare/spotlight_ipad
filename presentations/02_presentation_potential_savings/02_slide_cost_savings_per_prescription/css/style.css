@@ -89,3 +89,129 @@ h2 sup {
     font-size: 9px;
 }
 
+
+/* Table stylings */
+
+table {
+position: absolute;
+left: 104px;
+top: 210px;
+width: 800px;
+box-shadow: 6px 6px 6px -4px #666;
+border-radius: 5px;
+opacity: 0;
+}
+
+table th {
+background-color: #1f7ea4;
+color: #FFF;	
+padding: 5px 0 5px 14px;
+font-size: 12px;
+border-right: 1px solid #a5d2e6;
+border-bottom: 1px solid #a5d2e6;
+}
+
+table th:nth-child(1) {
+border-radius: 5px 0 0 0;	
+}
+
+table th:nth-child(4) {
+border-radius: 0 5px 0 0;	
+}
+
+table th:nth-child(4) {
+border-right: none;	
+padding-right: 5px
+}
+
+table td {
+color: #98999b;	
+font-size: 11px;
+background-color: #FFF;
+padding: 3px 0 3px 14px;
+border-right: 1px solid #a5d2e6;
+border-bottom: 1px solid #a5d2e6;
+}
+
+table tr.last td:nth-child(1) {
+border-radius: 0 0 0 5px;		
+}
+
+table tr.last td:nth-child(4) {
+border-radius: 0 0 5px 0;
+}
+
+table tr.last td {
+border-bottom: none;	
+}
+
+table td:nth-child(1) {
+font-weight: bold;	
+width: 105px;
+font-size: 12px;
+}
+
+table td:nth-child(1) sup, table th:nth-child(3) sup, table th:nth-child(4) sup {
+font-size: 7px;
+position: relative;
+left: 1px;	
+}
+
+table td:nth-child(2) {
+width: 200px;
+}
+
+table td:nth-child(3) {
+width: 265px;
+}
+
+table td:nth-child(4) {
+border-right: none;
+width: 200px;
+padding-right: 5px;
+}
+
+
+/* Product Colours */
+
+.capsorin {
+	color: #c0a76b;
+}
+
+.evacal {
+	color:#f66c80;
+}
+
+.filnarine {
+	color:#4c5ca9;
+}
+
+.macilax {
+	color:#72904d;
+}
+
+.marol {
+	color:#eb0021;
+}
+
+.matrifen {
+	color:#56a1a7;
+}
+
+.monomil {
+	color:#fdb812;
+}
+
+.nasofan {
+	color:#f2620d;
+}
+
+.peptac {
+	color:#ef5a93;
+}
+
+.prestylon {
+	color:#b7d09a;
+}
+
+

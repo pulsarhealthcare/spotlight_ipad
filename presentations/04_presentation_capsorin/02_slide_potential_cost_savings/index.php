@@ -20,6 +20,37 @@ of over £13,564
 
     <img class="fullscreen" id="main" src="img/main.png"/>
 
+
+    <table>
+
+<thead>
+        <tr>
+          <th>Spotlight brand</td>
+          <th>Annual total number of packs prescribed for Capsorin comparable products at equivalent dosage</td>
+          <th>Current cost ciclosporin 25 mg, 50 mg and 100 mg caps </td>
+          <th>Potential average annual saving to NHS using Capsorin written by brand in place of comparable products at equivalent dosage</td>
+          <th>Potential average annual saving per PCO<sup>†</sup> using Capsorin, if prescribed by brand <span>†based on 237 PCOs</span></td>
+          <th>Potential annual saving per average GP practice<sup>‡</sup> using Capsorin, if prescribed by brand <span>‡based on 10,339 GP practices</span></td>
+        </tr>
+</thead>
+        <tbody>
+
+          <tr class="last">
+
+            <td class="capsorin">Capsorin</td>
+            <td>223,295</td>
+            <td>£9,558,209 </td>
+            <td>£3,214,593 </td>
+            <td>£13,564</td>
+            <td>£310.92</td>
+
+          </tr>
+ 
+        </tbody>
+
+        </table>  
+
+
     <div id="notes">
         <p>*Note: due to strict guidance that transplant patients
                                 should not be switched between brands of ciclosporin
