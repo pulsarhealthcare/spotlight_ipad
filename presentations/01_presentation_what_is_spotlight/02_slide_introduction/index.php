@@ -18,7 +18,116 @@
         wholesalers. Furthermore, we aim to<br>hold 6 months
         safety stock of all Spotlight brands in our
         distribution centre.</h2>
-        <img class="fullscreen" id="main" width="701" src="img/main.png"/>
+       <!-- <img class="fullscreen" id="main" width="701" src="img/main.png"/> -->
+
+
+        <table>
+
+        <tr>
+          <th>Brand name</td>
+          <th>Generic name</td>
+          <th>Therapy area</td>
+        </tr>
+
+
+        <tbody>
+
+          <tr>
+
+            <td class="capsorin">Capsorin<sup>®</sup></td>
+            <td>Ciclosporin</td>
+            <td>Skin</td>
+
+          </tr>
+
+
+          <tr>
+
+            <td class="evacal">Evacal-D3<sup>®</sup></td>
+            <td>xx</td>
+            <td>xx</td>
+
+          </tr>
+
+
+
+          <tr>
+
+            <td class="filnarine">Filnarine<sup>®</sup></td>
+            <td>xx</td>
+            <td>xx</td>
+
+          </tr>
+
+
+
+          <tr>
+
+            <td class="macilax">Macilax<sup>®</sup></td>
+            <td>xx</td>
+            <td>xx</td>
+
+          </tr>
+
+
+          <tr>
+
+            <td class="marol">Marol<sup>®</sup></td>
+            <td>xx</td>
+            <td>xx</td>
+
+          </tr>
+
+
+          <tr>
+
+            <td class="matrifen">Matrifen<sup>®</sup></td>
+            <td>xx</td>
+            <td>xx</td>
+
+          </tr>
+
+
+          <tr>
+
+            <td class="monomil">Monomil<sup>®</sup></td>
+            <td>xx</td>
+            <td>xx</td>
+
+          </tr>
+
+
+          <tr>
+
+            <td class="nasofan">Nasofan<sup>®</sup></td>
+            <td>xx</td>
+            <td>xx</td>
+
+          </tr>
+
+
+          <tr>
+
+            <td class="peptac">Peptac<sup>®</sup></td>
+            <td>xx</td>
+            <td>xx</td>
+
+          </tr>
+
+
+          <tr class="last">
+
+            <td class="prestylon">Prestylon<sup>®</sup></td>
+            <td>xx</td>
+            <td>xx</td>
+
+          </tr>
+
+        </tbody>
+
+
+        </table>  
+
 
 <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017</p>
 </section>
