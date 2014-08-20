@@ -2,7 +2,7 @@
 <?php require $root.'/global/html/header.html';?>
 <?php require $root.'/global/html/menu.html';?>
 
-<section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
+<section style="background-size:100% 100%;" id="slide_container">
 
 <h1>Capsorin<sup>®</sup> has a virtually
 identical bioavailability profile to
@@ -21,12 +21,10 @@ Neoral<sup>®1</sup></h1>
 
 </ul>
 <div id="chart_container">
-
+<div id="chart">
+</div>
 </div>
 <img src="img/graph.gif" class="fullscreen" />
-
-                          
-    
 <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017c</p>
 
 </section>

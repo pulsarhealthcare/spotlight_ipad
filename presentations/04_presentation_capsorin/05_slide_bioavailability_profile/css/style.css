@@ -8,6 +8,7 @@ svg {
 	color:#FFF;
 	left:104px;
 	font-size:24px;
+	display: none;
 }
 
 h1 sup {
@@ -35,7 +36,9 @@ color: #6e6e6e;
 	top: 229px;
 }
 
-
+footer {
+	display:none;
+}
 .side_note {
 	-webkit-transform:rotate(270deg);
 	position: absolute;
@@ -51,8 +54,8 @@ color: #6e6e6e;
 width: 540px;
 position: absolute;
 left: 370px;
-top: 175px;	
-opacity: 0;
+top: 400px;	
+opacity: 1;
 }
 
 #slide_container ul {
@@ -96,4 +99,121 @@ position:  relative;
     content: "• ";
     color: #a88d5b; 
     font-size: 10px;
+}
+
+/* Chart */
+
+#chart_container {
+	border:1px solid orange;
+	background:#FFF;
+	height:351px;
+	width:540px;
+    margin-top:-85px;
+    position: absolute;
+    margin-left:369px;
+}
+
+#chart_container h3 {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom:8px;
+    margin-top:6px;
+    color:#303030;
+    margin-left:29px;
+}
+
+#chart {
+	width:340px;
+	height:207px;
+	margin-left:35px;
+	position: absolute;
+}
+
+
+
+#chart_container h4 {
+	position: absolute;
+	font-size:9px;
+	-webkit-transform: rotate(-90deg);
+    top:116px;
+    left:-13px;
+    font-size:7px;
+    opacity:0;
+
+}
+
+#chart_container h3 sub {
+	font-size:11px;
+	color:#CCC;
+}
+#chart_container p {
+	position: absolute;
+	font-weight: bold;
+}
+.x-axis-seperators {
+	left:20px;
+	position: absolute;
+}
+.x-axis-line {
+	height:2px;
+	background:#CCC;
+	position: absolute;
+	display:block;
+}
+
+.y-axis-line {
+	width:1px;
+	background:#CCC;
+	position: absolute;
+	left:24px;
+	display:none;
+
+}
+.x-axis-seperator {
+	height:4px;
+	width:2px;
+	background:#CCC;
+	position: absolute;
+}
+.x-axis-lable {
+	text-align: center;
+	-webkit-transform:rotate(-90deg);
+}
+.y-axis-seperator {
+	background:#CCC;
+	position: absolute;
+	left:18px;
+	border-bottom:1px dotted #333;
+	width:320px;
+}
+canvas {
+	margin-left:28px;
+}
+.bars  {
+	margin-left:30px;
+	position: absolute;
+}
+.bar_colum {
+    border-radius: 5px;
+    width:50px;
+    float:left;
+    margin-left:12px;
+}
+
+.bar:first-child {
+    margin-left:0px;
+}
+.bar_titles {
+    margin-left:30px;
+	position: absolute;
+}
+.bar_title {
+    -webkit-transform:scale(0);
+	font-size:6px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bar_title:first-child {
+margin-left:0px;
 }
