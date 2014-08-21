@@ -12,7 +12,7 @@
 <!-- <img class="fullscreen" src="img/competitor_comparisons.png" alt="" /> -->                               
     
 
-     <table>
+        <table class="fullscreen">
 
 <thead>
         <tr>

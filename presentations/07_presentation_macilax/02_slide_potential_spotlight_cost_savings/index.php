@@ -13,7 +13,7 @@ per prescription. At a Primary Care Organisation (PCO) level, this translates in
     <!-- <img class="fullscreen" src="img/cost_savings_table.png" alt="" /> -->
 
 
-      <table>
+        <table class="fullscreen">
 
 <thead>
 

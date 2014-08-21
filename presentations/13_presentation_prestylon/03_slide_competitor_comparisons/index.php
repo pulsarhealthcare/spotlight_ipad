@@ -10,112 +10,53 @@
                                 list price/reimbursement cost and the</h2><h2> respective
                                 savings if Prestylon<sup>®</sup> is prescribed by
                                 brand<sup>1</sup></h2>
-<table>
+        <table class="fullscreen">
+
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th>NHS List price/reimbursement cost<sup>1</sup></th>
-          <th>Marol<sup>®</sup> cost saving vs. alternative Prescribed Product</th>
+          <th>NHS List price/reimbursement <span class="table_lineup">cost<sup>1</sup></span></th>
+          <th>Prestylon cost saving vs. alternative Prescribed Product</th>
           <th>Marketed by</th>
-          </tr>
+        </tr>
 </thead>
         <tbody>
 
 
           <tr>
 
-            <td>Dromadol<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
-            <td>£12.78</td>
-            <td>£5.80</td>
-            <td>Napp</td>
+            <td>Generic (eicosapentaenoic acid/docasahexaenoic acid) 1 g 28 caps<sup>*</sup></td>
+            <td>£14.24</td>
+            <td>£3.56</td>
+            <td>Generic</td>
 
           </tr>
 
 
           <tr>
 
-            <td>Dromadol (tramadol) SR 150 mg Tabs 60s</td>
-            <td>£19.17</td>
-            <td>£8.69</td>
-            <td>Napp</td>
+            <td>Omacor<sup>®</sup> (eicosapentaenoic acid/docasahexaenoic acid)  1 g 28 caps</td>
+            <td>£14.24</td>
+            <td>£3.56</td>
+            <td>Abbott Healthcare Products Limited</td>
 
           </tr>
 
 
           <tr>
 
-            <td>Dromadol (tramadol) SR 200 mg Tabs 60s</td>
-            <td>£25.56</td>
-            <td>£11.28</td>
-            <td>Napp</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Larapam<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
-            <td>£17.26</td>
-            <td>£10.28</td>
-            <td>Sandoz</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Larapam (tramadol) SR 150 mg Tabs 60s</td>
-            <td>£27.39</td>
-            <td>£16.91</td>
-            <td>Sandoz</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Larapam (tramadol) SR 200 mg Tabs 60s</td>
-            <td>£36.52</td>
-            <td>£22.24</td>
-            <td>Sandoz</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Mabron<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
-            <td>£18.26</td>
-            <td>£11.28</td>
-            <td>Morningside Healthcare Ltd</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Mabron (tramadol) SR 150 mg Tabs 60s</td>
-            <td>£27.39</td>
-            <td>£16.91</td>
-            <td>Morningside Healthcare Ltd</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Mabron (tramadol) SR 200 mg Tabs 60s</td>
-            <td>£36.52</td>
-            <td>£22.24</td>
-            <td>Morningside Healthcare Ltd</td>
+            <td>Omacor<sup>®</sup> (eicosapentaenoic acid/docasahexaenoic acid)  1 g 100 caps</td>
+            <td>£50.84</td>
+            <td>£12.71</td>
+            <td>Abbott Healthcare Products Limited</td>
 
           </tr>
 
 
           <tr class="selected">
 
-            <td>Marol (tramadol) Prolonged-Release 100 mg Tabs 60s</td>
-            <td>£6.98</td>
+            <td>Prestylon<sup>®</sup> (eicosapentaenoic acid/docasahexaenoic acid caps) 1g 28 caps</td>
+            <td>£10.68</td>
             <td>N/A</td>
             <td>Teva UK Limited</td>
 
@@ -124,20 +65,30 @@
 
           <tr class="selected">
 
-            <td>Marol (tramadol) Prolonged-Release 150 mg Tabs 60s</td>
-            <td>£10.48</td>
+            <td>Prestylon<sup>®</sup> (eicosapentaenoic acid/docasahexaenoic acid caps) 1g 100 caps</td>
+            <td>£38.13</td>
             <td>N/A</td>
             <td>Teva UK Limited</td>
 
           </tr>
 
 
-          <tr class="selected last">
+          <tr>
 
-            <td>Marol (tramadol) Prolonged-Release 200 mg Tabs 60s</td>
-            <td>£14.28</td>
-            <td>N/A</td>
-            <td>Teva UK Limited</td>
+            <td>Teromeg<sup>®</sup> (eicosapentaenoic acid/docasahexaenoic acid)  1 g 28 caps</td>
+            <td>£11.39</td>
+            <td>£0.71</td>
+            <td>Mercury Pharma Group</td>
+
+          </tr>
+
+
+          <tr class="last">
+
+            <td>Teromeg<sup>®</sup> (eicosapentaenoic acid/docasahexaenoic acid)  1 g 100 caps</td>
+            <td>£40.67</td>
+            <td>£2.54</td>
+            <td>Mercury Pharma Group</td>
 
           </tr>
 
@@ -145,7 +96,8 @@
         </tbody>
 
         </table> 
- <img class="fullscreen" src="img/competitor_comparisons.png" alt="" />                               
+ 
+ <!-- <img class="fullscreen" src="img/competitor_comparisons.png" alt="" /> -->                               
     
 
 <div id="notes">

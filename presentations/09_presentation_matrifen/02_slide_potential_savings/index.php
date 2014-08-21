@@ -24,7 +24,7 @@ saving of over £66,196<sup>1</sup></h2>
  <!--<img class="fullscreen" src="img/cost_savings_one.png" alt="" />-->            
 
 
-  <table>
+        <table class="fullscreen">
 
 <thead>
         <tr>

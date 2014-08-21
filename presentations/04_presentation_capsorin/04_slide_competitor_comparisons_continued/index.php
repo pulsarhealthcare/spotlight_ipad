@@ -10,7 +10,8 @@
 
    <!-- <img class="fullscreen" id="main" src="img/comparison_continued.png"/> -->
 
-        <table>
+
+        <table class="fullscreen">
 
 <thead>
         <tr>

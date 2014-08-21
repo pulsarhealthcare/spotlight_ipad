@@ -15,7 +15,7 @@
 <!--<img src="img/competitor_comparisons.png" alt="" class="fullscreen" />-->
 
 
-    <table>
+        <table class="fullscreen">
 
 <thead>
         <tr>

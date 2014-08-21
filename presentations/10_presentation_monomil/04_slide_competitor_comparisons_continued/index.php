@@ -6,12 +6,13 @@
     <h1>Competitor comparisons continued...</h1>             
 
 
-<table>
+        <table class="fullscreen">
+
 <thead>
         <tr>
           <th>Prescribed Product</th>
           <th>NHS List price/reimbursement cost<sup>1</sup></th>
-          <th>Marol<sup>®</sup> cost saving vs. alternative Prescribed Product</th>
+          <th>Monomil cost saving vs. alternative Prescribed Product</th>
           <th>Marketed by</th>
           </tr>
 </thead>
@@ -20,120 +21,73 @@
 
           <tr>
 
-            <td>Dromadol<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
-            <td>£12.78</td>
-            <td>£5.80</td>
-            <td>Napp</td>
+            <td>Monomax® (isosorbide mononitrate) SR 60 mg Caps 28s</td>
+            <td>£8.86</td>
+            <td>£5.37</td>
+            <td>Trinity-Chiesi</td>
+
 
           </tr>
 
 
           <tr>
 
-            <td>Dromadol (tramadol) SR 150 mg Tabs 60s</td>
-            <td>£19.17</td>
-            <td>£8.69</td>
-            <td>Napp</td>
+            <td>Monomax (isosorbide mononitrate) XL 60 mg Tabs 28s</td>
+            <td>£5.25</td>
+            <td>£1.76</td>
+            <td>Trinity-Chiesi</td>
 
           </tr>
 
-
-          <tr>
-
-            <td>Dromadol (tramadol) SR 200 mg Tabs 60s</td>
-            <td>£25.56</td>
-            <td>£11.28</td>
-            <td>Napp</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Larapam<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
-            <td>£17.26</td>
-            <td>£10.28</td>
-            <td>Sandoz</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Larapam (tramadol) SR 150 mg Tabs 60s</td>
-            <td>£27.39</td>
-            <td>£16.91</td>
-            <td>Sandoz</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Larapam (tramadol) SR 200 mg Tabs 60s</td>
-            <td>£36.52</td>
-            <td>£22.24</td>
-            <td>Sandoz</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Mabron<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
-            <td>£18.26</td>
-            <td>£11.28</td>
-            <td>Morningside Healthcare Ltd</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Mabron (tramadol) SR 150 mg Tabs 60s</td>
-            <td>£27.39</td>
-            <td>£16.91</td>
-            <td>Morningside Healthcare Ltd</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Mabron (tramadol) SR 200 mg Tabs 60s</td>
-            <td>£36.52</td>
-            <td>£22.24</td>
-            <td>Morningside Healthcare Ltd</td>
-
-          </tr>
 
 
           <tr class="selected">
 
-            <td>Marol (tramadol) Prolonged-Release 100 mg Tabs 60s</td>
-            <td>£6.98</td>
+            <td>Monomil (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+            <td>£3.49 </td>
             <td>N/A</td>
             <td>Teva UK Limited</td>
 
           </tr>
 
 
-          <tr class="selected">
 
-            <td>Marol (tramadol) Prolonged-Release 150 mg Tabs 60s</td>
-            <td>£10.48</td>
-            <td>N/A</td>
-            <td>Teva UK Limited</td>
+          <tr>
+
+            <td>Tardisc® (isosorbide mononitrate) XL 60 mg Tabs 28s  </td>
+            <td>£3.49</td>
+            <td>£0.00 </td>
+            <td>Discovery Pharmaceuticals</td>
 
           </tr>
 
 
-          <tr class="selected last">
+          <tr>
 
-            <td>Marol (tramadol) Prolonged-Release 200 mg Tabs 60s</td>
-            <td>£14.28</td>
-            <td>N/A</td>
-            <td>Teva UK Limited</td>
+            <td>Trangina® XL (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+            <td>£4.55 </td>
+            <td>£1.06</td>
+            <td>Actavis UK Ltd</td>
+
+          </tr>
+
+
+          <tr>
+
+            <td>Xismox® (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+            <td>£5.51</td>
+            <td>£2.02</td>
+            <td>Genus Pharmaceuticals</td>
+
+          </tr>
+
+
+          <tr class="last">
+
+            <td>Zemon® (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+            <td>£11.14</td>
+            <td>£7.65</td>
+            <td>Neolab</td>
 
           </tr>
 
@@ -141,7 +95,8 @@
         </tbody>
 
         </table>
- <img class="fullscreen" src="img/competitor_comparisons.png" alt="" />                               
+
+<!-- <img class="fullscreen" src="img/competitor_comparisons.png" alt="" /> -->                               
     
 
 
