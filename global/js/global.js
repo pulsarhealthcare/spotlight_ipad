@@ -141,10 +141,17 @@ $('table').on(input.tap, function() {
     
     //Workout scale 
 
-    var x = ((1024 - $('table').width()) / $('table').width()) * 100;
-   x = Math.round(x)
-    $('#img_container table').css({'-webkit-transform':'scale(1'+x+')',
-'left':'0px'});
+    var x = ((1024 - ($('table').width()+5)) / ($('table').width()+5)) * 100;
+    x = Math.round(x);
+
+    $('#img_container table').css({'-webkit-transform':'scale(1.'+x+')','left':'0px'});
+
+    var l = $('#img_container table')[0].getBoundingClientRect().left;
+    l = -l;
+
+    var t = ((656 - $('#img_container table')[0].getBoundingClientRect().height) / 2 );
+    console.log(t) 
+    $('#img_container table').css({'left': l+'px','top':t+'px'});
 
     $('#img_layer').css('top','0px');
 });
