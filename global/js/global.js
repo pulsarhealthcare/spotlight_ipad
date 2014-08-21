@@ -137,7 +137,7 @@ $('.fullscreen').on(input.tap, function() {
 
 $('table').on(input.tap, function() {
     
-    $('#img_container').append($('table'));
+    $('#img_container').append($('table').clone());
     
     //Workout scale 
 
