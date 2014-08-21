@@ -131,8 +131,6 @@ $.fn.simpleChart = function(chartData) {
         }
     }
 
-    function generateXAxis() {}
-
     function generateBarChart() {
         chart.append('<div class="bars"></div>');
         chart.append('<div class="bar_titles" style="top:' + (h + 6) + '"></div>');
@@ -143,8 +141,8 @@ $.fn.simpleChart = function(chartData) {
             for (var x = 0; x < chartData.xValues.length; x++) {
                 var percentage = chartData.xValues[x][1] / 350;
                 var height = h * percentage;
-                var color = chartData.barColor.split(',1');
-                $('.bars').append('<div class="bar bar_colum" style="height:0px;margin-top:' + h + 'px;background:' + color[0] + ',' + percentage + color[1] + '"></div>');
+                
+                $('.bars').append('<div class="bar bar_colum" style="height:0px;margin-top:' + h + 'px;background:' + d.xValues[x][2] + '"></div>');
                 var tB = $('.bar').eq(x);
                 tB.delay(360 * x).animate({
                     height: height,
