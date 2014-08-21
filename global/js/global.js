@@ -141,7 +141,7 @@ $('table').on(input.tap, function() {
     
     //Workout scale 
 
-    var x = ((1024 - ($('table').width()+5)) / ($('table').width()+5)) * 100;
+    var x = ((1024 - ($('table').width()+12)) / ($('table').width()+12)) * 100;
     x = Math.round(x);
 
     $('#img_container table').css({'-webkit-transform':'scale(1.'+x+')','left':'0px'});
@@ -151,7 +151,7 @@ $('table').on(input.tap, function() {
 
     var t = ((656 - $('#img_container table')[0].getBoundingClientRect().height) / 2 );
     console.log(t) 
-    $('#img_container table').css({'left': l+'px','top':t+'px'});
+    $('#img_container table').css({'left': (l+6)+'px','top':t+'px'});
 
     $('#img_layer').css('top','0px');
 });
