@@ -6,13 +6,14 @@
 
 <h1>Active constituents of Peptac<sup>®</sup>, Gaviscon<sup>®</sup>, and Gavison<sup>®</sup> Advance<sup>1-6</sup></h1>       
 
-<table>
+        <table class="fullscreen">
+
 <thead>
         <tr>
-          <th>Prescribed Product</th>
-          <th>NHS List price/reimbursement cost<sup>1</sup></th>
-          <th>Marol<sup>®</sup> cost saving vs. alternative Prescribed Product</th>
-          <th>Marketed by</th>
+          <th>Variable</th>
+          <th>Peptac</th>
+          <th>Gaviscon</th>
+          <th>Gaviscon Advance<sup>*</sup></th>
           </tr>
 </thead>
         <tbody>
@@ -20,120 +21,53 @@
 
           <tr>
 
-            <td>Dromadol<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
-            <td>£12.78</td>
-            <td>£5.80</td>
-            <td>Napp</td>
+            <td>Pack size</td>
+            <td>500 ml</td>
+            <td>500 ml</td>
+            <td>250 ml</td>
 
           </tr>
 
 
           <tr>
 
-            <td>Dromadol (tramadol) SR 150 mg Tabs 60s</td>
-            <td>£19.17</td>
-            <td>£8.69</td>
-            <td>Napp</td>
+            <td>Sodium alginate</td>
+            <td>500 mg/10 ml</td>
+            <td>500 mg/10 ml</td>
+            <td>500 mg/5 ml</td>
 
           </tr>
 
 
           <tr>
 
-            <td>Dromadol (tramadol) SR 200 mg Tabs 60s</td>
-            <td>£25.56</td>
-            <td>£11.28</td>
-            <td>Napp</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Larapam<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
-            <td>£17.26</td>
-            <td>£10.28</td>
-            <td>Sandoz</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Larapam (tramadol) SR 150 mg Tabs 60s</td>
-            <td>£27.39</td>
-            <td>£16.91</td>
-            <td>Sandoz</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Larapam (tramadol) SR 200 mg Tabs 60s</td>
-            <td>£36.52</td>
-            <td>£22.24</td>
-            <td>Sandoz</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Mabron<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
-            <td>£18.26</td>
-            <td>£11.28</td>
-            <td>Morningside Healthcare Ltd</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Mabron (tramadol) SR 150 mg Tabs 60s</td>
-            <td>£27.39</td>
-            <td>£16.91</td>
-            <td>Morningside Healthcare Ltd</td>
-
-          </tr>
-
-
-          <tr>
-
-            <td>Mabron (tramadol) SR 200 mg Tabs 60s</td>
-            <td>£36.52</td>
-            <td>£22.24</td>
-            <td>Morningside Healthcare Ltd</td>
-
-          </tr>
-
-
-          <tr class="selected">
-
-            <td>Marol (tramadol) Prolonged-Release 100 mg Tabs 60s</td>
-            <td>£6.98</td>
+            <td>Sodium bicarbonate</td>
+            <td>267 mg/10 ml</td>
+            <td>267 mg/10 ml</td>
             <td>N/A</td>
-            <td>Teva UK Limited</td>
 
           </tr>
 
 
-          <tr class="selected">
+          <tr>
 
-            <td>Marol (tramadol) Prolonged-Release 150 mg Tabs 60s</td>
-            <td>£10.48</td>
+            <td>Calcium carbonate</td>
+            <td>160 mg/10 ml</td>
+            <td>160 mg/10 ml</td>
             <td>N/A</td>
-            <td>Teva UK Limited</td>
 
           </tr>
 
 
-          <tr class="selected last">
+          <tr class="last">
 
-            <td>Marol (tramadol) Prolonged-Release 200 mg Tabs 60s</td>
-            <td>£14.28</td>
+            <td>Potassium bicarbonate</td>
             <td>N/A</td>
-            <td>Teva UK Limited</td>
+            <td>N/A</td>
+            <td>100 mg/5 ml</td>
+
+          </tr>
+
 
           </tr>
 
@@ -141,7 +75,8 @@
         </tbody>
 
         </table> 
-<img class="fullscreen" src="img/const.png" alt="" />                               
+
+<!--<img class="fullscreen" src="img/const.png" alt="" />-->                               
 
 <div id="notes">
 

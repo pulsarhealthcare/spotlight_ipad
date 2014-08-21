@@ -14,7 +14,7 @@
 
 
 
-    <table>
+        <table class="fullscreen">
 
 <thead>
         <tr>

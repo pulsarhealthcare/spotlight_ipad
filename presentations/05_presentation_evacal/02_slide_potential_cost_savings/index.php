@@ -25,7 +25,7 @@ potential annual average saving of over £29,266
 
    <!-- <img class="fullscreen" id="main" src="img/cost_savings.png"/> -->
 
-      <table>
+        <table class="fullscreen">
 
 <thead>
 

@@ -76,7 +76,7 @@ left: 104px;
 table {
 position: absolute;
 left: 104px;
-top: 250px;
+top: 260px;
 width: 800px;
 box-shadow: 6px 6px 6px -4px #666;
 border-radius: 5px;
@@ -107,21 +107,21 @@ background-color: #eff4e9;
 }
 
 table tr td:nth-child(1) {
-	width: 265px;
+	width: 380px;
 }
 
 table tr td:nth-child(2) {
-	width: 190px;
+	width: 140px;
 	text-align: center;
 }
 
 table tr td:nth-child(3) {
-	width: 100px;
+	width: 150px;
 	text-align: center;
 }
 
 table tr td:nth-child(4) {
-	width: 140px;
+	width: 100px;
 	text-align: center;
 }
 

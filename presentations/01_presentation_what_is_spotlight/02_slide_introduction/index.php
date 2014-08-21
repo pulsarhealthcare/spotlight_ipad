@@ -21,7 +21,7 @@
        <!-- <img class="fullscreen" id="main" width="701" src="img/main.png"/> -->
 
 
-        <table>
+        <table class="fullscreen">
 
         <tr>
           <th>Brand name</td>

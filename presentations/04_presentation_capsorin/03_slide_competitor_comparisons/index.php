@@ -17,7 +17,7 @@ Capsorin<sup>®</sup> is prescribed by brand<sup>*1</sup></span>
 
 
 
-    <table>
+        <table class="fullscreen">
 
 <thead>
         <tr>

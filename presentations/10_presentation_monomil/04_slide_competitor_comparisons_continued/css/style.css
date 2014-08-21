@@ -72,7 +72,7 @@ table tr.selected td {
 }
 
 table tr td:nth-child(1) {
-	width: 265px;
+	width: 290px;
 }
 
 table tr td:nth-child(2) {
@@ -81,12 +81,11 @@ table tr td:nth-child(2) {
 }
 
 table tr td:nth-child(3) {
-	width: 100px;
 	text-align: center;
 }
 
 table tr td:nth-child(4) {
-	width: 140px;
+	width: 70px;
 	text-align: center;
 }
 

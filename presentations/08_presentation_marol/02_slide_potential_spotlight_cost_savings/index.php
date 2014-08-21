@@ -16,7 +16,7 @@
 
  <!-- <img class="fullscreen" src="img/cost_savings_one.png" alt="" />  -->
 
-  <table>
+        <table class="fullscreen">
 
 <thead>
         <tr>

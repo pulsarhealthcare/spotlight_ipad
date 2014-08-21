@@ -21,7 +21,7 @@ of over £13,564
  <!--   <img class="fullscreen" id="main" src="img/main.png"/> -->
 
 
-    <table>
+        <table class="fullscreen">
 
 <thead>
         <tr>
