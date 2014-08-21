@@ -114,10 +114,8 @@ function pdfViewer() {
         }
     }
 }
-
-
        
-    $('.fullscreen').on(input.tap, function() {
+$('.fullscreen').on(input.tap, function() {
 
         $('#img_layer').css('top', '0px');
         var src = $('img.fullscreen').attr('src');
@@ -137,9 +135,23 @@ function pdfViewer() {
 
     });
 
-    $('#img_header button').on(input.tap, function() {
-        $('#img_layer').css('top', '768')
-    });
+$('table').on(input.tap, function() {
+    
+    $('#img_container').append($('table'));
+    
+    //Workout scale 
+
+    var x = ((1024 - $('table').width()) / $('table').width()) * 100;
+   x = Math.round(x)
+    $('#img_container table').css({'-webkit-transform':'scale(1'+x+')',
+'left':'0px'});
+
+    $('#img_layer').css('top','0px');
+});
+
+$('#img_header button').on(input.tap, function() {
+    $('#img_layer').css('top', '768')
+});
 
   
 

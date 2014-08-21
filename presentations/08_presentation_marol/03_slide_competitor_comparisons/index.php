@@ -14,8 +14,7 @@ list price/reimbursement cost and the</h2>
 
 
 
-    <table>
-
+<table>
 <thead>
         <tr>
           <th>Prescribed Product</th>

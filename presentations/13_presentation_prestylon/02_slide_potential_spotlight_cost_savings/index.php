@@ -14,11 +14,34 @@ pack size) per prescription. At a Primary Care
 Organisation (PCO) level, this translates into a
 potential average annual saving of over
 <span>£14,996<sup>1</sup></span></h2>
+<table>
+<thead>
+        <tr>
+          <th>Spotlight brand</th>
+          <th>Annual total number of packs prescribed for Marol comparable products at equivalent dosage</th>
+          <th>Current cost to NHS for tramadol hydrochloride Prolonged-Release 100 mg, 150 mg and 200 mg </th>
+          <th>Potential average annual saving to NHS using Marol written by brand in place of comparable products at equivalent dosage</th>
+          <th>Potential average annual saving per PCO<sup>†</sup> using Marol, if prescribed by brand <span class="table_small">†based on 237 PCOs</span></th>
+          <th>Potential annual saving per average GP practice‡ using Marol, if prescribed by brand <span class="table_small">‡based on 10,339 GP practices</span></th>
+        </tr>
+</thead>
+        <tbody>
 
+          <tr class="last">
 
+            <td class="capsorin">Marol</td>
+            <td>1,562,697</td>
+            <td>£29,124,517</td>
+            <td>£14,945,365</td>
+            <td>£63,061</td>
+            <td>£1,445.53</td>
 
- <img class="fullscreen" src="img/cost_savings_one.png" alt="" />                               
-    
+          </tr>
+ 
+        </tbody>
+
+        </table>  
+ 
     <div id="notes">
 
         <p>*This will be reimbursed at the Cat C price in the Drug
