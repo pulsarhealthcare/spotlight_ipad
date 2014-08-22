@@ -149,9 +149,11 @@ position:  relative;
 	font-size:11px;
 	color:#CCC;
 }
-
+canvas {
+	position: absolute;
+}
 .line_container {
-	top:0px;
+	top:3px;
 	position: 	absolute;
 }
 .y-axis-lable {
@@ -197,9 +199,7 @@ position:  relative;
 	position: absolute;
 	border-bottom:1px dotted #333;
 }
-canvas {
 
-}
 .bars  {
 	margin-left:30px;
 	position: absolute;

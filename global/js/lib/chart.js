@@ -3,21 +3,22 @@ $.fn.simpleChart = function(chartData) {
     //Globals
     var chart = $(this);
     var w = chart.width();
-    var h = chart.height() ;
-    var d = chartData;
+    var h = chart.height();
+    var data = chartData;
 
-    var ySpacing = h / chartData.yValues.length;
-    var xSpacing = w / chartData.xValues.length;
+    var ySpacing = h / data.yValues.length;
+    var xSpacing = w / data.xValues.length;
     var yPoint;
 
     var lastCo = [xSpacing / 2, h];
     var duration = 2000;
-    var lineDuration = duration / d.xValues.length;
-    var stepDuration = lineDuration / 12;
+    var lineDuration = duration / data.xValues.length;
+    var stepDuration = lineDuration / xSpacing;
+    
     init();
     generateYAxis();
 
-    if (d.chartType === 'bar') {
+    if (data.chartType === 'bar') {
         generateBarChart();
     } else {
         generateXAxis()
@@ -30,21 +31,21 @@ $.fn.simpleChart = function(chartData) {
     }
 
     function generateYAxis() {
-        
-        
+
+
         chart.append('<div class="y-axis"></div>');
         var y_axis = $('.y-axis');
         y_axis.append('<span style="height:' + h + 'px" class="y-axis-line"/>');
-      
+
         for (var x = 0; x < chartData.yValues.length; x++) {
-            var percentage = (chartData.yValues[x] - yPoint) / d.yValues[d.yValues.length - 1];
+            var percentage = (chartData.yValues[x] - yPoint) / data.yValues[data.yValues.length - 1];
             var y = h * percentage;
-            y_axis.append('<span style="top:' + (y+2) + 'px; width:' + w + 'px" class="y-axis-seperator"/>');
+            y_axis.append('<span style="top:' + (y + 2) + 'px; width:' + w + 'px" class="y-axis-seperator"/>');
             y_axis.append('<p class="y-axis-lable" style="top:' + y + 'px">' + chartData.yValues[(chartData.yValues.length - 1) - x] + '</p>')
         }
 
 
-        for (var x = 0; x < chartData.yValues.length; x++) {
+        for (var x = 0; x < data.yValues.length; x++) {
             /*  $('.y-axis-seperator').eq(chartData.yValues.length - (x + 1)).delay(120 * x).animate({
                 width: oldW
             }, 700)
@@ -57,76 +58,89 @@ $.fn.simpleChart = function(chartData) {
     function generateXAxis() {
         chart.append('<div class="x-axis"></div>');
         $('.x-axis').append('<span style="width:' + w + 'px;top:' + h + 'px" class="x-axis-line"/>');
-        for (var x = 0; x < d.xValues.length; x++) {
-            var left = (w) / d.xValues.length;
+        for (var x = 0; x < data.xValues.length; x++) {
+            var left = (w) / data.xValues.length;
             $('.x-axis').append('<span style="left:' + left * x + 'px;top:' + h + 'px" class="x-axis-seperator"/>');
-            $('.x-axis').append('<p class="x-axis-lable"  style="left:' + ((left * x) + 2) + 'px;width:' + left + 'px;top:' + (h + 9) + 'px"> ' + chartData.xValues[x] + '</p>')
+            $('.x-axis').append('<p class="x-axis-lable"  style="left:' + ((left * x) + 2) + 'px;width:' + left + 'px;top:' + (h + 9) + 'px"> ' + data.xValues[x] + '</p>')
         }
-        for (var x = 0; x < chartData.xValues.length; x++) {
+        for (var x = 0; x < data.xValues.length; x++) {
             /*var percentage = (chartData.xValues[x]) / d.xValues[d.xValues.length-1];
             var y = w * percentage;
             */
         }
     }
+
     function generateLineCharts() {
         chart.append('<div class="line_container"></div>');
-       
-        var left = w / d.xValues.length;
+        var left = w / data.xValues.length;
 
-        for (var x = 0; x < d.lines.length; x++) {
+        for (var x = 0; x < 1; x++) {
 
             $('.line_container').append('<canvas width="' + w + '" height="' + h + '" id="line_' + x + '"></canvas>');
 
-            var points = d.lines[x].points;
+            var points = data.lines[x].points;
 
             var canvas = $('#line_' + x)[0];
+
             var ctx = canvas.getContext('2d');
 
-            for (var y = 0; y < points.length-1; y++) {
-              
-                
-                setTimeout(function(y) {
-                   drawLine(ctx, points[y], points[y + 1], y,'what');  
-                }, lineDuration * y, y)
-            }
-         }
-    }
-    function drawLine(ctx, start, end, index, color) {
+            generateLine(x,ctx);
 
-        var array = interpolatePoints(start, end, 12);
-
-
-        for (var x = 0; x < array.length; x++) {
-           
-            var yPercentage = array[x] / 1200;
-            var yC = h * yPercentage;
-            yC = h - Math.round(yC);
-
-            var xPercentage = (index * 12 + x) / (d.xValues.length * 12);
-
-            var xC = w * xPercentage;
-            xC = xC + (xSpacing / 2);
-            drawPartialLine(ctx, lastCo, [xC, yC], x);
-            if (x === 0) {
-                ctx.beginPath()
-                ctx.fillStyle = 'red';
-                ctx.rect(xC - 2, yC - 3, 5, 5);
-                ctx.fill();
-            }
-            lastCo = [xC, yC];
         }
 
     }
 
-    function drawPartialLine(ctx, start, end, index) {
+
+    function generateLine(lineIndex,ctx) {
+
+        var points = data.lines[lineIndex].points;
+        var lineArray = [];
+        var totalSteps = 0;
+        for (x = 0; x < points.length; x++) {
+
+            var array = interpolatePoints(points[x], points[x + 1], xSpacing);
+           
+            for (var y = 0; y < array.length; y++) {
+
+                var yPercentage = array[y] / 1200;
+                var yC = h * yPercentage;
+
+                yC = Math.round(yC);
+                console.log(yC)
+
+                var xPercentage = (x * 12 + x) / (data.xValues.length * 12);
+                var xC = w * xPercentage;
+                //xC = xC + (xSpacing / 2);
+      
+                var t = totalSteps * stepDuration;
+                lineArray.push([
+                    [xC, yC], t, false
+                ]);
+                totalSteps ++;
+            }
+
+        }
+
+        drawLine(lineArray,ctx) 
+    }
+
+    function drawLine(array,ctx) {
+    var lastco = [0,h];
+
+    ctx.beginPath();
+    ctx.moveTo(lastCo[0], lastCo[1]);
+    for(var x=0; x < array.length;x++) {
+          draw(ctx,array[x][0],x);  
+    }
+   
+    function draw(ctx,co,time) {
         setTimeout(function() {
-            ctx.beginPath();
-            ctx.moveTo(start[0], start[1]);
-            ctx.quadraticCurveTo(start[0] + 1, start[1], end[0], end[1]);
+            ctx.lineTo(co[0], co[1]);
             ctx.strokeStyle = 'red';
             ctx.lineWidth = 2;
             ctx.stroke();
-        }, (stepDuration * index))
+        },time,ctx);
+    } 
     }
 
 
@@ -136,7 +150,6 @@ $.fn.simpleChart = function(chartData) {
         for (var x = 0; x < time; x++) {
             array.push(y + (step * x));
         }
-
         return array;
     }
 
