@@ -61,7 +61,6 @@ top: 240px;
 width: 800px;
 box-shadow: 6px 6px 6px -4px #666;
 border-radius: 5px;
-opacity: 0;
 }
 
 table th {
@@ -83,12 +82,19 @@ table th sup {
 font-size: 8px;
 }
 
+table td sup {
+font-size: 7px;
+position: relative;
+left: 1px;
+top: -2px;	
+}
+
 table tr td:nth-child(1) {
-	width: 220px;
+	width: 230px;
 }
 
 table tr td:nth-child(2) {
-	width: 190px;
+	width: 160px;
 	text-align: center;
 }
 
@@ -130,7 +136,7 @@ padding-right: 5px
 
 table td {
 color: #706f6f;	
-font-size: 11px;
+font-size: 12px;
 background-color: #FFF;
 padding: 4px 14px;
 border-right: 1px solid #b6b3ab;
@@ -157,6 +163,9 @@ table tr.last td {
 border-bottom: none;	
 }
 
-
+.table_down {
+position: relative;
+top: 4px;
+}
 
 

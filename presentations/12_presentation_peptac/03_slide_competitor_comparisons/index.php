@@ -15,7 +15,7 @@
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th>NHS List price/reimbursement <span class="table_lineup">cost<sup>1</sup></span></th>
+          <th><span class="table_down">NHS List price/reimbursement <span class="table_lineup">cost<sup>1</sup></span></span></th>
           <th>Peptac cost saving vs. alternative Prescribed Product</th>
           <th>Marketed by</th>
           </tr>

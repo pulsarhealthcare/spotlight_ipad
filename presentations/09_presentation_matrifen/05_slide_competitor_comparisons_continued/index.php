@@ -14,7 +14,7 @@
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th>NHS List price/reimbursement cost<sup>1</sup></th>
+          <th><span class="table_down">NHS List price/reimbursement</span> cost<sup>1</sup></th>
           <th>Matrifen cost saving vs. alternative Prescribed Product</th>
           <th>Marketed by</th>
           </tr>
@@ -56,7 +56,7 @@
 
           <tr>
 
-            <td>Mezolar® Matrix (fentanyl) 12 mcg/hr patch 5s</td>
+            <td>Mezolar<sup>®</sup> Matrix (fentanyl) 12 mcg/hr patch 5s</td>
             <td>£7.53</td>
             <td>£0.01</td>
             <td>Sandoz Ltd</td>

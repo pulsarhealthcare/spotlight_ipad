@@ -18,7 +18,10 @@ top: -4px;
 }
 
 h2 sup {
-font-size: 10px;	
+font-size: 10px;
+position: relative;
+left: 2px;
+top: -4px;	
 }
 
 #slide_container h2 {

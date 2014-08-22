@@ -69,7 +69,7 @@
 
           <tr>
 
-            <td>Molaxole® (macrogol compound) powder sachet adult 20s</td>
+            <td>Molaxole<sup>®</sup> (macrogol compound) powder sachet adult 20s</td>
             <td>£3.78</td>
             <td>£0.58</td>
             <td>Meda Pharmaceuticals</td>
@@ -89,7 +89,7 @@
 
           <tr>
 
-            <td>Movicol® (macrogol compound) powder sachet paed 30s </td>
+            <td>Movicol<sup>®</sup> (macrogol compound) powder sachet paed 30s </td>
             <td>£4.38</td>
             <td>£1.23</td>
             <td>Norgine Limited</td>

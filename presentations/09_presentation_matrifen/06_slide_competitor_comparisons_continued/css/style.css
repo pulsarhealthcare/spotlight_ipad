@@ -88,11 +88,11 @@ background-color: #d9ebec;
 }
 
 table tr td:nth-child(1) {
-	width: 195px;
+	width: 210px;
 }
 
 table tr td:nth-child(2) {
-	width: 180px;
+	width: 170px;
 	text-align: center;
 }
 
@@ -102,7 +102,7 @@ table tr td:nth-child(3) {
 }
 
 table tr td:nth-child(4) {
-	width: 165px;
+	width: 185px;
 	text-align: center;
 }
 
@@ -134,7 +134,7 @@ padding-right: 5px
 
 table td {
 color: #706f6f;	
-font-size: 11px;
+font-size: 12px;
 background-color: #FFF;
 padding: 4px 14px;
 border-right: 1px solid #63abb1;
@@ -159,4 +159,9 @@ color: #6d6e71;
 
 table tr.last td {
 border-bottom: none;	
+}
+
+span.table_down {
+position: relative;
+top: 4px;	
 }

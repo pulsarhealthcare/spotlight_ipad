@@ -11,7 +11,7 @@
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th>NHS List price/reimbursement cost<sup>1</sup></th>
+          <th><span class="table_down">NHS List price/reimbursement</span> cost<sup>1</sup></th>
           <th>Monomil cost saving vs. alternative Prescribed Product</th>
           <th>Marketed by</th>
           </tr>
@@ -21,7 +21,7 @@
 
           <tr>
 
-            <td>Monomax® (isosorbide mononitrate) SR 60 mg Caps 28s</td>
+            <td>Monomax<sup>®</sup> (isosorbide mononitrate) SR 60 mg Caps 28s</td>
             <td>£8.86</td>
             <td>£5.37</td>
             <td>Trinity-Chiesi</td>
@@ -54,7 +54,7 @@
 
           <tr>
 
-            <td>Tardisc® (isosorbide mononitrate) XL 60 mg Tabs 28s  </td>
+            <td>Tardisc<sup>®</sup> (isosorbide mononitrate) XL 60 mg Tabs 28s  </td>
             <td>£3.49</td>
             <td>£0.00 </td>
             <td>Discovery Pharmaceuticals</td>
@@ -64,7 +64,7 @@
 
           <tr>
 
-            <td>Trangina® XL (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+            <td>Trangina<sup>®</sup> XL (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
             <td>£4.55 </td>
             <td>£1.06</td>
             <td>Actavis UK Ltd</td>
@@ -74,7 +74,7 @@
 
           <tr>
 
-            <td>Xismox® (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+            <td>Xismox<sup>®</sup> (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
             <td>£5.51</td>
             <td>£2.02</td>
             <td>Genus Pharmaceuticals</td>
@@ -84,7 +84,7 @@
 
           <tr class="last">
 
-            <td>Zemon® (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+            <td>Zemon<sup>®</sup> (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
             <td>£11.14</td>
             <td>£7.65</td>
             <td>Neolab</td>

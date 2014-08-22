@@ -152,6 +152,11 @@ font-weight: bold;
 text-align: center;
 }
 
+table span.table_down {
+position: relative;
+top: 2px;	
+}
+
 table td:nth-child(6) {
 border-right: none;	
 }

@@ -128,6 +128,13 @@ position: relative;
 top: -5px;	
 }
 
+table td sup {
+font-size: 7px;
+position: relative;
+left: 1px;
+top: -2px;
+}
+
 #slide_container table th span.table_small {
 display: block;
 font-size: 8px;	

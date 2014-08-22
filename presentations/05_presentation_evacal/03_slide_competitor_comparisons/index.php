@@ -29,7 +29,7 @@
 
           <tr>
 
-            <td>Adcal-D3® (calcium carbonate/colecalciferol) 1500 mg/400 iu Tabs 56</td>
+            <td>Adcal-D3<sup>®</sup> (calcium carbonate/colecalciferol) 1500 mg/400 iu Tabs 56</td>
             <td>£3.65</td>
             <td>£0.73</td>
             <td>ProStrakan</td>
@@ -59,7 +59,7 @@
 
            <tr>
 
-            <td>Calceos® (calcium carbonate/colecalciferol) 1250 mg/400 iu Tabs 60†</td>
+            <td>Calceos<sup>®</sup> (calcium carbonate/colecalciferol) 1250 mg/400 iu Tabs 60†</td>
             <td>£3.58</td>
             <td>£0.45</td>
             <td>Galen Limited</td>
@@ -69,7 +69,7 @@
 
            <tr>
 
-            <td>Calcichew-D3 Forte® (calcium carbonate/colecalciferol) 1250 mg/400 iu Tabs 60†</td>
+            <td>Calcichew-D3 Forte<sup>®</sup> (calcium carbonate/colecalciferol) 1250 mg/400 iu Tabs 60†</td>
             <td>£4.24</td>
             <td>£1.11</td>
             <td>Shire Pharmaceuticals</td>
@@ -89,7 +89,7 @@
 
            <tr class="selected">
 
-            <td>Evacal-D3® (calcium carbonate/colecalciferol) 1500 mg/400 iu Tabs 56</td>
+            <td>Evacal-D3<sup>®</sup> (calcium carbonate/colecalciferol) 1500 mg/400 iu Tabs 56</td>
             <td>£2.92</td>
             <td>N/A</td>
             <td>Teva UK Limited</td>
@@ -109,7 +109,7 @@
 
            <tr class="last">
 
-            <td>Natecal® (calcium carbonate/colecalciferol) 1500 mg/400 iu Tabs 60</td>
+            <td>Natecal<sup>®</sup> (calcium carbonate/colecalciferol) 1500 mg/400 iu Tabs 60</td>
             <td>£3.63</td>
             <td>£0.50</td>
             <td>Chiesi Limited</td>

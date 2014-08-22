@@ -25,7 +25,7 @@
 
           <tr>
 
-              <td>Carmil® (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+              <td>Carmil<sup>®</sup> (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
               <td>£5.75</td>
               <td>£2.26</td>
               <td>Milpharm Ltd</td>
@@ -75,7 +75,7 @@
 
           <tr>
 
-              <td>Imdur® (isosorbide mononitrate) XL 60 mg Durules 28s </td>
+              <td>Imdur<sup>®</sup> (isosorbide mononitrate) XL 60 mg Durules 28s </td>
               <td>£10.50</td>
               <td>£7.01</td>
               <td>AstraZeneca</td>
@@ -85,7 +85,7 @@
 
           <tr>
 
-              <td>Isib® (isosorbide mononitrate) XL 60 mg Tabs 28s</td>
+              <td>Isib<sup>®</sup> (isosorbide mononitrate) XL 60 mg Tabs 28s</td>
               <td>£8.15</td>
               <td>£4.66</td>
               <td>Ashbourne Pharmaceuticals Ltd</td>
@@ -95,7 +95,7 @@
 
           <tr>
 
-              <td>Isotard® (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+              <td>Isotard<sup>®</sup> (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
               <td>£5.75</td>
               <td>£2.26</td>
               <td>ProStrakan Ltd</td>
@@ -105,7 +105,7 @@
 
           <tr class="last">
 
-              <td>Modisal® (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+              <td>Modisal<sup>®</sup> (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
               <td>£10.36</td>
               <td>£6.87</td>
               <td>Sandoz</td>

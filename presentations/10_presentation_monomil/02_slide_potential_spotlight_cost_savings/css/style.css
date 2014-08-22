@@ -107,11 +107,11 @@ width: 90px;
 }
 
 table th:nth-child(2) {
-width: 130px;
+width: 120px;
 }
 
 table th:nth-child(3) {
-width: 130px;
+width: 150px;
 }
 
 table th:nth-child(4) {
@@ -132,9 +132,23 @@ table th span.table_small {
 display: block;
 font-size: 8px;	
 position: relative;
+top: 15px;
+}
+
+table th:nth-child(6) span.table_small {
+display: block;
+font-size: 8px;	
+position: relative;
 top: 5px;
 }
 
+table th span.table_small_first {
+display: block;
+line-height: 8px;
+font-size: 8px;	
+position: relative;
+top: 10px;
+}
 table th:nth-child(1) {
 border-radius: 5px 0 0 0;	
 }
