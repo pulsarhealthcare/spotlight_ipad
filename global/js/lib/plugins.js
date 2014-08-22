@@ -92,7 +92,7 @@ irep.veeva = function() {
 }
 
 //Chart plugin
-$.fn.simpleChart = function(chartData) {
+/*$.fn.simpleChart = function(chartData) {
     //Globals
     var chart = $(this);
     var w = chart.width();
@@ -156,5 +156,5 @@ $.fn.simpleChart = function(chartData) {
             }
         }, 800)
     }
-}
+}*/
 

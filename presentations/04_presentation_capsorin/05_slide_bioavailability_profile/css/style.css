@@ -113,11 +113,13 @@ position:  relative;
     margin-left:369px;
 }
 
+
+
 #chart_container h3 {
     font-weight: bold;
     font-size: 12px;
     margin-bottom:8px;
-    margin-top:6px;
+    margin-top:100px;
     color:#303030;
     margin-left:29px;
 }
@@ -127,6 +129,7 @@ position:  relative;
 	height:207px;
 	margin-left:35px;
 	position: absolute;
+	border:1px solid #CCC;
 }
 
 
@@ -146,15 +149,23 @@ position:  relative;
 	font-size:11px;
 	color:#CCC;
 }
-#chart_container p {
-	position: absolute;
-	font-weight: bold;
+
+.line_container {
+	top:0px;
+	position: 	absolute;
 }
-.x-axis-seperators {
-	left:20px;
+.y-axis-lable {
+	position: absolute;
+	font-weight: normal;
+	margin-left:-26px;
+	margin-top:-4px;
+}
+.x-axis {
+    top:0px;
 	position: absolute;
 }
 .x-axis-line {
+
 	height:2px;
 	background:#CCC;
 	position: absolute;
@@ -176,18 +187,18 @@ position:  relative;
 	position: absolute;
 }
 .x-axis-lable {
+		position: absolute;
+	font-weight: normal;
 	text-align: center;
 	-webkit-transform:rotate(-90deg);
 }
 .y-axis-seperator {
 	background:#CCC;
 	position: absolute;
-	left:18px;
 	border-bottom:1px dotted #333;
-	width:320px;
 }
 canvas {
-	margin-left:28px;
+
 }
 .bars  {
 	margin-left:30px;
