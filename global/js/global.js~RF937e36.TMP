@@ -117,43 +117,46 @@ function pdfViewer() {
        
 $('.fullscreen').on(input.tap, function() {
 
-        $('#img_container').empty();
-
-        switch($(this).prop("tagName")) {
-            case 'TABLE' :
-                $('#img_container').append($('table').clone());
-                var x = ((1024 - ($('table').width()+12)) / ($('table').width()+12)) * 100;
-                x = Math.round(x); 
-                $('#img_container table').css({'-webkit-transform':'scale(1.'+x+')','left':'0px'});
-                var l = $('#img_container table')[0].getBoundingClientRect().left;
-                l = -l;
-                var t = ((656 - $('#img_container table')[0].getBoundingClientRect().height) / 2 );
-                $('#img_container table').css({'left': (l+6)+'px','top':t+'px'});     
-            break; 
-            case 'DIV' :
-               $('#img_container').append($(this).clone());
-               var x = ((1024 - ($(this).width())) / ($(this).width())) * 100;
-               x = Math.round(x);
-               console.log(x)
-               $('#img_container .chart_container').css({'-webkit-transform':'scale(1.'+x+')','left':'0px'});
-                
-            break; 
-        }
         $('#img_layer').css('top', '0px');
-});
+        var src = $('img.fullscreen').attr('src');
+ 
+        $('#img_container').empty(); // clear existing images from here
+        $('#img_container').append('<img class="showing" src="'+ src +'"/>');
 
+        var img = $('.showing');
+        var h = img.height();
+        
+        if(h > 400) {
+        // resize img here
+        img.addClass('img_large');
+        } else {
+        img.css('margin-top', + h / -2 + "px");
+        }
 
+    });
+
+$('table').on(input.tap, function() {
     
-    
+    $('#img_container').append($('table'));
     
     //Workout scale 
-    
 
-    
+    var x = ((1024 - ($('table').width()+5)) / ($('table').width()+5)) * 100;
+    x = Math.round(x);
 
+    $('#img_container table').css({'-webkit-transform':'scale(1.'+x+')','left':'0px'});
+
+    var l = $('#img_container table')[0].getBoundingClientRect().left;
+    l = -l;
+
+    var t = ((656 - $('#img_container table')[0].getBoundingClientRect().height) / 2 ) + 42 
+    $('#img_container table').css({'left': l+'px','top':'100px'});
+
+    $('#img_layer').css('top','0px');
+});
 
 $('#img_header button').on(input.tap, function() {
-    $('#img_layer').css('top', '768');
+    $('#img_layer').css('top', '768')
 });
 
   

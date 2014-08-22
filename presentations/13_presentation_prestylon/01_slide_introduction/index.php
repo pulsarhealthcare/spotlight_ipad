@@ -6,9 +6,7 @@
     <h1>Introduction</h1>             
 
 
-<h2>
-
-Prestylon<sup>®</sup>
+<h2>Prestylon<sup>®</sup>
                                 costs approximately 25% less than
                                 Omacor<sup>®</sup>
                                 (eicosapentaenoic acid/docasahexaenoic acid),* which

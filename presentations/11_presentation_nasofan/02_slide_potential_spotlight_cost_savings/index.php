@@ -16,10 +16,38 @@ Primary Care </h2><h2>Organisation (PCO) level, this translates
 into a potential average annual saving of over
 £14,532<sup>1</sup></h2>
 
+        <table class="fullscreen">
 
+<thead>
+        <tr>
 
- <img class="fullscreen" src="img/cost_savings_one.png" alt="" />                               
+          <th>Spotlight brand</th>
+          <th>Annual total number of packs prescribed for Nasofan comparable products at equivalent dosage</th>
+          <th>Current cost to NHS for fluticasone aqueous 50 mcg nasal spray</th>
+          <th>Potential average annual saving to NHS using Nasofan written by brand in place of comparable products at equivalent dosage</th>
+          <th>Potential average annual saving per PCO† using Nasofan, if prescribed by brand <span class="table_small">†based on 237 PCOs</span></th>
+          <th>Potential annual saving per average GP practice‡ using Nasofan, if prescribed by brand <span class="table_small">‡based on 10,339 GP practices</span></th>                                        
+
+        </tr>
+</thead>
+        <tbody>
+
+          <tr class="last">
+
+            <td>Nasofan</td>
+            <td>1,282,689</td>
+            <td>£13,756,971</td>
+            <td>£3,444,152</td>
+            <td>£14,532</td>
+            <td>£333.12</td>
+
+          </tr>
+ 
+        </tbody>
+
+        </table>                     
     
+
     <div id="notes">
 
         <p>*This will be reimbursed at the Cat C price in the Drug

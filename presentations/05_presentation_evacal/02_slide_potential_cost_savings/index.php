@@ -23,7 +23,61 @@ potential annual average saving of over £29,266
                                 <span>potential average annual saving is over
                                 £43,957<sup>1</sup></span></h2>
 
-    <img class="fullscreen" id="main" src="img/cost_savings.png"/>
+   <!-- <img class="fullscreen" id="main" src="img/cost_savings.png"/> -->
+
+        <table class="fullscreen">
+
+<thead>
+
+        <tr>
+     
+          <th>Spotlight brand</th>
+          <th>Annual total number of packs prescribed for Evacal-D3 comparable products at equivalent dosage</th>
+          <th>Current cost to NHS for calcium carbonate 1500 mg/ colecalciferol 400 iu chewable tablets</th>
+          <th>Potential average annual saving to NHS using Evacal-D3 written by brand in place of comparable products at equivalent dosage</th>
+          <th>Potential average annual saving per PCO† using Evacal-D3, if prescribed by brand <span>†based on 237 PCOs</span></th>
+          <th>Potential annual saving per average GP practice≠ using Evacal-D3, if prescribed by brand <span>‡based on 10,339 GP practices</span></th>
+     
+        </tr>
+
+</thead>
+
+<tbody>
+
+         <tr>
+
+                <td>Evacal-D3</td>
+                <td>6,850,514</td>
+                <td>£33,295,574</td>
+                <td>£6,936,054</td>
+                <td>£29,266</td>
+                <td>£670.86</td>
+
+          </tr>
+ 
+
+           <tr>
+
+                <td colspan="6">As above but also including products with a lower calcium carbonate dosage (1250 mg)</td>
+                
+          </tr>
+
+           <tr class="last">
+
+                <td></td>
+                <td>10,215,959</td>
+                <td>£48,862,284</td>
+                <td>£10,417,719</td>
+                <td>£43,957</td>
+                <td>£1,007.61</td>
+                
+          </tr>
+
+        </tbody>
+
+        </table>  
+
+
 
     <div id="notes">
         <p>An average PCO represents a population of approximately

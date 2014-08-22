@@ -6,8 +6,77 @@
 
 <h1>Active constituents of Peptac<sup>®</sup>, Gaviscon<sup>®</sup>, and Gavison<sup>®</sup> Advance<sup>1-6</sup></h1>       
 
+        <table class="fullscreen">
 
-<img class="fullscreen" src="img/const.png" alt="" />                               
+<thead>
+        <tr>
+          <th>Variable</th>
+          <th>Peptac</th>
+          <th>Gaviscon</th>
+          <th>Gaviscon Advance<sup>*</sup></th>
+          </tr>
+</thead>
+        <tbody>
+
+
+          <tr>
+
+            <td>Pack size</td>
+            <td>500 ml</td>
+            <td>500 ml</td>
+            <td>250 ml</td>
+
+          </tr>
+
+
+          <tr>
+
+            <td>Sodium alginate</td>
+            <td>500 mg/10 ml</td>
+            <td>500 mg/10 ml</td>
+            <td>500 mg/5 ml</td>
+
+          </tr>
+
+
+          <tr>
+
+            <td>Sodium bicarbonate</td>
+            <td>267 mg/10 ml</td>
+            <td>267 mg/10 ml</td>
+            <td>N/A</td>
+
+          </tr>
+
+
+          <tr>
+
+            <td>Calcium carbonate</td>
+            <td>160 mg/10 ml</td>
+            <td>160 mg/10 ml</td>
+            <td>N/A</td>
+
+          </tr>
+
+
+          <tr class="last">
+
+            <td>Potassium bicarbonate</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>100 mg/5 ml</td>
+
+          </tr>
+
+
+          </tr>
+
+
+        </tbody>
+
+        </table> 
+
+<!--<img class="fullscreen" src="img/const.png" alt="" />-->                               
 
 <div id="notes">
 

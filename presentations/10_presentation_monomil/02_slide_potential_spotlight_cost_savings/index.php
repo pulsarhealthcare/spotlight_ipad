@@ -15,10 +15,39 @@ generically.*† At a Primary Care Organisation (PCO)
 level, this translates into a potential average
 <span>annual saving of over £46,984<sup>1</sup></span></h2>
 
+        <table class="fullscreen">
 
+<thead>
+        <tr>
+          <th>Spotlight brand</th>
+          <th>Annual total number of packs prescribed for Monomil comparable products at equivalent dosage</th>
+          <th>Current cost to NHS for Isosorbide mononitrate Prolonged-Release XL 60 mg </th>
+          <th>Potential average annual saving to NHS using Monomil written by brand in place of comparable products at equivalent dosage</th>
+          <th>Potential average annual saving per PCO† using Monomil, if prescribed by brand (Will be lower in NHS Scotland due 
+to drug tariff differences) <span class="table_small">†based on 237 PCOs</span></th>
+          <th>Potential annual saving per average GP practice‡ using Monomil, 
+if prescribed by brand (Will be lower in NHS Scotland due 
+to drug tariff differences) <span class="table_small">‡based on 10,339 GP practices</span></th>
+        </tr>
+</thead>
+        <tbody>
 
- <img class="fullscreen" src="img/cost_savings_one.png" alt="" />                               
-    
+          <tr class="last">
+
+            <td class="capsorin">Monomil</td>
+            <td>3,408,469</td>
+            <td>£23,030,793</td>
+            <td>£11,135,236</td>
+            <td>£46,984</td>
+            <td>£1,077.01</td>
+
+          </tr>
+ 
+        </tbody>
+
+        </table>  
+
+  
     <div id="notes">
 
         <p>*This will be reimbursed at the Cat C price in the Drug

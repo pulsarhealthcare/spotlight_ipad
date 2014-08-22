@@ -14,7 +14,42 @@
                         level, this translates into a potential average annual
                         saving of over <span>£25,225<sup>1</sup></span></h2>
 
-    <img class="fullscreen" id="main" width="805" src="img/main.png"/>
+   <!-- <img class="fullscreen" id="main" width="805" src="img/main.png"/> -->
+
+
+
+        <table class="fullscreen">
+
+<thead>
+        <tr>
+          <th>Spotlight brand</th>
+          <th>Annual total number of packs prescribed for Filnarine SR comparable products at equivalent dosage</th>
+          <th>Current cost to NHS for morphine sulphate Prolonged-Release 10 mg, 30 mg, 60 mg, 100 mg &amp; 200 mg</th>
+          <th>Potential average annual saving to NHS using Filnarine SR written by brand in place of comparable products at equivalent dosage</th>
+          <th>Potential average annual saving per PCO† using Filnarine SR, if prescribed by brand <span class="table_small">†based on 237 PCOs</span></th>
+          <th>Potential annual saving per average GP practice‡ using Filnarine SR, if prescribed by brand <span class="table_small">‡based on 10,339 GP practices</span></th>
+        </tr>
+</thead>
+        <tbody>
+
+          <tr class="last">
+
+            <td>Filnarine SR</td>
+            <td>2,553,728</td>
+            <td>£23,979,705</td>
+            <td>£5,978,435</td>
+            <td>£25,225</td>
+            <td>£578.24</td>
+
+          </tr>
+ 
+        </tbody>
+
+        </table>  
+
+
+
+
     <div id="notes">
         <p> An average PCO represents a population of approximately
                         272,000 people. Please note: The term Primary Care

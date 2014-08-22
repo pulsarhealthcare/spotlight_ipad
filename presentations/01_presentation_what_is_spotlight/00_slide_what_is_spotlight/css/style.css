@@ -70,35 +70,36 @@ opacity: 1;
 
 /* Chart */
 
-#chart_container {
-	
+.chart_container {
 	background:#FFF;
 	height:237px;
 	width:390px;
-    margin-top:73px;
+    opacity:0;
     position: absolute;
-    margin-left:104px;
+   	position: absolute;
+	left:104px;
+	top:364px;
 }
 
-#chart_container h3 {
+.chart_container h3 {
     font-weight: bold;
-    font-size: 12px;
-    margin-bottom:8px;
+    font-size: 11px;
+    margin-bottom:11px;
     margin-top:6px;
-    color:#303030;
+    color:#646665;
     margin-left:29px;
 }
 
-#chart {
-	width:340px;
+.chart {
+	width:330px;
 	height:207px;
-	margin-left:35px;
+	margin-left:39px;
 	position: absolute;
 }
 
 
 
-#chart_container h4 {
+.chart_container h4 {
 	position: absolute;
 	font-size:9px;
 	-webkit-transform: rotate(-90deg);
@@ -106,37 +107,42 @@ opacity: 1;
     left:-13px;
     font-size:7px;
     opacity:0;
+    	color:#5f635f;
 
 }
 
-#chart_container h3 sub {
+.chart_container h3 sub {
 	font-size:11px;
-	color:#CCC;
+
 }
-#chart_container p {
+.chart_container p {
 	position: absolute;
 	-webkit-transform:scale(0);
 	font-weight: bold;
+	color:#5f635f;
+	font-size: 8px;
+	width:15px;
+	text-align: right;
 }
 
 .x-axis-line {
 	left:20px;
 	height:1px;
-	background:#CCC;
+	background:#f2f3f2;
 	position: absolute;
 	display:none;
 }
 
 .y-axis-line {
 	width:1px;
-	background:#CCC;
+	background:#f2f3f2;
 	position: absolute;
 	left:24px;
 
 }
 
 .x-axis-seperator {
-	background:#CCC;
+	background:#f2f3f2;
 	position: absolute;
 	left:18px;
 	height:1px;
@@ -148,9 +154,9 @@ opacity: 1;
 }
 .bar_colum {
     border-radius: 5px;
-    width:50px;
+    width:48px;
     float:left;
-    margin-left:12px;
+    margin-left:11px;
 }
 
 .bar:first-child {
@@ -159,12 +165,21 @@ opacity: 1;
 .bar_titles {
     margin-left:30px;
 	position: absolute;
+		color:#5f635f;
 }
 .bar_title {
     -webkit-transform:scale(0);
 	font-size:6px;
 	font-weight: bold;
 	text-align: center;
+}
+
+.bar_title:nth-child(4) {
+margin-left:6px;
+}
+
+.bar_title:nth-child(5) {
+margin-left:16px;
 }
 
 .bar_title:first-child {

@@ -59,13 +59,15 @@ header h4 {
 }
 
 #header_button_home {
-    margin-top:8px;
-    margin-left:64px;
+    margin-top:4px;
+    margin-left:144px;
+
+	
 }
 
 #header_button_index {
-	
-    left:142px;
+
+    left:190px;
 	top:-6px;
 }
 
@@ -201,7 +203,7 @@ font-weight: bold;
 
 
 #index_dropdown {
-	left:15px;
+	left:64px;
 	
 }
 

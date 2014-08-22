@@ -21,7 +21,41 @@ saving of over £66,196<sup>1</sup></h2>
 
 
 
- <img class="fullscreen" src="img/cost_savings_one.png" alt="" />                               
+ <!--<img class="fullscreen" src="img/cost_savings_one.png" alt="" />-->            
+
+
+        <table class="fullscreen">
+
+<thead>
+        <tr>
+          <th>Spotlight brand</th>
+          <th>Annual total number of packs prescribed for Matrifen comparable products at equivalent dosage</th>
+          <th>Current cost to NHS for fentanyl transdermal patch 12 mcg/hr, 25 mcg/hr,50 mcg/hr, 75 mcg/hr and 100 mcg/hr </th>
+          <th>Potential average annual saving to NHS using Matrifen written by brand in place of comparable products at equivalent dosage</th>
+          <th>Potential average annual saving per PCO† using Matrifen, if prescribed by brand (will be lower in NHS Scotland due to drug tariff differences)
+<span class="table_small">†based on 237 PCOs</span></th>
+          <th>Potential annual saving per average GP practice‡ using Matrifen, if prescribed by brand 
+(will be lower in NHS Scotland due 
+to drug tariff differences)
+<span class="table_small">‡based on 10,339 GP practices</span></th>
+        </tr>
+</thead>
+        <tbody>
+
+          <tr class="last">
+
+            <td>Matrifen </td>
+            <td>2,383,371</td>
+            <td>£55,253,768</td>
+            <td>£15,688,338 </td>
+            <td>£66,196 </td>
+            <td>£1,517.39</td>
+
+          </tr>
+ 
+        </tbody>
+
+        </table>                     
     
     <div id="notes">
 

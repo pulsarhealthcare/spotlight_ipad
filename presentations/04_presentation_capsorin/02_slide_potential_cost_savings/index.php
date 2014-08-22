@@ -18,19 +18,19 @@ level, Capsorin offers potential average annual savings
 of over £13,564
 </h2>
 
-    <img class="fullscreen" id="main" src="img/main.png"/>
+ <!--   <img class="fullscreen" id="main" src="img/main.png"/> -->
 
 
-    <table>
+        <table class="fullscreen">
 
 <thead>
         <tr>
-          <th>Spotlight brand</td>
-          <th>Annual total number of packs prescribed for Capsorin comparable products at equivalent dosage</td>
-          <th>Current cost ciclosporin 25 mg, 50 mg and 100 mg caps </td>
-          <th>Potential average annual saving to NHS using Capsorin written by brand in place of comparable products at equivalent dosage</td>
-          <th>Potential average annual saving per PCO<sup>†</sup> using Capsorin, if prescribed by brand <span>†based on 237 PCOs</span></td>
-          <th>Potential annual saving per average GP practice<sup>‡</sup> using Capsorin, if prescribed by brand <span>‡based on 10,339 GP practices</span></td>
+          <th>Spotlight brand</th>
+          <th>Annual total number of packs prescribed for Capsorin comparable products at equivalent dosage</th>
+          <th>Current cost ciclosporin 25 mg, 50 mg and 100 mg caps </th>
+          <th>Potential average annual saving to NHS using Capsorin written by brand in place of comparable products at equivalent dosage</th>
+          <th>Potential average annual saving per PCO<sup>†</sup> using <span class="table_lineup">Capsorin, if prescribed by brand</span> <span class="table_small">†based on 237 PCOs</span></th>
+          <th>Potential annual saving per average GP practice<sup>‡</sup> using Capsorin, <span class="table_lineup">if prescribed by brand</span> <span class="table_small">‡based on 10,339 GP practices</span></th>
         </tr>
 </thead>
         <tbody>

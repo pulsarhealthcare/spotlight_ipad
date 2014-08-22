@@ -15,9 +15,36 @@
                                 potential average</h2><h2> annual saving of over
                                 £14,048<sup>1</sup></h2>
 
+        <table class="fullscreen">
 
 
- <img class="fullscreen" src="img/cost_savings_one.png" alt="" />                               
+<thead>
+        <tr>
+          <th>Spotlight brand</th>
+          <th>Annual total number of packs prescribed for Peptac comparable products at equivalent dosage</th>
+          <th>Current cost to NHS for compound alginate oral suspension or sodium alginate and potassium bicarbonate suspension </th>
+          <th>Potential average annual saving to NHS using Peptac written by brand in place of comparable products at equivalent dosage</th>
+          <th>Potential average annual saving per PCO† using Peptac, if prescribed by brand <span class="table_small">†based on 237 PCOs</span></th>
+          <th>Potential annual saving per average GP practice‡ using Peptac, if prescribed by brand <span class="table_small">‡based on 10,339 GP practices</span></th>
+        </tr>
+</thead>
+        <tbody>
+
+          <tr class="last">
+
+            <td class="capsorin">Peptac</td>
+            <td>4,344,618</td>
+            <td>£16,806,842</td>
+            <td>£3,329,276</td>
+            <td>£14,048</td>
+            <td>£322.01</td>
+
+          </tr>
+ 
+        </tbody>
+
+        </table> 
+                          
     
     <div id="notes">
 
