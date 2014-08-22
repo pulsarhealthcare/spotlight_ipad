@@ -90,8 +90,7 @@ irep.navigateTo = function(slide, presentation) {
 irep.veeva = function() {
     return (touch && !location.hostname);
 }
-<<<<<<< HEAD
-=======
+
 //Chart plugin
 $.fn.simpleChart = function(chartData) {
     //Globals
@@ -158,4 +157,4 @@ $.fn.simpleChart = function(chartData) {
         }, 800)
     }
 }
->>>>>>> origin/master
+
