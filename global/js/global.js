@@ -19,7 +19,7 @@ function headerButtons() {
     //Button Effects
 
     $('header button').on(input.down, function() {
-        $(this).css('opacity', 0.4);
+        $(this).css('opacity' , 0.4);
     });
 
     $(document).on(input.up, function() {
@@ -136,7 +136,6 @@ $('.fullscreen').on(input.tap, function() {
                x = Math.round(x);
                console.log(x)
                $('#img_container .chart_container').css({'-webkit-transform':'scale(1.'+x+')','left':'0px'});
-                
             break; 
         }
         $('#img_layer').css('top', '0px');

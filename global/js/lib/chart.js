@@ -7,7 +7,7 @@ $.fn.simpleChart = function(chartData,callback) {
     var h = chart.height();
     var data = chartData;
     var yPoint;
-
+    var delay = 2000;
 
     console.log(w / data.xValues.length)
     var lastCo = [];
@@ -43,15 +43,19 @@ $.fn.simpleChart = function(chartData,callback) {
         for (var x = 0; x < chartData.yValues.length; x++) {
             var percentage = (chartData.yValues[x] - yPoint) / data.yValues[data.yValues.length - 1];
             var y = h * percentage;
-            y_axis.append('<span style="top:' + (y + 2) + 'px; width:0px" class="y-axis-seperator"/>');
+            y_axis.append('<span style="top:' + (y + 2) + 'px;opacity:0;" class="y-axis-seperator"/>');
             y_axis.append('<p class="y-axis-lable" style="top:' + y + 'px">' + chartData.yValues[(chartData.yValues.length - 1) - x] + '</p>')
         }
 
 
         for (var x = 0; x < data.yValues.length; x++) {
-           var oldW = w
-          $('.y-axis-seperator').eq(chartData.yValues.length - (x + 1)).delay(120 * x).animate({
-                width: oldW - 25
+          var oldW = $('.y-axis-seperator').width();
+          setTimeout(function() {
+            $('.y-axis-seperator').css('width','0px')
+          })
+          
+          $('.y-axis-seperator').css('opacity',1).eq(chartData.yValues.length - (x + 1)).delay(120 * x).animate({
+                width: oldW 
             }, 1200)
             chart.find('p').eq(chartData.yValues.length - (x)).delay(120 * x).animate({
                 transform: 'scale(1)'
@@ -61,14 +65,19 @@ $.fn.simpleChart = function(chartData,callback) {
 
     function generateXAxis() {
         chart.append('<div class="x-axis"></div>');
+        
         $('.x-axis').append('<span style="width:' + w + 'px;top:' + h + 'px" class="x-axis-line"/>');
+        
+        $('.x-axis-line').css('width', '0px')
+        $('.x-axis-line').animate({width:w},1200)
+
         for (var x = 0; x < data.xValues.length; x++) {
             var left = (w) / data.xValues.length;
             $('.x-axis').append('<span style="left:' + left * x + 'px;top:' + h + 'px" class="x-axis-seperator"/>');
             $('.x-axis').append('<p class="x-axis-lable"  style="left:' + ((left * x) + 2) + 'px;width:' + left + 'px;top:' + (h + 9) + 'px"> ' + data.xValues[x] + '</p>')
+           $('.x-axis-lable').delay(100 * x).animate({opacity:1},200)
+            $('.x-axis-seperator').delay(50 * x).animate({opacity:1},200)
         }
-       
-
     }
 
     function generateLineCharts() {
@@ -177,7 +186,7 @@ $.fn.simpleChart = function(chartData,callback) {
                 ctx.fill();
             }
 
-        }, (totalLength * lineIndex) + (index * stepDuration), ctx, step, color);
+        }, delay + ((totalLength * lineIndex) + (index * stepDuration)), ctx, step, color);
     }
 
 
