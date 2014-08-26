@@ -6,3 +6,10 @@ $('#slide_container p').eq(0).delay((duration - 100) * 3).animate({opacity:1}, d
 $('#slide_container h3').eq(1).delay((duration - 100) * 4).animate({opacity:1}, duration);
 $('#slide_container p').eq(1).delay((duration - 100) * 5).animate({opacity:1}, duration);
 $('.side_note').delay((duration - 100) * 6).animate({opacity:1}, duration);
+
+var references = [
+
+"Marol Summary of Product Characteristics.",
+"Zydol Summary of Product Characteristics."
+
+]

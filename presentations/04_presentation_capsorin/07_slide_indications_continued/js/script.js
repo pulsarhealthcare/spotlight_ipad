@@ -20,3 +20,10 @@ $('.fifteen').delay((duration - 100) * 17).animate({opacity:1}, duration);
 $('.sixteen').delay((duration - 100) * 18).animate({opacity:1}, duration);
 $('.seventeen').delay((duration - 100) * 19).animate({opacity:1}, duration);
 $('.side_note').delay((duration - 100) * 20).animate({opacity:1}, duration);
+
+var references = [
+
+"Capsorin Summary of Product Characteristics.",
+"Neoral Summary of Product Characteristics."
+
+]

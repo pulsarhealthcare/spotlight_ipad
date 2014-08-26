@@ -11,3 +11,11 @@ $('#slide_container h3').delay((duration - 100) * 3).animate({opacity:1}, durati
 $('#slide_container h4').eq(0).delay((duration - 100) * 4).animate({opacity:1}, duration);
 $('#slide_container h4').eq(1).delay((duration - 100) * 5).animate({opacity:1}, duration);
 $('.side_note').delay((duration - 100) * 6).animate({opacity:1}, duration);
+
+
+var references = [
+
+"BNF 67, March - September 2014",
+"Modified-release preparations. MeReC Bulletin 2000; Volume 11(4): 13-16."
+
+]
