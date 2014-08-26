@@ -84,7 +84,7 @@ opacity: 1;
 .chart_container h3 {
     font-weight: bold;
     font-size: 11px;
-    margin-bottom:11px;
+    margin-bottom:16px;
     margin-top:6px;
     color:#646665;
     margin-left:29px;
@@ -92,7 +92,7 @@ opacity: 1;
 
 .chart {
 	width:330px;
-	height:207px;
+	height:177px;
 	margin-left:39px;
 	position: absolute;
 }
@@ -141,7 +141,7 @@ opacity: 1;
 
 }
 
-.x-axis-seperator {
+.y-axis-seperator {
 	background:#f2f3f2;
 	position: absolute;
 	left:18px;

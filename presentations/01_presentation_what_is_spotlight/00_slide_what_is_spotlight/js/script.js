@@ -16,12 +16,10 @@ $('#slide_container h2').eq(1).delay((duration - 100) * 2).animate({opacity:1}, 
 $('#slide_container .chart_container').delay((duration - 100) * 3).animate({opacity:1}, duration);
 
 setTimeout(function() {
-	$('.chart').simpleChart(chartData);
+	$('.chart').simpleChart(chartData, function() {
+		$('.chart_container h4').delay(100).animate({opacity:1},500);
+	});
 },(duration - 100) * 3)
 
+
 $('.side_note').delay((duration - 100) * 4).animate({opacity:1}, duration);
-
-
-
-
-		
