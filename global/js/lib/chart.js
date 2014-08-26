@@ -43,15 +43,20 @@ $.fn.simpleChart = function(chartData,callback) {
         for (var x = 0; x < chartData.yValues.length; x++) {
             var percentage = (chartData.yValues[x] - yPoint) / data.yValues[data.yValues.length - 1];
             var y = h * percentage;
-            y_axis.append('<span style="top:' + (y + 2) + 'px; width:0px" class="y-axis-seperator"/>');
+            y_axis.append('<span style="top:' + (y + 2) + 'px;opacity:0;" class="y-axis-seperator"/>');
             y_axis.append('<p class="y-axis-lable" style="top:' + y + 'px">' + chartData.yValues[(chartData.yValues.length - 1) - x] + '</p>')
         }
 
 
         for (var x = 0; x < data.yValues.length; x++) {
-           var oldW = w
-          $('.y-axis-seperator').eq(chartData.yValues.length - (x + 1)).delay(120 * x).animate({
-                width: oldW - 25
+          var oldW = $('.y-axis-seperator').width();
+          console.log(oldW)
+          setTimeout(function() {
+            $('.y-axis-seperator').css('width','0px')
+          })
+          
+          $('.y-axis-seperator').css('opacity',1).eq(chartData.yValues.length - (x + 1)).delay(120 * x).animate({
+                width: oldW 
             }, 1200)
             chart.find('p').eq(chartData.yValues.length - (x)).delay(120 * x).animate({
                 transform: 'scale(1)'
