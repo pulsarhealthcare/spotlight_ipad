@@ -20,13 +20,12 @@ Neoral<sup>®1</sup></h1>
 	<li>100mg dose of each product following a 200 mg dose</li>
 
 </ul>
-<div id="chart_container">
+<div id="chart_container" class="fullscreen">
 <div id="chart">
 </div>
 </div>
 <img src="img/graph.gif" class="fullscreen" />
 <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017c</p>
-
 </section>
 
 

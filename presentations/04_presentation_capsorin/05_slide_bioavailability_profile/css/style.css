@@ -182,13 +182,14 @@ canvas {
 	width:2px;
 	background:#CCC;
 	position: absolute;
+	opacity: 0;
 }
 .x-axis-lable {
 	position: absolute;
 	font-weight: normal;
 	text-align: center;
 	text-align:right;
-
+    opacity:0;
 	-webkit-transform:rotate(-90deg);
 }
 .y-axis-seperator {
