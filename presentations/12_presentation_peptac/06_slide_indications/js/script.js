@@ -12,3 +12,5 @@ var references = [
 "Peptac Peppermint Liquid Summary of Product Characteristics."
 
 ]
+
+getReference(references);

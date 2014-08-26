@@ -11,3 +11,5 @@ var references = [
 "Kress HG, Boss H, Delvin T, et al. Transdermal fentanyl matrix patches Matrifen and Durogesic DTrans are bioequivalent. Eur J Pharm Biopharm 2010; 75:225-231."
              
 ]
+
+getReference(references);

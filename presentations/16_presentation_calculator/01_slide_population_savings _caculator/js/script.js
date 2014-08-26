@@ -22,3 +22,5 @@ var references = [
 "Population data taken from Binleys."
 
 ]
+
+getReference(references);

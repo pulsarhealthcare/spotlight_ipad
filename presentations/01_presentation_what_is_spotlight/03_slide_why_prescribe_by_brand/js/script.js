@@ -19,3 +19,5 @@ var references = [
 "Modified-release preparations. MeReC Bulletin 2000; Volume 11(4): 13-16."
 
 ]
+
+getReference(references);

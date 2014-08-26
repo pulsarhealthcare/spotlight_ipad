@@ -18,3 +18,5 @@ $('.side_note').delay((duration - 100) * 10).animate({opacity:1}, duration);
 var references = [
 
 ]
+
+getReference(null);

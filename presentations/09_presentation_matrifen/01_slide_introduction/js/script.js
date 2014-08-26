@@ -13,3 +13,5 @@ var references = [
 "NICE Clinical Guideline (CG140): Opioids in palliative care. May 2012."
 
 ]
+
+getReference(references);

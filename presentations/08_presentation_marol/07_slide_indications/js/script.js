@@ -13,3 +13,5 @@ var references = [
 "Zydol Summary of Product Characteristics."
 
 ]
+
+getReference(references);

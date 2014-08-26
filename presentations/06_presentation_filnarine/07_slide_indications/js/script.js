@@ -13,3 +13,5 @@ var references = [
 "MST Continus  Summary of Product Characteristics."
 
 ]
+
+getReference(references);

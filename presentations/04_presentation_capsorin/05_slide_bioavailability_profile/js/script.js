@@ -33,3 +33,5 @@ var references = [
 "Data on file, Teva UK Limited."
 
 ]
+
+getReference(references);

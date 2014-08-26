@@ -14,3 +14,5 @@ var references = [
 "Gaviscon Advance – Peppermint Flavour Oral Suspension Summary of Product Characteristics."
 
 ]
+
+getReference(references);

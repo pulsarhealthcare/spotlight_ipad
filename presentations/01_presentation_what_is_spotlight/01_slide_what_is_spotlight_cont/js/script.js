@@ -19,3 +19,5 @@ var references = [
 "Revisions to the GMS contract 2006\/7\/07. http:\/\/www.pcc.nhs.uk\/uploads\/ngms\/revisions¡gms¡contract270306.pdf"
 
 ]
+
+getReference(references);

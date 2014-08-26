@@ -18,3 +18,4 @@ var references = [
 ]
 
 
+getReference(references);

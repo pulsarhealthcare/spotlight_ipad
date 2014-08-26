@@ -11,3 +11,5 @@ var references = [
 "Macilax Summary of Product Characteristics"
 
 ]
+
+getReference(references);

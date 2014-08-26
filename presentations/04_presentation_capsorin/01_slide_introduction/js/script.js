@@ -13,3 +13,5 @@ var references = [
 "Drug Safety Update December 2009, Vol 3, issue 5:2"
 
 ]
+
+getReference(references);

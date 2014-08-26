@@ -13,3 +13,5 @@ var references = [
 "Durogesic DTrans Summary of Product Characteristics."
 
 ]
+
+getReference(references);

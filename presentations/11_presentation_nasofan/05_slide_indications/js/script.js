@@ -14,3 +14,5 @@ var references = [
 "Flixonase aqueous nasal spray Summary of Product Characteristics."
 
 ]                                    
+
+getReference(references);

@@ -142,12 +142,26 @@ $('.fullscreen').on(input.tap, function() {
         $('#img_layer').css('top', '0px');
 });
 
+    
+//Workout scale 
 
-    
-    
-    
-    //Workout scale 
-    
+// References drop down code
+
+function getReference(references) {
+
+    if(!references) {
+        $('#ref_dropdown ul').append('<li><h3>No references for this slide</h3></li>');
+    } else {
+
+    $(references).each(function(intValue, currentElement) {
+        $('#ref_dropdown ul').append('<li><h3>' + currentElement + '</h3></li>');             
+
+    });
+
+    }
+
+}
+  
 
     
 

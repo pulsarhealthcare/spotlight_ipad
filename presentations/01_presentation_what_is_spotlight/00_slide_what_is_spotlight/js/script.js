@@ -33,3 +33,4 @@ var references = [
 ]
 
 		
+getReference(references);

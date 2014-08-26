@@ -24,3 +24,5 @@ var references = [
 "UKMI. Which medicines are not suitable for generic prescribing in primary care? Available at: http:\/\/www.warringtonandhaltonhospitals.nhsuk\/_store\/documents\/medicinesnotsuitableforgeneric presribing2005.pdf Accessed on 17 April 2012."
 
 ]
+
+getReference(references);

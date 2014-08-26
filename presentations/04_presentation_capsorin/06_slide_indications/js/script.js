@@ -28,3 +28,5 @@ var references = [
 "Neoral Summary of Product Characteristics."
 
 ]
+
+getReference(references);

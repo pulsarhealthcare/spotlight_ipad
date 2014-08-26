@@ -8,3 +8,5 @@ $('.side_note').delay((duration - 100) * 2).animate({opacity:1}, duration);
 "Data on file, Teva UK Limited."
 
 ]
+
+getReference(references);

@@ -11,3 +11,5 @@ var references = [
 "Marier JF, Lor M, Potvin D, DiMarco M, et al. Pharmacokinetics, tolerability and performance of a novel matrix transdermal delivery system of fentanyl relative to the commercially available reservoir formulation in healthy subjects. J Clin Pharmacol 2006; 46:642-53."
 
 ]
+
+getReference(references);

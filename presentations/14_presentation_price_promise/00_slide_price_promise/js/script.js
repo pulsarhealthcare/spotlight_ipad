@@ -82,3 +82,5 @@ function calculatePopulation(innerPopulation) {
 var references = [
 
 ]
+
+getReference(null);

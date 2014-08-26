@@ -16,3 +16,5 @@ var references = [
 "Adcal‐D3 Summary of Product Characteristics"
 
 ]
+
+getReference(references);

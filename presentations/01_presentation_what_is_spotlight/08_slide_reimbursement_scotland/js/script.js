@@ -15,3 +15,5 @@ var references = [
 "Data on file, Teva UK Limited. Prices sourced from C&D, DM+D and NHS Drug Tariffs"
 
 ]
+
+getReference(references);

@@ -15,3 +15,5 @@ var references = [
 "Imdur Summary of Product Characteristics."                                    
 
 ]
+
+getReference(references);
