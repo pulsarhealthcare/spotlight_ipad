@@ -17,8 +17,8 @@
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th>NHS List price/reimbursement cost<sup>1</sup></th>
-          <th>Macilax cost saving vs. alternative Prescribed Product</th>
+          <th><span class="table_down">NHS List price/reimbursement</span> cost<sup>1</sup></th>
+          <th>Matrifen cost saving vs. alternative Prescribed Product</th>
           <th>Marketed by</th>
           </tr>
 </thead>
@@ -27,7 +27,7 @@
 
           <tr>
 
-            <td>Durogesic® DTrans® (fentanyl) 12 mcg/hr patch 5s </td>
+            <td>Durogesic<sup>®</sup> DTrans® (fentanyl) 12 mcg/hr patch 5s </td>
             <td>£12.59 </td>
             <td>£5.07 </td>
             <td>Janssen-Cilag</td>
@@ -77,7 +77,7 @@
 
           <tr>
 
-            <td>Fencino® (fentanyl) 12 mcg/hr patch 5s</td>
+            <td>Fencino<sup>®</sup> (fentanyl) 12 mcg/hr patch 5s</td>
             <td>£8.46</td>
             <td>£0.94</td>
             <td>Dallas Burston Ashbourne</td>
@@ -127,7 +127,7 @@
 
           <tr>
 
-            <td>Fentalis® Reservoir (fentanyl) 25 mcg/hr patch 5s</td>
+            <td>Fentalis<sup>®</sup> Reservoir (fentanyl) 25 mcg/hr patch 5s</td>
             <td>£22.89</td>
             <td>£12.13</td>
             <td>Sandoz Ltd</td>

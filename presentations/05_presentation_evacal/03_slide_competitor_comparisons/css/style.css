@@ -81,7 +81,7 @@ top: 215px;
 width: 800px;
 box-shadow: 6px 6px 6px -4px #666;
 border-radius: 5px;
-opacity: 1;
+opacity: 0;
 }
 
 table th {
@@ -139,8 +139,12 @@ border-bottom: 1px solid #f58d9d;
 text-align: center;
 }
 
+table td sup {
+font-size: 7px;	
+}
+
 table td:nth-child(1) {
-width: 280px;	
+width: 290px;	
 text-align: left;
 }
 
@@ -153,7 +157,7 @@ width: 180px;
 }
 
 table td:nth-child(4) {
-width: 80px;	
+width: 120px;	
 }
 
 

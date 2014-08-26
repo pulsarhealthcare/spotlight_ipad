@@ -84,11 +84,18 @@ table th sup {
 font-size: 8px;
 }
 
+table td sup {
+font-size: 7px;
+position: relative;
+left: 1px;
+top: -2px;	
+}
+
 table tr.selected td {
 }
 
 table tr td:nth-child(1) {
-	width: 370px;
+	width: 400px;
 }
 
 table tr td:nth-child(2) {
@@ -101,7 +108,7 @@ table tr td:nth-child(3) {
 }
 
 table tr td:nth-child(4) {
-	width: 110px;
+	width: 120px;
 	text-align: center;
 }
 
@@ -137,7 +144,7 @@ padding-right: 5px
 
 table td {
 color: #706f6f;	
-font-size: 11px;
+font-size: 12px;
 background-color: #FFF;
 padding: 4px 14px;
 border-right: 1px solid #fee097;

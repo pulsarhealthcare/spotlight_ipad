@@ -4,3 +4,12 @@ $('#slide_container h2').delay((duration - 100) * 1).animate({opacity:1}, durati
 $('#slide_container h3').delay((duration - 100) * 2).animate({opacity:1}, duration);
 $('p.bullet').delay((duration - 100) * 3).animate({opacity:1}, duration);
 $('.side_note').delay((duration - 100) * 4).animate({opacity:1}, duration);
+
+var references = [
+
+"Movicol Summary of Product Characteristics",
+"Macilax Summary of Product Characteristics"
+
+]
+
+getReference(references);

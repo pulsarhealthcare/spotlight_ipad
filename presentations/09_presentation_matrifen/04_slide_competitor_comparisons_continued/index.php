@@ -15,7 +15,7 @@
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th>NHS List price/reimbursement cost<sup>1</sup></th>
+          <th><span class="table_down">NHS List price/reimbursement</span> cost<sup>1</sup></th>
           <th>Matrifen cost saving vs. alternative Prescribed Product</th>
           <th>Marketed by</th>
           </tr>

@@ -11,7 +11,7 @@ svg {
 }
 
 #slide_container h2 {
-	top:182px;
+	top:172px;
 	left:104px;
 	width:816px;
 	line-height: 26px;
@@ -63,7 +63,7 @@ font-size: 12px;
 table {
 position: absolute;
 left: 104px;
-top: 255px;
+top: 245px;
 width: 800px;
 box-shadow: 6px 6px 6px -4px #666;
 border-radius: 5px;
@@ -90,7 +90,7 @@ background-color: #e5e7f3;
 }
 
 table tr td:nth-child(1) {
-	width: 275px;
+	width:306px;
 }
 
 table tr td:nth-child(2) {
@@ -98,7 +98,7 @@ table tr td:nth-child(2) {
 }
 
 table tr td:nth-child(4) {
-	width: 80px;
+	width: 88px;
 }
 
 table th span.table_lineup {
@@ -129,7 +129,7 @@ padding-right: 5px
 
 table td {
 color: #706f6f;	
-font-size: 11px;
+font-size: 12px;
 background-color: #FFF;
 padding: 4px 14px;
 border-right: 1px solid #b6b3ab;
@@ -138,6 +138,10 @@ border-bottom: 1px solid #b6b3ab;
 
 table td:nth-child(4) {
 border-right: none;	
+}
+
+table td:nth-child(2), table td:nth-child(3), table td:nth-child(4) {
+text-align: center;	
 }
 
 table tr.last td:nth-child(1) {

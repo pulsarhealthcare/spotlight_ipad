@@ -23,8 +23,8 @@ level, this translates into a potential average
           <th>Annual total number of packs prescribed for Monomil comparable products at equivalent dosage</th>
           <th>Current cost to NHS for Isosorbide mononitrate Prolonged-Release XL 60 mg </th>
           <th>Potential average annual saving to NHS using Monomil written by brand in place of comparable products at equivalent dosage</th>
-          <th>Potential average annual saving per PCO† using Monomil, if prescribed by brand (Will be lower in NHS Scotland due 
-to drug tariff differences) <span class="table_small">†based on 237 PCOs</span></th>
+          <th>Potential average annual saving per PCO† using Monomil, if prescribed by brand <span class="table_small_first">(Will be lower in NHS Scotland due 
+to drug tariff differences)</span> <span class="table_small">†based on 237 PCOs</span></th>
           <th>Potential annual saving per average GP practice‡ using Monomil, 
 if prescribed by brand (Will be lower in NHS Scotland due 
 to drug tariff differences) <span class="table_small">‡based on 10,339 GP practices</span></th>

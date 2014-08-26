@@ -212,6 +212,13 @@ font-weight: bold;
 	margin-top:12px;
 	margin-left:10px;
 }
+
+#ref_dropdown h3 {
+font-size: 13px;
+word-wrap: break-word;	
+padding-right: 11px;
+}
+
 .back_button {
 width:100px;
 display: block;

@@ -14,7 +14,7 @@
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th>NHS List price/reimbursement cost<sup>1</sup></th>
+          <th><span class="table_down">NHS List price/reimbursement</span> cost<sup>1</sup></th>
           <th>Marol<sup>®</sup> cost saving vs. alternative Prescribed Product</th>
           <th>Marketed by</th>
           </tr>
@@ -24,7 +24,7 @@
 
           <tr>
 
-            <td>Zamadol® (tramadol) SR 100 mg Caps 60s</td>
+            <td>Zamadol<sup>®</sup> (tramadol) SR 100 mg Caps 60s</td>
             <td>£14.47</td>
             <td>£7.49</td>
             <td>Meda Pharmaceuticals Limited</td>
@@ -54,7 +54,7 @@
 
          <tr>
 
-            <td>Zydol® (tramadol) SR 100 mg Tabs 60s</td>
+            <td>Zydol<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
             <td>£18.26</td>
             <td>£11.28</td>
             <td>Grunenthal</td>
@@ -84,7 +84,7 @@
 
          <tr>
 
-            <td>Tramulief® (tramadol) SR 100 mg Tabs 60s</td>
+            <td>Tramulief<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
             <td>£6.98</td>
             <td>£0.00</td>
             <td>Sovereign Medical</td>

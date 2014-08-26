@@ -145,7 +145,7 @@ border-bottom: none;
 
 table td:nth-child(1) {
 font-weight: bold;	
-width: 115px;
+width: 86px;
 font-size: 12px;
 }
 
@@ -156,14 +156,15 @@ left: 1px;
 }
 
 table td:nth-child(2) {
-width: 318px;
+width: 416px;
 }
 
 table td:nth-child(3) {
-width: 155px;
+width: 118px;
 }
 
 table td:nth-child(4) {
+width: 124px;
 border-right: none;
 }
 

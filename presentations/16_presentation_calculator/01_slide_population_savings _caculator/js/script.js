@@ -15,3 +15,12 @@ $('#slide_container .right').eq(2).delay((duration - 100) * 6).animate({opacity:
 
 $('#notes p').delay((duration - 100) * 7).animate({opacity:1}, duration);
 
+var references = [
+
+"IMS Health National Prescribing Audit MAT August 2012.",
+"Cost calculated using current reimbursement prices taken from dm+d on-line http:\/\/dmd.nhs.uk\/ C&D Data\/ Drug Tariff Jan 13 where they exist.",
+"Population data taken from Binleys."
+
+]
+
+getReference(references);

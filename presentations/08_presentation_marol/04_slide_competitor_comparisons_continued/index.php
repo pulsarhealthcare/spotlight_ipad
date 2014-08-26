@@ -15,7 +15,7 @@
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th>NHS List price/reimbursement cost<sup>1</sup></th>
+          <th><span class="table_down">NHS List price/reimbursement</span> cost<sup>1</sup></th>
           <th>Marol<sup>®</sup> cost saving vs. alternative Prescribed Product</th>
           <th>Marketed by</th>
           </tr>
@@ -25,7 +25,7 @@
 
           <tr>
 
-            <td>Maxitram® (tramadol) SR 100 mg Caps 60s</td>
+            <td>Maxitram<sup>®</sup> (tramadol) SR 100 mg Caps 60s</td>
             <td>£12.14</td>
             <td>£5.16</td>
             <td>Chiesi Limited</td>
@@ -55,7 +55,7 @@
 
          <tr>
 
-            <td>Tramquel® (tramadol) SR 100 mg Caps 60s</td>
+            <td>Tramquel<sup>®</sup> (tramadol) SR 100 mg Caps 60s</td>
             <td>£14.47</td>
             <td>£7.49</td>
             <td>Meda Pharmaceuticals Limited</td>
@@ -85,7 +85,7 @@
 
          <tr>
 
-            <td>Tramulief® (tramadol) SR 100 mg Tabs 60s</td>
+            <td>Tramulief<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
             <td>£6.98</td>
             <td>£0.00</td>
             <td>Sovereign Medical</td>

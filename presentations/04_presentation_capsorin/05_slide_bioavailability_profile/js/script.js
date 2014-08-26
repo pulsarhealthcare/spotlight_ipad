@@ -29,3 +29,11 @@ var chartData = {
 $(document).ready(function() {
 	$('#chart').simpleChart(chartData);
 })
+
+var references = [
+
+"Data on file, Teva UK Limited."
+
+]
+
+getReference(references);
