@@ -8,7 +8,6 @@ svg {
 	color:#FFF;
 	left:104px;
 	font-size:24px;
-	display: none;
 }
 
 h1 sup {
@@ -104,11 +103,13 @@ position:  relative;
 /* Chart */
 
 #chart_container {
-	border:1px solid orange;
+	border:2px solid #bfaf8f;
+	border-radius: 10px;
+	box-shadow: 2px 2px 8px 0px #666;
 	background:#FFF;
 	height:351px;
 	width:540px;
-    margin-top:-85px;
+    margin-top:50px;
     position: absolute;
     margin-left:369px;
 }
@@ -127,7 +128,8 @@ position:  relative;
 #chart {
 	width:340px;
 	height:207px;
-	margin-left:35px;
+	margin-left:100px;
+	margin-top: 80px;
 	position: absolute;
 	border:1px solid #CCC;
 }

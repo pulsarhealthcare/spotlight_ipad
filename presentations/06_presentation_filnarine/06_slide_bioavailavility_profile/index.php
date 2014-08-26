@@ -11,7 +11,14 @@
                                 "right">®</span>*</span>1</sup></h1>             
     <h2></h2>
 
-    <img id="main" width="536" src="img/main.png"/>
+   <!-- <img id="main" width="536" src="img/main.png"/> -->
+
+    <div id="chart_container">
+<div id="chart">
+</div>
+</div>
+
+
     <div id="notes">
         <p> </p>
     </div>
