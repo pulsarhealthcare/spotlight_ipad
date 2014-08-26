@@ -17,9 +17,9 @@ $('#slide_container .chart_container').delay((duration - 100) * 3).animate({opac
 
 setTimeout(function() {
 	$('.chart').simpleChart(chartData, function() {
-		$('.chart_container h4').delay(100).animate({opacity:1},500);
+		$('.chart_container h4').delay(200).animate({opacity:1},500);
 	});
-},(duration - 100) * 3)
+},(duration - 100) * 3);
 
 
 $('.side_note').delay((duration - 100) * 4).animate({opacity:1}, duration);
