@@ -22,6 +22,7 @@ $.fn.simpleChart = function(chartData,callback) {
     }
     if (data.chartType === 'bar') {
         generateBarChart();
+
     } else {
         generateXAxis();
         generateLineCharts();
@@ -91,7 +92,9 @@ $.fn.simpleChart = function(chartData,callback) {
             var points = data.lines[x].points;
 
             var canvas = $('#line_' + x)[0];
-
+            setTimeout(function() {
+                $('body').append('<img src="'+canvas.toDataURL()+'"/>')
+            },8000)
             var ctx = canvas.getContext('2d');
 
             lastCo.push(false);
@@ -169,8 +172,10 @@ $.fn.simpleChart = function(chartData,callback) {
         setTimeout(function(ctx, step, color) {
             ctx.beginPath();
             ctx.strokeStyle = color;
+
             if (!lastCo[lineIndex]) {
                 lastCo[lineIndex] = [step[0][0], step[0][1]];
+
             } else {
                 ctx.moveTo(lastCo[lineIndex][0], lastCo[lineIndex][1])
                 ctx.lineTo(step[0][0], step[0][1]);
@@ -187,6 +192,8 @@ $.fn.simpleChart = function(chartData,callback) {
             }
 
         }, delay + ((totalLength * lineIndex) + (index * stepDuration)), ctx, step, color);
+   
+    
     }
 
 
@@ -229,6 +236,7 @@ $.fn.simpleChart = function(chartData,callback) {
     function callback_1(callback) {
         setTimeout(function() {
         callback();
+
         },duration,callback);
     }
 }

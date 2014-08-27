@@ -2,6 +2,7 @@ $(document).ready(function() {
     window.scrollTo(0, 1);
     headerButtons();
     setPageTitle();
+    pdfViewer()
 });
 
 function setPageTitle() {
@@ -10,8 +11,19 @@ function setPageTitle() {
     for(var x=0; x < navigation.length; x++) {
         if(navigation[x].presentation === presentationFolder) {
             $('header h4').html(navigation[x].presentationName);
+            if(navigation[x].smpc) {
+               $('#smpc_dropdown .pdf').css('display','none');
+               for(var y=0; y < navigation[x].smpc; y ++) {
+                $('#smpc_dropdown .pdf').eq(navigation[y].smpc[y])
+               }
+            } 
+            if(navigation[x].api) {
+
+            }
         }
     }
+
+
 }
 
 function headerButtons() {
@@ -96,8 +108,8 @@ function headerButtons() {
 
 function pdfViewer() {
 
-    $('.pdf').on('input.tap', function() {
-        loadPDF($(this).data('pdf'))
+    $('.pdf').on(input.tap, function() {
+        loadPDF($(this).data('pdf'),$(this).data('num'))
         $('#pdf_layer').css('top', '0px')
     });
 
@@ -105,12 +117,11 @@ function pdfViewer() {
         $('#pdf_layer').css('top', '768')
     });
 
-    function loadPDF(index) {
-        var pdf = PDFs[index];
+    function loadPDF(url,num) {
+
         $('#pdf_container').empty();
-        for (var x = 0; x < pdf.number; x++) {
-            console.log(pdf.number)
-            $('#pdf_container').append('<img src="pdf_images/' + pdf.directory + '/' + x + '.jpg"/>');
+        for (var x = 1; x < num + 1; x++) {
+            $('#pdf_container').append('<img src="'+url+'/pdf_Page_'+x+'.png"/>');
         }
     }
 }
@@ -154,7 +165,6 @@ function getReference(references) {
 
     $(references).each(function(intValue, currentElement) {
         $('#ref_dropdown ul').append('<li><h3>' + currentElement + '</h3></li>');             
-
     });
 
     }

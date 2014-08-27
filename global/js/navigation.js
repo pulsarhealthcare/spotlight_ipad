@@ -13,7 +13,9 @@ navigation[0] = {
         ['Page 8. Reimbursement - England and Wales', '07_slide_reimbursement_england_and_wales'],
         ['Page 9. Reimbursement - Scotland', '08_slide_reimbursement_scotland'],
         ['Page 10. Patient Benefits', '09_slide_patient_benefits']
-    ]
+    ],
+    smpc : null,
+    api : null
 }
 navigation[1] = {
     presentation: '02_presentation_potential_savings',
@@ -22,14 +24,18 @@ navigation[1] = {
         ['Page 1. Potential savings', '00_slide_potential_savings'],
         ['Page 2. NHS Savings', '01_slide_nhs_savings'],
         ['Page 3. Cost savings per prescription', '02_slide_cost_savings_per_prescription'],
-    ]
+    ],
+    smpc : null,
+    api : null
 }
 navigation[2] = {
     presentation: '03_presentation_the_spotlight_brands',
     presentationName: 'The Spotlight brands',
     links: [
         ['', '00_slide_the_spotlight_brands'],
-    ]
+    ],
+    smpc : null,
+    api : null
 }
 navigation[3] = {
     presentation: '04_presentation_capsorin',
@@ -43,7 +49,9 @@ navigation[3] = {
         ['Page 6. Bioavailability profile', '05_slide_bioavailability_profile'],
         ['Page 7. Indications', '06_slide_indications'],
         ['Page 8. indications cont.', '07_slide_indications_continued'],
-    ]
+    ],
+    smpc : [0,1,2],
+    api : [0]
 }
 navigation[4] = {
     presentation: '05_presentation_evacal',
@@ -55,7 +63,9 @@ navigation[4] = {
         ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
         ['Page 5. Clinical comparability', '04_slide_clinical_comparability'],
         ['Page 6. Indications', '05_slide_indications'],
-    ]
+    ],
+    smpc : [3],
+    api : [1]
 }
 navigation[5] = {
     presentation: '06_presentation_filnarine',
@@ -69,7 +79,9 @@ navigation[5] = {
         ['Page 6. Competitor comparisons co..', '05_slide_competitor_comparisons_cont'],
         ['Page 7. Bioavailability profile', '06_slide_bioavailavility_profile'],
         ['Page 8. Indications', '07_slide_indications'],
-    ]
+    ],
+    smpc : [4,5,6,7,8],
+    api : [2]
 }
 navigation[6] = {
     presentation: '07_presentation_macilax',
@@ -81,7 +93,9 @@ navigation[6] = {
         ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
         ['Page 5. Clinical comparability', '04_slide_clinical_comparability'],
         ['Page 6. Indications', '05_slide_macilax_indications'],
-    ]
+    ],
+    smpc : [],
+    api : []
 }
 navigation[7] = {
     presentation: '08_presentation_marol',
@@ -95,7 +109,9 @@ navigation[7] = {
         ['Page 6. Competitor comparisons co..', '05_slide_competitor_comparisons_continued'],
         ['Page 7. Bioavailability profile', '06_slide_bioavailability_profile'],
         ['Page 8. Indications', '07_slide_indications'],
-    ]
+    ],
+    smpc : [9,10,11],
+    api : []
 }
 navigation[8] = {
     presentation: '09_presentation_matrifen',
@@ -114,7 +130,9 @@ navigation[8] = {
         ['Page 11. Advantages cont.', '10_slide_advantages_cont'],
         ['Page 12. Designed with patients in...', '11_slide_designed_with_patients_in_mind'],
         ['Page 13. Indications', '12_slide_indications'],
-    ]
+    ],
+    smpc : [],
+    api : []
 }
 navigation[9] = {
     presentation: '10_presentation_monomil',
@@ -127,7 +145,9 @@ navigation[9] = {
         ['Page 5. Competitor comparisons co..', '04_slide_competitor_comparisons_continued'],
         ['Page 6. Bioavailability profile', '05_slide_bioavailability_profile'],
         ['Page 7. Indications', '06_slide_indications'],
-    ]
+    ],
+    smpc : [],
+    api : []
 }
 navigation[10] = {
     presentation: '11_presentation_nasofan',
@@ -139,7 +159,9 @@ navigation[10] = {
         ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
         ['Page 5. Bioavailability profile', '04_slide_bioavailability_profile'],
         ['Page 6. Indications', '05_slide_indications'],
-    ]
+    ],
+    smpc : [],
+    api : []
 }
 navigation[11] = {
     presentation: '12_presentation_peptac',
@@ -153,7 +175,9 @@ navigation[11] = {
         ['Page 6. Peptax raft strength and raft thickness', '05_slide_peptax_raft_strength_and_raft_thickness'],
         ['Page 7. Indications', '06_slide_indications']
         
-    ]
+    ],
+    smpc : [],
+    api : []
 }
 
 navigation[12] = {
@@ -166,7 +190,9 @@ navigation[12] = {
         ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
         ['Page 5. Bioavailability profile', '04_slide_bioavailability_profile'],
         ['Page 6. Indications', '05_slide_indications'],
-    ]
+    ],
+    smpc : [],
+    api : []
 }
 
 navigation[13] = {
@@ -175,12 +201,16 @@ navigation[13] = {
     links: [
         ['Page 1. Price Promise', '00_slide_price_promise'],
         ['Page 2. Price Promise', '01_slide_price_promise_cont']
-    ]
+    ],
+    smpc : [],
+    api : []
 }
 navigation[14] = {
     presentation: '15_presentation_summary',
     presentationName: 'Summary',
     links: [
         ['Page 1. ', '00_slide_summary'],
-    ]
+    ],
+    smpc : [],
+    api : []
 }
