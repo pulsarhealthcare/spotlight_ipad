@@ -24,12 +24,7 @@ given by C<sub>max</sub></span>
 </h2>
 
 
-<div id="chart_container">
-<div id="chart">
-</div>
-</div>
-
-
+<img src="img/graph.png" class="fullscreen" alt="" />
 
 <h2>The BNF and MeReC encourage GPs to prescribe certain
 generic medicines, particularly modified-release
