@@ -1,15 +1,5 @@
 <?php
 $appPackager = new AppPackager;
-$os =  $_SERVER['HTTP_USER_AGENT'] . "\n\n";
-
-
-if(preg_match('/Macintosh/', $os)){
-     $appPackager->setWinRARPath('/Users/garrybain/Downloads/rar2');
-     echo 'test';
-} else {
-    $appPackager->setWinRARPath('C:\Program Files\WinRAR');
-}
-
 
 if (isset($_GET['type'])) {
     switch ($_GET['type']) {
@@ -17,14 +7,17 @@ if (isset($_GET['type'])) {
             $appPackager->init();
             $appPackager->packageSlide($_GET['presentation'], $_GET['slide']);
             break;
+
         case 'presentation':
             $appPackager->init();
             $appPackager->packagePresentation($_GET['presentation']);
             break;
+
         case 'application':
             $appPackager->init();
             $appPackager->packageApp();
             break;
+
         case 'getPresentations':
             echo $appPackager->returnPresentationsJSON();
             break;
@@ -35,42 +28,49 @@ unset($appPackager);
 
 class AppPackager
 {
+    
     //Application globals
     public $root;
+    public $os;
+    
     public $temporaryDirectory;
     public $globalFolder;
     public $packagedDirectory;
     public $globalAssets;
     public $slidesPackaged;
-    public $winRARPath;
     public $scanIgnore;
     
     public function __construct() {
+        
         //Set application globals
         $this->root = $_SERVER["DOCUMENT_ROOT"];
         $this->temporaryDirectory = $this->root . '/temporary';
         $this->globalFolder = $this->root . '/global';
         $this->packagedDirectory = $this->root . '/packaged/' . basename(__DIR__) . '_' . date('ymdsih');
         $this->slidesPackaged = array();
-        $this->scanIgnore = array('.','..','.DS_Store'); 
+        $this->scanIgnore = array('.', '..', '.DS_Store');
+        
+        if (preg_match('/Macintosh/', $_SERVER['HTTP_USER_AGENT'] . "\n\n")) {
+            $this->os = 'mac';
+        } else {
+            $this->os = 'win';
+        }
     }
     
     public function init() {
+        
         //Create temporaary directory
         if (is_dir($this->temporaryDirectory)) {
             unlinkRecursive($this->temporaryDirectory, true);
         }
         mkdir($this->temporaryDirectory);
+        
         //Create folder for packaged app
         if (!is_dir($this->root . '/packaged')) {
             mkdir($this->root . '/packaged');
         }
         mkdir($this->packagedDirectory);
         $this->globalAssets = $this->prepareGlobalAssets();
-    }
-
-    public function setWinRARPath($path) {
-        $this->winRARPath = $path;
     }
     
     public function __destruct() {
@@ -83,8 +83,8 @@ class AppPackager
         $parsedHtml = array();
         
         for ($x = 2; $x < count($files); $x++) {
-            if(!in_array($files[$x], $this->scanIgnore)) {
-
+            if (!in_array($files[$x], $this->scanIgnore)) {
+                
                 $contents = file_get_contents($this->globalFolder . '/html/' . $files[$x]);
                 $parsedContents = str_replace('/global/', '', $contents);
                 $fileArray = array($files[$x], $parsedContents);
@@ -106,28 +106,28 @@ class AppPackager
         }
         return array($folderPaths, $parsedHtml);
     }
-
+    
     public function returnPresentationsJSON() {
         $presentations = scandir('../presentations');
-
+        
         $presentationArray = array();
-
+        
         foreach ($presentations as $presentation) {
-               
-            if(!in_array($presentation, $this->scanIgnore)) {
-                 $thisPresentation = array($presentation);
-                $slides = scandir('../presentations/'.$presentation);
+            
+            if (!in_array($presentation, $this->scanIgnore)) {
+                $thisPresentation = array($presentation);
+                $slides = scandir('../presentations/' . $presentation);
                 $theseSlides = array();
                 foreach ($slides as $slide) {
-                    if(!in_array($presentation, $this->scanIgnore)) {
+                    if (!in_array($slide, $this->scanIgnore)) {
                         array_push($theseSlides, $slide);
                     }
                 }
-              array_push($thisPresentation,$theseSlides);
-              array_push($presentationArray, $thisPresentation);
+                array_push($thisPresentation, $theseSlides);
+                array_push($presentationArray, $thisPresentation);
             }
         }
-
+        
         return json_encode($presentationArray);
     }
     
@@ -146,9 +146,9 @@ class AppPackager
         $slides = scandir($this->root . '/presentations/' . $presentation);
         
         foreach ($slides as $slide) {
-
+            
             if (!in_array($slide, $this->scanIgnore)) {
-
+                
                 $this->packageSlide($presentation, $slide);
             }
         }
@@ -178,12 +178,12 @@ class AppPackager
         }
         
         //Parse HTMl and add to temporary folder
-
+        
         $index = file_get_contents($temporarySlideFolder . '/index.php');
         
         $index = $this->parseHTML($index);
-
-        $index = str_replace('</body>', '<p id="presentation_name">'.$presentation.'</p></body>', $index);
+        
+        $index = str_replace('</body>', '<p id="presentation_name">' . $presentation . '</p></body>', $index);
         file_put_contents($temporarySlideFolder . '/' . $slide . '.html', $index);
         
         unlink($temporarySlideFolder . '/index.php');
@@ -191,7 +191,6 @@ class AppPackager
         //Zip folder
         
         if ($this->zipFolder($temporarySlideFolder, $slide, $presentationFolder)) {
-         
         }
     }
     
@@ -210,15 +209,12 @@ class AppPackager
     
     public function zipFolder($folder, $slide, $packagedFolder) {
         $filename = $packagedFolder . '/' . $slide . '.zip';
-
-        $return;
-        exec('cd '.$folder.'  && zip -r ' . $filename . ' *' ,$return);
-        var_dump($return);
-
-
-        if (exec('cd ' . $this->winRARPath . ' && winrar a -afzip -ep1 ' . $filename . ' ' . $folder)) {
-            echo 'works';
-            return true;
+        if ($this->os == 'mac') {
+            exec('cd ' . $folder . '  && zip -r ' . $filename . ' *', $return);
+        } else {
+            if (exec('cd c:\program files\winrar\ && winrar a -afzip -ep1 ' . $filename . ' ' . $folder)) {
+                return true;
+            }
         }
     }
 }
