@@ -1,6 +1,15 @@
 <?php
 $appPackager = new AppPackager;
-$appPackager->setWinRARPath('C:\Program Files\WinRAR');
+$os =  $_SERVER['HTTP_USER_AGENT'] . "\n\n";
+
+
+if(preg_match('/Macintosh/', $os)){
+     $appPackager->setWinRARPath('/Users/garrybain/Downloads/rar2');
+     echo 'test';
+} else {
+    $appPackager->setWinRARPath('C:\Program Files\WinRAR');
+}
+
 
 if (isset($_GET['type'])) {
     switch ($_GET['type']) {
@@ -71,14 +80,16 @@ class AppPackager
     public function prepareGlobalAssets() {
         
         $files = scandir($this->globalFolder . '/html/');
-        
         $parsedHtml = array();
         
         for ($x = 2; $x < count($files); $x++) {
-            $contents = file_get_contents($this->globalFolder . '/html/' . $files[$x]);
-            $parsedContents = str_replace('/global/', '', $contents);
-            $fileArray = array($files[$x], $parsedContents);
-            array_push($parsedHtml, $fileArray);
+            if(!in_array($files[$x], $this->scanIgnore)) {
+
+                $contents = file_get_contents($this->globalFolder . '/html/' . $files[$x]);
+                $parsedContents = str_replace('/global/', '', $contents);
+                $fileArray = array($files[$x], $parsedContents);
+                array_push($parsedHtml, $fileArray);
+            }
         }
         
         $globalFolders = scandir($this->globalFolder);
@@ -108,7 +119,7 @@ class AppPackager
                 $slides = scandir('../presentations/'.$presentation);
                 $theseSlides = array();
                 foreach ($slides as $slide) {
-                    if($slide != '.' && $slide != '..') {
+                    if(!in_array($presentation, $this->scanIgnore)) {
                         array_push($theseSlides, $slide);
                     }
                 }
@@ -135,7 +146,9 @@ class AppPackager
         $slides = scandir($this->root . '/presentations/' . $presentation);
         
         foreach ($slides as $slide) {
-            if (!in_array($presentation, $this->scanIgnore)) {
+
+            if (!in_array($slide, $this->scanIgnore)) {
+
                 $this->packageSlide($presentation, $slide);
             }
         }
@@ -165,9 +178,11 @@ class AppPackager
         }
         
         //Parse HTMl and add to temporary folder
+
         $index = file_get_contents($temporarySlideFolder . '/index.php');
         
         $index = $this->parseHTML($index);
+
         $index = str_replace('</body>', '<p id="presentation_name">'.$presentation.'</p></body>', $index);
         file_put_contents($temporarySlideFolder . '/' . $slide . '.html', $index);
         
@@ -195,7 +210,14 @@ class AppPackager
     
     public function zipFolder($folder, $slide, $packagedFolder) {
         $filename = $packagedFolder . '/' . $slide . '.zip';
+
+        $return;
+        exec('cd '.$folder.'  && zip -r ' . $filename . ' *' ,$return);
+        var_dump($return);
+
+
         if (exec('cd ' . $this->winRARPath . ' && winrar a -afzip -ep1 ' . $filename . ' ' . $folder)) {
+            echo 'works';
             return true;
         }
     }
