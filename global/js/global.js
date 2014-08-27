@@ -7,23 +7,25 @@ $(document).ready(function() {
 
 function setPageTitle() {
     var presentationFolder = $('#presentation_name').html();
-    
-    for(var x=0; x < navigation.length; x++) {
-        if(navigation[x].presentation === presentationFolder) {
+
+    for (var x = 0; x < navigation.length; x++) {
+        if (navigation[x].presentation === presentationFolder) {
             $('header h4').html(navigation[x].presentationName);
-            if(navigation[x].smpc) {
-               $('#smpc_dropdown .pdf').css('display','none');
-               for(var y=0; y < navigation[x].smpc; y ++) {
-                $('#smpc_dropdown .pdf').eq(navigation[y].smpc[y])
-               }
-            } 
-            if(navigation[x].api) {
+          
+            if (navigation[x].smpc) {
+                $('#smpc_dropdown .pdf').css('display', 'none');
+                if(navigation[x].smpc.length === 1) {
+               $('#header_button_smpc').addClass('oneLink')
+                }
+                for (var y = 0; y < navigation[x].smpc.length; y++) {
+                    $('#smpc_dropdown .pdf').eq(navigation[x].smpc[y]).css('display', 'block').addClass('active_link')
+                }
+            }
+            if (navigation[x].api) {
 
             }
         }
     }
-
-
 }
 
 function headerButtons() {
@@ -31,12 +33,12 @@ function headerButtons() {
     //Button Effects
 
     $('header button').on(input.down, function() {
-        $(this).css('opacity' , 0.4);
+        $(this).css('opacity', 0.4);
     });
 
     $(document).on(input.up, function() {
         $('header button').css('opacity', 1);
-         $('.dropdown li').attr('style', '');
+        $('.dropdown li').css('background', '#FFF');
     });
 
     $('.dropdown li').on(input.down, function() {
@@ -54,16 +56,22 @@ function headerButtons() {
                 $(this).removeClass('active_dd');
                 $('.dropdown').hide();
             } else {
+
                 $('.active_dd').removeClass('active_dd');
-                $(this).addClass('active_dd');
-                $('.dropdown').hide();
-                $('.dropdown').eq($(this).data('dropdown')).show();
+                if($(this).hasClass('oneLink')){
+                    $('.dropdown').eq($(this).data('dropdown')).find('.active_link').trigger('click');
+                } else {
+                    $(this).addClass('active_dd');
+                    $('.dropdown').hide();
+                    $('.dropdown').eq($(this).data('dropdown')).show();
+                }
+                
             }
         }
     });
 
     //Main app navigation
-    
+
     $('#index_dropdown .top_level').on(input.tap, function() {
         var thisNav = navigation[$(this).index()].links;
         if (thisNav.length === 1) {
@@ -86,7 +94,7 @@ function headerButtons() {
     });
 
     $('.back_button').on(input.up, function() {
-        $(this).css('opacity', '1')
+        $(this).css('opacity', '1');
         $('.dropdown_menu').eq(0).animate({
             marginLeft: '0%',
             opacity: 1
@@ -98,7 +106,7 @@ function headerButtons() {
     });
 
     $('#header_button_summary').on(input.tap, function() {
-        irep.navigateTo('00_slide_summary', '15_presentation_summary' );
+        irep.navigateTo('00_slide_summary', '15_presentation_summary');
     });
 
     $(document).on(input.tap, '.sub_menu', function() {
@@ -109,7 +117,7 @@ function headerButtons() {
 function pdfViewer() {
 
     $('.pdf').on(input.tap, function() {
-        loadPDF($(this).data('pdf'),$(this).data('num'))
+        loadPDF($(this).data('pdf'), $(this).data('num'))
         $('#pdf_layer').css('top', '0px')
     });
 
@@ -117,67 +125,66 @@ function pdfViewer() {
         $('#pdf_layer').css('top', '768')
     });
 
-    function loadPDF(url,num) {
+    function loadPDF(url, num) {
 
         $('#pdf_container').empty();
         for (var x = 1; x < num + 1; x++) {
-            $('#pdf_container').append('<img src="'+url+'/pdf_Page_'+x+'.png"/>');
+            $('#pdf_container').append('<img src="' + url + '/pdf_Page_' + x + '.png"/>');
         }
     }
 }
-       
+
 $('.fullscreen').on(input.tap, function() {
 
-        $('#img_container').empty();
+    $('#img_container').empty();
 
-        switch($(this).prop("tagName")) {
-            case 'TABLE' :
-                $('#img_container').append($('table').clone());
-                var x = ((1024 - ($('table').width()+12)) / ($('table').width()+12)) * 100;
-                x = Math.round(x); 
-                $('#img_container table').css({'-webkit-transform':'scale(1.'+x+')','left':'0px'});
-                var l = $('#img_container table')[0].getBoundingClientRect().left;
-                l = -l;
-                var t = ((656 - $('#img_container table')[0].getBoundingClientRect().height) / 2 );
-                $('#img_container table').css({'left': (l+6)+'px','top':t+'px'});     
-            break; 
-            case 'DIV' :
-               $('#img_container').append($(this).clone());
-               var x = ((1024 - ($(this).width())) / ($(this).width())) * 100;
-               x = Math.round(x);
-               console.log(x)
-               $('#img_container .chart_container').css({'-webkit-transform':'scale(1.'+x+')','left':'0px'});
-            break; 
-        }
-        $('#img_layer').css('top', '0px');
+    switch ($(this).prop("tagName")) {
+        case 'TABLE':
+            $('#img_container').append($('table').clone());
+            var x = ((1024 - ($('table').width() + 12)) / ($('table').width() + 12)) * 100;
+            x = Math.round(x);
+            $('#img_container table').css({
+                '-webkit-transform': 'scale(1.' + x + ')',
+                'left': '0px'
+            });
+            var l = $('#img_container table')[0].getBoundingClientRect().left;
+            l = -l;
+            var t = ((656 - $('#img_container table')[0].getBoundingClientRect().height) / 2);
+            $('#img_container table').css({
+                'left': (l + 6) + 'px',
+                'top': t + 'px'
+            });
+            break;
+        case 'IMG' : 
+             $('#img_container').append($(this).clone());
+             $('#img_container img').css({'width':'1024px','left':'0px'});
+    }        $('#img_container img').css({'top': '60px' });
+    $('#img_layer').css('top', '0px');
 });
 
-    
+
 //Workout scale 
 
 // References drop down code
 
 function getReference(references) {
 
-    if(!references) {
+    if (!references) {
         $('#ref_dropdown ul').append('<li><h3>No references for this slide</h3></li>');
     } else {
 
-    $(references).each(function(intValue, currentElement) {
-        $('#ref_dropdown ul').append('<li><h3>' + currentElement + '</h3></li>');             
-    });
+        $(references).each(function(intValue, currentElement) {
+            $('#ref_dropdown ul').append('<li><h3>' + currentElement + '</h3></li>');
+        });
 
     }
 
 }
-  
 
-    
+
+
 
 
 $('#img_header button').on(input.tap, function() {
     $('#img_layer').css('top', '768');
 });
-
-  
-

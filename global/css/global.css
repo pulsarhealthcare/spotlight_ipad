@@ -25,7 +25,7 @@ body {
 }
 video {
    -webkit-transform: scaleX(2); 
-  -moz-transform: scaleX(2);
+   -moz-transform: scaleX(2);
 }
 header {
 	position: absolute;
