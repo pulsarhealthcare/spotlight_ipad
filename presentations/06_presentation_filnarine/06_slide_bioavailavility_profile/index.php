@@ -11,7 +11,7 @@
                                 "right">®</span>*</span>1</sup></h1>             
     <h2></h2>
 
-   <img class="fullscreen" id="main" width="536" src="img/graph.gif"/> 
+   <img class="fullscreen" id="main" width="536" src="img/graph2.gif"/> 
 
 
 
