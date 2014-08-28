@@ -78,83 +78,17 @@ if (touch) {
     input.up = 'mouseup';
 }
 // Veeva's navigation function
+
 irep = {};
+
 irep.navigateTo = function(slide, presentation) {
     presentation = presentation || '';
     var loc, vloc;
     slide = slide;
-    loc = '/presentations/' + presentation + '/' + slide;
-    vloc = 'veeva:gotoSlide(' + slide + '.zip' + presentation + ')';
+    loc = '/presentations/' +  presentation + '/' + slide;
+    vloc = 'veeva:gotoSlide(' +presentation+'_'+slide + '.zip' + ' , '+presentation + ')';
     window.location = (this.veeva()) ? vloc : loc;
 }
 irep.veeva = function() {
     return (touch && !location.hostname);
 }
-
-//Chart plugin
-/*$.fn.simpleChart = function(chartData) {
-    //Globals
-    var chart = $(this);
-    var w = chart.width();
-    var h = chart.height() - 20;
-    var d = chartData;
-    var ySpacing = chart.height() / chartData.yValues.length;
-    var yPoint;
-    init();
-    generateYAxis();
-    if (d.chartType = 'bar') {
-        generateBarChart();
-    } else {}
-
-    function init() {
-        chart.append('<p style="opacity:0;" class="sample">100</p>');
-        chart.append('<span style="height:' + h + 'px" class="y-axis-line"/>');
-        chart.append('<span style="width:' + w + 'px;top:' + h + 'px" class="x-axis-line"/>');
-        yPoint = $('.sample').height()
-    }
-
-    function generateYAxis() {
-        for (var x = 0; x < chartData.yValues.length; x++) {
-            var percentage = (chartData.yValues[x] - yPoint) / 350;
-            var y = h * percentage;
-            chart.append('<span style="top:' + (y + 7) + 'px" class="x-axis-seperator"/>');
-            chart.append('<p style="top:' + y + 'px">' + chartData.yValues[(chartData.yValues.length - 1) - x] + '</p>')
-        }
-        var oldW = $('.x-axis-seperator').width();
-        $('.x-axis-seperator').width(0)
-        for (var x = 0; x < chartData.yValues.length; x++) {
-            $('.x-axis-seperator').eq(chartData.yValues.length - (x + 1)).delay(120 * x).animate({
-                width: oldW
-            }, 700)
-            chart.find('p').eq(chartData.yValues.length - (x)).delay(120 * x).animate({
-                transform: 'scale(1)'
-            }, 400)
-        }
-    }
-
-    function generateBarChart() {
-        chart.append('<div class="bars"></div>');
-        chart.append('<div class="bar_titles" style="top:' + (h + 6) + '"></div>');
-        setTimeout(function() {
-            $('#chart_container h4').animate({
-                opacity: 1
-            }, 200)
-            for (var x = 0; x < chartData.xValues.length; x++) {
-                var percentage = chartData.xValues[x][1] / 350;
-                var height = h * percentage;
-                
-                $('.bars').append('<div class="bar bar_colum" style="height:0px;margin-top:' + h + 'px;background:' + d.xValues[x][2] + '"></div>');
-                var tB = $('.bar').eq(x);
-                tB.delay(360 * x).animate({
-                    height: height,
-                    marginTop: h - height
-                }, 400)
-                $('.bar_titles').append('<h5 class="bar_title bar_colum" style="">' + d.xValues[x][0] + '</h5>');
-                chart.find('.bar_title').eq(x).delay((280 + x) * x).animate({
-                    transform: 'scale(1)'
-                }, 740 + (10 * x))
-            }
-        }, 800)
-    }
-}*/
-

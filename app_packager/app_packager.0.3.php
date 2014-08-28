@@ -63,7 +63,10 @@ class AppPackager
         if (is_dir($this->temporaryDirectory)) {
             unlinkRecursive($this->temporaryDirectory, true);
         }
-        mkdir($this->temporaryDirectory);
+        if(!is_dir($this->temporaryDirectory)){
+            mkdir($this->temporaryDirectory);
+        }
+        
         
         //Create folder for packaged app
         if (!is_dir($this->root . '/packaged')) {
@@ -163,7 +166,7 @@ class AppPackager
         
         //Create temporary copy of slide
         $slideFolder = $this->root . '/presentations/' . $presentation . '/' . $slide;
-        $temporarySlideFolder = $this->temporaryDirectory . '/' . $presentation . '/' . $slide;
+        $temporarySlideFolder = $this->temporaryDirectory . '/' . $presentation . '/' .$presentation  .'_'.$slide;
         
         if (!is_dir($this->temporaryDirectory . '/' . $presentation)) {
             mkdir($this->temporaryDirectory . '/' . $presentation);
@@ -178,8 +181,8 @@ class AppPackager
         
         //Copy thumbnail's across from global to root and rename
         
-        copy($this->globalFolder.'/img/thumb-full.png',$temporarySlideFolder.'/'.$slide.'-full.png');
-        copy($this->globalFolder.'/img/thumb-thumb.png',$temporarySlideFolder.'/'.$slide.'-thumb.png');
+        copy($this->globalFolder.'/img/thumb-full.png',$temporarySlideFolder.'/'.$presentation  .'_'.$slide.'-full.png');
+        copy($this->globalFolder.'/img/thumb-thumb.png',$temporarySlideFolder.'/'.$presentation  .'_'.$slide.'-thumb.png');
 
         //Parse HTMl and add to temporary folder
         
@@ -188,13 +191,13 @@ class AppPackager
         $index = $this->parseHTML($index);
         
         $index = str_replace('</body>', '<p style="display:none" id="presentation_name">' . $presentation . '</p></body>', $index);
-        file_put_contents($temporarySlideFolder . '/' . $slide . '.html', $index);
+        file_put_contents($temporarySlideFolder . '/' .$presentation  .'_'.$slide. '.html', $index);
         
         unlink($temporarySlideFolder . '/index.php');
         
         //Zip folder
         
-        if ($this->zipFolder($temporarySlideFolder, $slide, $presentationFolder)) {
+        if ($this->zipFolder($temporarySlideFolder, $slide, $presentationFolder, $presentation)) {
         }
     }
     
@@ -211,10 +214,14 @@ class AppPackager
         return $file;
     }
     
-    public function zipFolder($folder, $slide, $packagedFolder) {
-        $filename = $packagedFolder . '/' . $slide . '.zip';
+    public function zipFolder($folder, $slide, $packagedFolder, $presentation) {
+
+        $filename = $packagedFolder . '/' .$presentation  .'_'.$slide. '.zip';
         $ctlFile = 'USER=cloader@veeva.partner23.pulsar PASSWORD=pulsar1234 EMAIL=veeva@pulsarhealthcare.com FILENAME='.$slide.'.zip';
-        mkdir($packagedFolder.'/ctl');
+        if(!is_dir($packagedFolder.'/ctl')) {
+           mkdir($packagedFolder.'/ctl');  
+        }
+       
         file_put_contents($packagedFolder.'/ctl/'.$slide.'.ctl', $ctlFile);
         
         if ($this->os == 'mac') {
