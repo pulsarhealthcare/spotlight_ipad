@@ -141,18 +141,23 @@ $('.fullscreen').on(input.tap, function() {
     switch ($(this).prop("tagName")) {
         case 'TABLE':
             $('#img_container').append($('table').clone());
-            var x = ((1024 - ($('table').width() + 12)) / ($('table').width() + 12)) * 100;
+            var x = ((1024 - ($('table').width() + 24)) / ($('table').width() + 24)) * 100;
             x = Math.round(x);
+
             $('#img_container table').css({
                 '-webkit-transform': 'scale(1.' + x + ')',
                 'left': '0px'
             });
             var l = $('#img_container table')[0].getBoundingClientRect().left;
             l = -l;
-            var t = ((656 - $('#img_container table')[0].getBoundingClientRect().height) / 2);
+            var rW = $('#img_container table')[0].getBoundingClientRect().width;
+            var sP = (1024 - rW) / 2;
+            console.log(sP)
+            l = l + sP;
+            var t = ((738 - $('#img_container table')[0].getBoundingClientRect().height) / 2);
             $('#img_container table').css({
-                'left': (l + 6) + 'px',
-                'top': t + 'px'
+                'left': (l) + 'px',
+                'top': (t+30) + 'px'
             });
             break;
         case 'IMG' : 
