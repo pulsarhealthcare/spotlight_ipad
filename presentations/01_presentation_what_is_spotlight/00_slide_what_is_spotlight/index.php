@@ -9,7 +9,7 @@
             medicines available exclusively from Teva UK
             Limited, the largest supplier of medicines to <span>the NHS by packs<sup>1,2</sup></span></h2>
 
-            <!--<img src="img/graph.gif" alt="" class="fullscreen" />-->
+            <img src="img/graph.gif" alt="" class="fullscreen" />
 
     
             <p class="side_note">Date of preparation: July 2014 UK/SPL/14/0017</p>
