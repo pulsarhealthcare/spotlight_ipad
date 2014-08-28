@@ -16,15 +16,15 @@ svg {
 #slide_container h2 {
 	top:217px;
 	left:104px;
-	width:805px;
+	width:400px;
 	color:#FFF;
-	line-height: 25px;
 	opacity: 0;
 	color:rgb(109, 110, 113);
-	font-size:21px;
-	line-height: 27px;
+	font-size:20px;
+	line-height: 24px;
 	opacity: 0;
 	font-weight: 200;
+
 }
 
 h2 sup {
@@ -33,8 +33,17 @@ h2 sup {
 	top: -5px;
 }
 
+h2 span {
+position: relative;
+top: -4px;	
+}
+
 #slide_container img {
 opacity: 1;	
+width: 380px;
+position: absolute;
+top: 350px;
+left: 104px;
 }
 
 #slide_container h2:nth-child(3) {
@@ -66,122 +75,4 @@ opacity: 1;
     color:#666;
     left:860px;
     width:300px;
-}
-
-/* Chart */
-
-.chart_container {
-	background:#FFF;
-	height:237px;
-	width:390px;
-    opacity:0;
-    position: absolute;
-   	position: absolute;
-	left:104px;
-	top:364px;
-}
-
-.chart_container h3 {
-    font-weight: bold;
-    font-size: 11px;
-    margin-bottom:16px;
-    margin-top:6px;
-    color:#646665;
-    margin-left:29px;
-}
-
-.chart {
-	width:330px;
-	height:177px;
-	margin-left:39px;
-	position: absolute;
-}
-
-
-
-.chart_container h4 {
-	position: absolute;
-	font-size:9px;
-	-webkit-transform: rotate(-90deg);
-    top:116px;
-    left:-13px;
-    font-size:7px;
-    opacity:0;
-    	color:#5f635f;
-
-}
-
-.chart_container h3 sub {
-	font-size:11px;
-
-}
-.chart_container p {
-	position: absolute;
-	-webkit-transform:scale(0);
-	font-weight: bold;
-	color:#5f635f;
-	font-size: 8px;
-	width:15px;
-	text-align: right;
-}
-
-.x-axis-line {
-	left:20px;
-	height:1px;
-	background:#f2f3f2;
-	position: absolute;
-	display:none;
-}
-
-.y-axis-line {
-	width:1px;
-	background:#f2f3f2;
-	position: absolute;
-	left:24px;
-
-}
-
-.y-axis-seperator {
-	background:#f2f3f2;
-	position: absolute;
-	left:18px;
-	height:1px;
-	width:320px;
-}
-.bars  {
-	margin-left:30px;
-	position: absolute;
-}
-.bar_colum {
-    border-radius: 5px;
-    width:48px;
-    float:left;
-    margin-left:11px;
-}
-
-.bar:first-child {
-    margin-left:0px;
-}
-.bar_titles {
-    margin-left:30px;
-	position: absolute;
-		color:#5f635f;
-}
-.bar_title {
-    -webkit-transform:scale(0);
-	font-size:6px;
-	font-weight: bold;
-	text-align: center;
-}
-
-.bar_title:nth-child(4) {
-margin-left:6px;
-}
-
-.bar_title:nth-child(5) {
-margin-left:16px;
-}
-
-.bar_title:first-child {
-margin-left:0px;
 }
