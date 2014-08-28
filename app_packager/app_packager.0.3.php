@@ -84,7 +84,6 @@ class AppPackager
         
         for ($x = 2; $x < count($files); $x++) {
             if (!in_array($files[$x], $this->scanIgnore)) {
-                
                 $contents = file_get_contents($this->globalFolder . '/html/' . $files[$x]);
                 $parsedContents = str_replace('/global/', '', $contents);
                 $fileArray = array($files[$x], $parsedContents);
