@@ -176,6 +176,11 @@ class AppPackager
             recurse_copy($this->globalFolder . '/' . $folder, $temporarySlideFolder . '/' . $folder);
         }
         
+        //Copy thumbnail's across from global to root and rename
+        
+        copy($this->globalFolder.'/img/thumb-full.png',$temporarySlideFolder.'/'.$slide.'-full.png');
+        copy($this->globalFolder.'/img/thumb-thumb.png',$temporarySlideFolder.'/'.$slide.'-thumb.png');
+
         //Parse HTMl and add to temporary folder
         
         $index = file_get_contents($temporarySlideFolder . '/index.php');
@@ -208,6 +213,10 @@ class AppPackager
     
     public function zipFolder($folder, $slide, $packagedFolder) {
         $filename = $packagedFolder . '/' . $slide . '.zip';
+        $ctlFile = 'USER=cloader@veeva.partner23.pulsar PASSWORD=pulsar1234 EMAIL=veeva@pulsarhealthcare.com FILENAME='.$slide.'.zip';
+        mkdir($packagedFolder.'/ctl');
+        file_put_contents($packagedFolder.'/ctl/'.$slide.'.ctl', $ctlFile);
+        
         if ($this->os == 'mac') {
             exec('cd ' . $folder . '  && zip -r ' . $filename . ' *', $return);
         } else {
