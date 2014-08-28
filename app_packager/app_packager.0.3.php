@@ -182,7 +182,7 @@ class AppPackager
         
         $index = $this->parseHTML($index);
         
-        $index = str_replace('</body>', '<p id="presentation_name">' . $presentation . '</p></body>', $index);
+        $index = str_replace('</body>', '<p style="display:none" id="presentation_name">' . $presentation . '</p></body>', $index);
         file_put_contents($temporarySlideFolder . '/' . $slide . '.html', $index);
         
         unlink($temporarySlideFolder . '/index.php');
