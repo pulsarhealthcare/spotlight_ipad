@@ -29,7 +29,7 @@
 		<p>Rx <span class="dark inline">generic</span> prescription for <span class="blue">Morphine sulphate SR 200 mg tablets 60 pack</span></p>
 
 		<p>Pharmacist chooses to dispense MST <span class="lineup">Continus<sup>®</sup> 200 mg (morphine</span> <span class="double lineup">sulphate SR 200 mg) at a cost
-		to them</span> <span class="triple lineup">of £73.21<sup>*</sup></span></p>
+		to</span> <span class="triple lineup">them of £73.21<sup>*</sup></span></p>
 
 		<p>The pharmacist endorses the prescription and is reimbursed and the practice is attributed the cost against the list price of <span class="dark">MST Continus 200 mg: £81.34</span></p>
 
