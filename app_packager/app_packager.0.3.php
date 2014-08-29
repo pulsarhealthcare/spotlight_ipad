@@ -217,7 +217,7 @@ class AppPackager
     public function zipFolder($folder, $slide, $packagedFolder, $presentation) {
 
         $filename = $packagedFolder . '/' .$presentation  .'_'.$slide. '.zip';
-        $ctlFile = 'USER=cloader@veeva.partner23.pulsar PASSWORD=pulsar1234 EMAIL=veeva@pulsarhealthcare.com FILENAME='.$slide.'.zip';
+        $ctlFile = 'USER=cloader@veeva.partner23.pulsar \n PASSWORD=pulsar1234 \n EMAIL=veeva@pulsarhealthcare.com \n FILENAME='.$presentation.'_'.$slide.'.zip';
         if(!is_dir($packagedFolder.'/ctl')) {
            mkdir($packagedFolder.'/ctl');  
         }
