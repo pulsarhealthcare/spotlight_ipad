@@ -13,7 +13,7 @@ svg {
 #slide_container h2 {
 	top:178px;
 	left:104px;
-	width:801px;
+	width:740px;
 	line-height: 26px;
 	opacity: 0;
 	font-size:18px;
@@ -146,7 +146,7 @@ table td {
 color: #8d8e90;	
 font-size: 12px;
 background-color: #FFF;
-padding: 3px 0 3px 14px;
+padding: 2px 0 2px 14px;
 border-right: 1px solid #d7c8a6;
 border-bottom: 1px solid #d7c8a6;
 }
