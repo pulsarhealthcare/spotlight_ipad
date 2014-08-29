@@ -4,7 +4,7 @@ $(document).ready(function() {
     setPageTitle();
     pdfViewer()
     document.ontouchmove = function(event) {
-        event.preventDefault();
+     //   event.preventDefault();
     }
 });
 

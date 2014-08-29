@@ -3,7 +3,7 @@ navigation[0] = {
     presentation: '01_presentation_what_is_spotlight',
     presentationName: 'What is Spotlight',
     links: [
-        ['Page 1. What is spotlight?', '00_slide_what_is_spotlight/'],
+        ['Page 1. What is spotlight?', '00_slide_what_is_spotlight'],
         ['Page 2. What is spotlight? cont.', '01_slide_what_is_spotlight_cont'],
         ['Page 3. Introduction to Spotlight', '02_slide_introduction'],
         ['Page 4. Why perscribe by brand?', '03_slide_why_prescribe_by_brand'],
@@ -69,7 +69,7 @@ navigation[4] = {
 }
 navigation[5] = {
     presentation: '06_presentation_filnarine',
-    presentationName: 'Finarine',
+    presentationName: 'Filnarine',
     links: [
         ['Page 1. Filnarine', '00_slide_filnarine'],
         ['Page 2. Introduction', '01_slide_introduction'],
@@ -151,7 +151,7 @@ navigation[9] = {
 }
 navigation[10] = {
     presentation: '11_presentation_nasofan',
-    presentationName: 'Nasofen',
+    presentationName: 'Nasofan',
     links: [
         ['Page 1. Nasofen', '00_slide_nasofan'],
         ['Page 2. Introduction', '01_slide_introduction'],
