@@ -225,7 +225,9 @@ class AppPackager
         file_put_contents($packagedFolder.'/ctl/'.$slide.'.ctl', $ctlFile);
         
         if ($this->os == 'mac') {
-            exec('cd ' . $folder . '  && zip -r ' . $filename . ' *', $return);
+            exec('cd ' . $folder . ' && cd .. && ls && zip -r ' . $filename . ' '.$presentation.'_'.$slide, $return);
+            //exec('cd ' . $folder . ' && cd .. && ls ' , $return);
+            //echo var_dump($return);
         } else {
             if (exec('cd c:\program files\winrar\ && winrar a -afzip -ep1 ' . $filename . ' ' . $folder)) {
                 return true;
