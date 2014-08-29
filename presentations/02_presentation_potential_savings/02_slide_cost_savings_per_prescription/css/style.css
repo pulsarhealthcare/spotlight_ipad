@@ -9,7 +9,6 @@ svg {
 	position: absolute;
 	font-size:27px;
 	top:97px;
-
 }
 #slide_container  h2 {
 	top:166px;
@@ -128,7 +127,7 @@ table td {
 color: #98999b;	
 font-size: 11px;
 background-color: #FFF;
-padding: 3px 0 3px 14px;
+padding: 2px 0 2px 14px;
 border-right: 1px solid #a5d2e6;
 border-bottom: 1px solid #a5d2e6;
 }

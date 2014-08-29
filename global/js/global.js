@@ -173,6 +173,8 @@ $('.fullscreen').on(input.tap, function() {
                 'width': '1024px',
                 'left': '0px'
             });
+            var newSrc = $('#img_container img').attr('src').replace(/\?.*$/,"")+"?x="+Math.random();
+            $('#img_container img').attr('src', newSrc);
     }
     $('#img_container img').css({
         'top': '90px'

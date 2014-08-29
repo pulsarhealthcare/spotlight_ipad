@@ -34,7 +34,10 @@ svg {
 }
 
 #slide_container h3 sup {
-	font-size:6px;
+	font-size:9px;
+    position: relative;
+    left: 3px;
+    top: -1px;
 }
 
 #slide_container h3:nth-child(3) {
