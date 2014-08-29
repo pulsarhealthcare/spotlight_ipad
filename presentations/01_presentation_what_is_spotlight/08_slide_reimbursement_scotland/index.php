@@ -7,15 +7,15 @@
 
 
 
-<div id="main" style="background: url('img/main_0.png') top left no-repeat; background-size: 510px 68px;">
+<div id="main" style="background: url('img/main_0.png') top left no-repeat; background-size: 560px 68px;">
 
-<p>A patient is dispensed a pack of Filnarine<sup>R</sup> SR 200 mg tablets (morphine sulphate SR 200 mg) 60s pack</p>
+<p>A patient is dispensed a pack of Filnarine<sup>®</sup> SR 200 mg tablets (morphine sulphate SR 200 mg) 60s pack</p>
 <p><span>(how the prescription is written can have a big effect on costs)</span></p>
 
 </div>
 
 
-<div id="main_1" style="background: url('img/main_1.png') top left no-repeat; background-size: 252px 313px;">
+<div id="main_1" style="background: url('img/main_1.png') top left no-repeat; background-size: 278px 313px;">
 
 	<div class="header">
 
@@ -28,7 +28,7 @@
 
 		<p>Rx <span class="dark inline">generic</span> prescription for <span class="blue">Morphine sulphate SR 200 mg tablets 60 pack</span></p>
 
-		<p>Pharmacist chooses to dispense MST <span class="lineup">Continus<sup>®</sup> 200 mg (morphine</span> <span class="double lineup">sulphate SR 200 mg) at a cost
+		<p>Pharmacist chooses to dispense MST <span class="lineup">Continus<sup>®</sup> 200 mg (morphine sulphate</span> <span class="triple lineup">SR 200 mg) at a cost
 		to</span> <span class="triple lineup">them of £73.21<sup>*</sup></span></p>
 
 		<p>The pharmacist endorses the prescription and is reimbursed and the practice is attributed the cost against the list price of <span class="dark">MST Continus 200 mg: £81.34</span></p>
@@ -42,7 +42,7 @@
 </div>
 
 
-<div id="main_2" style="background: url('img/main_2.png') top left no-repeat; background-size: 252px 357px;">
+<div id="main_2" style="background: url('img/main_2.png') top left no-repeat; background-size: 278px 357px;">
 
 	<div class="header">
 		<h2>Option B</h2>
@@ -51,11 +51,11 @@
 
 	<div class="inner">
 
-		<p>Rx <span>branded<span> prescription for <span class="blue">Filnarine<sup>®</sup> SR 200 mg tablets 60 pack</span></p>
+		<p>Rx <span class="dark inline">branded</span> prescription for <span class="blue">Filnarine<sup>®</sup> SR 200 mg tablets 60 pack</span></p>
 
 		<p>Pharmacist must dispense 
 Filnarine SR 200 mg
-at a cost to <span class="lineup">them of £25.75<sup>*</sup></span></p>
+at a cost to <span class="lineup">them of £25.75<sup>**</sup></span></p>
 
 		<p>The pharmacist is reimbursed and the practice is attributed the cost against the <span class="dark">list price of Filnarine 
 		SR 200 mg: £43.59</span></p>
