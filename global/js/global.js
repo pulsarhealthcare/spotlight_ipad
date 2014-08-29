@@ -53,7 +53,8 @@ function headerButtons() {
 
     $('header button').on(input.tap, function() {
         if ($(this).data('link')) {
-            irep.navigateTo($(this).data('link'));
+            var link = $(this).data('link').split('/');
+            irep.navigateTo(link[0],link[1]);
         } else {
             if ($(this).hasClass('active_dd')) {
                 $(this).removeClass('active_dd');
