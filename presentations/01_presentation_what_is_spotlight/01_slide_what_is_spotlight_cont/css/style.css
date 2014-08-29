@@ -39,7 +39,7 @@ svg {
 #slide_container h4 {
 	left:532px;
 	top:270px;
-	line-height: 25px;
+	line-height: 27px;
 	font-size: 19px;
 	color:#8cb0ce;
 	position: absolute;
@@ -47,7 +47,7 @@ svg {
 	font-weight:200;
 }
 #slide_container h4:nth-child(5) {
-	top:440px;
+	top:454px;
 }
 h2 sup {
 	font-size:10px;
