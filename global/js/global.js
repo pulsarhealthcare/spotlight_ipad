@@ -45,10 +45,13 @@ function headerButtons() {
     });
 
     $('.dropdown li').on(input.down, function() {
-        $(this).css({
+        if(!$(this).hasClass('ref')){
+            $(this).css({
             'background': '#CCC',
             'color': '#FFF'
-        });
+        }); 
+        }
+       
     });
 
     $('header button').on(input.tap, function() {
@@ -161,7 +164,7 @@ $('.fullscreen').on(input.tap, function() {
             var t = ((738 - $('#img_container table')[0].getBoundingClientRect().height) / 2);
             $('#img_container table').css({
                 'left': (l) + 'px',
-                'top': (t + 30) + 'px'
+                'top': (t + 50) + 'px'
             });
             break;
         case 'IMG':
@@ -172,7 +175,7 @@ $('.fullscreen').on(input.tap, function() {
             });
     }
     $('#img_container img').css({
-        'top': '60px'
+        'top': '90px'
     });
     $('#img_layer').css('top', '0px');
 });
@@ -185,11 +188,11 @@ $('.fullscreen').on(input.tap, function() {
 function getReference(references) {
 
     if (!references) {
-        $('#ref_dropdown ul').append('<li><h3>No references for this slide</h3></li>');
+        $('#ref_dropdown ul').append('<li class="ref"><h3>No references for this slide</h3></li>');
     } else {
 
         $(references).each(function(intValue, currentElement) {
-            $('#ref_dropdown ul').append('<li><h3>' + currentElement + '</h3></li>');
+            $('#ref_dropdown ul').append('<li class="ref"><h3>' + currentElement + '</h3></li>');
         });
 
     }
