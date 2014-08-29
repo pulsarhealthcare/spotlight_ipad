@@ -165,7 +165,7 @@ navigation[10] = {
 }
 navigation[11] = {
     presentation: '12_presentation_peptac',
-    presentationName: 'Prestylon',
+    presentationName: 'Peptac',
     links: [
         ['Page 1. Peptac', '00_slide_peptac'],
         ['Page 2. Introduction', '01_slide_introduction'],
@@ -182,7 +182,7 @@ navigation[11] = {
 
 navigation[12] = {
     presentation: '13_presentation_prestylon',
-    presentationName: 'Peptac',
+    presentationName: 'Prestylon',
     links: [
         ['Page 1. Prestylon ', '00_slide_prestylon'],
         ['Page 2. Introduction', '01_slide_introduction'],
