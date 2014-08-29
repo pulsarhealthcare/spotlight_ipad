@@ -214,3 +214,10 @@ navigation[14] = {
     smpc : [],
     api : []
 }
+navigation[14] = {
+    presentation: '15_presentation_summary',
+    presentationName: 'Teva Respiratory',
+    links: [
+        ['Page 1. ', '00_Opening_slide'],
+    ]
+}
