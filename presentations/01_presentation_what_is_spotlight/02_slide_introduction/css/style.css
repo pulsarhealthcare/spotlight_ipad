@@ -31,7 +31,7 @@ h2 sup {
 }
 
 #slide_container h2:nth-child(3) {
-    top:242px;
+    top:237px;
 }
 
 #notes {
@@ -61,7 +61,7 @@ h2 sup {
 table {
 position: absolute;
 left: 104px;
-top: 330px;
+top: 320px;
 width: 695px;
 box-shadow: 6px 6px 6px -4px #666;
 border-radius: 5px;

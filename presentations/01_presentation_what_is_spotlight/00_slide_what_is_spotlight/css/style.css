@@ -7,7 +7,7 @@ svg {
 	color:#277fa3;
 	left:104px;
 	position: absolute;
-	font-size:56px;
+	font-size:58px;
 	font-weight: 200;
 	top:125px;
 	opacity: 0;
@@ -35,14 +35,14 @@ h2 sup {
 
 h2 span {
 position: relative;
-top: -4px;	
+top: -3px;	
 }
 
 #slide_container img {
 opacity: 1;	
 width: 380px;
 position: absolute;
-top: 350px;
+top: 420px;
 left: 104px;
 }
 
