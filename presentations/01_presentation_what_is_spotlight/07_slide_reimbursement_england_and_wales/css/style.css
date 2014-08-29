@@ -61,28 +61,26 @@ h2 sup {
 }
 
 
-#main {
+.table_header {
 	position: absolute;
 	left:104px;
 	top:159px;
 	width: 510px;
-	opacity: 0;
+	opacity: 1;
 	height:68px;
-	
-
 }
 
-#main_1 {
+.table_colum:nth-child(3) {
 	width: 252px;
 	left:104px;
 	top:223px;
 	position: absolute;
-	opacity: 0;
+	opacity: 1;
 	height: 357px;
 	
 }
 
-#main_2 {
+.table_colum:nth-child(4) {
 	width: 252px;
 	left:362px;
 	top:223px;

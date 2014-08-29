@@ -388,6 +388,8 @@ font-weight: 200;
 #slide_container {
 	height:656px;
 	margin-top: 42px;
+   /* position: absolute;*/
+    width:1024px;
 
 }
 
