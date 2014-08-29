@@ -3,6 +3,9 @@ $(document).ready(function() {
     headerButtons();
     setPageTitle();
     pdfViewer()
+    document.ontouchmove = function(event) {
+        event.preventDefault();
+    }
 });
 
 function setPageTitle() {
