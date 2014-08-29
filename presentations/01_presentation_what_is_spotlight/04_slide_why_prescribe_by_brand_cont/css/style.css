@@ -32,13 +32,13 @@ top: 0;
 #slide_container ul {
 	width:365px;
     position: absolute;
-    top:304px;
-    left:146px;
+    top:310px;
+    left:132px;
 }
 
 #slide_container ul:nth-child(4) {
 	
-    left:526px;
+    left:514px;
 }
 
 #slide_container h3 {
