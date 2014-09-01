@@ -7,7 +7,7 @@
 
    <h1>
                                     
-The transdermal fentanyl patches Matrifen<sup>®</sup> and Durogesic<sup>®</sup> DTrans<sup>®</sup> are bioequivalent<sup>1</sup>
+The transdermal fentanyl patches Matrifen<sup>®</sup> and Durogesic<sup>®</sup> DTrans<sup>®</sup><br>are bioequivalent<sup>1</sup>
    
    </h1>           
 

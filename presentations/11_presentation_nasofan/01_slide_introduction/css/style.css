@@ -11,7 +11,7 @@ svg {
 }
 
 #slide_container h2 {
-	top:265px;
+	top:257px;
 	left:104px;
 	width:790px;
 	line-height: 27px;
@@ -28,7 +28,7 @@ top: -3px;
 }
 
 #slide_container h2:nth-child(3) {
-	top: 374px;
+	top: 364px;
 }
 
 #notes {

@@ -6,9 +6,7 @@
     <h1>Introduction</h1>             
 
 
-<h2>
-
-    Nasofan<sup>®</sup> costs approximately 27% less than
+<h2>Nasofan<sup>®</sup> costs approximately 27% less than
 Flixonase<sup>®</sup>
 (fluticasone aqueous 50 mcg nasal spray), or
 prescribing fluticasone aqueous 50 mcg nasal spray

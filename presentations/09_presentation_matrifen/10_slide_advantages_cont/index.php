@@ -6,7 +6,7 @@
 
   <h1>
 
-Matrifen<sup>®</sup>: lower drug load to provide the same dose strength as Durogesic<sup>®</sup>
+Matrifen<sup>®</sup>: lower drug load to provide the same dose strength as<br>Durogesic<sup>®</sup>
 DTrans<sup>®</sup>(fentanyl)<sup>1,2</sup>
 
 </h1>
