@@ -88,7 +88,8 @@ function headerButtons() {
             $('.dropdown_menu ul').eq(1).empty();
             for (var i = 0; i < navigation[$(this).index()].links.length; i++) {
                 $('.dropdown_menu ul').eq(1).append('<li class="sub_menu" data-presentation="' + navigation[$(this).index()].presentation + '" data-link="' + thisNav[i][1] + '"><h2>' + thisNav[i][0] + '</h2><img src="' + $('.top_level img').attr('src') + '"/></li>');
-                $('.dropdown_menu h1').eq(1).html($(this).find('h2').html().substr(2));
+                var title = $(this).find('h2').html().split('. ');
+                $('.dropdown_menu h1').eq(1).html(title[1]);
             }
             $('.dropdown_menu').eq(0).animate({
                 marginLeft: '-50%',

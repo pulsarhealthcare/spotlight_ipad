@@ -153,7 +153,7 @@ navigation[9] = {
     presentation: '11_presentation_nasofan',
     presentationName: 'Nasofan',
     links: [
-        ['Page 1. Nasofen', '00_slide_nasofan'],
+        ['Page 1. Nasofan', '00_slide_nasofan'],
         ['Page 2. Introduction', '01_slide_introduction'],
         ['Page 3. Potential Spotlight cost savings', '02_slide_potential_spotlight_cost_savings'],
         ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
