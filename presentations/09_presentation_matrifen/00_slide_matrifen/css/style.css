@@ -5,7 +5,7 @@ svg {
 }
 
 #slide_container h2 {
-	top:490px;
+	top:480px;
 	left:72px;
 	width:670px;
 	color:#FFF;
@@ -22,24 +22,25 @@ h2 sup {
 }
 
 #slide_container h2:nth-child(2) {
-    top:560px;
+    top:550px;
 }
 
 #slide_container h2:nth-child(3) {
-    top:583px;
+    top:573px;
 }
 
 
 #notes {
 	color:#FFF;
-	top:638px;
+	top:626px;
 	left:72px;
 }
 
 #notes p {
 	opacity: 0;
 	color:#FFF;
-	width:  900px;
+	width:  927px;
+	margin-bottom:3px;
 }
 
 .side_note {

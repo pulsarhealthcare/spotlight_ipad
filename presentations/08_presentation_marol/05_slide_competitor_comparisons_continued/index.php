@@ -14,7 +14,7 @@
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th><span class="table_down">NHS List price/reimbursement</span> cost<sup>1</sup></th>
+          <th><span class="table_down">NHS List price</span><br/>/reimbursement cost<sup>1</sup></th>
           <th>Marol<sup>®</sup> cost saving vs. alternative Prescribed Product</th>
           <th>Marketed by</th>
           </tr>
@@ -78,36 +78,6 @@
             <td>£36.52</td>
             <td>£22.24</td>
             <td>Grunenthal</td>
-
-          </tr>
-
-
-         <tr>
-
-            <td>Tramulief<sup>®</sup> (tramadol) SR 100 mg Tabs 60s</td>
-            <td>£6.98</td>
-            <td>£0.00</td>
-            <td>Sovereign Medical</td>
-
-          </tr>
-
-
-         <tr>
-
-            <td>Tramulief (tramadol) SR 150 mg Tabs 60s</td>
-            <td>£10.48</td>
-            <td>£0.00</td>
-            <td>Sovereign Medical</td>
-
-          </tr>
-
-
-         <tr class="last">
-
-            <td>Tramulief (tramadol) SR 200 mg Tabs 60s</td>
-            <td>£14.28</td>
-            <td>£0.00</td>
-            <td>Sovereign Medical</td>
 
           </tr>
 

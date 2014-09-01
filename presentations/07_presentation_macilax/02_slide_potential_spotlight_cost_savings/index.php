@@ -18,7 +18,6 @@ per prescription. At a Primary Care Organisation (PCO) level, this translates in
 <thead>
 
         <tr>
-     
           <th>Spotlight brand</th>
           <th>Annual total number of packs prescribed for Macilax comparable products at equivalent dosage</th>
           <th>Current cost to NHS for macrogol 13.8 g single-dose sachets</th>

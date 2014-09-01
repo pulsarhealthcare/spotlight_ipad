@@ -8,12 +8,12 @@
    <h1>
                                     
 Marol<sup>®</sup> has a virtually identical bioavailability profile
-to Contramal<sup>®</sup> LP* (tramadol 100 mg tablets)<sup>1</sup>
+to Contramal<sup>®</sup> LP*<br> (tramadol 100 mg tablets)<sup>1</sup>
    
    </h1>           
 
 <h2>
-In a single-dose, randomized two-period, two-treatment,
+In a single-dose, randomized two-period, <br>two-treatment,
 cross-over bioequivalence study of 20 healthy
 volunteers under fed conditions, Marol 100 mg
 Prolonged- release tablets and Contramal LP 100 mg
@@ -24,7 +24,7 @@ given by C<sub>max</sub></span>
 </h2>
 
 
-<img src="img/graph.png" class="fullscreen" alt="" />
+<img src="img/video_graph.gif" class="fullscreen" alt="" />
 
 <h2>The BNF and MeReC encourage GPs to prescribe certain
 generic medicines, particularly modified-release

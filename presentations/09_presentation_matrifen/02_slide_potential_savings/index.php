@@ -29,15 +29,15 @@ saving of over £66,196<sup>1</sup></h2>
 <thead>
         <tr>
           <th>Spotlight brand</th>
-          <th>Annual total number of packs prescribed for Matrifen comparable products at equivalent dosage</th>
-          <th>Current cost to NHS for fentanyl transdermal patch 12 mcg/hr, 25 mcg/hr,50 mcg/hr, 75 mcg/hr and 100 mcg/hr </th>
-          <th>Potential average annual saving to NHS using Matrifen written by brand in place of comparable products at equivalent dosage</th>
-          <th>Potential average annual saving per PCO† using Matrifen, if prescribed by brand (will be lower in NHS Scotland due to drug tariff differences)
-<span class="table_small">†based on 237 PCOs</span></th>
-          <th>Potential annual saving per average GP practice‡ using Matrifen, if prescribed by brand 
+          <th>Annual total number<br/>of packs prescribed<br/>for Matrifen<br>comparable products<br>at equivalent dosage</th>
+          <th>Current cost to NHS<br>for fentanyl transdermal<br>patch 12 mcg/hr,<br> 25 mcg/hr,50 mcg/hr,<br> 75 mcg/hr and<br>100 mcg/hr </th>
+          <th>Potential average<br>annual saving to NHS<br>using Matrifen written<br>by brand in place of<br>comparable products<br>at equivalent dosage</th>
+          <th>Potential average<br>annual saving per<br>PCO<sup>†</sup> using Matrifen, if<span>prescribed by brand (will be lower in NHS Scotland due to drug tariff differences)</span>
+<span class="table_small"><sup>†</sup>based on 237 PCOs</span></th>
+          <th>Potential annual saving<br> per average GP practice<sup>‡</sup> <br>using Matrifen, if prescribed by brand 
 (will be lower in NHS Scotland due 
 to drug tariff differences)
-<span class="table_small">‡based on 10,339 GP practices</span></th>
+<span class="table_small"><sup>‡</sup>based on 10,339 GP practices</span></th>
         </tr>
 </thead>
         <tbody>

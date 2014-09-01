@@ -46,7 +46,7 @@ left: 1px;
 
 #notes p {
 	opacity: 0;
-	width:800px;
+	width:904px;
 	color:#707070;
 	margin-bottom: 4px;
 }
@@ -75,7 +75,7 @@ table {
 position: absolute;
 left: 104px;
 top: 325px;
-width: 800px;
+width: 779px;
 box-shadow: 6px 6px 6px -4px #666;
 border-radius: 5px;
 opacity: 0;
@@ -95,11 +95,11 @@ text-align: center;
 }
 
 table th:nth-child(1) {
-width: 90px;	
+width: 88px;
 }
 
 table th:nth-child(2) {
-width: 130px;
+width: 105px;
 }
 
 table th:nth-child(3) {
@@ -107,13 +107,17 @@ width: 130px;
 }
 
 table th:nth-child(4) {
-width: 130px;
+width: 122px;
 }
 
 table th:nth-child(5) {
 width: 130px;
 }
 
+table th:nth-child(5) span:nth-child(4) {
+	margin-top:-4px;
+	display: block;
+}
 
 table th span.table_lineup {
 position: relative;
@@ -123,8 +127,7 @@ top: -3px;
 table th span.table_small {
 display: block;
 font-size: 8px;	
-position: relative;
-top: 5px;
+margin-top:4px;
 }
 
 table th:nth-child(1) {

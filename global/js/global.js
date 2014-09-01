@@ -5,7 +5,7 @@ $(document).ready(function() {
     pdfViewer()
     slideNavigate()
     $('#slide_container').on(input.move, function(event) {
-       event.preventDefault();
+        event.preventDefault();
     })
 });
 
@@ -142,6 +142,8 @@ function pdfViewer() {
     }
 }
 
+var isFullscreen = false;
+
 $('.fullscreen').on(input.tap, function() {
 
     $('#img_container').empty();
@@ -169,18 +171,22 @@ $('.fullscreen').on(input.tap, function() {
             });
             break;
         case 'IMG':
-            $('#img_container').append($(this).clone());
-            $('#img_container img').css({
-                'width': '1024px',
-                'left': '0px'
-            });
-            var newSrc = $('#img_container img').attr('src').replace(/\?.*$/, "") + "?x=" + Math.random();
-            $('#img_container img').attr('src', newSrc);
-       
+            if (!isFullscreen) {
+                isFullscreen = true;
+                $('#img_container').append($(this).clone());
+                $('#img_container img').css({
+                    'width': '1024px',
+                    'left': '0px'
+                });
+                var newSrc = $('#img_container img').attr('src').replace(/\?.*$/, "") + "?x=" + Math.random();
+                $('#img_container img').attr('src', newSrc);
+            }
+            break;
+
         case 'DIV':
 
             $('#img_container').append($(this).clone());
-           /*var x = ((1024 - ($('div').width() + 24)) / ($('div').width() + 24)) * 100;
+            /*var x = ((1024 - ($('div').width() + 24)) / ($('div').width() + 24)) * 100;
             x = Math.round(x);
 
             $('#img_container div').css({
@@ -208,6 +214,10 @@ $('.fullscreen').on(input.tap, function() {
     $('#img_layer').css('top', '0px');
 });
 
+$('#img_header button').on(input.tap, function() {
+    $('#img_layer').css('top', '768');
+    isFullscreen = false;
+});
 
 //Workout scale 
 
@@ -231,9 +241,6 @@ function getReference(references) {
 
 
 
-$('#img_header button').on(input.tap, function() {
-    $('#img_layer').css('top', '768');
-});
 
 
 function slideNavigate() {
