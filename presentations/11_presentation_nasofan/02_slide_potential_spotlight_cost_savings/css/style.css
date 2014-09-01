@@ -40,7 +40,7 @@ top: -2px;
 
 #notes {
 	color:#000;
-	top:525px;
+	top:536px;
 	left:104px;
 }
 
@@ -114,7 +114,14 @@ width: 130px;
 table th:nth-child(5) {
 width: 130px;
 }
-
+table th:nth-child(5) span:first-of-type {
+display: block;
+margin-top:-3px;
+}
+table th:nth-child(6) span:first-of-type {
+display: block;
+margin-top:-3px;
+}
 
 table th span.table_lineup {
 position: relative;
