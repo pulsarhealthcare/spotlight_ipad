@@ -13,7 +13,7 @@ svg {
 #slide_container h2 {
 	top:205px;
 	left:104px;
-	width:805px;
+	width:765px;
 	line-height: 27px;
 	opacity: 0;
 	font-size:21px;
@@ -22,11 +22,11 @@ svg {
 
 #slide_container h2 span {
 position: relative;
-top: -5px;
+top: -4px;
 }
 
 h2 sup {
-font-size: 12px;
+font-size: 10px;
 position: relative;
 left: 2px;
 top: -4px;

@@ -14,7 +14,7 @@
         of over £25,225<sup>1</sup></span></h2>
     
     <div id="notes">
-        <p><sub>1</sub>An average PCO represents a population of approximately
+        <p>An average PCO represents a population of approximately
                         272,000 people. Please note: The term Primary Care
                         Organisation refers to Clinical Commissioning Groups
                         (England), NHS Boards (Scotland), Local Health Boards

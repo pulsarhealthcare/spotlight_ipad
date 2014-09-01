@@ -1,34 +1,8 @@
 var duration = 800;
 
 $('#main').delay((duration - 100) * 1).animate({opacity:1}, duration);
-$('.side_note').delay((duration - 100) * 2).animate({opacity:1}, duration);
-
-
-var chartData = {
-	chartType : 'line',
-    yValues : [10,100,1000],
-    xValues : [0,4,8,12,16,20,24,28],
-  
-    lines : [
-            { 
-	        color:'#beaf6e',
-	        points: [0,10,380,830,980,970,820,780,580,440,380,350,200,140,80,40,20,0,0]
-    	    },
-            { 
-	        color:'#8f0f1f',
-	        points: [0,10,380,780,900,910,840,810,630,500,420,380,200,140,80,40,20,0,0]
-    	    },
-            { 
-	        color:'#ccc',
-	        points: [0,10,380,780,900,910,840,810,630,500,420,380,200,140,80,40,20,0,0]
-    	    }    	    
-    	
-	]
-}
-
-$(document).ready(function() {
-	$('#chart').simpleChart(chartData);
-})
+$('#notes p').delay((duration - 100) * 2).animate({opacity:1}, duration);
+$('.side_note').delay((duration - 100) * 3).animate({opacity:1}, duration);
 
 
 

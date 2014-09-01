@@ -10,9 +10,9 @@
                         Continus<sup>®</sup>
                         (morphine sulphate), which could deliver cost savings
                         of up to £37.75 (200 mg, 60 pack size) per
-                        prescription. At a Primary Care Organisation (PCO)
+                        prescription. At a Primary <span>Care Organisation (PCO)
                         level, this translates into a potential average annual
-                        saving of over <span>£25,225<sup>1</sup></span></h2>
+                        saving of over £25,225<sup>1</sup></span></h2>
 
    <!-- <img class="fullscreen" id="main" width="805" src="img/main.png"/> -->
 
@@ -26,8 +26,8 @@
           <th>Annual total number of packs prescribed for Filnarine SR comparable products at equivalent dosage</th>
           <th>Current cost to NHS for morphine sulphate Prolonged-Release 10 mg, 30 mg, 60 mg, 100 mg &amp; 200 mg</th>
           <th>Potential average annual saving to NHS using Filnarine SR written by brand in place of comparable products at equivalent dosage</th>
-          <th>Potential average annual saving per PCO† using Filnarine SR, if prescribed by brand <span class="table_small">†based on 237 PCOs</span></th>
-          <th>Potential annual saving per average GP practice‡ using Filnarine SR, if prescribed by brand <span class="table_small">‡based on 10,339 GP practices</span></th>
+          <th>Potential average annual saving per PCO† using Filnarine SR, if prescribed by brand <span class="table_small"><sup>†</sup>based on 237 PCOs</span></th>
+          <th>Potential annual saving per average GP practice‡ using Filnarine SR, if prescribed by brand <span class="table_small"><sup>‡</sup>based on 10,339 GP practices</span></th>
         </tr>
 </thead>
         <tbody>

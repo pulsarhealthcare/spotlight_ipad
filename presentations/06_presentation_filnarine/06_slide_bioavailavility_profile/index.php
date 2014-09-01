@@ -16,7 +16,7 @@
 
 
     <div id="notes">
-        <p> </p>
+        <p>*MS Contin is the American brand name of MST Continus<sup>®</sup></p>
     </div>
        <p class="side_note">Date of preparation: June 2014 UK/SPL/14/0017e</p>
 </section>
