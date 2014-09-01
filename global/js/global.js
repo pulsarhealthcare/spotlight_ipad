@@ -4,9 +4,9 @@ $(document).ready(function() {
     setPageTitle();
     pdfViewer()
     slideNavigate()
-    document.ontouchmove = function(event) {
-        event.preventDefault();
-    }
+    $('#slide_container').on(input.move, function(event) {
+       event.preventDefault();
+    })
 });
 
 function setPageTitle() {

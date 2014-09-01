@@ -72,10 +72,12 @@ if (touch) {
     input.tap = 'tap';
     input.down = 'touchstart';
     input.up = 'touchend';
+    input.move = 'touchmove';
 } else {
     input.tap = 'click';
     input.down = 'mousedown';
     input.up = 'mouseup';
+    input.move = 'mousemove';
 }
 // Veeva's navigation function
 
