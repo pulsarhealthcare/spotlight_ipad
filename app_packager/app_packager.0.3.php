@@ -222,7 +222,7 @@ class AppPackager
            mkdir($packagedFolder.'/ctl');  
         }
        
-        file_put_contents($packagedFolder.'/ctl/'.$slide.'.ctl', $ctlFile);
+        file_put_contents($packagedFolder.'/ctl/'.$presentation.'_'.$slide.'.ctl', $ctlFile);
         
         if ($this->os == 'mac') {
             exec('cd ' . $folder . ' && cd .. && ls && zip -r ' . $filename . ' '.$presentation.'_'.$slide, $return);

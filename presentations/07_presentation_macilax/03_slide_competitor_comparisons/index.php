@@ -19,7 +19,7 @@
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th>NHS List price/reimbursement cost<sup>1</sup></th>
+          <th>NHS List price/<br>reimbursement cost<sup>1</sup></th>
           <th>Macilax cost saving vs. alternative Prescribed Product</th>
           <th>Marketed by</th>
           </tr>
