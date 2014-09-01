@@ -205,6 +205,7 @@ navigation[12] = {
     smpc : [],
     api : []
 }
+
 navigation[13] = {
     presentation: '15_presentation_summary',
     presentationName: 'Summary',
@@ -214,9 +215,10 @@ navigation[13] = {
     smpc : [],
     api : []
 }
-navigation[13] = {
-    presentation: '15_presentation_summary',
-    presentationName: 'Teva Respiratory',
+
+navigation[14] = {
+    presentation: '15_presentation_calculator',
+    presentationName: 'price Calculator',
     links: [
         ['Page 1. ', '00_Opening_slide'],
     ]
