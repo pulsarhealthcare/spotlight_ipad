@@ -22,9 +22,9 @@ into a potential average annual saving of over
         <tr>
 
           <th>Spotlight brand</th>
-          <th>Annual total number of packs prescribed for Nasofan comparable products at equivalent dosage</th>
-          <th>Current cost to NHS for fluticasone aqueous 50 mcg nasal spray</th>
-          <th>Potential average annual saving to NHS using Nasofan written by brand in place of comparable products at equivalent dosage</th>
+          <th>Annual total number<br>of packs prescribed for Nasofan comparable products at equivalent dosage</th>
+          <th>Current cost to NHS<br>for fluticasone aqueous<br>50 mcg nasal spray</th>
+          <th>Potential average<br>annual saving to NHS<br>using Nasofan written<br>by brand in place of comparable products at equivalent dosage</th>
           <th>Potential average annual saving per PCO† using Nasofan, if prescribed by brand <span class="table_small">†based on 237 PCOs</span></th>
           <th>Potential annual saving per average GP practice‡ using Nasofan, if prescribed by brand <span class="table_small">‡based on 10,339 GP practices</span></th>                                        
 

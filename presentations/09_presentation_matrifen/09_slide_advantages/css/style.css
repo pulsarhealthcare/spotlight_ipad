@@ -27,7 +27,7 @@ left:2px;
 
 
 #slide_container h2 {
-	top:180px;
+	top:182px;
 	left:104px;
 	width:250px;
 	line-height: 18px;
@@ -38,7 +38,7 @@ left:2px;
 
 
 #slide_container h2:nth-child(3) {
-	top: 262px;
+	top: 255px;
 	color: #008a8b;
 }
 
@@ -50,7 +50,7 @@ top: -5px;
 
 
 #slide_container h2:nth-child(4) {
-	top: 380px;
+	top: 363px;
 }
 
 

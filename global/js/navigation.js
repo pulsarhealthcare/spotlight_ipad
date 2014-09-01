@@ -223,3 +223,11 @@ navigation[14] = {
         ['Page 1. ', '00_Opening_slide'],
     ]
 }
+
+navigation[15] = {
+    presentation: '00_presentation_opening_map',
+    presentationName: 'Teva Respiratory',
+    links: [
+        ['Page 1. ', '00_Opening_slide'],
+    ]
+}
