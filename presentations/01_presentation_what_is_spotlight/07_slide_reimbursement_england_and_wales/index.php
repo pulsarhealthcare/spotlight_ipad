@@ -30,15 +30,15 @@ require $root . '/global/html/menu.html'; ?>
 
 	<p>The pharmacist is reimbursed and the practice is attributed the cost against 
 the Cat C price, which is based on the 
-		<span class="dark lineup">originator price; MST Continus<sup>®</sup></span>
-		<span class="dark double lineup">(morphine sulphate SR 200 mg): £81.34</span></p>
+	<span class="dark lineup">originator price; MST Continus<sup>®</sup></span>
+	<span class="dark double lineup">(morphine sulphate SR 200 mg): £81.34</span></p>
 
 </div>
 
 <div class="cost">
 	<p>Cost to NHS = £81.34</p>
 </div>
-
+</div>
 <div class="table_colum" style="background: url('img/main_2.png') top left no-repeat; background-size: 252px 357px;">
 
 	<div class="header">

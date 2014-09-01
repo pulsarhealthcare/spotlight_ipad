@@ -18,8 +18,8 @@
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th>NHS List price/reimbursement cost<sup>1</sup></th>
-          <th>Nasofan cost saving vs. alternative Prescribed Product</th>
+          <th>NHS List price/<br><span>reimbursement cost<sup>1</sup></span></th>
+          <th>Nasofan cost saving vs.<br>alternative Prescribed Product</th>
           <th>Marketed by</th>
         </tr>
 </thead>

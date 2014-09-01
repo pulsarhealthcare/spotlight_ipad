@@ -217,8 +217,8 @@ navigation[13] = {
 }
 
 navigation[14] = {
-    presentation: '15_presentation_calculator',
-    presentationName: 'price Calculator',
+    presentation: '16_presentation_calculator',
+    presentationName: 'Cost Calculator',
     links: [
         ['Page 1. ', '00_Opening_slide'],
     ]
