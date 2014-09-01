@@ -37,7 +37,7 @@ navigation[2] = {
     smpc : null,
     api : null
 }
-navigation[3] = {
+/*navigation[3] = {
     presentation: '04_presentation_capsorin',
     presentationName: 'Capsorin',
     links: [
@@ -52,8 +52,8 @@ navigation[3] = {
     ],
     smpc : [0,1,2],
     api : [0]
-}
-navigation[4] = {
+}*/
+navigation[3] = {
     presentation: '05_presentation_evacal',
     presentationName: 'Evacal-D3',
     links: [
@@ -67,7 +67,7 @@ navigation[4] = {
     smpc : [3],
     api : [1]
 }
-navigation[5] = {
+navigation[4] = {
     presentation: '06_presentation_filnarine',
     presentationName: 'Filnarine',
     links: [
@@ -83,7 +83,7 @@ navigation[5] = {
     smpc : [4,5,6,7,8],
     api : [2]
 }
-navigation[6] = {
+navigation[5] = {
     presentation: '07_presentation_macilax',
     presentationName: 'Macilax',
     links: [
@@ -97,7 +97,7 @@ navigation[6] = {
     smpc : [],
     api : []
 }
-navigation[7] = {
+navigation[6] = {
     presentation: '08_presentation_marol',
     presentationName: 'Marol',
     links: [
@@ -113,7 +113,7 @@ navigation[7] = {
     smpc : [9,10,11],
     api : []
 }
-navigation[8] = {
+navigation[7] = {
     presentation: '09_presentation_matrifen',
     presentationName: 'Matrifen',
     links: [
@@ -134,7 +134,7 @@ navigation[8] = {
     smpc : [],
     api : []
 }
-navigation[9] = {
+navigation[8] = {
     presentation: '10_presentation_monomil',
     presentationName: 'Monomil',
     links: [
@@ -149,7 +149,7 @@ navigation[9] = {
     smpc : [],
     api : []
 }
-navigation[10] = {
+navigation[9] = {
     presentation: '11_presentation_nasofan',
     presentationName: 'Nasofan',
     links: [
@@ -163,7 +163,7 @@ navigation[10] = {
     smpc : [],
     api : []
 }
-navigation[11] = {
+navigation[10] = {
     presentation: '12_presentation_peptac',
     presentationName: 'Peptac',
     links: [
@@ -180,7 +180,7 @@ navigation[11] = {
     api : []
 }
 
-navigation[12] = {
+navigation[11] = {
     presentation: '13_presentation_prestylon',
     presentationName: 'Prestylon',
     links: [
@@ -195,7 +195,7 @@ navigation[12] = {
     api : []
 }
 
-navigation[13] = {
+navigation[12] = {
     presentation: '14_presentation_price_promise',
     presentationName: 'Price Promise',
     links: [
@@ -205,7 +205,7 @@ navigation[13] = {
     smpc : [],
     api : []
 }
-navigation[14] = {
+navigation[13] = {
     presentation: '15_presentation_summary',
     presentationName: 'Summary',
     links: [
@@ -214,7 +214,7 @@ navigation[14] = {
     smpc : [],
     api : []
 }
-navigation[14] = {
+navigation[13] = {
     presentation: '15_presentation_summary',
     presentationName: 'Teva Respiratory',
     links: [
