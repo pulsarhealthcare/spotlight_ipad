@@ -187,20 +187,18 @@ $('.fullscreen').on(input.tap, function() {
 
            var newDiv = $(this).clone().appendTo('#img_container');
             
-           var x = ((1024 - (newDiv.width() )) / (newDiv.width())) * 100;
+           var x = ((934 - (newDiv.width() )) / (newDiv.width())) * 100;
             
             x = Math.round(x);
 
             newDiv.css({
                 '-webkit-transform': 'scale(1.' + x + ')',
                 'position':'absolute',
-                'top':'-238px',
-                'left' : '41px'
+                'top':'-215px',
+                'left' : '61px'
             });
 
-        
-
-            break;
+        break;
     }
     $('#img_container img').css({
         'top': '90px'
