@@ -37,22 +37,7 @@ navigation[2] = {
     smpc : null,
     api : null
 }
-/*navigation[3] = {
-    presentation: '04_presentation_capsorin',
-    presentationName: 'Capsorin',
-    links: [
-        ['Page 1. Capsorin', '00_slide_capsorin'],
-        ['Page 2. Introduction', '01_slide_introduction'],
-        ['Page 3. Potential Spotlight cost sav...', '02_slide_potential_cost_savings'],
-        ['Page 4. Competitor comparisons', '03_slide_competitor_comparisons'],
-        ['Page 5. Competitor comparisons cont...', '04_slide_competitor_comparisons_continued'],
-        ['Page 6. Bioavailability profile', '05_slide_bioavailability_profile'],
-        ['Page 7. Indications', '06_slide_indications'],
-        ['Page 8. indications cont.', '07_slide_indications_continued'],
-    ],
-    smpc : [0,1,2],
-    api : [0]
-}*/
+
 navigation[3] = {
     presentation: '05_presentation_evacal',
     presentationName: 'Evacal-D3',
