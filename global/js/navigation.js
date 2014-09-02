@@ -190,7 +190,7 @@ navigation[11] = {
         ['Page 5. Bioavailability profile', '04_slide_bioavailability_profile'],
         ['Page 6. Indications', '05_slide_indications'],
     ],
-    smpc : [],
+    smpc : [16],
     api : [8]
 }
 
@@ -201,8 +201,8 @@ navigation[12] = {
         ['Page 1. Price Promise', '00_slide_price_promise'],
         ['Page 2. Price Promise', '01_slide_price_promise_cont']
     ],
-    smpc : [],
-    api : []
+    smpc : null,
+    api : null
 }
 
 navigation[13] = {
@@ -211,8 +211,8 @@ navigation[13] = {
     links: [
         ['Page 1. ', '00_slide_summary'],
     ],
-    smpc : [],
-    api : []
+    smpc : null,
+    api : null
 }
 
 navigation[14] = {
@@ -221,7 +221,9 @@ navigation[14] = {
     links: [
         ['Page 1. ', '00_slide_calculator'],
         ['Page 2.', '01_slide_population_savings_caculator']
-    ]
+    ],
+    smpc : null,
+    api : null
 }
 
 navigation[15] = {
@@ -229,5 +231,7 @@ navigation[15] = {
     presentationName: 'Teva Respiratory',
     links: [
         ['Page 1. ', '00_Opening_slide'],
-    ]
+    ],
+    smpc : null,
+    api : null
 }
