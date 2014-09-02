@@ -22,8 +22,8 @@ per prescription. At a Primary Care Organisation (PCO) level, this translates in
           <th>Annual total number of packs prescribed for Macilax comparable products at equivalent dosage</th>
           <th>Current cost to NHS for macrogol 13.8 g single-dose sachets</th>
           <th>Potential average annual saving to NHS using Macilax written by brand in place of comparable products at equivalent dosage</th>
-          <th>Potential average annual saving per PCO<sup>†</sup> using Macilax, if <span class="table_lineup">prescribed by brand</span> <span class="table_small">†based on 237 PCOs</span></th>
-          <th>Potential annual saving per average GP practice‡ using Macilax, if prescribed by brand <span class="table_small">‡based on 10,339 GP practices</span></th>
+          <th>Potential average annual saving per PCO<sup>†</sup> using Macilax, if <span class="table_lineup">prescribed by brand</span> <span class="table_small"><sup>†</sup>based on 237 PCOs</span></th>
+          <th>Potential annual saving per average GP practice‡ using Macilax, if prescribed by brand <span class="table_small"><sup>‡</sup>based on 10,339 GP practices</span></th>
      
         </tr>
 

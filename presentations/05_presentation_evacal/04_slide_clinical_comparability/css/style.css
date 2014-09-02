@@ -27,7 +27,7 @@ top: -4px;
 #slide_container h2 {
 	top:250px;
 	left:104px;
-	width:700px;
+	width:685px;
 	line-height: 27px;
 	opacity: 0;
 	font-size:20px;
@@ -40,7 +40,8 @@ top: -4px;
 }
 
 #slide_container h2 span:nth-child(2) {
-top: -9px;	
+position: relative;
+top: -8px;
 }
 
 #slide_container h2:nth-child(3) {

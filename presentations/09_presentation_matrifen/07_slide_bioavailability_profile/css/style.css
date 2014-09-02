@@ -77,3 +77,8 @@ opacity: 0;
 	width:800px;
 	color:#707070;
 }
+
+#img_container .fullscreen {
+position: relative;
+top: 20px !important;	
+}

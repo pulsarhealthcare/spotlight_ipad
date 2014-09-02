@@ -53,7 +53,7 @@ width: 350px;
 line-height: 17px;	
 color: #6e6e6e;
 list-style-type: none;
-text-indent: -.6em;
+text-indent: -.45em;
 margin-left: 0;
 margin-bottom: 10px;
 opacity: 0;
@@ -63,7 +63,7 @@ opacity: 0;
 content: "• ";
 font-size: 10px;
 position: relative;
-left: -5px;
+left: -2px;
 }
 
 #one {

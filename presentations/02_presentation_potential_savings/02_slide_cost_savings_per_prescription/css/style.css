@@ -55,6 +55,10 @@ h2 sup {
 	font-size:10px;
 }
 
+#notes p {
+font-size: 11px;	
+}
+
 #slide_container h2:nth-child(3) {
     top:303px;
 }

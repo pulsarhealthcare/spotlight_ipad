@@ -20,7 +20,7 @@
 <thead>
         <tr>
           <th>Prescribed Product</th>
-          <th class="cent">NHS list price / <span class="table_lineup">reimbursement cost<sup>1</sup></span></th>
+          <th class="cent"><span id="pushdown">NHS list price / <span class="table_lineup">reimbursement cost<sup>1</sup></span></span></th>
           <th class="cent">Evacal-D3 cost saving vs. alternative Prescribed Product*</th>
           <th class="cent">Marketed by</th>
         </tr>

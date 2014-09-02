@@ -23,10 +23,10 @@
                                 versus Peptac, as Gaviscon Advance 500 ml provides the
                                 equivalent number of doses as two Peptac 500 ml bottles</p>
 
-  <p>†Amongst products which are available and have a secure
+  <p><sup>†</sup>Amongst products which are available and have a secure
                                 supply chain</p>
 
-<p>‡Indications may not be identical; refer to product
+<p><sup>‡</sup>Indications may not be identical; refer to product
                                 SmPCs</p>
                 
 </div>

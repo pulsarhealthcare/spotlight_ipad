@@ -15,9 +15,9 @@
              
              <p>*Calculation based on Zydol (tramadol hydrochloride) Prolonged-release 200 mg 60 tablets</p>
 
-             <p>†Amongst products which are available and have a secure supply chain</p>
+             <p><sup>†</sup>Amongst products which are available and have a secure supply chain</p>
 
-             <p>‡Indications may not be identical; refer to product SmPCs</p>
+             <p><sup>‡</sup>Indications may not be identical; refer to product SmPCs</p>
                 
        </div>
 

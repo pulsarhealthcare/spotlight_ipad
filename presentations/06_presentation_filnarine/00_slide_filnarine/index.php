@@ -12,10 +12,10 @@
             <div id="notes">
                 <p>*Calculation based on MST Continus 200 mg 60 tablets</p>
                 
-                <p>†Amongst products which are available and have a secure
+                <p><sup>†</sup>Amongst products which are available and have a secure
                     supply chain</p>
                 
-                <p>‡Indications may not be identical; refer to product
+                <p><sup>‡</sup>Indications may not be identical; refer to product
                     SmPCs</p>
                
             </div>

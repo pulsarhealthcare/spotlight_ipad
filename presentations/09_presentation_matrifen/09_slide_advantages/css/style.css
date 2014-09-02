@@ -45,7 +45,7 @@ left:2px;
 
 #slide_container h2:nth-child(3) span {
 position: relative;	
-top: -5px;
+top: -3px;
 }
 
 
@@ -71,4 +71,9 @@ position: absolute;
 left: 412px;
 top: 184px;	
 opacity: 0;
+}
+
+#img_container .fullscreen {
+position: relative;
+top: 20px !important;	
 }
