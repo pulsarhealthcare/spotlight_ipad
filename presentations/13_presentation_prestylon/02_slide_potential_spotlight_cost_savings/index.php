@@ -11,9 +11,9 @@ Omacor<sup>®</sup>
 (eicosapentaenoic acid/docasahexaenoic acid),* which
 could deliver cost savings of up to £12.71 (1 g, 100
 pack size) per prescription. At a Primary Care
-Organisation (PCO) level, this translates into a
+<span>Organisation (PCO) level, this translates into a
 potential average annual saving of over
-<span>£14,996<sup>1</sup></span></h2>
+£14,996<sup>1</sup></span></h2>
 
 
         <table class="fullscreen">
@@ -23,8 +23,8 @@ potential average annual saving of over
           <th>Annual total number of packs prescribed for Prestylon comparable products at equivalent dosage</th>
           <th>Current cost to NHS for eicosapentaenoic acid/docasahexaenoic acid 1g caps</th>
           <th>Potential average annual saving to NHS using Prestylon written by brand in place of comparable products at equivalent dosage</th>
-          <th>Potential average annual saving per PCO<sup>†</sup> using <span class="table_lineup">Prestylon, if prescribed by brand  <span class="table_small">†based on 237 PCOs</span><span></th>
-          <th>Potential annual saving per average GP practice‡ using Prestylon, if prescribed by brand  <span class="table_small">‡based on 10,339 GP practices</span></th>
+          <th>Potential average annual saving per PCO<sup>†</sup> using <span class="table_lineup">Prestylon, if prescribed by brand  <span class="table_small"><sup>†</sup>based on 237 PCOs</span><span></th>
+          <th>Potential annual saving per average GP practice<sup>‡</sup> using Prestylon, if prescribed by brand  <span class="table_small"><sup>‡</sup>based on 10,339 GP practices</span></th>
         </tr>
 </thead>
         <tbody>
