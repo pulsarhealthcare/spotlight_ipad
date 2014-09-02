@@ -51,7 +51,7 @@ the Cat C price, which is based on the <br><span>
 
 	<div class="inner">
 
-		<p>Rx <b>branded</b> prescription for <span class="blue">Filnarine SR 200 mg tablets 60 pack</span></p>
+		<p>Rx <span>branded<span> prescription for <span class="blue">Filnarine SR 200 mg tablets 60 pack</span></p>
 
 		<p>Pharmacist <b>must</b> dispense<br>Filnarine SR 200 mg<br><span>at a cost to them of £25.75<sup>*</sup></span></p>
 
