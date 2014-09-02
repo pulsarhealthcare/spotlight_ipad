@@ -98,6 +98,10 @@ h2 sup {
     display: block;
     margin-top: -4px;
 }
+.table_colum p:nth-child(2) span:nth-child(3) {
+    display: block;
+    margin-top: -4px;
+}
 .table_colum p:nth-child(3) span {
     display: block;
     margin-top: -4px;
