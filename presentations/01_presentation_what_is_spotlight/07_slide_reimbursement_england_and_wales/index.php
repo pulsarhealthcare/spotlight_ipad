@@ -8,15 +8,21 @@ require $root . '/global/html/menu.html'; ?>
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
       <h1>Reimbursement - an example - England and Wales</h1>
 
+
+
+      <div id="notes">
+         <p>*Published pharmacy purchased prices, additional discounts may be offered to pharmacists by Teva(correct as of June 2014)</p>
+      </div>
+</section>
 <div class="table fullscreen">
 
-<div class="table_header" style="background: url('img/main_0.png') top left no-repeat; background-size: 510px 68px;">
-<p>A patient is dispensed a pack of Filnarine<sup>®</sup> SR 200 mg tablets (morphine sulphate SR 200 mg) 60s pack</p>
-<p><span>(how the prescription is written can have a big effect on costs)</span></p>
+<div class="table_header" style="background: url('img/main_0.png') top left no-repeat; background-size: 531px 68px;">
+<p><b>A patient is dispensed a pack of Filnarine<sup>®</sup> SR 200 mg tablets (morphine sulphate SR 200 mg) 60s pack</b>
+<br>(how the prescription is written can have a big effect on costs)</p>
 </div>
 
 
-<div class="table_colum" style="background: url('img/main_1.png') top left no-repeat; background-size: 252px 313px;">
+<div class="table_colum" style="background: url('img/main_1.png') top left no-repeat; background-size: 264px 313px;">
 <div class="header">
 	<h2>Option A</h2>
 	<h3>Generic prescription</h3>
@@ -24,22 +30,22 @@ require $root . '/global/html/menu.html'; ?>
 
 <div class="inner">
 
-	<p>Rx <span class="dark inline">generic</span> prescription for <span class="blue">Morphine sulphate SR 200 mg tablets 60 pack</span></p>
+	<p>Rx <b>generic</b> prescription for<br><span class="blue">Morphine sulphate SR 200 mg tablets 60 pack</span></p>
 
-	<p>Pharmacist dispenses Filnarine SR <span class="lineup">200 mg at a cost to them of £25.75<sup>*</sup></span></p>
+	<p>Pharmacist dispenses Filnarine SR 200 mg<br><span>at a cost to them of £25.75<sup>*</sup></span></p>
 
-	<p>The pharmacist is reimbursed and the practice is attributed the cost against 
-the Cat C price, which is based on the 
-	<span class="dark lineup">originator price; MST Continus<sup>®</sup></span>
-	<span class="dark double lineup">(morphine sulphate SR 200 mg): £81.34</span></p>
+	<p>The pharmacist is reimbursed and the<br>practice is attributed the cost against<br>
+the Cat C price, which is based on the <br><span>
+	<b>originator price; MST Continus<sup>®</sup><br>
+	(morphine sulphate SR 200 mg): £81.34</b></p>
 
 </div>
 
 <div class="cost">
-	<p>Cost to NHS = £81.34</p>
+	<h2>Cost to NHS = £81.34</h2>
 </div>
 </div>
-<div class="table_colum" style="background: url('img/main_2.png') top left no-repeat; background-size: 252px 357px;">
+<div class="table_colum" style="background: url('img/main_2.png') top left no-repeat; background-size: 264px 357px;">
 
 	<div class="header">
 		<h2>Option B</h2>
@@ -50,25 +56,20 @@ the Cat C price, which is based on the
 
 		<p>Rx <span>branded<span> prescription for <span class="blue">Filnarine SR 200 mg tablets 60 pack</span></p>
 
-		<p>Pharmacist must dispense Filnarine SR 200 mg at a cost to <span class="lineup">them of £25.75<sup>*</sup></span></p>
+		<p>Pharmacist <b>must</b> dispense<br>Filnarine SR 200 mg<br><span>at a cost to them of £25.75<sup>*</sup></span></p>
 
-		<p>The pharmacist is reimbursed and the practice is attributed the cost against the <span class="dark">list price of Filnarine SR 200 mg: 
-£43.59</span></p>
+		<p>The pharmacist is reimbursed and the<br>practice is attributed the cost against the<br><b>list price of Filnarine SR 200 mg: 
+<br>£43.59</b></p>
 
 	</div>
 
 	<div class="cost">
-		<p>Cost to NHS = £43.59</p>
-		<p>PCO cost saving per pack (£37.75)</p>
+		<h2>Cost to NHS = £43.59</h2>
+		<h2>PCO cost saving per pack (£37.75)</h2>
 	</div>
 
 </div>
 </div>
-      <div id="notes">
-         <p>*Published pharmacy purchased prices, additional discounts may be offered to pharmacists by Teva(correct as of June 2014)</p>
-      </div>
-</section>
-
 <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017</p>
         
 <?php
