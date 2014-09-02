@@ -57,3 +57,7 @@ top: 175px;
 opacity: 0;
 }
 
+#img_container .fullscreen {
+position: relative;
+top: 20px !important;	
+}

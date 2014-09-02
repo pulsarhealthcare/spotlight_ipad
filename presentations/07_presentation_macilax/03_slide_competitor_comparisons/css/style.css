@@ -24,6 +24,10 @@ left: 2px;
 top: -4px;	
 }
 
+table th:nth-child(2) {
+line-height: 1;	
+}
+
 #slide_container h2 {
 	top:160px;
 	left:104px;
@@ -49,7 +53,7 @@ top: -4px;
 
 #notes {
 	color:#000;
-	top:578px;
+	top:573px;
 	left:104px;
 }
 
@@ -97,7 +101,7 @@ text-align: center;
 }
 
 table th sup {
-font-size: 8px;
+font-size: 7px;
 }
 
 table tr.selected td {

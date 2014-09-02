@@ -62,3 +62,8 @@ left: 400px;
 top: 181px;	
 opacity: 0;
 }
+
+#img_container .fullscreen {
+position: relative;
+top: 20px !important;	
+}

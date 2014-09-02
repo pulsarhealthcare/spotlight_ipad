@@ -19,7 +19,7 @@ volunteers under fed conditions, Marol 100 mg
 Prolonged- release tablets and Contramal LP 100 mg
 tablets were found to be bioequivalent in the amount of
 tramadol present in the plasma as described by
-AUC<sub>0-inf</sub> and in <span class="adjust">the bioequivalence rate
+AUC<sub>0-inf</sub> and in the <span class="adjust">bioequivalence rate
 given by C<sub>max</sub></span>
 </h2>
 
