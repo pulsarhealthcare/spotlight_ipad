@@ -1,9 +1,6 @@
-<?php
-$root = $_SERVER["DOCUMENT_ROOT"]; ?>
-<?php
-require $root . '/global/html/header.html'; ?>
-<?php
-require $root . '/global/html/menu.html'; ?>
+<?php $root = $_SERVER["DOCUMENT_ROOT"];?>
+<?php require $root.'/global/html/header.html';?>
+<?php require $root.'/global/html/menu.html';?>
 
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
       <h1>Reimbursement - an example - England and Wales</h1>
@@ -16,13 +13,13 @@ require $root . '/global/html/menu.html'; ?>
 </section>
 <div class="table fullscreen">
 
-<div class="table_header" style="background: url('img/main_0.png') top left no-repeat; background-size: 531px 68px;">
+<div class="table_header" style="background: url('img/main_0.png') top left no-repeat; background-size: 100% 68px;">
 <p><b>A patient is dispensed a pack of Filnarine<sup>®</sup> SR 200 mg tablets (morphine sulphate SR 200 mg) 60s pack</b>
 <br>(how the prescription is written can have a big effect on costs)</p>
 </div>
 
 
-<div class="table_colum" style="background: url('img/main_1.png') top left no-repeat; background-size: 264px 313px;">
+<div class="table_colum" style="background: url('img/main_1.png') top left no-repeat; background-size: 100% 313px;">
 <div class="header">
 	<h2>Option A</h2>
 	<h3>Generic prescription</h3>
@@ -45,7 +42,7 @@ the Cat C price, which is based on the <br><span>
 	<h2>Cost to NHS = £81.34</h2>
 </div>
 </div>
-<div class="table_colum" style="background: url('img/main_2.png') top left no-repeat; background-size: 264px 357px;">
+<div class="table_colum" style="background: url('img/main_2.png') top left no-repeat; background-size: 100% 357px;">
 
 	<div class="header">
 		<h2>Option B</h2>
@@ -54,7 +51,7 @@ the Cat C price, which is based on the <br><span>
 
 	<div class="inner">
 
-		<p>Rx <span>branded<span> prescription for <span class="blue">Filnarine SR 200 mg tablets 60 pack</span></p>
+		<p>Rx <b>branded</b> prescription for <span class="blue">Filnarine SR 200 mg tablets 60 pack</span></p>
 
 		<p>Pharmacist <b>must</b> dispense<br>Filnarine SR 200 mg<br><span>at a cost to them of £25.75<sup>*</sup></span></p>
 
@@ -72,5 +69,4 @@ the Cat C price, which is based on the <br><span>
 </div>
 <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017</p>
         
-<?php
-require $root . '/global/html/footer.html'; ?>
+<?php require $root.'/global/html/footer.html';?>

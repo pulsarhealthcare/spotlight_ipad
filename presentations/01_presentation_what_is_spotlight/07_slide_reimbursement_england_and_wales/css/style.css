@@ -38,11 +38,14 @@ h2 sup {
     top: 613px;
     left: 104px;
 }
+.table {
+	    width: 543px;
+}
 .table_header {
     position: absolute;
     left: 104px;
     top: 159px;
-    width: 531px;
+    width: 543px;
     opacity: 1;
     height: 68px;
 }
@@ -79,9 +82,10 @@ h2 sup {
 .table_header p {
     margin-top: 8px;
     line-height: 14px;
+    margin-left:1px;
 }
 .cost h2:first-of-type {
-    margin-top: 8px;
+    margin-top: 7px;
 }
 .table_colum:nth-child(3) .cost h2:last-of-type {
     margin-top: 23px;
@@ -89,7 +93,7 @@ h2 sup {
     font-size: 15px;
 }
 .table_colum {
-    width: 264px;
+    width: 268px;
     top: 230px;
     position: absolute;
     opacity: 1;
@@ -99,7 +103,7 @@ h2 sup {
     left: 104px;
 }
 .table_colum:nth-child(3) {
-    left: 371px;
+    left: 380px;
 }
 .table_colum .header {
     height: 57px;

@@ -2,8 +2,8 @@ $(document).ready(function() {
     window.scrollTo(0, 1);
     headerButtons();
     setPageTitle();
-    pdfViewer()
-    slideNavigate()
+    pdfViewer();
+    slideNavigate();
     $('#slide_container').on(input.move, function(event) {
         event.preventDefault();
     })
@@ -111,7 +111,7 @@ function headerButtons() {
     });
 
     $('#header_button_calculator').on(input.tap, function() {
-        irep.navigateTo('00_slide_cauculator', '16_presentation_calculator');
+        irep.navigateTo('00_slide_calculator', '16_presentation_calculator');
     });
 
     $('#header_button_summary').on(input.tap, function() {
@@ -163,7 +163,6 @@ $('.fullscreen').on(input.tap, function() {
             l = -l;
             var rW = $('#img_container table')[0].getBoundingClientRect().width;
             var sP = (1024 - rW) / 2;
-            console.log(sP)
             l = l + sP;
             var t = ((738 - $('#img_container table')[0].getBoundingClientRect().height) / 2);
             $('#img_container table').css({
@@ -186,27 +185,21 @@ $('.fullscreen').on(input.tap, function() {
 
         case 'DIV':
 
-            $('#img_container').append($(this).clone());
-            /*var x = ((1024 - ($('div').width() + 24)) / ($('div').width() + 24)) * 100;
+           var newDiv = $(this).clone().appendTo('#img_container');
+            
+           var x = ((1024 - (newDiv.width() )) / (newDiv.width())) * 100;
+            
             x = Math.round(x);
 
-            $('#img_container div').css({
+            newDiv.css({
                 '-webkit-transform': 'scale(1.' + x + ')',
-                'left': '0px'
+                'position':'absolute',
+                'top':'-238px',
+                'left' : '41px'
             });
 
-            var l = $('#img_container div')[0].getBoundingClientRect().left;
-            l = -l;
+        
 
-            var rW = $('#img_container div')[0].getBoundingClientRect().width;
-            var sP = (1024 - rW) / 2;
-           
-            l = l + sP;
-            var t = ((738 - $('#img_container div')[0].getBoundingClientRect().height) / 2);
-            $('#img_container div').css({
-                'left': (l) + 'px',
-                'top': (t + 50) + 'px'
-            });*/
             break;
     }
     $('#img_container img').css({
