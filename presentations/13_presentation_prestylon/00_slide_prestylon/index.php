@@ -8,22 +8,23 @@
 <h2> Prescribing Prestylon<sup>®</sup> by brand name is the
 least expensive way of prescribing eicosapentaenoic 460
 mg acid/docasahexaenoic 380 mg acid capsules* and can
-offer savings of up to £12.71 per prescription compared</h2>
-<h2>acid/docasahexaenoic acid)<sup>†‡§1</sup></h2>
+offer savings of up to £12.71 per prescription compared 
+</h2>
+<h2>to prescribing Omacor<sup>®</sup> (eicosapentaenoic acid/docasahexaenoic acid)<sup>†‡§1</sup></h2>
 
 <div id="notes">
              
-  <p>*eicosapentaenoic acid/docasahexaenoic acid is also
+  <p><sup>*</sup>eicosapentaenoic acid/docasahexaenoic acid is also
                                 known as omega-3-acid ethyl esters 90</p>
 
-  <p>†Calculations based on Omacor<sup>®</sup> 1 g 100 capsules.
+  <p><sup>†</sup>Calculations based on Omacor<sup>®</sup> 1 g 100 capsules.
                                 Eicosapentaenoic acid/docasahexaenoic acid capsules are
                                 not available generically in NHS Scotland</p>
 
-<p>‡Amongst products which are available and have a secure
+<p><sup>‡</sup>Amongst products which are available and have a secure
                                 supply chain</p>
 
-<p>§Indications may not be identical; refer to product
+<p><sup>§</sup>Indications may not be identical; refer to product
                                 SmPCs</p>                
 
 </div>
