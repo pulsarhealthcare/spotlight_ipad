@@ -220,7 +220,8 @@ navigation[14] = {
     presentation: '16_presentation_calculator',
     presentationName: 'Cost Calculator',
     links: [
-        ['Page 1. ', '00_Opening_slide'],
+        ['Page 1. ', '00_slide_cauculator'],
+        ['Page 2.', '01_slide_population_savings_caculator']
     ]
 }
 
