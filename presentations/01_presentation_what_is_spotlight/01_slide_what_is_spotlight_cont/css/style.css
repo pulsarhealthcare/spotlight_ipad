@@ -50,7 +50,7 @@ svg {
 	top:454px;
 }
 h2 sup {
-	font-size:10px;
+	font-size:11px;
 }
 
 h4 sup {
@@ -59,6 +59,25 @@ position: relative;
 top: -3px;
 left: 4px;
 	}
+
+h4 sup.two {
+left: 3px;	
+}
+
+span.adjust_one {
+position: relative;
+top: -5px;
+}
+
+span.adjust_two {
+position: relative;
+top: -5px;
+}
+
+span.adjust_three {
+position: relative;
+top: -7px;
+}
 
 #slide_container h2:nth-child(3) {
     top:303px;

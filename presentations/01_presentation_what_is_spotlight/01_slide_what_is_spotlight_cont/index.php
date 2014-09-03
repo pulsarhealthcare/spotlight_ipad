@@ -10,8 +10,9 @@
             and achieve major cost savings for your<br>
             practice, Clinical Commissioning Group (CCG),<br>
             NHS Board, Local Health Board (LHB), or Health<br>
-            and Social Care Trusts1 against your budget,<br>
-            while maintaining high standards of patient<br>care</h2>
+            <span class="adjust_one">and Social Care Trusts<sup>1</sup> against your budget,</span><br>
+            <span class="adjust_two">while maintaining high standards of patient</span><br>
+            <span class="adjust_three">care</span></h2>
 
             <h3>Annex 8 of the GMS contract states:</h3>
             <h4>“ ...switching patients to less expensive<br>
@@ -21,7 +22,7 @@
             evidence of equal or greater efficacy.<br>
             This may release cash within the system<br>
             that can be invested in additional and</h4>
-            <h4>different care for patients<sup>2</sup> ”</h4>           
+            <h4>different care for patients<sup class="two">2</sup> ”</h4>           
             
             <p class="side_note">Date of preparation: July 2014 UK/SPL/14/0017</p>
 

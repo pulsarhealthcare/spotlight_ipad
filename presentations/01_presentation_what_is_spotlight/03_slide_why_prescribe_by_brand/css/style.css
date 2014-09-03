@@ -24,6 +24,11 @@ svg {
 	opacity: 0;
 }
 
+.span_up {
+position:relative;
+top: -1px;
+}
+
 #slide_container h3 {
 	top:280px;
 	left:124px;
@@ -49,6 +54,10 @@ svg {
 
 h2 sup {
 	font-size:10px;
+}
+
+h4 sup {
+font-size: 9px;
 }
 
 #slide_container h2:nth-child(3) {

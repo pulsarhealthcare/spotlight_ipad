@@ -8,7 +8,7 @@
 
 
       <div id="notes">
-         <p>*Published pharmacy purchased prices, additional discounts may be offered to pharmacists by Teva(correct as of June 2014)</p>
+         <p>*Published pharmacy purchase prices, additional discounts may be offered to pharmacists by Teva(correct as of June 2014)</p>
       </div>
 </section>
 <div class="table fullscreen">
@@ -44,7 +44,7 @@
 
 	<div class="header">
 		<h2>Option B</h2>
-		<h3>Prescription Spotlight brands</h3>
+		<h3>Prescribing Spotlight brands</h3>
 	</div>
 
 	<div class="inner">

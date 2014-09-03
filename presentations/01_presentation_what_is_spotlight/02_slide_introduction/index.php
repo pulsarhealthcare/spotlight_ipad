@@ -13,7 +13,7 @@
         
       <h2>We believe it is imperative when the NHS choose to
         prescribe a Spotlight brand that it is readily
-        available in the<br>supply chain. To faciliate this
+        available in the<br>supply chain. To facilitate this
         Spotlight brands are available via all full line
         wholesalers. Furthermore, we aim to<br>hold 6 months
         safety stock of all Spotlight brands in our
@@ -32,15 +32,7 @@
 
         <tbody>
 
-          <tr>
-
-            <td class="capsorin">Capsorin<sup>®</sup></td>
-            <td>Ciclosporin</td>
-            <td>Skin</td>
-
-          </tr>
-
-
+ 
           <tr>
 
             <td class="evacal">Evacal-D3<sup>®</sup></td>

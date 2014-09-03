@@ -7,7 +7,7 @@
 
 <div id="notes">
           <p>*Assumed pharmacy purchase price is NHS list price minus 10%<sup>1</sup></p>
-          <p>**Published pharmacy purchase prices, additional discounts may be offered to pharmacists by Teva(correct as of June 2014)</p>
+          <p>**Published pharmacy purchase prices, additional discounts may be offered to pharmacists by Teva (correct as of June 2014)</p>
 </div>
       
 </section>
@@ -46,7 +46,7 @@ the Cat C price, which is based on the <br><span>
 
 	<div class="header">
 		<h2>Option B</h2>
-		<h3>Prescription Spotlight brands</h3>
+		<h3>Prescribing Spotlight brands</h3>
 	</div>
 
 	<div class="inner">

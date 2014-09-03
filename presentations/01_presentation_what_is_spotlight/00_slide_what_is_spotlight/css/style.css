@@ -42,7 +42,7 @@ top: -3px;
 opacity: 1;	
 width: 380px;
 position: absolute;
-top: 420px;
+top: 390px;
 left: 104px;
 }
 
@@ -75,4 +75,10 @@ left: 104px;
     color:#666;
     left:860px;
     width:300px;
+}
+
+#img_container .fullscreen {
+width: 780px !important;
+left: 110px !important;
+top: 165px !important;
 }
