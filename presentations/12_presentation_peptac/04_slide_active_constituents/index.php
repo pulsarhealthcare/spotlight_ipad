@@ -4,7 +4,7 @@
 
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
 
-<h1>Active constituents of Peptac<sup>®</sup>, Gaviscon<sup>®</sup>, and Gavison<sup>®</sup> Advance<sup>1-6</sup></h1>       
+<h1>Active constituents of Peptac<sup>®</sup>, Gaviscon<sup>®</sup>, and Gavison<sup>®</sup> Advance<sup>1 <span>_</span> 6</sup></h1>       
 
         <table class="fullscreen">
 

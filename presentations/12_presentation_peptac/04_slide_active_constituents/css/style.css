@@ -68,6 +68,12 @@ left: 104px;
 	margin-bottom: 4px;	
 }
 
+sup span {
+
+position: relative;
+top: -6px;	
+}
+
 /* Table stylings */
 
 table {
@@ -149,7 +155,7 @@ table td {
 color: #9a9b9d;	
 font-size: 12px;
 background-color: #FFF;
-padding: 10px 14px;
+padding: 7px 14px;
 border-right: 1px solid #f7aac8;
 border-bottom: 1px solid #f7aac8;
 }

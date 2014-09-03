@@ -17,7 +17,7 @@ or prescribing generically<sup>*†</span>1</sup>
              <p>*Amongst products which are available and have a secure
                                 supply chain</p>
 
-             <p>†Cost saving not applicable in NHS Scotland; isosorbide
+             <p><sup>†</sup>Cost saving not applicable in NHS Scotland; isosorbide
                                 mononitrate 60 mg XL capsules are not<br />
                                 available generically, isosorbide mononitrate SR
                                 tablets are category R</p>

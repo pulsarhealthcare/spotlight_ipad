@@ -27,11 +27,16 @@ top: -2px;
 #slide_container h2 {
 	top:180px;
 	left:104px;
-	width:770px;
+	width:750px;
 	line-height: 24px;
 	opacity: 0;
 	font-size:18px;
 	color:#6e6e6e;
+}
+
+h2 span {
+position: relative;
+top: -3px;	
 }
 
 #slide_container h2:nth-child(3) {
@@ -75,7 +80,7 @@ opacity: 0;
 table {
 position: absolute;
 left: 104px;
-top: 305px;
+top: 315px;
 width: 800px;
 box-shadow: 6px 6px 6px -4px #666;
 border-radius: 5px;

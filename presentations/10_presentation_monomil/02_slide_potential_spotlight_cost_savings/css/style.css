@@ -32,7 +32,7 @@ sup.noleft {
 #slide_container h2 {
 	top:160px;
 	left:104px;
-	width:780px;
+	width:760px;
 	line-height: 24px;
 	opacity: 0;
 	font-size:18px;
@@ -53,6 +53,12 @@ h2 span:nth-child(5) {
 top: -5px;
 position: relative;
 }
+
+h2 span:nth-child(6) {
+position: relative;
+top: -5px;
+}
+
 
 #slide_container h2:nth-child(3) {
 	top: 294px;

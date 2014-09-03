@@ -73,7 +73,7 @@ left: 104px;
 #slide_container ul {
 	top:135px;
 	left:104px;
-	width:825px;
+	width:800px;
 	position: relative;
 	padding-left: 0;
 	margin-left: 0;
@@ -104,4 +104,9 @@ left: 104px;
 #slide_container ul li:nth-child(2) {
 	top: 30px;
 	position: relative; 
+}
+
+#img_container .fullscreen {
+position: relative;
+top: 150px !important;	
 }

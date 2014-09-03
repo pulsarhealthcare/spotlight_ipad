@@ -14,7 +14,7 @@ Gaviscon<sup>®</sup>
 Advance 250 ml* (sodium alginate and potassium
 bicarbonate suspension), which could deliver cost
 savings of up to £0.61 per prescription. At a Primary
-Care Organisation (PCO) level,<span>this translates into a
+Care Organisation (PCO) level, <span>this translates into a
 potential average annual saving of over
 £14,048<sup>1</sup></span>
 
