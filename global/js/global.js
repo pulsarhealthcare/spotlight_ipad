@@ -87,6 +87,11 @@ function headerButtons() {
             if ($(this).hasClass('active_dd')) {
                 $(this).removeClass('active_dd');
                 $('.dropdown').hide();
+                $('.back_button').css('opacity', '1');
+                $('.dropdown_menu').eq(0).animate({
+                    marginLeft: '0%',
+                    opacity: 1
+                }, 200);
             } else {
 
                 $('.active_dd').removeClass('active_dd');
@@ -216,15 +221,15 @@ $('.fullscreen').on(input.tap, function() {
 
             var newDiv = $(this).clone().appendTo('#img_container');
 
-            var x = ((934 - (newDiv.width())) / (newDiv.width())) * 100;
+            var x = ((854 - (newDiv.width())) / (newDiv.width())) * 100;
 
             x = Math.round(x);
 
             newDiv.css({
                 '-webkit-transform': 'scale(1.' + x + ')',
                 'position': 'absolute',
-                'top': '-215px',
-                'left': '61px'
+                'top': '-177px',
+                'left': '100px'
             });
 
             break;
@@ -256,48 +261,4 @@ function getReference(references) {
 
     }
 
-}
-
-
-
-
-
-
-
-function slideNavigate() {
-    var isDragging = false;
-    lastX = 0;
-    $(window).on({
-
-        mousedown: function(e) {
-            isDragging = true;
-            lastX = e.pageX;
-        },
-
-        mousemove: function(e) {
-
-            if (isDragging) {
-                var amountMoved;
-
-                if (e.pageX > lastX) {
-                    //Swiping right
-
-                    amountMoved = (e.pageX - lastX);
-
-                    $('#slide_container').css()
-
-                } else if (e.pageX < lastX) {
-                    //Swiping left
-                    amountMoved = (e.pageX - lastX);
-                    amountMoved = -amountMoved;
-                }
-            }
-
-        },
-
-        mouseup: function(e) {
-            isDragging = false;
-        }
-
-    })
 }

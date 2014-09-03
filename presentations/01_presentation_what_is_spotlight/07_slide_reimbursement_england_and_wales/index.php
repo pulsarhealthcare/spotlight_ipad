@@ -51,7 +51,7 @@
 
 		<p>Rx <span>branded<span> prescription for <span class="blue">Filnarine SR 200 mg tablets 60 pack</span></p>
 
-		<p>Pharmacist <b>must</b> dispense<br>Filnarine SR 200 mg<br><span>at a cost to them of £25.75<sup>*</sup></span></p>
+		<p>Pharmacist must dispense<br>Filnarine SR 200 mg<br><span>at a cost to them of £25.75<sup>*</sup></span></p>
 
 		<p>The pharmacist is reimbursed and the<br>practice is attributed the cost against the<br><b>list price of Filnarine SR 200 mg: 
 <br>£43.59</b></p>
