@@ -41,12 +41,13 @@ class AppPackager
     public $scanIgnore;
     
     public function __construct() {
-        
+        //Delete last package
+
         //Set application globals
         $this->root = $_SERVER["DOCUMENT_ROOT"];
         $this->temporaryDirectory = $this->root . '/temporary';
         $this->globalFolder = $this->root . '/global';
-        $this->packagedDirectory = $this->root . '/packaged/' . basename(__DIR__) . '_' . date('ymdsih');
+        $this->packagedDirectory = $this->root . '/packaged/' . basename(__DIR__) . '_' . date('ymds_Hi');
         $this->slidesPackaged = array();
         $this->scanIgnore = array('.', '..', '.DS_Store');
         
@@ -58,7 +59,10 @@ class AppPackager
     }
     
     public function init() {
+        //Deleted old packaged files
+
         
+
         //Create temporaary directory
         if (is_dir($this->temporaryDirectory)) {
             unlinkRecursive($this->temporaryDirectory, true);

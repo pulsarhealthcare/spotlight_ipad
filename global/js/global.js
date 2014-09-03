@@ -4,18 +4,25 @@ $(document).ready(function() {
     setPageTitle();
     pdfViewer();
     slideNavigate();
-    $('#slide_container').on(input.move, function(event) {
-        event.preventDefault();
-    })
+    stopnativeScrolling();
+
+
 });
 
+function stopnativeScrolling() {
+
+$('#slide_container').on(input.move, function(event) {
+    event.preventDefault();
+})
+
+}
 function setPageTitle() {
-    if($('#presentation_name').length) {
-       var presentationFolder = $('#presentation_name').html(); 
-   } else {
-       var s =  window.location.href.split('/');
-       var presentationFolder =  s[4];
-   }
+    if ($('#presentation_name').length) {
+        var presentationFolder = $('#presentation_name').html();
+    } else {
+        var s = window.location.href.split('/');
+        var presentationFolder = s[4];
+    }
     console.log(presentationFolder)
 
     for (var x = 0; x < navigation.length; x++) {
@@ -26,7 +33,6 @@ function setPageTitle() {
                 $('#smpc_dropdown .pdf').css('display', 'none');
                 if (navigation[x].smpc.length === 1) {
                     $('#header_button_smpc').addClass('oneLink');
-
                 }
                 for (var y = 0; y < navigation[x].smpc.length; y++) {
 
@@ -39,7 +45,6 @@ function setPageTitle() {
                 $('#api_dropdown .pdf').css('display', 'none');
 
                 if (navigation[x].api.length === 1) {
-                    
                     $('#header_button_api').addClass('oneLink')
                 }
 
@@ -86,12 +91,14 @@ function headerButtons() {
 
                 $('.active_dd').removeClass('active_dd');
                 if ($(this).hasClass('oneLink')) {
-            
-                    loadPDF( $('.dropdown').eq($(this).data('dropdown')).find('.active_link').data('pdf'),  $('.dropdown').eq($(this).data('dropdown')).find('.active_link').data('num'))
+
+                    loadPDF($('.dropdown').eq($(this).data('dropdown')).find('.active_link').data('pdf'), $('.dropdown').eq($(this).data('dropdown')).find('.active_link').data('num'))
                 } else {
                     $(this).addClass('active_dd');
                     $('.dropdown').hide();
+
                     $('.dropdown').eq($(this).data('dropdown')).show();
+                    $('.dropdown').eq($(this).data('dropdown')).find()
                 }
 
             }
@@ -147,7 +154,7 @@ function pdfViewer() {
 
     $('.pdf').on(input.tap, function() {
         loadPDF($(this).data('pdf'), $(this).data('num'))
-       
+
     });
 
     $('#pdf_header button').on(input.tap, function() {
@@ -156,13 +163,14 @@ function pdfViewer() {
 
 
 }
+
 function loadPDF(url, num) {
 
-        $('#pdf_container').empty();
-        for (var x = 1; x < num + 1; x++) {
-            $('#pdf_container').append('<img src="' + url + '/pdf_Page_' + x + '.png"/>');
-        }
-         $('#pdf_layer').css('top', '0px')
+    $('#pdf_container').empty();
+    for (var x = 1; x < num + 1; x++) {
+        $('#pdf_container').append('<img src="' + url + '/pdf_Page_' + x + '.png"/>');
+    }
+    $('#pdf_layer').css('top', '0px')
 }
 var isFullscreen = false;
 
@@ -206,20 +214,20 @@ $('.fullscreen').on(input.tap, function() {
 
         case 'DIV':
 
-           var newDiv = $(this).clone().appendTo('#img_container');
-            
-           var x = ((934 - (newDiv.width() )) / (newDiv.width())) * 100;
-            
+            var newDiv = $(this).clone().appendTo('#img_container');
+
+            var x = ((934 - (newDiv.width())) / (newDiv.width())) * 100;
+
             x = Math.round(x);
 
             newDiv.css({
                 '-webkit-transform': 'scale(1.' + x + ')',
-                'position':'absolute',
-                'top':'-215px',
-                'left' : '61px'
+                'position': 'absolute',
+                'top': '-215px',
+                'left': '61px'
             });
 
-        break;
+            break;
     }
     $('#img_container img').css({
         'top': '90px'
