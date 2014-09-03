@@ -20,7 +20,7 @@
                                 nasal spray is not available generically in NHS
                                 Scotland</p>
 
-  <p>†Amongst products which are available and have a secure
+  <p><sup>†</sup>Amongst products which are available and have a secure
                                 supply chain</p>
 
                 

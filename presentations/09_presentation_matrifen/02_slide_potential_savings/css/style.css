@@ -24,6 +24,11 @@ top: -3px;
 left: 1px;	
 }
 
+h2 span {
+position: relative;
+top: -2px;
+}
+
 #slide_container h2 {
 	top:160px;
 	left:104px;
