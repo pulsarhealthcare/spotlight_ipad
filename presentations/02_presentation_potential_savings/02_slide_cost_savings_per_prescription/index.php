@@ -15,20 +15,11 @@
         <tr>
           <th>Spotlight brand</td>
           <th>Strength and pack size used for comparison</td>
-          <th>Spotlight % saving vs. originator brand*<sup>*</sup></td>
+          <th>Spotlight % saving vs. originator brand<sup>*</sup></td>
           <th>Spotlight cost saving vs originator brand<sup>*</sup></td>
         </tr>
 </thead>
         <tbody>
-
-          <tr>
-
-            <td class="capsorin">Capsorin<sup>®</sup></td>
-            <td>Ciclosporin 100 mg 30 capsules</td>
-            <td>33% less than Neoral® (ciclosporin)</td>
-            <td>£23.68</td>
-
-          </tr>
 
 
           <tr>
