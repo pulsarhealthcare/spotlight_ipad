@@ -157,6 +157,7 @@ function headerButtons() {
 function pdfViewer() {
 
     $('.pdf').on(input.tap, function() {
+        $('#pdf_header h1').html($(this).find('h2').html())
         loadPDF($(this).data('pdf'), $(this).data('num'))
 
     });
@@ -174,6 +175,7 @@ function loadPDF(url, num) {
     for (var x = 1; x < num + 1; x++) {
         $('#pdf_container').append('<img src="' + url + '/pdf_Page_' + x + '.png"/>');
     }
+
     $('#pdf_layer').css('top', '0px')
 }
 var isFullscreen = false;

@@ -184,7 +184,6 @@ class AppPackager
         
         //Get product name 
         $productProduct = substr($presentation, 16);
-        echo $productProduct;
 
         $allPdfs = scandir($this->globalFolder.'/pdf_images');
 
@@ -215,9 +214,11 @@ class AppPackager
         }
         
         //Copy thumbnail's across from global to root and rename
-        
-        copy($this->globalFolder.'/img/thumb-full.png',$temporarySlideFolder.'/'.$presentation  .'_'.$slide.'-full.png');
-        copy($this->globalFolder.'/img/thumb-thumb.png',$temporarySlideFolder.'/'.$presentation  .'_'.$slide.'-thumb.png');
+        if(!file_exists($slideFolder.'/'.$presentation  .'_'.$slide.'-full.png')) {
+          copy($this->globalFolder.'/img/thumb-full.png',$temporarySlideFolder.'/'.$presentation  .'_'.$slide.'-full.png');
+          copy($this->globalFolder.'/img/thumb-thumb.png',$temporarySlideFolder.'/'.$presentation  .'_'.$slide.'-thumb.png');
+         
+        }
         
         //Copy relevant pdfs across
         mkdir($temporarySlideFolder .  '/pdf_images');
