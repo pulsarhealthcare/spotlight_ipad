@@ -59,7 +59,7 @@
 
            <tr>
 
-            <td>Calceos<sup>®</sup> (calcium carbonate/colecalciferol) 1250 mg/400 iu Tabs 60†</td>
+            <td>Calceos<sup>®</sup> (calcium carbonate/colecalciferol) 1250 mg/400 iu Tabs 60<sup>†</sup></td>
             <td>£3.58</td>
             <td>£0.45</td>
             <td>Galen Limited</td>
@@ -69,7 +69,7 @@
 
            <tr>
 
-            <td>Calcichew-D3 Forte<sup>®</sup> (calcium carbonate/colecalciferol) 1250 mg/400 iu Tabs 60†</td>
+            <td>Calcichew-D3 Forte<sup>®</sup> (calcium carbonate/colecalciferol) 1250 mg/400 iu Tabs 60<sup>†</sup></td>
             <td>£4.24</td>
             <td>£1.11</td>
             <td>Shire Pharmaceuticals</td>
@@ -79,7 +79,7 @@
 
            <tr>
 
-            <td>Calcichew-D3 Forte (calcium carbonate/colecalciferol) 1250 mg/400 iu Tabs 100†</td>
+            <td>Calcichew-D3 Forte (calcium carbonate/colecalciferol) 1250 mg/400 iu Tabs 100<sup>†</sup></td>
             <td>£7.08</td>
             <td>£1.87</td>
             <td>Shire Pharmaceuticals</td>
@@ -127,7 +127,7 @@
                                 cost has been pro rata'd to the equivalent pack size of
                                 prescribed product</p>
 
-<p>†Products have a lower calcium carbonate dosage of
+<p><sup>†</sup>Products have a lower calcium carbonate dosage of
                                 1250 mg compared to Evacal-D3</p>
 </div>    
 <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017c</p>

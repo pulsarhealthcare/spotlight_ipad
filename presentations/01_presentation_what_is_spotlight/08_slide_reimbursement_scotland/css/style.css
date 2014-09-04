@@ -84,6 +84,17 @@ h2 sup {
     font-size: 11px;
     color: #FFF;
 }
+
+.table_colum:nth-child(2) p:nth-child(2) {
+line-height: 10px;
+}
+
+.table_colum:nth-child(3) p:nth-child(2) span {
+display: block;
+margin-top: -5px;
+ 
+}
+
 .table_colum .inner {
     height: 207px;
 }
@@ -114,6 +125,18 @@ h2 sup {
 .cost h2:first-of-type {
     margin-top: 7px;
 }
+
+
+.table_colum:nth-child(2) .cost h2:first-of-type {
+    margin-top: 6px;
+}
+
+.header h3 {
+  font-size: 14px;  
+  margin-top: 2px;
+}
+
+
 .table_colum:nth-child(3) .cost h2:last-of-type {
     margin-top: 23px;
     color: #2783a8;
@@ -144,11 +167,6 @@ font-weight: bold;
 display: block;
 }
 
-
-
-
-: 250px;
-}
 
 #notes p {
 	opacity: 0;

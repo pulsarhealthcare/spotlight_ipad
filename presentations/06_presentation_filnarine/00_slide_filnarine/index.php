@@ -4,7 +4,7 @@
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
                             
             <h2>Prescribing Filnarine<sup>®</sup> SR by brand name is the
-                least expensive way of<br>prescribing morphinesulphate
+                least expensive way of<br>prescribing morphine sulphate
                 prolonged-release 10 mg, 30 mg, 60 mg,<br> 100 mg and 200
                 mg tablets, and can offer savings of up to £37.75 per<br>
                 </h2><h2>prescription compared to prescribing MST Continus<sup>®</sup> (morphine sulphate)<sup>*†‡</sup></span><sup>1</sup></h2>

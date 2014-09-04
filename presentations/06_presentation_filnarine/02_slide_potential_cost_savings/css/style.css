@@ -67,6 +67,16 @@ top: -4px;
     width:300px;
 }
 
+#slide_container span.rowone {
+top: 0;
+}
+
+sup.first {
+position: relative;
+top: -4px;
+left: 1px;
+font-size: 8px;	
+}
 
 /* Table stylings */
 
@@ -83,7 +93,7 @@ opacity: 0;
 table th {
 background-color: #e5e4f2;
 color: #7e7f84;	
-padding: 5px 5px 5px 5px;
+padding: 8px 5px 5px 5px;
 font-size: 11px;
 line-height: 14px;
 border-right: 1px solid #b6b3ab;

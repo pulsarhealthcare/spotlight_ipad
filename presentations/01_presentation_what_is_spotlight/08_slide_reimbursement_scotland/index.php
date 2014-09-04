@@ -29,12 +29,9 @@
 
 	<p>Rx <b>generic</b> prescription for<br><span class="blue">Morphine sulphate SR 200 mg tablets 60 pack</span></p>
 
-	<p>Pharmacist dispenses Filnarine SR 200 mg<br><span>at a cost to them of £25.75<sup>*</sup></span></p>
+	<p>Pharmacist chooses to dispense MST<br> Continus<sup>®</sup> 200 mg (morphine sulphate SR 200<br> mg) at a cost to them of £73.21<sup>*</sup></p>
 
-	<p>The pharmacist is reimbursed and the<br>practice is attributed the cost against<br>
-the Cat C price, which is based on the <br><span>
-	<b>originator price; MST Continus<sup>®</sup><br>
-	(morphine sulphate SR 200 mg): £81.34</b></p>
+	<p>The pharmacist endorses the prescription and<br> is reimbursed and the practice is attributed<br> the cost against the list price of <b>MST Continus<br> 200 mg: £81.34</b></p>
 
 </div>
 

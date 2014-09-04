@@ -79,7 +79,7 @@
 
           <tr>
 
-            <td>Morphgesic® (morphine sulphate) SR 10 mg Tabs 60s</td>
+            <td>Morphgesic<sup>®</sup> (morphine sulphate) SR 10 mg Tabs 60s</td>
             <td>£3.85</td>
             <td>£0.55</td>
             <td>Amdipharm Plc</td>
@@ -89,7 +89,7 @@
 
           <tr>
 
-            <td>Morphgesic® (morphine sulphate) SR 30 mg Tabs 60s</td>
+            <td>Morphgesic (morphine sulphate) SR 30 mg Tabs 60s</td>
             <td>£9.24</td>
             <td>£1.35</td>
             <td>Amdipharm Plc</td>
@@ -99,7 +99,7 @@
 
           <tr>
 
-            <td>Morphgesic® (morphine sulphate) SR 60 mg Tabs 60s</td>
+            <td>Morphgesic (morphine sulphate) SR 60 mg Tabs 60s</td>
             <td>£18.04</td>
             <td>£2.65</td>
             <td>Amdipharm Plc</td>
@@ -109,7 +109,7 @@
 
           <tr>
 
-            <td>Morphgesic® (morphine sulphate) SR 100 mg Tabs 60s</td>
+            <td>Morphgesic (morphine sulphate) SR 100 mg Tabs 60s</td>
             <td>£28.54</td>
             <td>£6.75</td>
             <td>Amdipharm Plc</td>

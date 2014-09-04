@@ -20,15 +20,6 @@
 
         <tbody>
 
-          <tr>
-
-            <td class="capsorin">Capsorin<sup>®</sup></td>
-            <td>Ciclosporin 25 mg, 50 mg, 100 mg capsules</td>
-            <td>£9,558,209</td>
-            <td>£3,214,593</td>
-
-          </tr>
-
 
           <tr>
 

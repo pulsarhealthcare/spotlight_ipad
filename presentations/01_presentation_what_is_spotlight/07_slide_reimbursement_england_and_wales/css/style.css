@@ -33,6 +33,13 @@ svg {} #slide_container h1 {
 h2 sup {
     font-size: 10px;
 }
+
+
+.inner span.dark {
+font-weight: bold;
+display: inline;
+}
+
 #notes {
     color: #FFF;
     top: 613px;
@@ -75,6 +82,17 @@ h2 sup {
     display: block;
     margin-top: -4px;
 }
+
+.table_colum:nth-child(2) .cost h2:first-of-type {
+    margin-top: 6px;
+}
+
+.header h3 {
+  font-size: 14px;  
+  margin-top: 2px;
+}
+
+
 .table_colum:nth-child(2) p:nth-child(2) span:nth-child(4) {
     display: block;
     margin-top: -19px;

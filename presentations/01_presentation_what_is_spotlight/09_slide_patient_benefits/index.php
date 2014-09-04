@@ -23,7 +23,7 @@
       <ul>
           <li><h4>Reassurance for the patient</h4></li>
           <li><h4>Compliance benefits</h4></li>
-          <li><h4> Lesslikelihood of dispensing errors going unnoticed as patient<br>is familiar with appearance
+          <li><h4>Lesslike lihood of dispensing errors going unnoticed as patient<br>is familiar with appearance
                             </h4></li>
       </ul>
 

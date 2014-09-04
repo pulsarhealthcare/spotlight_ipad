@@ -19,18 +19,16 @@ carbonate/colecalciferol)<sup>*†‡1</sup></span>
   <p>*Amongst products which are available and have a secure
                                 supply chain</p>
 
-<p>†Calculations based on Adcal-D3<sup>®</sup> 112 tablets. 
+<p><sup>†</sup>Calculations based on Adcal-D3<sup>®</sup> 112 tablets. 
 Calcium carbonate / colecalciferol chewable tablets are not
 available generically in NHS Scotland</p>
 
-<p>‡Indications may not be identical; refer to product SmPCs</p>
-
-              
+<p><sup>‡</sup>Indications may not be identical; refer to product SmPCs</p>
 
 </div>
 
-               <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017d</p>
+<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017d</p>
 	
-	</section>
+</section>
         
 <?php require $root.'/global/html/footer.html';?>
