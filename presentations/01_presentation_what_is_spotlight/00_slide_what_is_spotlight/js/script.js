@@ -11,8 +11,8 @@ $('.side_note').delay((duration - 100) * 4).animate({opacity:1}, duration);
 
 var references = [
 
-"IMS Health UK Limited, retail market (BPI) & hospital market (HPAI), volume (packs), September 2012 – August 2013 (MAT August 2013)",
-"IMS Health UK Limited, ex-factory (BGMA), volume (packs), MAT August 2013"
+"1 IMS Health UK Limited, retail market (BPI) & hospital market (HPAI), volume (packs), September 2012 – August 2013 (MAT August 2013)",
+"2 IMS Health UK Limited, ex-factory (BGMA), volume (packs), MAT August 2013"
       
 ]
 

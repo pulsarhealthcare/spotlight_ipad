@@ -10,8 +10,8 @@ $('.side_note').delay((duration - 100) * 4).animate({opacity:1}, duration);
 
 var references = [
 
-"Nasofan aqueous nasal spray Summary of Product Characteristics",
-"Flixonase aqueous nasal spray Summary of Product Characteristics."
+"1 Nasofan aqueous nasal spray Summary of Product Characteristics",
+"2 Flixonase aqueous nasal spray Summary of Product Characteristics."
 
 ]                                    
 

@@ -9,8 +9,8 @@ $('.side_note').delay((duration - 100) * 6).animate({opacity:1}, duration);
 
 var references = [
 
-"Filnarine SR Summary of Product Characteristics.",
-"MST Continus  Summary of Product Characteristics."
+"1 Filnarine SR Summary of Product Characteristics.",
+"2 MST Continus  Summary of Product Characteristics."
 
 ]
 

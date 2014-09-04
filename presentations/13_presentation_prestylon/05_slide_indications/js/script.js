@@ -9,9 +9,9 @@ $('.side_note').delay((duration - 100) * 6).animate({opacity:1}, duration);
 
 var references = [
 
-"Prestylon Summary of Product Characteristics.",
-"Omacor Summary of Product Characteristics.",
-"Data on file, Teva UK Limited. Prices sourced from C&D, DM+D and NHS Drug Tariffs"
+"1 Prestylon Summary of Product Characteristics.",
+"2 Omacor Summary of Product Characteristics.",
+"3 Data on file, Teva UK Limited. Prices sourced from C&D, DM+D and NHS Drug Tariffs"
 
 ]
 

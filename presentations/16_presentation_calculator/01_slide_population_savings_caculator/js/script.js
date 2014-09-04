@@ -17,9 +17,9 @@ $('#notes p').delay((duration - 100) * 7).animate({opacity:1}, duration);
 
 var references = [
 
-"IMS Health National Prescribing Audit MAT August 2012.",
-"Cost calculated using current reimbursement prices taken from dm+d on-line http:\/\/dmd.nhs.uk\/ C&D Data\/ Drug Tariff Jan 13 where they exist.",
-"Population data taken from Binleys."
+"1 IMS Health National Prescribing Audit MAT August 2012.",
+"2 Cost calculated using current reimbursement prices taken from dm+d on-line http:\/\/dmd.nhs.uk\/ C&D Data\/ Drug Tariff Jan 13 where they exist.",
+"3 Population data taken from Binleys."
 
 ]
 

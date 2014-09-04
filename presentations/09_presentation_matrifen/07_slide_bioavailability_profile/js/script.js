@@ -8,7 +8,7 @@ $('.side_note').delay((duration - 100) * 3).animate({opacity:1}, duration);
 
 var references = [
 
-"Kress HG, Boss H, Delvin T, et al. Transdermal fentanyl matrix patches Matrifen and Durogesic DTrans are bioequivalent. Eur J Pharm Biopharm 2010; 75:225-231."
+"1 Kress HG, Boss H, Delvin T, et al. Transdermal fentanyl matrix patches Matrifen and Durogesic DTrans are bioequivalent. Eur J Pharm Biopharm 2010; 75:225-231."
              
 ]
 

@@ -11,8 +11,8 @@ $('.side_note').delay((duration - 100) * 4).animate({opacity:1}, duration);
 
 var references = [
 
-"Monomil Summary of Product Characteristics.",
-"Imdur Summary of Product Characteristics."                                    
+"1 Monomil Summary of Product Characteristics.",
+"2 Imdur Summary of Product Characteristics."                                    
 
 ]
 

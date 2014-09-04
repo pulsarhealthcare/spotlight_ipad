@@ -7,8 +7,8 @@ $('.side_note').delay((duration - 100) * 4).animate({opacity:1}, duration);
 
 var references = [
 
-"Movicol Summary of Product Characteristics",
-"Macilax Summary of Product Characteristics"
+"1 Movicol Summary of Product Characteristics",
+"2 Macilax Summary of Product Characteristics"
 
 ]
 

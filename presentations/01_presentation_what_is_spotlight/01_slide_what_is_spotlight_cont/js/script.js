@@ -15,8 +15,8 @@ $('.side_note').delay((duration - 100) * 5).animate({opacity:1}, duration);
 
 var references = [
 
-"Data on file, Teva UK Limited.",
-"Revisions to the GMS contract 2006\/7\/07. http:\/\/www.pcc.nhs.uk\/uploads\/ngms\/revisions¡gms¡contract270306.pdf"
+"1 Data on file, Teva UK Limited.",
+"2 Revisions to the GMS contract 2006\/7\/07. http:\/\/www.pcc.nhs.uk\/uploads\/ngms\/revisions¡gms¡contract270306.pdf"
 
 ]
 

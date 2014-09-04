@@ -24,6 +24,11 @@ left: 1px;
 top: -2px;
 }
 
+.shiftup {
+position: relative;
+top: -3px;	
+}
+
 #slide_container h2 {
 	top:180px;
 	left:104px;

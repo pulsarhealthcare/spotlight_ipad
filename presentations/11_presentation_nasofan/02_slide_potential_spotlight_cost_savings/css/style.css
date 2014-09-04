@@ -39,6 +39,11 @@ position: relative;
 top: -3px;	
 }
 
+span.shiftup {
+position: relative;
+top: -3px;	
+}
+
 #slide_container h2:nth-child(3) {
 	top: 252px;
 }
@@ -119,14 +124,6 @@ width: 130px;
 table th:nth-child(5) {
 width: 130px;
 }
-table th:nth-child(5) span:first-of-type {
-display: block;
-margin-top:-3px;
-}
-table th:nth-child(6) span:first-of-type {
-display: block;
-margin-top:-3px;
-}
 
 table th span.table_lineup {
 position: relative;
@@ -134,10 +131,10 @@ top: -3px;
 }
 
 table th span.table_small {
-display: block;
 font-size: 8px;	
 position: relative;
 top: 5px;
+display:  block;
 }
 
 table th:nth-child(1) {

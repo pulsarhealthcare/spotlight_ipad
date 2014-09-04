@@ -13,6 +13,8 @@
             Organisations (PCO)* that provides an illustration of
             the<br>potential savings based on an average saving per
             person in the<br>UK and the population of the PCO</h3>
+
+            <h4 class="cost">Start for cost saving calculator</h4>
             <div id="calculator_trigger"></div>
             <div id="notes">
                  <p>Note: where generic preparations are not listed in Drug

@@ -11,9 +11,9 @@ $('.side_note').delay((duration - 100) * 7).animate({opacity:1}, duration);
 
 var references = [
 
-"Durogesic DTrans Summary of Product Characteristics.",
-"Matrifen Summary of Product Characteristics.",
-"Data on file, Teva UK Limited. Prices sourced from C&D, DM+D and NHS Drug Tariffs"
+"1 Durogesic DTrans Summary of Product Characteristics.",
+"2 Matrifen Summary of Product Characteristics.",
+"3 Data on file, Teva UK Limited. Prices sourced from C&D, DM+D and NHS Drug Tariffs"
 
 ]
 

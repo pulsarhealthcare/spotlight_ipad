@@ -15,7 +15,7 @@
           <li><h3>Products containing multiple ingredients, e.g. hormone replacement therapy, skin and scalp preparations</h3></li>
       </ul>
       <ul>
-          <li><h3>Active ingredient has a narrow therapeutic index where small variations may produce toxic blood levels, e.g. carbamazepine, lithium, ciclosporin</h3></li>
+          <li><h3>Active ingredient has a narrow therapeutic index where small variations may produce toxic blood levels, e.g. carbamazepine, lithium</h3></li>
           <li><h3>Controlled drugs, including patches e.g. fentanyl, morphine</h3></li>
           <li><h3>Differences in appearance in preparations used long-term is likely to cause patients anxiety, e.g. elderly, those with learning disabilities or low literacy levels</li>
       </ul>

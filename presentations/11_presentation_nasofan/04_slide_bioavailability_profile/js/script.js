@@ -6,9 +6,9 @@ $('.side_note').delay((duration - 100) * 3).animate({opacity:1}, duration);
 
 var references = [
 
-"Data on file, Teva UK Limited.",
-"Nasofan aqueous nasal spray Summary of Product Characteristics.",
-"Flixonase aqueous nasal spray Summary of Product Characteristics."
+"1 Data on file, Teva UK Limited.",
+"2 Nasofan aqueous nasal spray Summary of Product Characteristics.",
+"3 Flixonase aqueous nasal spray Summary of Product Characteristics."
 
 ]
 

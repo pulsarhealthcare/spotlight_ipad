@@ -120,15 +120,8 @@
         </table>  
     
     <div id="notes">
-        <p>†Note: due to strict guidance that transplant patients
-                                should not be switched between brands of ciclosporin
-                                without careful therapeutic monitoring, all
-                                calculations for the size of the ciclosporin market
-                                (volume and value) and the associated savings that
-                                Capsorin can deliver are only associated with non
-                                transplant indications</p>
 
-        <p>‡Savings will be lower in NHS Scotland due to lower
+        <p><sup>‡</sup>Savings will be lower in NHS Scotland due to lower
                                 generic reimbursement of fentanyl transdermal patches,
                                 isosorbide mononitrate 60 mg XL tablets and
                                 eicosapentaenoic acid/docasahexaenoic acid capsules                         

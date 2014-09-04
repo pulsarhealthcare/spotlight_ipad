@@ -24,8 +24,8 @@
           <th>Annual total number of packs prescribed for Peptac comparable products at equivalent dosage</th>
           <th>Current cost to NHS for compound alginate oral suspension or sodium alginate and potassium bicarbonate suspension </th>
           <th>Potential average annual saving to NHS using Peptac written by brand in place of comparable products at equivalent dosage</th>
-          <th>Potential average annual saving per PCO† using Peptac, if prescribed by brand <span class="table_small"><sup>†</sup>based on 237 PCOs</span></th>
-          <th>Potential annual saving per average GP practice‡ using Peptac, if prescribed by brand <span class="table_small"><sup>‡</sup>based on 10,339 GP practices</span></th>
+          <th>Potential average annual <span class="shiftup">saving per PCO<sup>†</sup> using Peptac, if prescribed by brand <span class="table_small"><sup>†</sup>based on 237 PCOs</span></span></th>
+          <th>Potential annual saving <span class="shiftup">per average GP practice<sup>‡</sup> using Peptac, if prescribed by brand <span class="table_small"><sup>‡</sup>based on 10,339 GP practices</span></span></th>
         </tr>
 </thead>
         <tbody>

@@ -13,6 +13,9 @@ $('.side_note').delay((duration - 100) * 5).animate({opacity:1}, duration);
 
 
 var references = [
+
+"1 Data on file, Teva UK Limited. Prices sourced from C&D, DM+D and NHS Drug Tariffs"
+
 ]
 
 

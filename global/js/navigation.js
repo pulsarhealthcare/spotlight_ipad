@@ -202,7 +202,7 @@ navigation[13] = {
 
 navigation[14] = {
     presentation: '16_presentation_calculator',
-    presentationName: 'Cost Calculator',
+    presentationName: 'Cost Savings Calculator',
     links: [
         ['Page 1. ', '00_slide_calculator'],
         ['Page 2.', '01_slide_population_savings_caculator']

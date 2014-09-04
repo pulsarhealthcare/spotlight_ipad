@@ -12,8 +12,8 @@ $('.side_note').delay((duration - 100) * 8).animate({opacity:1}, duration);
 
 var references = [
 
-"Evacal‐D3 Summary of Product Characteristics",
-"Adcal‐D3 Summary of Product Characteristics"
+"1 Evacal‐D3 Summary of Product Characteristics",
+"2 Adcal‐D3 Summary of Product Characteristics"
 
 ]
 

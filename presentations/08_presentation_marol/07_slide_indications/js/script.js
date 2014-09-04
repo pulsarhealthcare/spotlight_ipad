@@ -9,8 +9,8 @@ $('.side_note').delay((duration - 100) * 6).animate({opacity:1}, duration);
 
 var references = [
 
-"Marol Summary of Product Characteristics.",
-"Zydol Summary of Product Characteristics."
+"1 Marol Summary of Product Characteristics.",
+"2 Zydol Summary of Product Characteristics."
 
 ]
 

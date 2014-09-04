@@ -28,12 +28,7 @@
       </ul>
 
       <div id="notes">
-          <p>*Compared to generic prescribing. Please note, due to
-                                strict guidance that transplant patients should not be
-                                switched between brands of ciclosporin without careful
-                                therapeutic monitoring. When switching is unavoidable,
-                                monitor the patient closely for side effects, drug
-                                blood concentrations and transplant function</p>
+
           
       </div>
 

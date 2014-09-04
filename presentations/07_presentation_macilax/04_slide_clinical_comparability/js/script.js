@@ -6,7 +6,7 @@ $('.side_note').delay((duration - 100) * 3).animate({opacity:1}, duration);
 
 var references = [
 
-"Data on file, Teva UK Limited."
+"1 Data on file, Teva UK Limited."
 
 ]
 

@@ -17,11 +17,11 @@ $('.side_note').delay((duration - 100) * 7).animate({opacity:1}, duration);
 
 var references = [
 
-"BNF 67, March - September 2014",
-"Modified-release preparations. MeReC Bulletin 2000; Volume 11(4): 13-16.",
-"Items unsuitable for generic prescribing. Available at http:\/\/www.nhssb.n-i.nhs.uk\/prescribing\/documents\/Regional%20List%20Generic%20Exceptions%20Jul08.pdf Accessed on 17 April 2012.",
-"Generic prescribing in primary care. MeReC Bull 2011;21(3): 1-6.",
-"UKMI. Which medicines are not suitable for generic prescribing in primary care? Available at: http:\/\/www.warringtonandhaltonhospitals.nhsuk\/_store\/documents\/medicinesnotsuitableforgeneric presribing2005.pdf Accessed on 17 April 2012."
+"1 BNF 67, March - September 2014",
+"2 Modified-release preparations. MeReC Bulletin 2000; Volume 11(4): 13-16.",
+"3 Items unsuitable for generic prescribing. Available at http:\/\/www.nhssb.n-i.nhs.uk\/prescribing\/documents\/Regional%20List%20Generic%20Exceptions%20Jul08.pdf Accessed on 17 April 2012.",
+"4 Generic prescribing in primary care. MeReC Bull 2011;21(3): 1-6.",
+"5 UKMI. Which medicines are not suitable for generic prescribing in primary care? Available at: http:\/\/www.warringtonandhaltonhospitals.nhsuk\/_store\/documents\/medicinesnotsuitableforgeneric presribing2005.pdf Accessed on 17 April 2012."
 
 ]
 

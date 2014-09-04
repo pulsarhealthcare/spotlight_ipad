@@ -8,8 +8,8 @@ $('.side_note').delay((duration - 100) * 4).animate({opacity:1}, duration);
 
 var references = [
 
-"Peptac Liquid Summary of Product Characteristics.",
-"Peptac Peppermint Liquid Summary of Product Characteristics."
+"1 Peptac Liquid Summary of Product Characteristics.",
+"2 Peptac Peppermint Liquid Summary of Product Characteristics."
 
 ]
 

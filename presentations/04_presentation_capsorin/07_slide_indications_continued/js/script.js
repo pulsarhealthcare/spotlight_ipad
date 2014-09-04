@@ -23,8 +23,8 @@ $('.side_note').delay((duration - 100) * 20).animate({opacity:1}, duration);
 
 var references = [
 
-"Capsorin Summary of Product Characteristics.",
-"Neoral Summary of Product Characteristics."
+"1 Capsorin Summary of Product Characteristics.",
+"2 Neoral Summary of Product Characteristics."
 
 ]
 

@@ -9,9 +9,9 @@ $('.side_note').delay((duration - 100) * 5).animate({opacity:1}, duration);
 
 var references = [
 
-"Data on file, Teva UK Limited.",
-"BNF 67, March - September 2014",
-"Modified-release preparations. MeReC Bulletin 2000; Volume 11(4): 13-16"
+"1 Data on file, Teva UK Limited.",
+"2 BNF 67, March - September 2014",
+"3 Modified-release preparations. MeReC Bulletin 2000; Volume 11(4): 13-16"
 
 ]
 

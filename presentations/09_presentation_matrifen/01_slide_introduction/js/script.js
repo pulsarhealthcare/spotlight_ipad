@@ -9,8 +9,8 @@ $('#slide_container p').eq(2).delay((duration - 100) * 5).animate({opacity:1}, d
 
 var references = [
 
-"Data on file, Teva UK Limited. Prices sourced from C&D, DM+D and NHS Drug Tariffs",
-"NICE Clinical Guideline (CG140): Opioids in palliative care. May 2012."
+"1 Data on file, Teva UK Limited. Prices sourced from C&D, DM+D and NHS Drug Tariffs",
+"2 NICE Clinical Guideline (CG140): Opioids in palliative care. May 2012."
 
 ]
 

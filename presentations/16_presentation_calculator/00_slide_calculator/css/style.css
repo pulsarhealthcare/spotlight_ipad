@@ -31,9 +31,20 @@ svg {
 	position: absolute;
 	top:376px;
 	left:126px;
+	opacity: 0;
 }
 h2 sup {
 	font-size:10px;
+}
+
+h4.cost {
+color: #FFF;
+font-size: 14px;
+position: absolute;
+top: 508px;	
+left: 115px;
+font-weight: bold;
+opacity: 0;
 }
 
 #slide_container h2:nth-child(3) {
@@ -54,7 +65,7 @@ h2 sup {
 }
 #notes p {
 	opacity: 0;
-	color:#FFF;
+    color:rgb(109, 110, 113);
 }
 #calculator_trigger {
 	width:259px;
@@ -201,7 +212,7 @@ h2 sup {
 	margin-top:-32px;
 	-webkit-transform: rotate(178deg);
     float:left;
-    margin-left:-32px;
+    margin-left:-60px;
 }
 #calculator_back svg polygon {
 	fill:#3690fe;

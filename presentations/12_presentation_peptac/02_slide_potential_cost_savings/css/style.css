@@ -24,6 +24,23 @@ top: -2px;
 left: 1px;
 }
 
+th sup {
+font-size: 8px;
+position: relative;
+top: -3px;
+left: 1px;	
+}
+
+th .table_small sup {
+top: 0;
+left: 0;	
+}
+
+.shiftup {
+position: relative;
+top: -3px;	
+}
+
 #slide_container h2 {
 	top:180px;
 	left:104px;
@@ -48,7 +65,7 @@ left: 1px;
 	opacity: 0;
 	width:800px;
 	color:#707070;
-	margin-bottom: 8px;
+	margin-bottom: 4px;
 }
 
 .side_note {
