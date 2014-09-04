@@ -59,9 +59,6 @@ class AppPackager
     }
     
     public function init() {
-        //Deleted old packaged files
-
-        
 
         //Create temporaary directory
         if (is_dir($this->temporaryDirectory)) {
@@ -104,11 +101,11 @@ class AppPackager
         
         for ($x = 2; $x < count($globalFolders); $x++) {
             
-            if ($globalFolders[$x] != 'html' && $globalFolders[$x] != '.DS_Store') {
-                
+            if ($globalFolders[$x] != 'html' && $globalFolders[$x] != '.DS_Store' && $globalFolders[$x] != 'pdf_images') {
                 $thisFolder = scandir($this->globalFolder . '/' . $globalFolders[$x]);
                 array_push($folderPaths, $globalFolders[$x]);
             }
+
         }
         return array($folderPaths, $parsedHtml);
     }
@@ -183,10 +180,50 @@ class AppPackager
             recurse_copy($this->globalFolder . '/' . $folder, $temporarySlideFolder . '/' . $folder);
         }
         
+        //Copy relevant PDFs 
+        
+        //Get product name 
+        $productProduct = substr($presentation, 16);
+        echo $productProduct;
+
+        $allPdfs = scandir($this->globalFolder.'/pdf_images');
+
+        $relPdfs = array();
+        
+        foreach ($allPdfs as $pdf) {
+
+            if (!in_array($pdf, $this->scanIgnore)) {
+                if(preg_match('/'.$productProduct.'/', $pdf)) {
+                   array_push($relPdfs, $pdf );
+                }
+            }
+        }
+
+        $nonProducts = ['01_presentation_what_is_spotlight','02_presentation_potential_savings','03-presentation_the_spotlight_brands','14_presentation_price_promise','15_presentation_summary','16_presentation_calculator'];
+
+        if(!count($relPdfs)) {
+
+               if(in_array($presentation, $nonProducts)) {
+                    foreach ($allPdfs as $pdf) {
+                        
+                        if (!in_array($pdf, $this->scanIgnore)) {
+                            array_push($relPdfs, $pdf);
+                        }
+                    } 
+               }
+           
+        }
+        
         //Copy thumbnail's across from global to root and rename
         
         copy($this->globalFolder.'/img/thumb-full.png',$temporarySlideFolder.'/'.$presentation  .'_'.$slide.'-full.png');
         copy($this->globalFolder.'/img/thumb-thumb.png',$temporarySlideFolder.'/'.$presentation  .'_'.$slide.'-thumb.png');
+        
+        //Copy relevant pdfs across
+        mkdir($temporarySlideFolder .  '/pdf_images');
+        foreach ($relPdfs as $folder) {
+           recurse_copy($this->globalFolder . '/pdf_images/' . $folder, $temporarySlideFolder . '/pdf_images/' . $folder);
+        }
 
         //Parse HTMl and add to temporary folder
         

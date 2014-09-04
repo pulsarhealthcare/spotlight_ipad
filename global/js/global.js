@@ -3,7 +3,6 @@ $(document).ready(function() {
     headerButtons();
     setPageTitle();
     pdfViewer();
-    slideNavigate();
     stopnativeScrolling();
 
 
