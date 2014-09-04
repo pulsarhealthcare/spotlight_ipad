@@ -28,6 +28,20 @@ sup.noleft {
 	left: 0;
 }
 
+span.shiftup {
+position: relative;
+top: -3px;	
+}
+
+span.shiftuptwo {
+position: relative;
+top: -2px;	
+}
+
+span.shiftall {
+position: relative;
+top: -1px;
+}
 
 #slide_container h2 {
 	top:160px;
@@ -54,10 +68,6 @@ top: -5px;
 position: relative;
 }
 
-h2 span:nth-child(6) {
-position: relative;
-top: -5px;
-}
 
 
 #slide_container h2:nth-child(3) {

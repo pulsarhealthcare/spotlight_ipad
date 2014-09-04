@@ -109,7 +109,7 @@
 
           <tr>
 
-            <td>Osmanil® (fentanyl) 12 mcg/hr patch 5s</td>
+            <td>Osmanil<sup>®</sup> (fentanyl) 12 mcg/hr patch 5s</td>
             <td>£18.11</td>
             <td>£10.59</td>
             <td>Winthrop Pharmaceuticals UK Ltd</td>

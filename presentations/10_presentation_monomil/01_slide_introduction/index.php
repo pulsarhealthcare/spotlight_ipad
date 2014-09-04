@@ -14,8 +14,8 @@ deliver costs savings of up to £7.01 (28 pack size)
 per prescription. Furthermore, Monomil costs 67%
 less (England and Wales) than prescribing
 <span>isosorbide mononitrate XL 60 mg tablets
-generically.*<sup>†</sup> At a Primary Care Organisation</span> (PCO)
-level, <span>this translates into a potential annual
+generically.*<sup>†</sup> At a Primary Care Organisation</span> <span>(PCO)
+level, this translates into a potential annual
 saving of over £46,984<sup>1</sup></span>
 
 </h2>

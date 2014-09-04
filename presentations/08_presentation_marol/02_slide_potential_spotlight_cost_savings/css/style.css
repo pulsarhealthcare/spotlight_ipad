@@ -21,6 +21,11 @@ h2 sup {
 font-size: 12px;	
 }
 
+span.shiftup {
+position: relative;
+top: -3px;
+}
+
 #slide_container h2 {
 	top:185px;
 	left:104px;

@@ -14,7 +14,7 @@
             <div id="notes">
                 <p>*Calculation based on macrogol 13.8g single dose sachets (50 pack size)</p>
                 
-                <p>†Amongst products which are available and have a secure supply chain</p>
+                <p><sup>†</sup>Amongst products which are available and have a secure supply chain</p>
                 
                
             </div>

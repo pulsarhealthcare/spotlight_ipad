@@ -102,13 +102,17 @@ table tr td:nth-child(3) {
 }
 
 table tr td:nth-child(4) {
-	width: 158px;
+	width: 178px;
 	text-align: center;
 }
 
 table th span.table_lineup {
 position: relative;
 top: -5px;	
+}
+
+table th:nth-child(2) {
+padding-top: 0;	
 }
 
 #slide_container table th span.table_small {

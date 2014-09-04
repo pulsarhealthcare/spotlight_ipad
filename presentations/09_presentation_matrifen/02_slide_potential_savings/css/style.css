@@ -39,6 +39,25 @@ top: -2px;
 	color:#6e6e6e;
 }
 
+th small {
+display: block;
+margin-top: 5px;
+line-height: 1.3;	
+}
+
+sup.shift {
+position: relative;
+left: 1px;
+top: -4px;
+font-size: 8px;	
+}
+
+span.shiftup {
+position: relative;
+top: -3px;	
+}
+
+
 #slide_container h2:nth-child(3) {
 	top: 280px;
 }

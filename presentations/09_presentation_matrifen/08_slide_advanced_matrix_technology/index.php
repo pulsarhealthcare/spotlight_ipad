@@ -6,7 +6,7 @@
     <h1>Matrifen<sup>®</sup>: advanced matrix fentanyl technology</h2></h1>             
 
 
-<h2>Patented membrane with lower risk of drug leakage and less potential of drug abuse, (owing to complexity of drug </h2><h2>extraction), than reservoir system<sup>®1,2</sup></h2>
+<h2>Patented membrane with lower risk of drug leakage and less potential of drug abuse, (owing to complexity of drug </h2><h2>extraction), than reservoir system<sup>1,2</sup></h2>
     
     <img src="img/advanced.gif" alt="" class="fullscreen" />
 

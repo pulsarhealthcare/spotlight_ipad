@@ -11,9 +11,9 @@ deliver costs savings of up to £7.01 (28 pack size)
 per prescription. Furthermore, Monomil costs 67%
 <span>less (England and Wales) than prescribing
 isosorbide mononitrate XL 60 mg tablets
-generically.*<sup class="noleft">†</sup> based</span> <span>At a Primary Care Organisation (PCO)
+generically.*<sup class="noleft">†</sup></span> <span>At a Primary Care Organisation (PCO)
 level, this translates into a potential average
-annual</span> <span>saving of over</span> <span>£46,984<sup>1</sup></span></h2>
+annual saving of over</span> <span>£46,984<sup>1</sup></span></h2>
 
         <table class="fullscreen">
 
@@ -23,11 +23,11 @@ annual</span> <span>saving of over</span> <span>£46,984<sup>1</sup></span></h2>
           <th>Annual total number of packs prescribed for Monomil comparable products at equivalent dosage</th>
           <th>Current cost to NHS for Isosorbide mononitrate Prolonged-Release XL 60 mg </th>
           <th>Potential average annual saving to NHS using Monomil written by brand in place of comparable products at equivalent dosage</th>
-          <th>Potential average annual saving per PCO<sup>†</sup> using Monomil, if prescribed by brand <span class="table_small_first">(Will be lower in NHS Scotland due 
-to drug tariff differences)</span> <span class="table_small"><sup>†</sup>based on 237 PCOs</span></th>
-          <th>Potential annual saving per average GP practice‡ using Monomil, 
+          <th>Potential average annual <span class="shiftup">saving per PCO<sup>†</sup> using Monomil, if prescribed by brand <span class="table_small_first">(Will be lower in NHS Scotland due 
+to drug tariff differences)</span> <span class="table_small"><sup>†</sup>based on 237 PCOs</span></span></th>
+          <th>Potential annual saving per average GP <span class="shiftuptwo">practice<sup>‡</sup> using</span> <span class="shiftall">Monomil, 
 if prescribed by brand (Will be lower in NHS Scotland due 
-to drug tariff differences) <span class="table_small"><sup>‡</sup>based on 10,339 GP practices</span></th>
+to drug tariff differences) <span class="table_small"><sup>‡</sup>based on 10,339 GP practices</span></span></th>
         </tr>
 </thead>
         <tbody>
