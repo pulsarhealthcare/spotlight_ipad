@@ -3,7 +3,7 @@
 <?php require $root.'/global/html/menu.html';?>
  
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
-<h1>The Spotlight brands</h1>
+<h1>This has been FTP'd up</h1>
 
 <h2>This section gives more in-depth information about the
                                 individual Spotlight brands, outlining potential

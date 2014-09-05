@@ -127,7 +127,10 @@ function headerButtons() {
                 opacity: 0
             }, 200);
         }
-    });
+
+
+        });
+
 
     $('.back_button').on(input.down, function() {
         $(this).css('opacity', '0.6');
