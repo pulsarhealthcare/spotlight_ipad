@@ -8,10 +8,25 @@ $('#slide_container #notes p').eq(0).delay((duration - 100) * 5).animate({opacit
 $('#slide_container #notes p').eq(1).delay((duration - 100) * 6).animate({opacity: 1}, duration);
 
 
-
 //Calculator
 var population = 0;
 var totalPopulation = 64488804;
+
+
+/* declare add commas function for changing 150494 into 150,494 etc */
+function addCommas(nStr) {
+    nStr += '';
+    x = nStr.split('.');
+    x1 = x[0];
+    x2 = x.length > 1 ? '.' + x[1] : '';
+    var rgx = /(\d+)(\d{3})/;
+    while (rgx.test(x1)) {
+        x1 = x1.replace(rgx, '$1' + ',' + '$2');
+    }
+    return x1 + x2;
+}
+
+
 
 $('#submit').on('click', function() {
     if (population === 0) {
@@ -38,6 +53,7 @@ $('#calculator_back').on('click', function() {
     $('#country').val($('#country option:first').val());
     $('#county').empty().append('<option value="">Choose</option>');
     $('#population').html('N/A')
+
     $(this).animate({
             opacity: 0
         }, 100)
@@ -49,8 +65,14 @@ $('#country').on('change', function() {
     });
 });
 $('#county').on('change', function() {
-    $('#population').html($(this).val());
+ 
+    var myvalue = $(this).val();
+    myvalue = addCommas(myvalue);
+   $('#population').html(myvalue);
     population = $(this).val();
+
+
+
 });
 $('#user_population').on('change', function() {
     population = $(this).val();
@@ -74,7 +96,8 @@ function calculatePopulation(innerPopulation) {
     $.each(json, function(key, savings) {
         var savingPerPerson = savings / totalPopulation;
         var savingsForPopulation = innerPopulation * savingPerPerson;
-        savingsForPopulation = savingsForPopulation.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+        savingsForPopulation = savingsForPopulation.toFixed(2);
+        savingsForPopulation = addCommas(savingsForPopulation);
         $('#results table .result').eq(itts).html('£' + savingsForPopulation);
         itts++;
     });

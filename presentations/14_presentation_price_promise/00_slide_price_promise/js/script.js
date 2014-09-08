@@ -12,6 +12,23 @@ $('.side_note').delay((duration - 100) * 5).animate({opacity:1}, duration);
 var population = 0;
 var totalPopulation = 64488804;
 
+
+
+/* declare add commas function for changing 150494 into 150,494 etc */
+function addCommas(nStr) {
+    nStr += '';
+    x = nStr.split('.');
+    x1 = x[0];
+    x2 = x.length > 1 ? '.' + x[1] : '';
+    var rgx = /(\d+)(\d{3})/;
+    while (rgx.test(x1)) {
+        x1 = x1.replace(rgx, '$1' + ',' + '$2');
+    }
+    return x1 + x2;
+}
+
+
+
 $('#submit').on('click', function() {
     if (population === 0) {
         alert('Please select an organisation or enter a population.')
@@ -49,7 +66,12 @@ $('#country').on('change', function() {
 });
 $('#county').on('change', function() {
     $('#population').html($(this).val());
+
+        var myvalue = $(this).val();
+    myvalue = addCommas(myvalue);
+   $('#population').html(myvalue);
     population = $(this).val();
+
 });
 $('#user_population').on('change', function() {
     population = $(this).val();

@@ -121,8 +121,9 @@ top: -5px;
 }
 
 span.table_down {
+line-height: 1;
 position: relative;
-top: 4px;
+top: 1px
 }
 
 #slide_container table th span.table_small {

@@ -187,17 +187,25 @@ opacity: 0;
 }
 
 #form input[type="button"] {
-	width:80%;
-	margin-left:10%;
-	padding:12px 0px;
+	width:151px;
+	padding:8px 0px;
 	background: #fff;
 	border:1px solid #333;
-	font-size: 26px;
-	color:#3690fe;
-	border-radius: 14px;
+	font-size: 20px;
 	font-weight: bold;
+	color:#3690fe;
+	border-radius: 18px;
 	outline: none;
 	margin-top:20px;
+	position: relative;
+	left: 200px;
+	border:px solid #FFFFFF; -webkit-border-radius: px; -moz-border-radius: px;border-radius: px;width:px; display:inline-block;
+ background-color: #f4f5f5; background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f5f5), to(#dfdddd));
+ background-image: -webkit-linear-gradient(top, #f4f5f5, #dfdddd);
+ background-image: -moz-linear-gradient(top, #f4f5f5, #dfdddd);
+ background-image: -ms-linear-gradient(top, #f4f5f5, #dfdddd);
+ background-image: -o-linear-gradient(top, #f4f5f5, #dfdddd);
+ background-image: linear-gradient(to bottom, #f4f5f5, #dfdddd);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f4f5f5, endColorstr=#dfdddd);
 }
 #calculator_back {
 	position: absolute;
@@ -237,7 +245,7 @@ margin-left:10px;
 
 #results td {
 	padding:12px 12px;
-	background:#ccc;
+	background:#d5d1d1;
 margin-right:10px;
 font-size: 12px;
 }

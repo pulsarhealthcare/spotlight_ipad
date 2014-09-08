@@ -23,9 +23,9 @@ annual saving of over</span> <span>£46,984<sup>1</sup></span></h2>
           <th>Annual total number of packs prescribed for Monomil comparable products at equivalent dosage</th>
           <th>Current cost to NHS for Isosorbide mononitrate Prolonged-Release XL 60 mg </th>
           <th>Potential average annual saving to NHS using Monomil written by brand in place of comparable products at equivalent dosage</th>
-          <th>Potential average annual <span class="shiftup">saving per PCO<sup>†</sup> using Monomil, if prescribed by brand <span class="table_small_first">(Will be lower in NHS Scotland due 
+          <th>Potential average <span class="shiftup">annual saving per PCO<sup>†</sup> using Monomil, if prescribed by brand <span class="table_small_first">(Will be lower in NHS Scotland due 
 to drug tariff differences)</span> <span class="table_small"><sup>†</sup>based on 237 PCOs</span></span></th>
-          <th>Potential annual saving per average GP <span class="shiftuptwo">practice<sup>‡</sup> using</span> <span class="shiftall">Monomil, 
+          <th>Potential annual saving <span class="shiftuptwo">per average GP practice<sup>‡</sup></span> <span class="shiftall">using Monomil, 
 if prescribed by brand (Will be lower in NHS Scotland due 
 to drug tariff differences) <span class="table_small"><sup>‡</sup>based on 10,339 GP practices</span></span></th>
         </tr>

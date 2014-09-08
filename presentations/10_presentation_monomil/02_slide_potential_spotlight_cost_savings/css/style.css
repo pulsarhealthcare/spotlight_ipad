@@ -68,6 +68,12 @@ top: -5px;
 position: relative;
 }
 
+table th sup {
+font-size: 8px;
+position: relative;
+left: 1px;
+top: -1px;	
+}
 
 
 #slide_container h2:nth-child(3) {
@@ -151,7 +157,7 @@ width: 130px;
 }
 
 table th:nth-child(5) {
-width: 130px;
+width: 118px;
 }
 
 
