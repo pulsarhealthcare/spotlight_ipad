@@ -204,7 +204,7 @@ font-weight: bold;
 
 
 #index_dropdown {
-	left:64px;
+	left:75px;
 	
 }
 
@@ -239,7 +239,7 @@ position: absolute;
 }
 
 #ref_dropdown {
-	left:615px;
+	left:605px;
 	display:none;
 }
 #ref_dropdown .dropdown_arrow {
@@ -256,7 +256,7 @@ position: absolute;
 
 #smpc_dropdown {
 	display: none;
-	left:676px;
+	left:667px;
 }
 #smpc_dropdown .dropdown_arrow {
 	left:146px;
@@ -273,7 +273,7 @@ position: absolute;
 }
 #api_dropdown {
 	display: none;
-	left:695px;
+	left:684px;
 }
 #api_dropdown .dropdown_arrow {
 	left:188px;
