@@ -95,7 +95,7 @@ function headerButtons() {
 
                 $('.active_dd').removeClass('active_dd');
                 if ($(this).hasClass('oneLink')) {
-
+                    $('#pdf_header h1').html($('.dropdown').eq($(this).data('dropdown')).find('.active_link').find('h2').html())
                     loadPDF($('.dropdown').eq($(this).data('dropdown')).find('.active_link').data('pdf'), $('.dropdown').eq($(this).data('dropdown')).find('.active_link').data('num'))
                 } else {
                     $(this).addClass('active_dd');

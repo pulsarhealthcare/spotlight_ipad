@@ -50,7 +50,7 @@ navigation[3] = {
         ['Page 6. Indications', '05_slide_indications'],
     ],
     smpc : [3],
-    api : [1]
+    api : [0]
 }
 navigation[4] = {
     presentation: '06_presentation_filnarine',
