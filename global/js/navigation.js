@@ -66,7 +66,7 @@ navigation[4] = {
         ['Page 8. Indications', '07_slide_indications'],
     ],
     smpc : [4,5,6,7,8],
-    api : [2]
+    api : [1]
 }
 navigation[5] = {
     presentation: '07_presentation_macilax',
@@ -80,7 +80,7 @@ navigation[5] = {
         ['Page 6. Indications', '05_slide_macilax_indications'],
     ],
     smpc : null,
-    api : [3]
+    api : [2]
 }
 navigation[6] = {
     presentation: '08_presentation_marol',
@@ -116,8 +116,8 @@ navigation[7] = {
         ['Page 12. Designed with patients in...', '11_slide_designed_with_patients_in_mind'],
         ['Page 13. Indications', '12_slide_indications'],
     ],
-    smpc : [13],
-    api : []
+    smpc : [12],
+    api : [3]
 }
 navigation[8] = {
     presentation: '10_presentation_monomil',
@@ -131,8 +131,8 @@ navigation[8] = {
         ['Page 6. Bioavailability profile', '05_slide_bioavailability_profile'],
         ['Page 7. Indications', '06_slide_indications'],
     ],
-    smpc : [4],
-    api : [6]
+    smpc : [13],
+    api : [4]
 }
 navigation[9] = {
     presentation: '11_presentation_nasofan',
@@ -146,7 +146,7 @@ navigation[9] = {
         ['Page 6. Indications', '05_slide_indications'],
     ],
     smpc : [14],
-    api : [5]
+    api : []
 }
 navigation[10] = {
     presentation: '12_presentation_peptac',
@@ -161,7 +161,7 @@ navigation[10] = {
         ['Page 7. Indications', '06_slide_indications']
     ],
     smpc : [15],
-    api : [7]
+    api : [6]
 }
 
 navigation[11] = {
@@ -175,8 +175,8 @@ navigation[11] = {
         ['Page 5. Bioavailability profile', '04_slide_bioavailability_profile'],
         ['Page 6. Indications', '05_slide_indications'],
     ],
-    smpc : [16],
-    api : [8]
+    smpc : [17],
+    api : [7]
 }
 
 navigation[12] = {
