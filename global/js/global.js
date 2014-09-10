@@ -118,7 +118,12 @@ function headerButtons() {
         } else {
             $('.dropdown_menu ul').eq(1).empty();
             for (var i = 0; i < navigation[$(this).index()].links.length; i++) {
-                $('.dropdown_menu ul').eq(1).append('<li class="sub_menu" data-presentation="' + navigation[$(this).index()].presentation + '" data-link="' + thisNav[i][1] + '"><h2>' + thisNav[i][0] + '</h2><img src="' + $('.top_level img').attr('src') + '"/></li>');
+                if(thisNav[i][0].length > 28) {
+                    $('.dropdown_menu ul').eq(1).append('<li class="sub_menu" data-presentation="' + navigation[$(this).index()].presentation + '" data-link="' + thisNav[i][1] + '"><h2>' +  thisNav[i][0].substring(0,28) + '...</h2><img src="' + $('.top_level img').attr('src') + '"/></li>');
+                } else {
+                    $('.dropdown_menu ul').eq(1).append('<li class="sub_menu" data-presentation="' + navigation[$(this).index()].presentation + '" data-link="' + thisNav[i][1] + '"><h2>' + thisNav[i][0] + '</h2><img src="' + $('.top_level img').attr('src') + '"/></li>');
+                }
+                
                 var title = $(this).find('h2').html().split('. ');
                 $('.dropdown_menu h1').eq(1).html(title[1]);
             }
