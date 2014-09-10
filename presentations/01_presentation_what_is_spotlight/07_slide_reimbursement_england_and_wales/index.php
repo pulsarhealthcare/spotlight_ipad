@@ -8,7 +8,7 @@
 
 
       <div id="notes">
-         <p>*Published pharmacy purchase prices, additional discounts may be offered to pharmacists by Teva(correct as of June 2014)</p>
+         <p>*Published pharmacy purchase prices, additional discounts may be offered to pharmacists by Teva (correct as of June 2014)</p>
       </div>
 </section>
 <div class="table fullscreen">

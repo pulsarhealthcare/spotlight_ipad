@@ -78,11 +78,11 @@ opacity: 0;
 }
 .side_note {
     -webkit-transform:rotate(270deg);
-    position: absolute;
-    top:265px;
-    color:#666;
-    left:860px;
-    width:300px;
+position: absolute;
+top: -320px;
+color: #666;
+left: 831px;
+width: 216px;
     
 }
 

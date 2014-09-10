@@ -13,6 +13,12 @@ svg {
 	opacity:0;
 
 }
+
+#calculator h1.adjust {
+top: -3px;
+position: relative;
+}
+
 #slide_container h2 {
 	top:382px;
 	left:124px;

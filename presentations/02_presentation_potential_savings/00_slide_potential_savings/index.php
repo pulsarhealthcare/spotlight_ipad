@@ -9,7 +9,7 @@
     
     <h3>Total NHS savings<span>£79,063,728<sup>1</sup></span></h3>
     <h3>Average PCO savings*<span>£333,602<sup>1</sup></span></h3>
-    <h3>Average practice <span>savings £7,647<sup>1†‡</sup></span></h3>
+    <h3>Average practice <span>savings £7,647<sup>1‡</sup></span></h3>
 
 </section>
 

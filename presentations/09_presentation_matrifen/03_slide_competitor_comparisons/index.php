@@ -27,7 +27,7 @@
 
           <tr>
 
-            <td>Durogesic<sup>®</sup> DTrans® (fentanyl) 12 mcg/hr patch 5s </td>
+            <td>Durogesic<sup>®</sup> DTrans<sup>®</sup> (fentanyl) 12 mcg/hr patch 5s </td>
             <td>£12.59 </td>
             <td>£5.07 </td>
             <td>Janssen-Cilag</td>

@@ -6,6 +6,8 @@ $('#slide_container h3').eq(0).delay((duration - 100) * 3).animate({opacity: 1},
 $('#slide_container h4').eq(0).delay((duration - 100) * 4).animate({opacity: 1}, duration);
 $('#slide_container #notes p').eq(0).delay((duration - 100) * 5).animate({opacity: 1}, duration);
 $('#slide_container #notes p').eq(1).delay((duration - 100) * 6).animate({opacity: 1}, duration);
+$('.side_note').delay((duration - 100) * 7).animate({opacity: 1}, duration);
+
 
 
 //Calculator
@@ -48,11 +50,12 @@ $('#calculator h2').eq(0).on('click', function() {
 });
 $('#calculator_back').on('click', function() {
     $('#container').css('margin-left', '0%');
-    population = 0;
+ //   population = 0;
     $('#user_population').val(0)
-    $('#country').val($('#country option:first').val());
-    $('#county').empty().append('<option value="">Choose</option>');
-    $('#population').html('N/A')
+    $('h1').html('Calculator').removeClass('adjust');
+ //   $('#country').val($('#country option:first').val());
+ //   $('#county').append('<option value="">Choose</option>');
+ //   $('#population').html('N/A')
 
     $(this).animate({
             opacity: 0
@@ -80,7 +83,7 @@ $('#user_population').on('change', function() {
 
 function calculatePopulation(innerPopulation) {
     json = {
-        "Capsorin": 3214593,
+        
         "Evacal-D3": 6936054,
         "Filnarine": 5978435,
         "Macilax": 10838202,

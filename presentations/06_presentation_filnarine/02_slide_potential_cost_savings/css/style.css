@@ -122,17 +122,40 @@ table th:nth-child(5) {
 width: 130px;
 }
 
+#slide_container span.adjust, #img_container span.adjust {
+top: -1px;
+position: relative;
+}
+
+#img_container span.rowthree {
+position: relative;
+top: -1px;	
+}
+
+#img_container span.rowtwo {
+position: relative;
+top: -2px;
+}
+
+#img_container span.rowfour {
+position: relative;
+top: 1px;	
+}
 
 table th span.table_lineup {
 position: relative;
 top: -5px;	
 }
 
-#slide_container table th span.table_small {
+table th span.table_small {
 display: block;
 font-size: 8px;	
 position: relative;
 top: 4px;
+}
+
+#img_container table th span.table_small {
+top: 1px;	
 }
 
 table th:nth-child(1) {

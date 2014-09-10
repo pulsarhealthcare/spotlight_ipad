@@ -44,7 +44,7 @@
 </g>
 </svg>
 
-  <h2>Caculator</h2>
+  <h2>Calculator</h2>
 </div>
 
 <div id="container">
@@ -84,9 +84,7 @@
                 <tr>
                    <td>Spotlight brand</td></td><td>Potential saving</b></td>
                 </tr>
-                <tr>
-                   <td><b>Capsorin</b><sup>®</sup> (ciclosporin)</td><td class="result">£0.00</td>
-                </tr>
+        
                 <tr>
                    <td><b>Evacal-D3</b><sup>®</sup> (calcium carbonate)</td><td class="result"></td>
                 </tr>

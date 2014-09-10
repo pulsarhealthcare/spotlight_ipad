@@ -1,7 +1,7 @@
 var navigation = [];
 navigation[0] = {
     presentation: '01_presentation_what_is_spotlight',
-    presentationName: 'What is Spotlight',
+    presentationName: 'What is Spotlight?',
     links: [
         ['Page 1. What is spotlight?', '00_slide_what_is_spotlight'],
         ['Page 2. What is spotlight? cont.', '01_slide_what_is_spotlight_cont'],

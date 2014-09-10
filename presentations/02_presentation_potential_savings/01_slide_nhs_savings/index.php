@@ -5,9 +5,7 @@
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
     <h1>NHS savings</h1>
 
-    <h2>Prescribing Spotlight-branded products could potentially save your practice over £7,645 per year<sup>†‡1</sup></h2>
- <!--  <img class="fullscreen" id="main" width="805" src="img/main.png">  -->
-
+    <h2>Prescribing Spotlight-branded products could potentially save your practice over £7,645 per year<sup>‡1</sup></h2>
 
         <table class="fullscreen">
 

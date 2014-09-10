@@ -38,6 +38,7 @@ $('#submit').on('click', function() {
             opacity: 1
         }, 100)
         calculatePopulation(population);
+        $('h1').html('Your Savings<sup>1</sup>').addClass('adjust');
     }
 });
 
@@ -49,14 +50,16 @@ $('#calculator h2').eq(0).on('click', function() {
 });
 $('#calculator_back').on('click', function() {
     $('#container').css('margin-left', '0%');
-    population = 0;
-    $('#user_population').val(0)
-    $('#country').val($('#country option:first').val());
-    $('#county').empty().append('<option value="">Choose</option>');
-    $('#population').html('N/A')
+//    population = 0;
+    $('#user_population').val()
+    $('h1').html('Calculator').removeClass('adjust');
+//    $('#country').val($('#country option:first').val());
+//    $('#county').empty().append('<option value="">Choose</option>');
+//    $('#population').html('N/A')
     $(this).animate({
             opacity: 0
         }, 100)
+
 });
 $('#country').on('change', function() {
     $('#county').empty().append('<option value="">Choose</option>');
@@ -79,7 +82,7 @@ $('#user_population').on('change', function() {
 
 function calculatePopulation(innerPopulation) {
     json = {
-        "Capsorin": 3214593,
+     
         "Evacal-D3": 6936054,
         "Filnarine": 5978435,
         "Macilax": 10838202,

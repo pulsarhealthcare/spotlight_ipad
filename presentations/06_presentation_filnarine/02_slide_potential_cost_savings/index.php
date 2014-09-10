@@ -27,7 +27,7 @@
           <th>Current cost to NHS for morphine sulphate Prolonged-Release 10 mg, 30 mg, 60 mg, 100 mg &amp; 200 mg</th>
           <th>Potential average annual saving to NHS using Filnarine SR written by brand in place of comparable products at equivalent dosage</th>
           <th><span class="rowone">Potential average annual</span> <span class="rowtwo">saving per PCO<sup class="first">†</sup> using</span> <span class="rowthree">Filnarine SR, if prescribed</span> <span class="rowfour">by brand</span> <span class="table_small"><sup>†</sup>based on 237 PCOs</span></th>
-          <th>Potential annual saving per average GP practice<sup>‡</sup> using Filnarine SR, if prescribed by brand <span class="table_small"><sup>‡</sup>based on 10,339 GP practices</span></th>
+          <th>Potential annual saving per average GP <span class="adjust">practice<sup class="first">‡</sup> using</span> Filnarine SR, if prescribed by brand <span class="table_small"><sup>‡</sup>based on 10,339 GP practices</span></th>
         </tr>
 </thead>
         <tbody>

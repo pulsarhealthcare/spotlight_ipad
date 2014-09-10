@@ -76,6 +76,10 @@ border-bottom: 1px solid #b6b3ab;
 text-align: left;
 }
 
+td sup {
+font-size: 8px;	
+}
+
 table th:nth-child(2), table th:nth-child(3), table th:nth-child(4) {
 text-align: center;	
 }

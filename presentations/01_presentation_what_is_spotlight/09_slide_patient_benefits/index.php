@@ -20,16 +20,22 @@
       generic prescribing) which is associated<br>
       with:</h3>
 
+
       <ul>
           <li><h4>Reassurance for the patient</h4></li>
           <li><h4>Compliance benefits</h4></li>
-          <li><h4>Lesslike lihood of dispensing errors going unnoticed as patient<br>is familiar with appearance
+          <li><h4>Less likelihood of dispensing errors going unnoticed as patient<br>is familiar with appearance
                             </h4></li>
       </ul>
 
       <div id="notes">
 
-          
+          <p>*Compared to generic prescribing. Please note, due to
+                                strict guidance that transplant patients should not be
+                                switched between brands of ciclosporin without careful
+                                therapeutic monitoring. When switching is unavoidable,
+                                monitor the patient closely for side effects, drug
+                                blood concentrations and transplant function</p>
       </div>
 
       <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017</p>
