@@ -213,12 +213,6 @@ class AppPackager
            
         }
         
-        //Copy thumbnail's across from global to root and rename
-        if(!file_exists($slideFolder.'/'.$presentation  .'_'.$slide.'-full.png')) {
-          copy($this->globalFolder.'/img/thumb-full.png',$temporarySlideFolder.'/'.$presentation  .'_'.$slide.'-full.png');
-          copy($this->globalFolder.'/img/thumb-thumb.png',$temporarySlideFolder.'/'.$presentation  .'_'.$slide.'-thumb.png');
-         
-        }
         
         //Copy relevant pdfs across
         mkdir($temporarySlideFolder .  '/pdf_images');

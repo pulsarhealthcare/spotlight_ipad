@@ -267,7 +267,6 @@ function getReference(references) {
         $(references).each(function(intValue, currentElement) {
             $('#ref_dropdown ul').append('<li class="ref"><h3>' + currentElement + '</h3></li>');
         });
-
     }
 
 }
