@@ -31,7 +31,7 @@
 
 	<p>Pharmacist dispenses Filnarine SR 200 mg at a cost to them of £25.75*</p>
 
-	<p>The pharmacist endorses the prescription<br>and is reimbursed and the practive is attributed<br>the cost against the list price of <b>MST Continus<br>200mg: £81.34</b></p>
+	<p>The pharmacist endorses the prescription<br>and is reimbursed and the practice is attributed<br>the cost against the list price of <b>MST Continus<br>200mg: £81.34</b></p>
 
 </div>
 

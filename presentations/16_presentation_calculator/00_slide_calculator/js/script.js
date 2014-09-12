@@ -43,7 +43,14 @@ $('#submit').on('click', function() {
 });
 
 $('#calculator_trigger').on('click', function() {
-    $('#calculator').css('top', '60px')
+    $('#calculator').css('top', '60px');
+    $('#container').css('margin-left', '0%');
+    $('#country').val($('#country option:first').val());
+    $('#county').append('<option value="">Choose</option>');
+    $('#county').empty().append('<option value="">Choose</option>');
+    $('#population').empty();
+
+
 });
 $('#calculator h2').eq(0).on('click', function() {
     $('#calculator').css('top', '768px')
@@ -51,7 +58,7 @@ $('#calculator h2').eq(0).on('click', function() {
 $('#calculator_back').on('click', function() {
     $('#container').css('margin-left', '0%');
  //   population = 0;
-    $('#user_population').val(0)
+    $('#user_population').val()
     $('h1').html('Calculator').removeClass('adjust');
  //   $('#country').val($('#country option:first').val());
  //   $('#county').append('<option value="">Choose</option>');

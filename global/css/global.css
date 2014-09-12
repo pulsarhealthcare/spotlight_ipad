@@ -118,7 +118,10 @@ footer img {
     position: absolute;
 	top:50px;
 	display: none;
-    height:432px;
+    padding-bottom: 20px;
+	-webkit-box-shadow: 0 2px 8px -2px #CCC;
+	-moz-box-shadow: 0 2px 8px -2px #CCC;
+    box-shadow: 0 2px 8px -2px #CCC;
 }
 
 .dropdown_arrow {

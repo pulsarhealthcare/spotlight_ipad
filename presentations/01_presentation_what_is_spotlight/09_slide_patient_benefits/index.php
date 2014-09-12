@@ -15,7 +15,7 @@
       collect a new prescription from the pharmacy
       they will be<br> 
       dispensed the same brand in the same
-      packaging.* This ensures<br>
+      packaging. This ensures<br>
       continuity (compared to
       generic prescribing) which is associated<br>
       with:</h3>
@@ -30,15 +30,9 @@
 
       <div id="notes">
 
-          <p>*Compared to generic prescribing. Please note, due to
-                                strict guidance that transplant patients should not be
-                                switched between brands of ciclosporin without careful
-                                therapeutic monitoring. When switching is unavoidable,
-                                monitor the patient closely for side effects, drug
-                                blood concentrations and transplant function</p>
-      </div>
-
       <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017</p>
+
+    </div>
  
 </section>
 

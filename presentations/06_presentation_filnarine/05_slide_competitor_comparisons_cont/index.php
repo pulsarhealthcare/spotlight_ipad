@@ -27,7 +27,7 @@
 
             <tr>
 
-            <td>Zomorph® (morphine sulphate) SR 10 mg Caps 60s</td>
+            <td>Zomorph<sup>®</sup> (morphine sulphate) SR 10 mg Caps 60s</td>
             <td>£3.47</td>
             <td>£0.17</td>
             <td>Archimedes Pharma Ltd</td>

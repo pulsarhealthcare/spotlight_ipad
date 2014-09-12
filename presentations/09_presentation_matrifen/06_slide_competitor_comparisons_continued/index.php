@@ -34,7 +34,7 @@
 
           <tr>
 
-            <td>Tilofyl (fentanyl) 25 mcg/hr patch 5s</td>
+            <td>Tilofyl<sup>®</sup> (fentanyl) 25 mcg/hr patch 5s</td>
             <td>£27.00</td>
             <td>£16.24</td>
             <td>Tillomed Laboratories Ltd</td>

@@ -95,7 +95,7 @@ table tr.selected td {
 }
 
 table tr td:nth-child(1) {
-	width: 400px;
+	width: 300px;
 }
 
 table tr td:nth-child(2) {
@@ -108,7 +108,7 @@ table tr td:nth-child(3) {
 }
 
 table tr td:nth-child(4) {
-	width: 120px;
+	width: 175px;
 	text-align: center;
 }
 

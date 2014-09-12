@@ -61,22 +61,24 @@ h2 sup {
     top:303px;
 }
 
-#notes {
-	color:#FFF;
-	top:623px;
-	left:72px;
 
-}
 #main {
 	position: absolute;
 	left:104px;
 	top:364px;
 
 }
-#notes p {
-	opacity: 0;
-	color:#707070;
+
+
+#notes {
+	top:623px;
+	left:72px;
 }
+
+#notes p {
+opacity: 0;	
+}
+
 
 .side_note {
     -webkit-transform:rotate(270deg);

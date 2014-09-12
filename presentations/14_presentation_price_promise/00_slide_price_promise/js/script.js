@@ -38,12 +38,17 @@ $('#submit').on('click', function() {
             opacity: 1
         }, 100)
         calculatePopulation(population);
-        $('h1').html('Your Savings<sup>1</sup>').addClass('adjust');
+        $('#calculator h1').html('Your Savings<sup>1</sup>').addClass('adjust');
     }
 });
 
 $('#calculator_trigger').on('click', function() {
     $('#calculator').css('top', '60px')
+    $('#container').css('margin-left', '0%');
+    $('#country').val($('#country option:first').val());
+    $('#county').empty().append('<option value="">Choose</option>');
+    $('#population').empty()
+    $('#calculator h1').html('Calculator').removeClass('adjust');
 });
 $('#calculator h2').eq(0).on('click', function() {
     $('#calculator').css('top', '768px')
@@ -52,10 +57,8 @@ $('#calculator_back').on('click', function() {
     $('#container').css('margin-left', '0%');
 //    population = 0;
     $('#user_population').val()
-    $('h1').html('Calculator').removeClass('adjust');
-//    $('#country').val($('#country option:first').val());
-//    $('#county').empty().append('<option value="">Choose</option>');
-//    $('#population').html('N/A')
+    $('#calculator h1').html('Calculator').removeClass('adjust');
+
     $(this).animate({
             opacity: 0
         }, 100)

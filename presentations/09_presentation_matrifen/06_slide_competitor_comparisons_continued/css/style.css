@@ -18,6 +18,10 @@ h2 sup {
 font-size: 12px;	
 }
 
+table td sup {
+font-size: 8px;
+}
+
 #slide_container h2 {
 	top:180px;
 	left:104px;

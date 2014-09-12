@@ -79,7 +79,7 @@ navigation[5] = {
         ['Page 5. Clinical comparability', '04_slide_clinical_comparability'],
         ['Page 6. Indications', '05_slide_macilax_indications'],
     ],
-    smpc : null,
+    smpc : [18,19],
     api : [2]
 }
 navigation[6] = {
@@ -96,7 +96,7 @@ navigation[6] = {
         ['Page 8. Indications', '07_slide_indications'],
     ],
     smpc : [9,10,11],
-    api : []
+    api : [3]
 }
 navigation[7] = {
     presentation: '09_presentation_matrifen',
@@ -117,7 +117,7 @@ navigation[7] = {
         ['Page 13. Indications', '12_slide_indications'],
     ],
     smpc : [12],
-    api : [3]
+    api : [4]
 }
 navigation[8] = {
     presentation: '10_presentation_monomil',
@@ -132,7 +132,7 @@ navigation[8] = {
         ['Page 7. Indications', '06_slide_indications'],
     ],
     smpc : [13],
-    api : [4]
+    api : [5]
 }
 navigation[9] = {
     presentation: '11_presentation_nasofan',
@@ -146,7 +146,7 @@ navigation[9] = {
         ['Page 6. Indications', '05_slide_indications'],
     ],
     smpc : [14],
-    api : []
+    api : [6]
 }
 navigation[10] = {
     presentation: '12_presentation_peptac',
@@ -160,8 +160,8 @@ navigation[10] = {
         ['Page 6. Peptax raft strength and raft thickness', '05_slide_peptax_raft_strength_and_raft_thickness'],
         ['Page 7. Indications', '06_slide_indications']
     ],
-    smpc : [15],
-    api : [6]
+    smpc : [15,16],
+    api : [7]
 }
 
 navigation[11] = {
@@ -176,7 +176,7 @@ navigation[11] = {
         ['Page 6. Indications', '05_slide_indications'],
     ],
     smpc : [17],
-    api : [7]
+    api : [8]
 }
 
 navigation[12] = {

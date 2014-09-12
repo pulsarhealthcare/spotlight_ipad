@@ -45,7 +45,7 @@
 
           <tr>
 
-            <td>Omacor<sup>®</sup> (eicosapentaenoic acid/docasahexaenoic acid)  1 g 100 caps</td>
+            <td>Omacor (eicosapentaenoic acid/docasahexaenoic acid)  1 g 100 caps</td>
             <td>£50.84</td>
             <td>£12.71</td>
             <td>Abbott Healthcare Products Limited</td>
@@ -55,7 +55,7 @@
 
           <tr class="selected">
 
-            <td>Prestylon<sup>®</sup> (eicosapentaenoic acid/docasahexaenoic acid caps) 1g 28 caps</td>
+            <td>Prestylon (eicosapentaenoic acid/docasahexaenoic acid caps) 1g 28 caps</td>
             <td>£10.68</td>
             <td>N/A</td>
             <td>Teva UK Limited</td>
@@ -65,7 +65,7 @@
 
           <tr class="selected">
 
-            <td>Prestylon<sup>®</sup> (eicosapentaenoic acid/docasahexaenoic acid caps) 1g 100 caps</td>
+            <td>Prestylon (eicosapentaenoic acid/docasahexaenoic acid caps) 1g 100 caps</td>
             <td>£38.13</td>
             <td>N/A</td>
             <td>Teva UK Limited</td>
@@ -85,7 +85,7 @@
 
           <tr class="last">
 
-            <td>Teromeg<sup>®</sup> (eicosapentaenoic acid/docasahexaenoic acid)  1 g 100 caps</td>
+            <td>Teromeg (eicosapentaenoic acid/docasahexaenoic acid)  1 g 100 caps</td>
             <td>£40.67</td>
             <td>£2.54</td>
             <td>Mercury Pharma Group</td>

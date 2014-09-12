@@ -14,6 +14,7 @@ $('#slide_container h2').eq(2).delay((duration - 100) * 5).animate({opacity:1}, 
 $('#slide_container .right').eq(2).delay((duration - 100) * 6).animate({opacity:1}, duration);
 
 $('#notes p').delay((duration - 100) * 7).animate({opacity:1}, duration);
+$('.side_note').delay((duration - 100) * 8).animate({opacity:1}, duration);
 
 var references = [
 

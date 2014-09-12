@@ -75,3 +75,6 @@ h2 sup {
     width:300px;
 }
 
+#img_container .fullscreen {
+top: 70px !important;	
+}

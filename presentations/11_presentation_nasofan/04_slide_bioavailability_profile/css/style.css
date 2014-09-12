@@ -54,3 +54,7 @@ left: 350px;
 top: 160px;	
 opacity: 0;
 }
+
+#img_container .fullscreen {
+top: 70px !important;
+}

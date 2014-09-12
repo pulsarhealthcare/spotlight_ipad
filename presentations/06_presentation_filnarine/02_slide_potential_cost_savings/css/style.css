@@ -73,7 +73,7 @@ top: 0;
 
 sup.first {
 position: relative;
-top: -4px;
+top: -1px;
 left: 1px;
 font-size: 8px;	
 }
@@ -149,9 +149,14 @@ top: -5px;
 
 table th span.table_small {
 display: block;
-font-size: 8px;	
+font-size: 7px;	
 position: relative;
 top: 4px;
+}
+
+table th sup {
+position: relative;
+top: 1px;	
 }
 
 #img_container table th span.table_small {
