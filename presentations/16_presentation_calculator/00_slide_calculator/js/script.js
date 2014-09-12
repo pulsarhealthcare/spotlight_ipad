@@ -49,6 +49,7 @@ $('#calculator_trigger').on('click', function() {
     $('#county').append('<option value="">Choose</option>');
     $('#county').empty().append('<option value="">Choose</option>');
     $('#population').empty();
+    $('#user_population').val('');
 
 
 });
