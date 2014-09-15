@@ -1,17 +1,18 @@
 //Fade text
 var duration = 800;
+$('#slide_container h1').eq(0).delay((duration - 100) * 1).animate({opacity: 1}, duration);
+$('#slide_container h2').eq(0).delay((duration - 100) * 2).animate({opacity: 1}, duration);
+$('#slide_container h3').eq(0).delay((duration - 100) * 3).animate({opacity: 1}, duration);
+$('#slide_container h4').eq(0).delay((duration - 100) * 4).animate({opacity: 1}, duration);
+$('#slide_container #notes p').eq(0).delay((duration - 100) * 5).animate({opacity: 1}, duration);
+$('#slide_container #notes p').eq(1).delay((duration - 100) * 6).animate({opacity: 1}, duration);
+$('.side_note').delay((duration - 100) * 7).animate({opacity: 1}, duration);
 
-$('#slide_container h1').eq(0).delay((duration - 100) * 1).animate({opacity:1}, duration);
-$('#slide_container h2').eq(0).delay((duration - 100) * 2).animate({opacity:1}, duration);
-$('#notes p').eq(0).delay((duration - 100) * 3).animate({opacity:1}, duration);
-$('#notes p').eq(1).delay((duration - 100) * 4).animate({opacity:1}, duration);
-$('.side_note').delay((duration - 100) * 5).animate({opacity:1}, duration);
 
 
 //Calculator
 var population = 0;
 var totalPopulation = 64488804;
-
 
 
 /* declare add commas function for changing 150494 into 150,494 etc */
@@ -31,6 +32,7 @@ function addCommas(nStr) {
 
 $('#submit').on('click', function() {
     if (population === 0) {
+//        if (population === 0) {
         alert('Please select an organisation or enter a population.')
     } else {
         $('#container').css('margin-left', '-100%');
@@ -38,32 +40,35 @@ $('#submit').on('click', function() {
             opacity: 1
         }, 100)
         calculatePopulation(population);
-        $('#calculator h1').html('Your Savings<sup>1</sup>').addClass('adjust');
     }
 });
 
 $('#calculator_trigger').on('click', function() {
-    $('#calculator').css('top', '60px')
+    $('#calculator').css('top', '60px');
     $('#container').css('margin-left', '0%');
     $('#country').val($('#country option:first').val());
+    $('#county').append('<option value="">Choose</option>');
     $('#county').empty().append('<option value="">Choose</option>');
-    $('#population').empty()
-    $('#calculator h1').html('Calculator').removeClass('adjust');
-        $('#user_population').val('');
+    $('#population').empty();
+    $('#user_population').val('');
+
+
 });
 $('#calculator h2').eq(0).on('click', function() {
     $('#calculator').css('top', '768px')
 });
 $('#calculator_back').on('click', function() {
     $('#container').css('margin-left', '0%');
-//    population = 0;
+ //   population = 0;
     $('#user_population').val()
-    $('#calculator h1').html('Calculator').removeClass('adjust');
+    $('h1').html('Calculator').removeClass('adjust');
+ //   $('#country').val($('#country option:first').val());
+ //   $('#county').append('<option value="">Choose</option>');
+ //   $('#population').html('N/A')
 
     $(this).animate({
             opacity: 0
         }, 100)
-
 });
 $('#country').on('change', function() {
     $('#county').empty().append('<option value="">Choose</option>');
@@ -72,21 +77,42 @@ $('#country').on('change', function() {
     });
 });
 $('#county').on('change', function() {
-    $('#population').html($(this).val());
-
-        var myvalue = $(this).val();
+ 
+    var myvalue = $(this).val();
     myvalue = addCommas(myvalue);
    $('#population').html(myvalue);
     population = $(this).val();
 
+
+
 });
+
+
 $('#user_population').on('change', function() {
-    population = $(this).val();
+   
+
+    userpop = $('#user_population').val();
+
+    if(userpop === '') {
+
+        var pop = $('#population').html();
+
+        newnumber = pop.replace(/,/g, '');
+        population = newnumber;
+
+        
+
+    } else {
+
+        population = $(this).val();    
+    
+    }
+
 });
 
 function calculatePopulation(innerPopulation) {
     json = {
-     
+        
         "Evacal-D3": 6936054,
         "Filnarine": 5978435,
         "Macilax": 10838202,
@@ -102,14 +128,18 @@ function calculatePopulation(innerPopulation) {
     $.each(json, function(key, savings) {
         var savingPerPerson = savings / totalPopulation;
         var savingsForPopulation = innerPopulation * savingPerPerson;
-        savingsForPopulation = savingsForPopulation.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+        savingsForPopulation = savingsForPopulation.toFixed(2);
+        savingsForPopulation = addCommas(savingsForPopulation);
         $('#results table .result').eq(itts).html('£' + savingsForPopulation);
         itts++;
     });
 }
 
+
 var references = [
+
+"1 Data on file, Teva UK Limited. Prices sourced from C&D, DM+D and NHS Drug Tariffs"
 
 ]
 
-getReference(null);
+getReference(references);

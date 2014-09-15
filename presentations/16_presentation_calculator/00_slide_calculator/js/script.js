@@ -97,10 +97,10 @@ $('#user_population').on('change', function() {
 
         var pop = $('#population').html();
 
-        console.log(pop)
-        population = pop;
+        newnumber = pop.replace(/,/g, '');
+        population = newnumber;
 
-        alert('hello garry');
+        
 
     } else {
 
