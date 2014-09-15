@@ -32,6 +32,7 @@ function addCommas(nStr) {
 
 $('#submit').on('click', function() {
     if (population === 0) {
+//        if (population === 0) {
         alert('Please select an organisation or enter a population.')
     } else {
         $('#container').css('margin-left', '-100%');
@@ -85,8 +86,28 @@ $('#county').on('change', function() {
 
 
 });
+
+
 $('#user_population').on('change', function() {
-    population = $(this).val();
+   
+
+    userpop = $('#user_population').val();
+
+    if(userpop === '') {
+
+        var pop = $('#population').html();
+
+        console.log(pop)
+        population = pop;
+
+        alert('hello garry');
+
+    } else {
+
+        population = $(this).val();    
+    
+    }
+
 });
 
 function calculatePopulation(innerPopulation) {

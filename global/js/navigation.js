@@ -95,7 +95,7 @@ navigation[6] = {
         ['Page 7. Bioavailability profile', '06_slide_bioavailability_profile'],
         ['Page 8. Indications', '07_slide_indications'],
     ],
-    smpc : [9,10,11],
+    smpc : [11,12,13],
     api : [3]
 }
 navigation[7] = {
@@ -116,7 +116,7 @@ navigation[7] = {
         ['Page 12. Designed with patients in...', '11_slide_designed_with_patients_in_mind'],
         ['Page 13. Indications', '12_slide_indications'],
     ],
-    smpc : [12],
+    smpc : [14],
     api : [4]
 }
 navigation[8] = {
@@ -131,7 +131,7 @@ navigation[8] = {
         ['Page 6. Bioavailability profile', '05_slide_bioavailability_profile'],
         ['Page 7. Indications', '06_slide_indications'],
     ],
-    smpc : [13],
+    smpc : [15],
     api : [5]
 }
 navigation[9] = {
@@ -145,7 +145,7 @@ navigation[9] = {
         ['Page 5. Bioavailability profile', '04_slide_bioavailability_profile'],
         ['Page 6. Indications', '05_slide_indications'],
     ],
-    smpc : [14],
+    smpc : [16],
     api : [6]
 }
 navigation[10] = {
@@ -160,7 +160,7 @@ navigation[10] = {
         ['Page 6. Peptax raft strength and raft thickness', '05_slide_peptax_raft_strength_and_raft_thickness'],
         ['Page 7. Indications', '06_slide_indications']
     ],
-    smpc : [15,16],
+    smpc : [17,18],
     api : [7]
 }
 
@@ -175,7 +175,7 @@ navigation[11] = {
         ['Page 5. Bioavailability profile', '04_slide_bioavailability_profile'],
         ['Page 6. Indications', '05_slide_indications'],
     ],
-    smpc : [17],
+    smpc : [19],
     api : [8]
 }
 
