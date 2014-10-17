@@ -96,7 +96,7 @@ potential annual average saving of over £29,266
 
 
     </div>
-       <p class="side_note">Date of preparation: June 2014 UK/SPL/14/0017e</p>
+       <p class="side_note">Date of preparation: October 2014 UK/SPL/14/0017e</p>
 </section>
         
 <?php require $root.'/global/html/footer.html';?>      

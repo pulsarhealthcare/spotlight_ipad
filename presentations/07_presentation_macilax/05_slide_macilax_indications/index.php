@@ -17,7 +17,7 @@
 for the treatment of faecal impaction, defined as refractory constipation with faecal loading of the rectum and/or colon.</p>
                             
 
-       <p class="side_note">Date of preparation: June 2014  UK/SPL/14/0017f</p>
+       <p class="side_note">Date of preparation: October 2014  UK/SPL/14/0017f</p>
 
 </section>
 

@@ -8,9 +8,9 @@
 
 <h2>Patented membrane with lower risk of drug leakage and less potential of drug abuse, (owing to complexity of drug </h2><h2>extraction), than reservoir system<sup>1,2</sup></h2>
     
-    <img src="img/advanced.gif" alt="" class="fullscreen" />
+    <img src="img/advanced_2.gif" alt="" class="fullscreen" />
 
-<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017g</p>
+<p class="side_note">Date of preparation: October 2014  UK/SPL/14/0017g</p>
 
 </section>
 

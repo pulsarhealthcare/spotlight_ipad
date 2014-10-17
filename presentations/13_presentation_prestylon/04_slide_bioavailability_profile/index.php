@@ -29,7 +29,7 @@ of Prestylon and Omacor (Pronova Biocare AS, Norway)</li>
                             </div>
 
     
-<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017m</p>
+<p class="side_note">Date of preparation: October 2014  UK/SPL/14/0017m</p>
 
 </section>
 

@@ -9,7 +9,7 @@
 <div class="vid_cover"></div>
 <div class="vid_overlay_cover"></div>
 <video id="teva_vid" autoplay  width="1024" height="567">
-	<source src="img/new_video_1.mp4" type="video/mp4"></video>
+	<source src="img/new_video_2.mp4" type="video/mp4"></video>
 </video>
 <div class="vid_overlay_cover"></div>
 <p class="version">Version 2.1</p>

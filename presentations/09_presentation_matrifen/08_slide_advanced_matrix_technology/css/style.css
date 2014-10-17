@@ -50,9 +50,9 @@ left: 1px;
 }
 
 #slide_container img {
-width: 511px;
+width: 610px;
 position: absolute;
-left: 400px;
+left: 380px;
 top: 175px;	
 opacity: 0;
 }

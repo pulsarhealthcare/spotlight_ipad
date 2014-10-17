@@ -17,7 +17,7 @@ to maximum <span>concentration (T<sub>max</sub>)</span></h2>
 
 <img class="fullscreen" src="img/graph.gif" alt="" />                               
     
-<p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017k</p>
+<p class="side_note">Date of preparation: October 2014  UK/SPL/14/0017k</p>
 
 </section>
 

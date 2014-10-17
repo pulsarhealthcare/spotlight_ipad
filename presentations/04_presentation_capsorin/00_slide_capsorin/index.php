@@ -30,7 +30,7 @@ Neoral<sup>®</sup> (ciclosporin)<sup>*†‡1</sup></h2>
 
 </div>
 
-               <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017c</p>
+               <p class="side_note">Date of preparation: October 2014 UK/SPL/14/0017c</p>
 	
 	</section>
         

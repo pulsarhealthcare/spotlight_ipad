@@ -127,14 +127,13 @@
 
         <p>*Gaviscon<sup>®</sup>
                                 Advance is taken at half the dose of
-                                Gaviscon/Peptac,<br />
-                                therefore savings are calculated against twice the
+                                Gaviscon/Peptac, therefore savings are calculated against twice the
                                 volume of Peptac</p>
                  
 	</div>
                             
 
-    <p class="side_note">Date of preparation: July 2014  UK/SPL/14/0017a</p>
+    <p class="side_note">Date of preparation: October 2014  UK/SPL/14/0017a</p>
 
 
 </section>
