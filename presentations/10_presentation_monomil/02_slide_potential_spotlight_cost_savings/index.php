@@ -37,8 +37,8 @@ if prescribed by brand <span class="table_small_first">(Will be lower in NHS Sco
             <td>3,323,691</td>
             <td>£22,318,065</td>
             <td>£10,718,384</td>
-            <td>£46,984</td>
-            <td>£1,077.01</td>
+            <td>£45,225</td>
+            <td>£1,036.69</td>
 
           </tr>
  

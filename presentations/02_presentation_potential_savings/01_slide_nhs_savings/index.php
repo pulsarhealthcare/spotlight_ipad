@@ -99,8 +99,7 @@
 
         <p><sup>‡</sup>Savings will be lower in NHS Scotland due to lower
                                 generic reimbursement of fentanyl transdermal patches,
-                                isosorbide mononitrate 60 mg XL tablets and
-                                eicosapentaenoic acid/docasahexaenoic acid capsules                         
+                                isosorbide mononitrate 60 mg XL tablets                         
         </p>
 
         <p>*Gaviscon<sup>®</sup>
