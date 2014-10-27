@@ -113,16 +113,16 @@ $('#user_population').on('change', function() {
 function calculatePopulation(innerPopulation) {
     json = {
         
-        "Evacal-D3": 6936054,
+        "Evacal-D3": 7152153,
         "Filnarine": 5978435,
         "Macilax": 10838202,
-        "Marol": 14945365,
-        "Matrifen": 15688338,
-        "Monomil": 11135236,
-        "Nasofan": 3444152,
-        "Peptac": 3329276,
+        "Marol": 14297458,
+        "Matrifen": 15127930,
+        "Monomil": 10718384,
+        "Nasofan": 3325227,
+        "Peptac": 3289120,
         "Prestylon": 3554077,
-        "Total": 79063728,
+        "Total": 53910272,
     };
     var itts = 0;
     $.each(json, function(key, savings) {
