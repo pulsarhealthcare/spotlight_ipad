@@ -14,7 +14,7 @@ which could deliver cost savings of up to £1.65 (112
 pack size) per prescription. At a Primary Care
 Organisation (PCO) level, this <span>translates into a
 potential annual average saving of over
-£29,266<sup>1</sup></span>
+£30,178<sup>1</sup></span>
 </h2>
 
 

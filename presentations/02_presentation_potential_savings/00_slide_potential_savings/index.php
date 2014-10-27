@@ -7,9 +7,9 @@
 
     <h2>Prescribing Spotlight-branded products can offer:</h2>
     
-    <h3>Total NHS savings<span>£79,063,728<sup>1</sup></span></h3>
-    <h3>Average PCO savings*<span>£333,602<sup>1</sup></span></h3>
-    <h3>Average practice <span>savings £7,647<sup>1‡</sup></span></h3>
+    <h3>Total NHS savings<span>£53,910,272<sup>1</sup></span></h3>
+    <h3>Average PCO savings*<span>£227,470<sup>1</sup></span></h3>
+    <h3>Average practice <span>savings £5,214<sup>1‡</sup></span></h3>
 
 </section>
 
@@ -23,9 +23,7 @@
                                 Health and Social Care Trusts (Northern Ireland)</p>
 
 <p><sup>‡</sup>Savings will be lower in NHS Scotland due to lower
-                                generic reimbursement of fentanyl transdermal patches,
-                                isosorbide mononitrate 60 mg XL tablets and
-                                eicosapentaenoic acid/docasahexaenoic acid capsules</p>
+                                generic reimbursement of fentanyl transdermal patches and isosorbide mononitrate 60 mg XL tablets</p>
 
 
         </div>

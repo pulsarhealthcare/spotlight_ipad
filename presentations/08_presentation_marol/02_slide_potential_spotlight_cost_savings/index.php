@@ -10,7 +10,7 @@
                                 (tramadol SR 100 mg, 150 mg and 200 mg), which could
                                 deliver costs savings of up to £22.24 (200 mg, 60 pack
                                 size) per prescription. At a Primary Care Organisation
-                                (PCO) level, this translates into a potential average annual saving of</h2><h2>over £63,061<sup>1</sup></h2>
+                                (PCO) level, this translates into a potential average annual saving of</h2><h2>over £60,327<sup>1</sup></h2>
 
 
 
@@ -33,11 +33,11 @@
           <tr class="last">
 
             <td class="capsorin">Marol</td>
-            <td>1,562,697</td>
-            <td>£29,124,517</td>
-            <td>£14,945,365</td>
-            <td>£63,061</td>
-            <td>£1,445.53</td>
+            <td>1,528,521</td>
+            <td>£28,187,191</td>
+            <td>£14,297,458</td>
+            <td>£60,327</td>
+            <td>£1,382.87</td>
 
           </tr>
  

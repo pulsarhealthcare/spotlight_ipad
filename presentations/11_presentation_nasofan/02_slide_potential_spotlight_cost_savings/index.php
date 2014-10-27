@@ -14,7 +14,7 @@ generically,* which could deliver costs savings of up
 to £2.97 (150 dose presentation) per prescription. At a
 Primary Care Organisation <span>(PCO) level, this translates
 into a potential average annual saving of over
-£14,532<sup>1</sup></span>
+£14,030<sup>1</sup></span>
 </h2>
 
         <table class="fullscreen">
@@ -40,11 +40,11 @@ into a potential average annual saving of over
           <tr class="last">
 
             <td>Nasofan</td>
-            <td>1,282,689</td>
-            <td>£13,756,971</td>
-            <td>£3,444,152</td>
-            <td>£14,532</td>
-            <td>£333.12</td>
+            <td>1,249,199</td>
+            <td>£13,368,787</td>
+            <td>£3,325,227</td>
+            <td>£14,030</td>
+            <td>£321.62</td>
 
           </tr>
  

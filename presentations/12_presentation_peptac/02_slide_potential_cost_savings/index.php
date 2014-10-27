@@ -13,7 +13,7 @@
                                 savings of up to £0.61 per prescription. At a Primary
                                 Care Organisation (PCO) level, this translates into a
                                 potential average</h2><h2> annual saving of over
-                                £14,048<sup>1</sup></h2>
+                                £13,878<sup>1</sup></h2>
 
         <table class="fullscreen">
 
@@ -33,11 +33,11 @@
           <tr class="last">
 
             <td class="capsorin">Peptac</td>
-            <td>4,344,618</td>
-            <td>£16,806,842</td>
-            <td>£3,329,276</td>
-            <td>£14,048</td>
-            <td>£322.01</td>
+            <td>4,374,151</td>
+            <td>£16,753,108</td>
+            <td>£3,289,120</td>
+            <td>£13,878</td>
+            <td>£318.13</td>
 
           </tr>
  

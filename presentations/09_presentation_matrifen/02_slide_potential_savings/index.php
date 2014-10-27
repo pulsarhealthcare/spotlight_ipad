@@ -17,7 +17,7 @@ per prescription. Furthermore, Matrifen costs 40% less
 mcg/hr, 25 mcg/hr, 50 mcg/hr, 75 mcg/hr and 100 mcg/hr
 generically.* At a Primary Care Organisation (PCO)
 level, this translates into a potential average annual
-saving of over <span>£66,196<sup>1</sup></span></h2>
+saving of over <span>£63,831<sup>1</sup></span></h2>
 
 
 
@@ -45,11 +45,11 @@ to drug tariff differences)</small>
           <tr class="last">
 
             <td>Matrifen </td>
-            <td>2,383,371</td>
-            <td>£55,253,768</td>
-            <td>£15,688,338 </td>
-            <td>£66,196 </td>
-            <td>£1,517.39</td>
+            <td>2,405,710</td>
+            <td>£54,885,232</td>
+            <td>£15,127,930</td>
+            <td>£63,831 </td>
+            <td>£1,463.19</td>
 
           </tr>
  

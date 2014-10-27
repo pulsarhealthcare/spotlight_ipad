@@ -53,6 +53,38 @@
           </tr>
 
 
+
+         <tr>
+
+            <td>Tilodol (tramadol) PR 100 mg Tabs 60s</td>
+            <td>£15.53</td>
+            <td>£8.55</td>
+            <td>Sandoz Ltd</td>
+
+          </tr>
+
+
+         <tr>
+
+            <td>Tilodol tramadol) PR 150 mg Tabs 60s</td>
+            <td>£23.28</td>
+            <td>£12.80</td>
+            <td>Sandoz Ltd</td>
+
+          </tr>
+
+
+         <tr>
+
+            <td>Tilodol tramadol) PR 200 mg Tabs 60s</td>
+            <td>£31.04</td>
+            <td>£16.76</td>
+            <td>Sandoz Ltd</td>
+
+          </tr>
+
+
+
          <tr>
 
             <td>Tramquel<sup>®</sup> (tramadol) SR 100 mg Caps 60s</td>

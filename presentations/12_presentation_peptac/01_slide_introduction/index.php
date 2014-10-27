@@ -16,7 +16,7 @@ bicarbonate suspension), which could deliver cost
 savings of up to £0.61 per prescription. At a Primary
 Care Organisation (PCO) level, <span>this translates into a
 potential average annual saving of over
-£14,048<sup>1</sup></span>
+£13,878<sup>1</sup></span>
 
 </h2>
 
