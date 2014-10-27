@@ -28,24 +28,9 @@
 
           </tr>
 
-          <tr>
 
-            <td class="filnarine">Filnarine<sup>®</sup></td>
-            <td>Morphine sulphate prolonged-release 10 mg, 30 mg, 
-60 mg, 100 mg, 200 mg tablets</td>
-            <td>£23,979,705</td>
-            <td>£5,978,435</td>
 
-          </tr>
-
-          <tr>
-
-            <td class="macilax">Macilax<sup>®</sup></td>
-            <td>Macrogol compound powder sachet paed 30s, adult 20s, 30s, 50s </td>
-            <td>£50,689,872</td>
-            <td>£10,838,202</td>
-
-          </tr>
+    
 
           <tr>
 
@@ -95,14 +80,7 @@
 
           </tr>
 
-          <tr>
-
-            <td class="prestylon">Prestylon<sup>®</sup></td>
-            <td>Eicosapentaenoic acid/docasahexaenoic acid 1g capsules</td>
-            <td>£14,466,422</td>
-            <td>£3,554,077</td>
-
-          </tr>
+  
          
           <tr class="last">
 

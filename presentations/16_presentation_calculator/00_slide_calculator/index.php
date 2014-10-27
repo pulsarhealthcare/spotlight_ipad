@@ -91,10 +91,10 @@
                 <tr>
                    <td><b>Evacal-D3</b><sup>®</sup> (calcium carbonate)</td><td class="result"></td>
                 </tr>
-                <tr>
+<tr style="display: none;">
                    <td><b>Filnarine</b><sup>®</sup> SR (morphine sulphate)</td><td class="result"></td>
                 </tr>
-                <tr>
+                <tr style="display: none;">
                    <td><b>Macilax</b><sup>®</sup> (macrogol compound)</td><td class="result"></td>
                 </tr>
                 <tr>
@@ -112,7 +112,7 @@
                 <tr>   
                    <td><b>Peptac</b><sup>®</sup> (compound alginate oral suspension liquid)</td><td class="result"></td>
                 </tr>
-                <tr>
+                <tr style="display: none;">
                    <td><b>Prestylon</b><sup>®</sup> (eicosapentaenoic acid/docosahexaenoic acid)</td><td class="result"></td>
                 </tr>
                 <tr>

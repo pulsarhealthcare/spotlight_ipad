@@ -31,23 +31,9 @@
 
           </tr>
 
-          <tr>
+  
 
-            <td class="filnarine">Filnarine<sup>®</sup></td>
-            <td>Morphine sulphate prolonged-release 200 mg 60 tablets</td>
-            <td>46% less than MST Continus<sup>®</sup> (morphine sulphate SR)</td>
-            <td>£37.75</td>
-
-          </tr>
-
-          <tr>
-
-            <td class="macilax">Macilax<sup>®</sup></td>
-            <td>Macrogol compound powder sachet adult 30s</td>
-            <td>28% less than Movicol<sup>®</sup> (magrocol compound) powder sachet</td>
-            <td>£1.87</td>
-
-          </tr>
+    
 
           <tr>
 
@@ -87,7 +73,7 @@
 
           </tr>
 
-          <tr>
+          <tr class="last">
 
             <td class="peptac">Peptac<sup>®</sup></td>
             <td>Compound alginate oral suspension liquid 500 ml</td>
@@ -97,14 +83,7 @@
 
           </tr>
 
-          <tr class="last">
 
-            <td class="prestylon">Prestylon<sup>®</sup></td>
-            <td>Eicosapentaenoic acid/docasahexaenoic acid 1g capsules</td>
-            <td>25% less than Omacor<sup>®</sup> (eicosapentaenoic acid/ docasahexaenoic acid)</td>
-            <td>£12.71</td>
-
-          </tr>
          
 
  

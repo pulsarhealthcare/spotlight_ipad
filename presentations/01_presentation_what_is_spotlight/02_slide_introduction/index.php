@@ -43,23 +43,8 @@
 
 
 
-          <tr>
-
-            <td class="filnarine">Filnarine<sup>®</sup></td>
-            <td>Morphine sulphate</td>
-            <td>Central nervous system</td>
-
-          </tr>
 
 
-
-          <tr>
-
-            <td class="macilax">Macilax<sup>®</sup></td>
-            <td>Macrogol compound</td>
-            <td>Gastro-intestinal system</td>
-
-          </tr>
 
 
           <tr>
@@ -98,7 +83,7 @@
           </tr>
 
 
-          <tr>
+          <tr class="last">
 
             <td class="peptac">Peptac<sup>®</sup></td>
             <td>Compound alginate oral suspension</td>
@@ -107,13 +92,6 @@
           </tr>
 
 
-          <tr class="last">
-
-            <td class="prestylon">Prestylon<sup>®</sup></td>
-            <td>Eicosapentaenoic acid/docasahexaenoic acid</td>
-            <td>Cardiovascular system</td>
-
-          </tr>
 
         </tbody>
 
