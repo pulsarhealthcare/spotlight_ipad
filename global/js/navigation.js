@@ -32,7 +32,7 @@ navigation[2] = {
     presentation: '03_presentation_the_spotlight_brands',
     presentationName: 'The Spotlight brands',
     links: [
-        ['', '00_slide_the_spotlight_brands'],
+        ['Page 1. ', '00_slide_the_spotlight_brands'],
     ],
     smpc : null,
     api : null

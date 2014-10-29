@@ -8,14 +8,15 @@ svg {
 	left:111px;
 	position: absolute;
 	font-size:20px;
-	top:148px;
+	top:118px;
 	width: 800px;
 	text-align: center;
 	opacity: 0;
 }
 #slide_container h2 {
 	top:241px;
-	left:171px;
+	left:480px;
+	width: 400px;
 	color:#FFF;
 	line-height: 25px;
 	opacity: 0;
@@ -25,19 +26,22 @@ svg {
 	opacity: 0;
 	color:#FFF;
 	font-weight: bold;
+	text-align: center;
 
 }
 #slide_container h2:nth-child(3) {
-	left:148px;
-    top:359px;
+
+    top:375px;
 }
 #slide_container h2:nth-child(4) {
-    top:482px;
-    left:174px;
+    top:510px;
+    left:412px;
+    width: 200px;
 }
 #slide_container h2:nth-child(5) {
-    top:482px;
-    left:578px;
+    top:510px;
+    left:722px;
+    width: 200px;
 }
 
 #slide_container h3 {
@@ -62,7 +66,7 @@ h2 sup {
 #notes {
 	color:#FFF;
 	top:623px;
-	left:72px;
+	left:365px;
 
 }
 #main {

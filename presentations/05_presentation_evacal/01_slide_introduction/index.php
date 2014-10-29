@@ -21,7 +21,7 @@ potential annual average saving of over
 <h2>If including products with a lower calcium carbonate
                                 dosage (1250 mg), at a PCO 
                                 <span>level the potential average
-                                annual saving is over £43,957<sup>1</sup><span></h2>
+                                annual saving is over £47,027<sup>1</sup><span></h2>
 
     
     <div id="notes">
