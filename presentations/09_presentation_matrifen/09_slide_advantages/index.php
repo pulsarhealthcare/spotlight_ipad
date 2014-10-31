@@ -17,7 +17,7 @@ formulation, may be factors that will have an impact on <span>treatment complian
 
 <img src="img/advantages.png" class="fullscreen" alt="" />
 
-<p class="side_note">Date of preparation: October 2014  UK/SPL/14/0017h</p>
+<p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017h</p>
 
 </section>
 

@@ -130,7 +130,7 @@
 <p><sup>†</sup>Products have a lower calcium carbonate dosage of
                                 1250 mg compared to Evacal-D3</p>
 </div>    
-<p class="side_note">Date of preparation: October 2014  UK/SPL/14/0017c</p>
+<p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017c</p>
 
 </section>
 

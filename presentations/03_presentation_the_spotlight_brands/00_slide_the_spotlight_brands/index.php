@@ -15,7 +15,7 @@
                                 active <span>constituents in the case of
                                 Peptac<sup>®</sup>)</span></h2>
     
-            <p class="side_note">Date of preparation: October 2014 UK/SPL/14/0017</p>
+            <p class="side_note">Date of preparation: November 2014 UK/SPL/14/0017</p>
 </section>
         
 <?php require $root . '/global/html/footer.html'; ?>

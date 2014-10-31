@@ -79,7 +79,7 @@ against twice the volume of Peptac</p>
 
                             </div>
 
-       <p class="side_note">Date of preparation: October 2014  UK/SPL/14/0017g</p>
+       <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017g</p>
 </section>
 
 

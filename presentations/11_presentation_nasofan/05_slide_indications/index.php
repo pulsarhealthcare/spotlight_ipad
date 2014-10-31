@@ -10,7 +10,7 @@
     <h2>Nasofan indication:</h2>
     <h2>The prophylaxis and treatment of seasonal</h2><h2> allergic rhinitis (including hay fever) and</h2><h2> perennial rhinitis</h2>           
 
-       <p class="side_note">Date of preparation: October 2014  UK/SPL/14/0017k</p>
+       <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017k</p>
 
 </section>
 

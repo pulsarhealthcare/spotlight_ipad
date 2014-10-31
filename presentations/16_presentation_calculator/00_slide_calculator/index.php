@@ -32,7 +32,7 @@
 
               </div>
             
-            <p class="side_note">Date of preparation: October 2014 UK/SPL/14/0017</p>
+            <p class="side_note">Date of preparation: November 2014 UK/SPL/14/0017</p>
 </section>
 
 <div id="calculator">
