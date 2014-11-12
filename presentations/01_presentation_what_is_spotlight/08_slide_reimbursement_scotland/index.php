@@ -15,7 +15,8 @@
 
 <div class="table_header" style="background: url('img/main_0.png') top left no-repeat; background-size: 100% 68px;">
 
-<p><b>A patient is dispensed a pack of Nasofan® (fluticasone aqueous 50 mcg) 150 dose</b>
+<p><b>A patient is prescribed fluticasone aqueous 50mcg nasal spray 150 dose</b>
+
 <br>(how the prescription is written can have a big effect on costs)</p>
 
 </div>
@@ -32,9 +33,11 @@
 	<p>Rx <b>generic</b> prescription for<br><span class="blue">Fluticasone Nasal Spray 50mcg 150 dose</span></p>
 
 
-	<p style="line-height: 15px;">Pharmacist dispenses Nasofan 50 mcg at a cost to them of £8.04</p>
+	<p style="line-height: 15px;">Pharmacist chooses to dispense Flixonase 50 mcg (fluticasone aqueous nasal spray 50 mcg) at a cost to them of £11.04</p> 
+
 
 	<p>The pharmacist endorses the prescription<br>and is reimbursed and the practice is attributed<br>the cost against the list price of <b>Flixonase <br>50mcg: £11.04</b></p>
+
 
 </div>
 
