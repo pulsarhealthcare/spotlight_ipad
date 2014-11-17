@@ -8,7 +8,7 @@
 
 
       <div id="notes">
-         <p>*Published pharmacy purchase prices, additional discounts may be offered to pharmacists by Teva (correct as of June 2014)</p>
+         <p>*Published pharmacy purchase prices, additional discounts may be offered to pharmacists by Teva (correct as of November 2014)</p>
       </div>
 </section>
 <div class="table fullscreen">
@@ -33,7 +33,7 @@
 	<p>Rx <b>generic</b> prescription for<br><span class="blue">Fluticasone 50mcg Nasal Spray 150 dose</span></p>
 
 
-	<p>Pharmacist dispenses Nasofan 50 mcg at a cost to them of £8.04*</p>
+	<p>Pharmacist dispenses Nasofan 50 mcg at a cost to them of £7.12*</p>
 
 <!--	<p>The pharmacist endorses the prescription<br>and is reimbursed and the practice is attributed<br>the cost against the list price of <b>MST Continus<br>200mg: £81.34</b></p> -->
 
@@ -60,7 +60,7 @@
 
 		<!--<p>Pharmacist <b>must</b> dispense<br>Filnarine SR 200 mg<br><span>at a cost to them of £25.75<sup>*</sup></span></p>-->
 
-		<p>Pharmacist <b>must</b> dispense<br>Nasofan 50mcg 150 dose<br><span>at a cost to them of £8.04<sup>*</sup></span></p>
+		<p>Pharmacist <b>must</b> dispense<br>Nasofan 50mcg 150 dose<br><span>at a cost to them of £7.12<sup>*</sup></span></p>
 		
 		  
 
