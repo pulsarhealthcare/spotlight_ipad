@@ -43,7 +43,7 @@
 
           <tr class="selected">
 
-            <td>Monomil (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+            <td>Monomil<sup>®</sup> (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
             <td>£3.49 </td>
             <td>N/A</td>
             <td>Teva UK Limited</td>
@@ -100,7 +100,7 @@
     
 
 
-       <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017h</p>
+       <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017i</p>
 </section>
 
 

@@ -5,7 +5,7 @@
 <section style="background:url(img/background.png);background-size:100% 100%;" id="slide_container">
     <h1>NHS savings</h1>
 
-    <h2>Prescribing Spotlight-branded products could potentially save your practice over £7,645 per year<sup>‡1</sup></h2>
+    <h2>Prescribing Spotlight-branded products could potentially save your practice over £5,214 per year<sup>‡1</sup></h2>
 
         <table class="fullscreen">
 
@@ -73,7 +73,7 @@
 
           <tr>
 
-            <td class="peptac">Peptac<sup>®</sup></td>
+            <td class="peptac">Peptac<sup>®*</sup></td>
             <td>Compound alginate oral suspension liquid 500 ml</td>
             <td>£16,753,108</td>
             <td>£3,289,120</td>

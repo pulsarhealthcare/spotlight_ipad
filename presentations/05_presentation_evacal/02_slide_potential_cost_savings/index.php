@@ -69,7 +69,7 @@ potential annual average saving of over £30,178
                 <td>£51,938,106</td>
                 <td>£11,145,427</td>
                 <td>£47,027</td>
-                <td>£1,007.61</td>
+                <td>£1,078.00</td>
                 
           </tr>
 
@@ -96,7 +96,7 @@ potential annual average saving of over £30,178
 
 
     </div>
-       <p class="side_note">Date of preparation: November 2014 UK/SPL/14/0017e</p>
+       <p class="side_note">Date of preparation: November 2014 UK/SPL/14/0017d</p>
 </section>
         
 <?php require $root.'/global/html/footer.html';?>      

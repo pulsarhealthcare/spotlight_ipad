@@ -35,7 +35,7 @@
 
           <tr>
 
-              <td>Chemydur (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
+              <td>Chemydur<sup>®</sup> (isosorbide mononitrate) XL 60 mg Tabs 28s </td>
               <td>£3.49</td>
               <td>£0.00</td>
               <td>Amdipharm Plc</td>
@@ -122,7 +122,7 @@
     
 
 
-       <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017g</p>
+       <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017i</p>
 </section>
 
 

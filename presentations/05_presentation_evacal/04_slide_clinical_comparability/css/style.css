@@ -56,7 +56,7 @@ top: -8px;
 	color:#FFF;
 	left:860px;
 	width:300px;
-	color:rgb(136, 136, 136);
+	color:#707070;
 	opacity: 0;
 }
 
@@ -90,13 +90,13 @@ color: #aa8f5d;
 #slide_container p.four {
 top: 193px;	
 font-size: 12px;
-color: rgb(136, 136, 136);
+color: color:#707070;
 }
 
 #slide_container p.five {
 top: 200px;
 font-size: 12px;
-color: rgb(136, 136, 136);
+color: color:#707070;
 }
 
 .six {
@@ -108,7 +108,7 @@ color: #aa8f5d;
 #slide_container p.seven {
 top: 216px;	
 font-size: 12px;
-color: rgb(136, 136, 136);
+color: color:#707070;
 }
 
 .eight {
@@ -127,7 +127,7 @@ color: #aa8f5d;
 #slide_container p.ten {
 top: 240px;	
 font-size: 12px;
-color: rgb(136, 136, 136);
+color: color:#707070;
 }
 
 .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen {
@@ -153,7 +153,7 @@ color: #aa8f5d;
 #slide_container p.thirteen {
 top: -34px;	
 font-size: 12px;
-color: rgb(136, 136, 136);
+color: color:#707070;
 }
 
 .fourteen {
@@ -165,7 +165,7 @@ color: #aa8f5d;
 #slide_container p.fifteen {
 top: -16px;	
 font-size: 12px;
-color: rgb(136, 136, 136);
+color: color:#707070;
 }
 
 .sixteen {
@@ -177,5 +177,5 @@ color: #aa8f5d;
 #slide_container p.seventeen {
 top: 2px;	
 font-size: 12px;
-color: rgb(136, 136, 136);
+color: color:#707070;
 }

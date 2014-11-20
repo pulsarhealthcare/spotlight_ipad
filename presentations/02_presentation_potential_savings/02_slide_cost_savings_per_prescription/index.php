@@ -75,7 +75,7 @@
 
           <tr class="last">
 
-            <td class="peptac">Peptac<sup>®</sup></td>
+            <td class="peptac">Peptac<sup>®**</sup></td>
             <td>Compound alginate oral suspension liquid 500 ml</td>
             <td>24% less than Gaviscon<sup>®</sup> Advance 
 (sodium alginate and potassium bicarbonate suspension) liquid 250 ml</td>
@@ -101,7 +101,7 @@
 	</div>
                             
 
-    <p class="side_note">Date of preparation: November 2014 UK/SPL/14/0017</p>
+    <p class="side_note">Date of preparation: November 2014 UK/SPL/14/0017a</p>
 
 
 </section>
