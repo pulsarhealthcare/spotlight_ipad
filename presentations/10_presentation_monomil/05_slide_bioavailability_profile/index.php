@@ -10,7 +10,7 @@
 <h2>release preparations by brand<sup>2,3</sup></h2>
 <img class="fullscreen" src="img/graph.gif" alt="" />                               
     
-<p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017h</p>
+<p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017i</p>
 
 </section>
 

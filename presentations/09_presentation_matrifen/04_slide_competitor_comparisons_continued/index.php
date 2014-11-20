@@ -146,7 +146,7 @@
 
           <tr class="selected">
 
-            <td>Matrifen (fentanyl) 12 mcg/hr patch 5s</td>
+            <td>Matrifen<sup>®</sup> (fentanyl) 12 mcg/hr patch 5s</td>
             <td>£7.52</td>
             <td>N/A</td>
             <td>Teva UK Limited</td>

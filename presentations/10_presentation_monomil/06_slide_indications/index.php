@@ -10,7 +10,7 @@
     <h2>Monomil indication:</h2>
     <h2>Prophylactic treatment of angina pectoris</h2>           
 
-       <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017h</p>
+       <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017i</p>
 
 </section>
 
