@@ -17,9 +17,9 @@ $('.side_note').delay((duration - 100) * 7).animate({opacity:1}, duration);
 
 var references = [
 
-"1 BNF 67, March - September 2014",
+"1 BNF 68, September 2014 - March 2015",
 "2 Modified-release preparations. MeReC Bulletin 2000; Volume 11(4): 13-16.",
-"3 Items unsuitable for generic prescribing. Available at http:\/\/www.hscboard.hscni.net\/medicinesmanagement\/prescribing%20guidance\/035%20Items_Unsuitable_for_Generic_Prescribing-April_2013.pdf Accessed on 18 Nov 2014.",
+"3 Items unsuitable for generic prescribing. Available at http:\/\/www.hscboard.hscni.net\/medicinesmanagement\/prescribing%20guidance\/035%20Items_Unsuitable_for_Generic_Prescribing-April_2013.pdf Accessed on 08 Dec 2014.",
 "4 Generic prescribing in primary care. MeReC Bull 2011;21(3): 1-6.",
 "5 Dunne S et al. BMC Pharmacol Toxicol 2013, 14: 1-19."
 ]

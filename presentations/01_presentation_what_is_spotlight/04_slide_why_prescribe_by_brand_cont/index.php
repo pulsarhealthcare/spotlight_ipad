@@ -20,7 +20,7 @@
           <li><h3>Differences in appearance in preparations used long-term is likely to cause patients anxiety, e.g. elderly, those with learning disabilities or low literacy levels</li>
       </ul>
       
-      <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017</p>
+      <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017</p>
        
 </section>
         

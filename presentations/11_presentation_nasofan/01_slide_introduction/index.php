@@ -35,7 +35,7 @@ into a potential average annual saving of over £14,030<sup>1</sup></span>
    
     </div>
 
-       <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017k</p>
+       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017k</p>
 </section>
 
 

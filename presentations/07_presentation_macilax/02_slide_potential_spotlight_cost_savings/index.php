@@ -52,7 +52,7 @@ per prescription. At a Primary Care Organisation (PCO) level, this translates in
 
 <p>*This will be reimbursed at the Cat C price in the Drug Tariff in England and Wales.</p>
     </div>
-       <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017f</p>
+       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017f</p>
 </section>
 
 

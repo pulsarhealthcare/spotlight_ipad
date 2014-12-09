@@ -15,7 +15,7 @@ $('.side_note').delay((duration - 100) * 6).animate({opacity:1}, duration);
 
 var references = [
 
-"1 BNF 67, March - September 2014",
+"1 BNF 68, September 2014 - March 2015",
 "2 Modified-release preparations. MeReC Bulletin 2000; Volume 11(4): 13-16."
 
 ]

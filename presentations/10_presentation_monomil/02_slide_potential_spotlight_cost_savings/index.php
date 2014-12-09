@@ -65,7 +65,7 @@ if prescribed by brand <span class="table_small_first">(Will be lower in NHS Sco
                                 Ireland)</p>
     </div>
 
-       <p class="side_note">Date of preparation: November 2014  UK/SPL/14/0017i</p>
+       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017i</p>
 </section>
 
 
