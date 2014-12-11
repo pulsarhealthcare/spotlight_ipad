@@ -15,13 +15,13 @@ Adcal-D3<sup>®</sup>
 which could deliver cost savings of up to £1.65 (112
 pack size) per prescription. At a Primary Care
 Organisation (PCO) level, this translates into a
-potential annual average saving of over £30,178
+potential annual average saving of over £30,150
 </h2>
 
 <h2>If including products with a lower calcium
                                 carbonate dosage (1250 mg), at a PCO level the
                                 <span>potential average annual saving is over
-                                £47,027<sup>1</sup></span></h2>
+                                £47,000<sup>1</sup></span></h2>
 
    <!-- <img class="fullscreen" id="main" src="img/cost_savings.png"/> -->
 
@@ -50,7 +50,7 @@ potential annual average saving of over £30,178
                 <td>7,028,265</td>
                 <td>£34,367,452</td>
                 <td>£7,152,153</td>
-                <td>£30,178</td>
+                <td>£30,150</td>
                 <td>£691.76</td>
 
           </tr>
@@ -68,7 +68,7 @@ potential annual average saving of over £30,178
                 <td>10,679,407</td>
                 <td>£51,938,106</td>
                 <td>£11,145,427</td>
-                <td>£47,027</td>
+                <td>£47,000</td>
                 <td>£1,078.00</td>
                 
           </tr>

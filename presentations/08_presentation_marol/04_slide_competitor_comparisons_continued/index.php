@@ -57,8 +57,8 @@
          <tr>
 
             <td>Tilodol<sup>®</sup> (tramadol) PR 100 mg Tabs 60s</td>
-            <td>£15.53</td>
-            <td>£8.55</td>
+            <td>£15.52</td>
+            <td>£8.54</td>
             <td>Sandoz Ltd</td>
 
           </tr>
