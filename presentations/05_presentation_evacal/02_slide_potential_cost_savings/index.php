@@ -50,7 +50,7 @@ potential annual average saving of over £30,150
                 <td>7,028,265</td>
                 <td>£34,367,452</td>
                 <td>£7,152,153</td>
-                <td>£30,150</td>
+                <td>£30,178</td>
                 <td>£691.76</td>
 
           </tr>
@@ -68,7 +68,7 @@ potential annual average saving of over £30,150
                 <td>10,679,407</td>
                 <td>£51,938,106</td>
                 <td>£11,145,427</td>
-                <td>£47,000</td>
+                <td>£47,027</td>
                 <td>£1,078.00</td>
                 
           </tr>
