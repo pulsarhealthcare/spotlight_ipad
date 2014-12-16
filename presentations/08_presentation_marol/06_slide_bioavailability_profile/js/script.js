@@ -11,7 +11,7 @@ var references = [
 
 "1 Data on file, Teva UK Limited.",
 "2 BNF 68, September 2014 - March 2015",
-"3 Modified-release preparations. MeReC Bulletin 2000; Volume 11(4): 13-16"
+"3 Generic prescribing in primary care. MeReC Bulletin 2011; Volumer 21(3):1-6"
 
 ]
 

@@ -8,7 +8,7 @@ var references = [
 
 "1 Data presented shows mean plasma levels (ng\/ml) of isosorbide-5-mononitrate after oral administration of ISM\/R (at a dosage corresponding to 60 mg of active principle) in a randomised two-period cross over study performed on 24 healthy volunteers. Data on file, Teva UK Limited",
 "2 BNF 67, March - September 2014",
-"3 Modified-release preparations. MeReC Bulletin 2000; Volume 11(4): 13-16."
+"3 Generic prescribing in primary care. MeReC Bulletin 2011; Volumer 21(3):1-6"
 
 ]
 
