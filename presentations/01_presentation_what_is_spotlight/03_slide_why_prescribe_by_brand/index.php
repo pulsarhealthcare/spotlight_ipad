@@ -14,7 +14,7 @@
       <span class="span_up">release drugs,<sup>1,2</sup> can deliver cost savings while also ensuring</span><br>continuity of medicine for the patient in consistent packaging</h4>
 
 
-<p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017</p>
+<p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017</p>
 
 </section>
         

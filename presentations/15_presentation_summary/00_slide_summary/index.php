@@ -18,7 +18,7 @@
             <div id="notes">
                  <p>*compared to generic prescribing</p>
             </div>
-            <p class="side_note">Date of preparation: December 2014 UK/SPL/14/0017o</p>
+            <p class="side_note">Date of preparation: January 2015 UK/SPL/14/0017o</p>
 
 </section>
         

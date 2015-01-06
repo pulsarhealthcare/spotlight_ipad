@@ -22,12 +22,12 @@ svg {
 
 }
 #slide_container li:nth-child(2) {
-	left:543px;
-	top:180px;
+left: 104px;
+top: 340px;
 }
 #slide_container li:nth-child(3) {
 	left:543px;
-    top:370px;
+    top:181px;
 }
 #slide_container h2 {
 position: relative;

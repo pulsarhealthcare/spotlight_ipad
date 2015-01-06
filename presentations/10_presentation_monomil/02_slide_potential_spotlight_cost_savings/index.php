@@ -13,7 +13,7 @@ per prescription. Furthermore, Monomil costs 67%
 isosorbide mononitrate XL 60 mg tablets
 generically.*<sup class="noleft">†</sup></span> <span>At a Primary Care Organisation (PCO)
 level, this translates into a potential average
-annual saving of over</span> <span>£45,225<sup>1</sup></span></h2>
+annual saving of over</span> <span>£45,200<sup>1</sup></span></h2>
 
         <table class="fullscreen">
 
@@ -65,7 +65,7 @@ if prescribed by brand <span class="table_small_first">(Will be lower in NHS Sco
                                 Ireland)</p>
     </div>
 
-       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017i</p>
+       <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017i</p>
 </section>
 
 

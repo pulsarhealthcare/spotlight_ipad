@@ -8,7 +8,7 @@
 
 
       <div id="notes">
-         <p>*Published pharmacy purchase prices, additional discounts may be offered to pharmacists by Teva (correct as of December 2014)</p>
+         <p>*Published pharmacy purchase prices, additional discounts may be offered to pharmacists by Teva (correct as of January 2015)</p>
       </div>
 </section>
 <div class="table fullscreen">
@@ -77,6 +77,6 @@
 
 </div>
 </div>
-<p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017</p>
+<p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017</p>
         
 <?php require $root.'/global/html/footer.html';?>

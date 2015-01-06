@@ -36,7 +36,7 @@
             <td>4,374,151</td>
             <td>£16,753,108</td>
             <td>£3,289,120</td>
-            <td>£13,850</td>
+            <td>£13,878</td>
             <td>£318.13</td>
 
           </tr>
@@ -65,7 +65,7 @@
   
     </div>
 
-       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017l</p>
+       <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017l</p>
 </section>
 
 

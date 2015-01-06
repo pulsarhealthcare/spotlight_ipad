@@ -29,7 +29,7 @@ offer savings of up to £12.71 per prescription compared
 
 </div>
 
-               <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017m</p>
+               <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017m</p>
 	
 	</section>
         

@@ -18,7 +18,7 @@
                 
                
             </div>
-               <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017f</p>
+               <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017f</p>
 </section>
         
 <?php require $root.'/global/html/footer.html';?>

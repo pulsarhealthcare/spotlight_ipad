@@ -13,7 +13,7 @@ prescribing fluticasone aqueous 50 mcg nasal spray
 generically,* which could deliver costs savings of up
 to £2.97 (150 dose presentation) per prescription. At a
 Primary Care Organisation (PCO) level, this <span>translates
-into a potential average annual saving of over £14,030<sup>1</sup></span>
+into a potential average annual saving of over £14,000<sup>1</sup></span>
 
 </h2>
 
@@ -35,7 +35,7 @@ into a potential average annual saving of over £14,030<sup>1</sup></span>
    
     </div>
 
-       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017k</p>
+       <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017k</p>
 </section>
 
 

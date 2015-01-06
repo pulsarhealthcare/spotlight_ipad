@@ -14,7 +14,7 @@ generically,* which could deliver costs savings of up
 to £2.97 (150 dose presentation) per prescription. At a
 Primary Care Organisation <span>(PCO) level, this translates
 into a potential average annual saving of over
-£14,030<sup>1</sup></span>
+£14,000<sup>1</sup></span>
 </h2>
 
         <table class="fullscreen">
@@ -70,7 +70,7 @@ into a potential average annual saving of over
   
     </div>
 
-       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017k</p>
+       <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017k</p>
 </section>
 
 

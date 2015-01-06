@@ -10,7 +10,7 @@
     
     <img src="img/advanced_2.gif" alt="" class="fullscreen" />
 
-<p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017h</p>
+<p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017h</p>
 
 </section>
 

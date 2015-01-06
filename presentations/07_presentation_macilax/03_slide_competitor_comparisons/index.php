@@ -158,7 +158,7 @@
     <div id="notes">
         <p>*Where prices are the same, multiple flavours and variants are not listed</p>
     </div>
-       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017f</p>
+       <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017f</p>
 </section>
 
 

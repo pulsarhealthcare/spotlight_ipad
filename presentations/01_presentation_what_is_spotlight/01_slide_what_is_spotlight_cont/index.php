@@ -24,7 +24,7 @@
             that can be invested in additional and</h4>
             <h4>different care for patients<sup class="two">2</sup> ”</h4>           
             
-            <p class="side_note">Date of preparation: December 2014 UK/SPL/14/0017</p>
+            <p class="side_note">Date of preparation: January 2015 UK/SPL/14/0017</p>
 
 </section>
         

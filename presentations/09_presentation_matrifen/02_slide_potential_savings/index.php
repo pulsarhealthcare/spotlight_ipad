@@ -48,7 +48,7 @@ to drug tariff differences)</small>
             <td>2,405,710</td>
             <td>£54,885,232</td>
             <td>£15,127,930</td>
-            <td>£63,800 </td>
+            <td>£63,831 </td>
             <td>£1,463.19</td>
 
           </tr>
@@ -73,7 +73,7 @@ to drug tariff differences)</small>
                                 Ireland)</p>
     </div>
 
-       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017h</p>
+       <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017h</p>
 </section>
 
 

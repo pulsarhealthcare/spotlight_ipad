@@ -36,7 +36,7 @@
             <td>1,528,521</td>
             <td>£28,187,191</td>
             <td>£14,297,458</td>
-            <td>£60,300</td>
+            <td>£60,327</td>
             <td>£1,382.87</td>
 
           </tr>
@@ -55,7 +55,7 @@
                                 Ireland)</p>
     </div>
 
-       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017g</p>
+       <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017g</p>
 </section>
 
 

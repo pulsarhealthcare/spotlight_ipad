@@ -16,7 +16,7 @@
 
             
             <img class="fullscreen" width="540" id="main" src="img/main.png" />
-            <p class="side_note">Date of preparation: December 2014 UK/SPL/14/0017n</p>
+            <p class="side_note">Date of preparation: January 2015 UK/SPL/14/0017n</p>
 
 </section>
         

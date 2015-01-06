@@ -25,7 +25,7 @@
                     costs against Drug Tariff for
                     generically<br>
                     written scripts and the competitor NHS list</h3>
-					<h3>prices (for brand written scripts)<sup>2</sup></h3>
+					<h3>prices (for brand written scripts)<sup>1</sup></h3>
 					</div>
                 </li>
                 <li>
@@ -36,7 +36,7 @@
                     divides it by the total number of people in<br>the UK.
                     This figure is then multiplied by PCO<br>population or
                     number inputted by yourself to</h3><h3>calculate an approximate
-                    saving<sup>3</sup></h3>
+                    saving<sup>1</sup></h3>
                     </div>
                 </li>
             </ul>
@@ -46,7 +46,7 @@
                                 Board (Northern Ireland), NHS Health Boards (Scotland)
                                 and Local Health Boards (Wales)</p>
             </div>
-            <p class="side_note">Date of preparation: December 2014 UK/SPL/14/0017p</p>
+            <p class="side_note">Date of preparation: January 2015 UK/SPL/14/0017p</p>
 </section>
         
 <?php require $root.'/global/html/footer.html';?>

@@ -15,7 +15,7 @@ up to £3.12 (50 pack size) per prescription. At a Primary Care Organisation (PC
         <p>An average PCO represents a population of approximately 272,000 people. Please note: The term Primary Care Organisation refers to Clinical Commissioning Groups (England), NHS Boards (Scotland), Local Health Boards (Wales) and Health and Social Care Trusts (Northern Ireland</p>
                                 <p>*This will be reimbursed at the Cat C price in the Drug Tariff in England and Wales.</p>
     </div>
-       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017f</p>
+       <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017f</p>
 </section>
 
 

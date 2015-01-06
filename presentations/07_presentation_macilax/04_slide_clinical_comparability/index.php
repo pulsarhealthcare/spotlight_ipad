@@ -13,7 +13,7 @@
 
 	<h2>Furthermore, no non-clinical studies were conducted, which is acceptable given that the applications were based on being generic medicinal products of the originator products that have been licensed for over 10 years.</h2>   
 
-       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017f</p>
+       <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017f</p>
 
 </section>
 

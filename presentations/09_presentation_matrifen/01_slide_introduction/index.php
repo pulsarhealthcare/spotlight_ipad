@@ -42,7 +42,7 @@ suitable<sup>2</sup></span></h2>
                                 Ireland)</p>                                
     </div>
 
-       <p class="side_note">Date of preparation: December 2014  UK/SPL/14/0017h</p>
+       <p class="side_note">Date of preparation: January 2015  UK/SPL/14/0017h</p>
 </section>
 
 

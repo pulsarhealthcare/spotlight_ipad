@@ -18,7 +18,7 @@
 
                      
             <h3 id="calculator_trigger">Cost saving calculator</h3>
-            <p class="side_note">Date of preparation: December 2014 UK/SPL/14/0017n</p>
+            <p class="side_note">Date of preparation: January 2015 UK/SPL/14/0017n</p>
 
 </section>
 <div id="calculator">
